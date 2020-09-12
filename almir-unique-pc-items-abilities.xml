@@ -23,7 +23,7 @@
 	</element>	
   	<element name="Sapphire of the Tides" type="Magic Item" source="Almir Homebrew Campaign" id="ID_ALMIR_UNIQUE_SAPPHIRE_OF_THE_TIDES_STAGE1">
 		<description>
-			<p>A magnificent small blue gem that pulses slowly, like the ebb and flow of the tides. Upon its surface glow the tiny runes of a cryptic inscription: <i>"Is it through power we gain control? Or is it through control we gain power?”</i></p>
+			<p>A magnificent small blue gem that pulses slowly, like the ebb and flow of the tides. Upon its surface glow the tiny runes of a cryptic inscription: <i>"Is it through power we gain control? Or is it through control we gain power?”</i> It was given to Barnacle by a powerful water elemental, who ominously warned the old sorcerer that the sea would come to claim his life eventually, and offered the gem as proof of the sea's wrath and power.</p>
 			<p class="indent"><strong><em>Tides Unleashed (Stage 1):</em></strong> When casting any water-based spell, can activate the gem to double all of the spell’s damage and effects, but with a chance (30%) for the spell to hit a random target instead. Once used, cannot be used again until you finish a long rest.</p>
 		</description>
 		<setters>
@@ -37,7 +37,7 @@
 	</element>
 	<element name="Ring of the Faceless Ones" type="Magic Item" source="Almir Homebrew Campaign" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE1">
 		<description>
-			<p>A small gold band with no discernable features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself was recognizable by all within the organization, and thus would allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a unique enchantment specifically designed to help unlock barred doors, whether literal or figurative. </p>
+			<p>A small gold band with no discernable features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a unique enchantment specifically designed to help unlock barred doors, whether literal or figurative. </p>
 			<p class="indent"><strong><em>Charm of Unlocking (Stage 1):</em></strong> As an action, can unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can also be used to cast <i>Charm Person</i>. Once either of these features are used, the ring cannot be used again until you finish a long rest.</p>
 		</description>
 		<setters>
@@ -112,7 +112,7 @@
 	</element>
 	<element name="Amulet of the Fey" type="Magic Item" source="Almir Homebrew Campaign" id="ID_ALMIR_UNIQUE_AMULET_FEY_STAGE1">
 		<description>
-			<p></p>
+			<p>While wandering through the streets of Galeran, Evienne Atredeske suddenly found herself transported into the Feywilds. There she met a fairy servant of the Seelie Courts name Lily, who claimed that the half-elf ranger was meant to be an emissary of the Material Plane. Confused but intrigued, Evienne allowed the fey creature to explain, and was gifted a strange necklace, shaped like a great tree and adorned with 3 small jeweled flowers. Touching the amulet, the fey fairy channeled Fey power through it, and granted a semblance of that same power to Evienne, which manifested as a pair of antlers upon her brow, as well as a set of runic tattoos running down her face and arms. </p>
 			<p class="indent"><strong><em>Power of a Name (Stage 1):</em></strong> Once per day, can channel the Fey power within the amulet to ask for a creature's name. If the creature offers their name willingly, its power is captured and stored in one of the flowers on the amulet's pendant. As long as that creature's name is stored, you have advantage on Persuasion checks against the creature. Furthermore, you can cast <i>Suggestion</i> once per day against any of the creatures whose names are stored within the amulet. You can choose to release any of the names stored within the amulet at any time, but may only capture one name per day.</p>
 		</description>
 		<setters>
