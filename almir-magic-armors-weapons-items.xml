@@ -5,7 +5,7 @@
     <description>A collection of magical weapons, armors, and items found by the PCs of the Almir campaign.</description>
     <author>Salty Coffee</author>
     <update version="0.1.0">
-      <file name="almir-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-armors-weapons-items.xml" />
+      <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
 <element name="Almir Magical Armors, Weapons, and Items" type="Source" source="Almir Homebrew Campaign" id="ID_ALMIR_HB_ARMORS_WEAPONS_ITEMS">
