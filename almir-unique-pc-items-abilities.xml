@@ -2,15 +2,15 @@
 <elements>
   <info>
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
-    <description>Almir Homebrew: Unique PC Items and Abilities</description>
-    <author>Homebrew</author>
+    <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
+    <author>Salty Coffee</author>
     <update version="0.1.0">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
-<element name="*****" type="Source" source="*****" id="ID_ALMIR_HB_UNIQUE_PC_ITEMS_ABILITIES">
+<element name="Almir Unique PC Items and Abilities" type="Source" source="Almir Homebrew Campaign" id="ID_ALMIR_HB_UNIQUE_PC_ITEMS_ABILITIES">
 		<description>
-			<p>******</p>
+			<p>This is a collection of unique items or boons which grant a special ability to each player of the Almir campaign. Each item or boon will grow and evolve as the PCs explore and confront their personal backstories and adversaries, molding to match their user's choices and personalities.</p>
 		</description>
 		<setters>
 			<set name="abbreviation">AHBUPCIA20200911</set>
@@ -21,10 +21,99 @@
 			<set name="release">20200911</set>
 		</setters>
 	</element>	
-  	<element name="Sapphire of the Tides" type="Magic Item" source="Tregolani Homebrew Items" id="ID_HOMEBREW_MAGIC_ITEM_SAPPHIRE_OF_THE_TIDES">
+  	<element name="Sapphire of the Tides" type="Magic Item" source="Almir Homebrew Campaign" id="ID_ALMIR_UNIQUE_SAPPHIRE_OF_THE_TIDES_STAGE1">
 		<description>
 			<p>A magnificent small blue gem that pulses slowly, like the ebb and flow of the tides. Upon its surface glow the tiny runes of a cryptic inscription: <i>"Is it through power we gain control? Or is it through control we gain power?”</i></p>
-			<p class="indent"><strong><em>Tides Unleashed:</em></strong> When casting any water-based spell, can activate the gem to double all of the spell’s damage and effects, but with a chance (30%) for the spell to hit a random target instead. Once used, cannot be used again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Tides Unleashed (Stage 1):</em></strong> When casting any water-based spell, can activate the gem to double all of the spell’s damage and effects, but with a chance (30%) for the spell to hit a random target instead. Once used, cannot be used again until you finish a long rest.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">carried</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Ring of the Faceless Ones" type="Magic Item" source="Almir Homebrew Campaign" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE1">
+		<description>
+			<p>A small gold band with no discernable features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself was recognizable by all within the organization, and thus would allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a unique enchantment specifically designed to help unlock barred doors, whether literal or figurative. </p>
+			<p class="indent"><strong><em>Charm of Unlocking (Stage 1):</em></strong> As an action, can unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can also be used to cast <i>Charm Person</i>. Once either of these features are used, the ring cannot be used again until you finish a long rest.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">carried</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Rune of Soul Harvest" type="Magic Item" source="Almir Homebrew Campaign" id="ID_ALMIR_UNIQUE_RUNE_SOUL_HARVEST_STAGE1">
+		<description>
+			<p>A glowing rune in the shape of a waning moon, placed upon the blade of Apsinthos Levia's greatsword. This rune was bestowed to him by his Patron after pleasing her during his secret meeting with Eris'atemor, of Telmivir's House of the Moon, at the Levia Estate in Galeran's Noble District.</p>
+			<p class="indent"><strong><em>Soul Harvest (Stage 1):</em></strong> After landing a killing blow upon a creature, can harvest the creature's soul to either regain hitpoints or gain temporary hitpoints equal to 1d8 + your Constitution modifier. Once used, cannot be used again until you finish a long rest.</p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">hilt</set>
+			<set name="type">Supernatural Gift</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+		<element name="Dreamer's Visage" type="Magic Item" source="Almir Homebrew Campaign" id="ID_ALMIR_UNIQUE_DREAMER_VISAGE_STAGE1">
+		<description>
+			<p>After her fateful encounter with the shadowy apparitions somehow bound to her, Morani was able to earn their trust by offering to restore them to their home within the Astral Plane. In return, they are able to grant her a semblance of control over the immaterial, allowing her to assume a visage of dreams or nightmares to influence the Material world around her.</p>
+			<p class="indent"><strong><em>Visage of Horror (Stage 1):</em></strong> Assume a horrific visage of nightmares; for 1 minute, can cause a single creature to have disadvantage on all attacks that target you.</p>
+			<p class="indent"><strong><em>Visage of Dreams (Stage 1):</em></strong> Assume a shifting, mirage-like visage; for 1 minute, you gain advantage to all Persuasion and Deception checks.</p>
+			<p>Once either visage is used, the apparitions' power is depleted and cannot be used again until you finish a long rest. </p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">mind</set>
+			<set name="type">Supernatural Gift</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Shadow Meld" type="Magic Item" source="Almir Homebrew Campaign" id="ID_ALMIR_UNIQUE_SHADOW_MELD_STAGE1">
+		<description>
+			<p>While attempting to attune to a simple magical necklace, Themor Hunwut found himself brought back to the site of his kingdom's destruction, surrounded by shadowy forms and the muffled sounds of battle. Suddenly, he came upon a skeletal figure cloaked in shadow, who proceeded to challenge the human to single combat. However, Themor's skill managed to both appease and impress his sudden challenger. Introducing himself as Neun, Knight of the Realm, he then granted Themor the power to meld with the Shadow Plane, albeit briefly.</p>
+			<p class="indent"><strong><em>Shadow Meld (Stage 1):</em></strong> As an action or reaction, can meld with the shadows; for 1 minute, all attacks targeting you are made at disadvantage. If an attack does hit, can choose to prematurely end the melding and reduce the damage of that attack by half. Once used in either form, cannot be used against until you finish a long rest. </p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">mind</set>
+			<set name="type">Supernatural Gift</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Mantle of the Warden" type="Magic Item" source="Almir Homebrew Campaign" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_STAGE1">
+		<description>
+			<p>Upon arriving in Galeran, Zedan Yazkash had saught a way to reunite with his former savior and mentor, Father Riel. However, it seemed that the elder human was already aware of Zedan's presence, and arranged a secret meeting with the young paladin upon the top of the city's inner walls. After hearing of Zedan's encounter with Fae'lorin, the priest chose to bestow upon him an ancient mantle of power to aid him in his travels, and to help him choose what path his life will take.</p>
+			<p class="indent"><strong><em>Warden's Embrace (Stage 1):</em></strong> As an action, can choose one creature that you can see and cause it to regain hitpoints equal to 1d8 + your spellcasting modifier. In addition, you bestow one of the following auras upon the creature:</p>
+			<p class="indent"><i><em>Aura of Light:</em></i> The target glows with a brilliant light; all adjacent creatures must succeed on a DC 13 Constitution saving throw or be Blinded for 1 minute.</p>
+			<p class="indent"><i><em>Aura of Life:</em></i> The target glows with a dim light; for 1 minute, it regains hitpoints equal to your Constitution modifier at the beginning of each of its turns.</p> 
+			<p>Once either aura is used, the mantle's power is depleted and cannot be used against until you finish a long rest.</p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">mind</set>
+			<set name="type">Supernatural Gift</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Amulet of the Fey" type="Magic Item" source="Almir Homebrew Campaign" id="ID_ALMIR_UNIQUE_AMULET_FEY_STAGE1">
+		<description>
+			<p></p>
+			<p class="indent"><strong><em>Power of a Name (Stage 1):</em></strong> Once per day, can channel the Fey power within the amulet to ask for a creature's name. If the creature offers their name willingly, its power is captured and stored in one of the flowers on the amulet's pendant. As long as that creature's name is stored, you have advantage on Persuasion checks against the creature. Furthermore, you can cast <i>Suggestion</i> once per day against any of the creatures whose names are stored within the amulet. You can choose to release any of the names stored within the amulet at any time, but may only capture one name per day.</p>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
