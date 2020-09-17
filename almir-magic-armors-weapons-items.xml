@@ -4,11 +4,11 @@
     <name>Almir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Almir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.1">
+    <update version="0.1.2">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
-  	<element name="Amulet of Summoning" type="Magic Item" source="Almir Homebrew Campaign" id="ID_ALMIR_AMULET_OF_SUMMONING">
+  	<element name="Amulet of Summoning" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_AMULET_OF_SUMMONING">
 		<description>
 			<p>A simple silver chain adorned with a diamond-shaped pendant with a small amethyst set in the center. While attuned to the amulet, you can summon a spectral homunculus that will obey your commands and, to the best of its ability, complete simple tasks for 1 hour. Once the homunculus has been summoned, it cannot be summoned again until you finish a long rest.</p>
 		</description>
