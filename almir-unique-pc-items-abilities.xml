@@ -4,24 +4,11 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.1">
+    <update version="0.1.2">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
-<element name="Almir Unique PC Items and Abilities" type="Source" source="Almir Homebrew Campaign" id="ID_ALMIR_HB_UNIQUE_PC_ITEMS_ABILITIES">
-		<description>
-			<p>This is a collection of unique items or boons which grant a special ability to each player of the Almir campaign. Each item or boon will grow and evolve as the PCs explore and confront their personal backstories and adversaries, molding to match their user's choices and personalities.</p>
-		</description>
-		<setters>
-			<set name="abbreviation">AHBUPCIA20200911</set>
-			<set name="author">Tregolani</set>
-			<set name="url"></set>
-			<set name="official">false</set>
-			<set name="playtest">true</set>
-			<set name="release">20200911</set>
-		</setters>
-	</element>	
-  	<element name="Sapphire of the Tides" type="Magic Item" source="Almir Homebrew Campaign" id="ID_ALMIR_UNIQUE_SAPPHIRE_OF_THE_TIDES_STAGE1">
+ 	<element name="Sapphire of the Tides" type="Magic Item" source="Almir Homebrew Campaign" id="ID_ALMIR_UNIQUE_SAPPHIRE_OF_THE_TIDES_STAGE1">
 		<description>
 			<p>A magnificent small blue gem that pulses slowly, like the ebb and flow of the tides. Upon its surface glow the tiny runes of a cryptic inscription: <i>"Is it through power we gain control? Or is it through control we gain power?”</i> It was given to Barnacle by a powerful water elemental, who ominously warned the old sorcerer that the sea would come to claim his life eventually, and offered the gem as proof of the sea's wrath and power.</p>
 			<p class="indent"><strong><em>Tides Unleashed (Stage 1):</em></strong> When casting any water-based spell, can activate the gem to double all of the spell’s damage and effects, but with a chance (30%) for the spell to hit a random target instead. Once used, cannot be used again until you finish a long rest.</p>
