@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="almir-source.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-source.xml" />
 		</update>
 	</info>
 	<element name="Almir Homebrew Collection" type="Source" source="Personal Homebrew" id="ID_ALMIR_CAMPAIGN_HOMEBREW">
 		<description>
-			<p>This is a collection for Salty Coffee's homebrew D&D campaign, set in the magical world of Almir. Within you will find mystical artifacts gifted to each character linking their individual backgrounds to the world at large, as well as magical weapons, armors, and items found within the world itself. As the players delve deeper into the world, who knows what unique and mysterious things the members of the Company of Heroes will discover?</p>
+			<p>This is a collection for Salty Coffee's homebrew DnD campaign, set in the magical world of Almir. Within you will find mystical artifacts gifted to each character linking their individual backgrounds to the world at large, as well as magical weapons, armors, and items found within the world itself. As the players delve deeper into the world, who knows what unique and mysterious things the members of the Company of Heroes will discover?</p>
 		</description>
 		<setters>
 			<set name="abbreviation">AHBC20200917</set>
