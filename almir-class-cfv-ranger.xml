@@ -4,12 +4,12 @@
 		<name>Ranger (CFV)</name>
 		<description>The Ranger class from the Player’s Handbook, supplemented by the Unearthed Arcana: Class Feature Variants.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="1.1">
+		<update version="1.2">
 			<file name="almir-class-cfv-ranger.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-class-cfv-ranger.xml" />
 		</update>
 	</info>
 
-	<element name="Ranger (CFV)" type="Class" source="Almir Homebrew Collection" id="ID_WOTC_UACFV_CLASS_RANGER">
+	<element name="Ranger (CFV)" type="Class" source="UA: Class Feature Variants" id="ID_WOTC_UACFV_CLASS_RANGER">
 		<description>
 			<p class="flavor">A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</p>			
 			<p>Rough and wild looking, a human stalks alone through the shadows of trees, hunting the orcs he knows are planning a raid on a nearby farm. Clutching a shortsword in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.</p>
@@ -83,7 +83,7 @@
 			<div element="ID_WOTC_UACFV_CLASSFEATURE_RANGER_DEFT_EXPLORER" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_FIGHTING_STYLE" />
 			<div element="ID_WOTC_UACFV_CLASSFEATURE_RANGER_MARTIAL_VERSATILITY" />
-			<div element="ID_WOTC_CLASSFEATURE_RANGER_SPELLCASTING" />
+			<div element="ID_WOTC_UACFV_CLASSFEATURE_RANGER_SPELLCASTING" />
 			<div element="ID_WOTC_UACFV_CLASSFEATURE_RANGER_SPELL_VERSATILITY" />
 			<div element="ID_WOTC_UACFV_CLASSFEATURE_RANGER_SPELLCASTING_FOCUS" />
 			<div element="ID_WOTC_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" />
@@ -116,7 +116,7 @@
 			<grant type="Class Feature" id="ID_WOTC_UACFV_CLASSFEATURE_RANGER_DEFT_EXPLORER" level="1"/>
 			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_FIGHTING_STYLE" level="2"/>
 			<grant type="Class Feature" id="ID_WOTC_UACFV_CLASSFEATURE_RANGER_MARTIAL_VERSATILITY" level="2"/>
-			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_SPELLCASTING" level="2"/>
+			<grant type="Class Feature" id="ID_WOTC_UACFV_CLASSFEATURE_RANGER_SPELLCASTING" level="2"/>
 			<grant type="Class Feature" id="ID_WOTC_UACFV_CLASSFEATURE_RANGER_SPELL_VERSATILITY" level="2"/>
 			<grant type="Class Feature" id="ID_WOTC_UACFV_CLASSFEATURE_RANGER_SPELLCASTING_FOCUS" level="2"/>
 			<grant type="Class Feature" id="ID_WOTC_CLASSFEATURE_RANGER_RANGER_ARCHETYPE" level="3"/>
@@ -213,7 +213,7 @@
 			<description>Whenever you gain a level in this class, you can replace a fighting style you know with another style available to your class. This change represents a shift of focus in your martial training and practice, causing you to lose the benefits of one style and gain the benefits of another style.</description>
 		</sheet>
 	</element>
-	<element name="Spellcasting" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_CLASSFEATURE_RANGER_SPELLCASTING">
+	<element name="Spellcasting" type="Class Feature" source="UA: Class Feature Variants" id="ID_WOTC_UACFV_CLASSFEATURE_RANGER_SPELLCASTING">
 		<description>
 			<p>By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See chapter 10 for the general rules of spellcasting and chapter 11 for the ranger spell list.</p>
 			<h5>SPELL SLOTS</h5>
