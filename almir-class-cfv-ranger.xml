@@ -4,7 +4,7 @@
 		<name>Ranger (CFV)</name>
 		<description>The Ranger class from the Player’s Handbook, supplemented by the Unearthed Arcana: Class Feature Variants.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="1.2">
+		<update version="1.3">
 			<file name="almir-class-cfv-ranger.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-class-cfv-ranger.xml" />
 		</update>
 	</info>
@@ -233,8 +233,24 @@
 		<sheet display="false">
 			<description>You have learned to use the magical essence of nature to cast spells, much as a druid does.</description>
 		</sheet>
-		<spellcasting name="Ranger" ability="Wisdom" allowReplace="true">
+		<spellcasting name="Ranger" ability="Wisdom" allowReplace="true" extend="true">
 			<list>Ranger</list>
+			<!-- CFV Spell Extensions -->
+				<extend>ID_PHB_SPELL_ENTANGLE</extend>
+				<extend>ID_PHB_SPELL_SEARING_SMITE</extend>
+				<extend>ID_PHB_SPELL_AID</extend>
+				<extend>ID_PHB_SPELL_GUST_OF_WIND</extend>
+				<extend>ID_PHB_SPELL_MAGIC_WEAPON</extend>
+				<extend>ID_PHB_SPELL_ENHANCE_ABILITY</extend>
+				<extend>ID_PHB_SPELL_WARDING_BOND</extend>
+				<extend>ID_PHB_SPELL_BLINDING_SMITE</extend>
+				<extend>ID_PHB_SPELL_MELD_INTO_STONE</extend>
+				<extend>ID_PHB_SPELL_REVIVIFY</extend>
+				<extend>ID_PHB_SPELL_TONGUES</extend>
+				<extend>ID_PHB_SPELL_DEATH_WARD</extend>
+				<extend>ID_PHB_SPELL_DOMINATE_BEAST</extend>
+				<extend>ID_PHB_SPELL_AWAKEN</extend>
+				<extend>ID_PHB_SPELL_GREATER_RESTORATION</extend>
 		</spellcasting>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
@@ -261,24 +277,6 @@
 			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Ranger" />
 			<select type="Spell" name="Spellcasting (Ranger)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Ranger" />
 		</rules>
-		<!-- CFV Spell Extensions -->
-		<spellcasting name="Ranger" extend="true">
-				<extend>ID_PHB_SPELL_ENTANGLE</extend>
-				<extend>ID_PHB_SPELL_SEARING_SMITE</extend>
-				<extend>ID_PHB_SPELL_AID</extend>
-				<extend>ID_PHB_SPELL_GUST_OF_WIND</extend>
-				<extend>ID_PHB_SPELL_MAGIC_WEAPON</extend>
-				<extend>ID_PHB_SPELL_ENHANCE_ABILITY</extend>
-				<extend>ID_PHB_SPELL_WARDING_BOND</extend>
-				<extend>ID_PHB_SPELL_BLINDING_SMITE</extend>
-				<extend>ID_PHB_SPELL_MELD_INTO_STONE</extend>
-				<extend>ID_PHB_SPELL_REVIVIFY</extend>
-				<extend>ID_PHB_SPELL_TONGUES</extend>
-				<extend>ID_PHB_SPELL_DEATH_WARD</extend>
-				<extend>ID_PHB_SPELL_DOMINATE_BEAST</extend>
-				<extend>ID_PHB_SPELL_AWAKEN</extend>
-				<extend>ID_PHB_SPELL_GREATER_RESTORATION</extend>
-		</spellcasting>
 	</element>
 	<element name="Spell Versatility" type="Class Feature" source="UA: Class Feature Variants" id="ID_WOTC_UACFV_CLASSFEATURE_RANGER_SPELL_VERSATILITY">
 		<description>
