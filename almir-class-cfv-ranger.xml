@@ -4,12 +4,12 @@
 		<name>Ranger (CFV)</name>
 		<description>The Ranger class from the Player’s Handbook, supplemented by the Unearthed Arcana: Class Feature Variants.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
-		<update version="1.0">
+		<update version="1.1">
 			<file name="almir-class-cfv-ranger.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-class-cfv-ranger.xml" />
 		</update>
 	</info>
 
-	<element name="Ranger (CFV)" type="Class" source="UA: Class Feature Variants" id="ID_WOTC_UACFV_CLASS_RANGER">
+	<element name="Ranger (CFV)" type="Class" source="Almir Homebrew Collection" id="ID_WOTC_UACFV_CLASS_RANGER">
 		<description>
 			<p class="flavor">A warrior who uses martial prowess and nature magic to combat threats on the edges of civilization.</p>			
 			<p>Rough and wild looking, a human stalks alone through the shadows of trees, hunting the orcs he knows are planning a raid on a nearby farm. Clutching a shortsword in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.</p>
