@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Almir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.2">
+    <update version="0.1.3">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
@@ -20,6 +20,20 @@
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Uncommon</set>
 			<set name="attunement">true</set>
+		</setters>
+	</element>
+  	<element name="Indestructible Spyglass" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_INDESTRUCTIBLE_SPYGLASS">
+		<description>
+			<p>A well-built spyglass, wrapped in a soft leather grip and made of a dark mahogany wood. This particular tool is imbued with a particularly potent abjuration charm that makes it impervious to any sort of damage.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">70</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">belt</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+			<set name="attunement">false</set>
 		</setters>
 	</element>
 </elements>
