@@ -4,14 +4,14 @@
     <name>Almir Homebrew Collection</name>
 	<description>A collection of homebrew items and abilities for Salty Coffee's Almir DnD 5e Campaign</description>
 	<author>"Tregolani"</author>  
-    <update version="1.2">
+    <update version="1.3">
       <file name="almir-homebrew.index" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-homebrew.index" />
     </update>
   </info>
   <files>
 	<file name="almir-source.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-source.xml" />
 	<file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
-	<file name="almir-class-cfv-ranger.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-class-cfv-ranger.xml" />  
+	<!--<file name="almir-class-cfv-ranger.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-class-cfv-ranger.xml" /> -->
 	<file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
   </files>
 </index>
