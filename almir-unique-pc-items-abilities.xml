@@ -4,15 +4,20 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.3">
+    <update version="0.1.4">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
- 	<element name="Sapphire of the Tides" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SAPPHIRE_OF_THE_TIDES_STAGE1">
+
+<!-- Session 8 Abilities -->
+ 	<element name="Sapphire of the Tides (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SAPPHIRE_OF_THE_TIDES_STAGE1">
 		<description>
 			<p>A magnificent small blue gem that pulses slowly, like the ebb and flow of the tides. Upon its surface glow the tiny runes of a cryptic inscription: <i>"Is it through power we gain control? Or is it through control we gain power?”</i> It was given to Barnacle by a powerful water elemental, who ominously warned the old sorcerer that the sea would come to claim his life eventually, and offered the gem as proof of the sea's wrath and power.</p>
 			<p class="indent"><strong><em>Tides Unleashed (Stage 1):</em></strong> When casting any water-based spell, can activate the gem to double all of the spell’s damage and effects, but with a chance (30%) for the spell to hit a random target instead. Once used, cannot be used again until you finish a long rest.</p>
 		</description>
+		<sheet usage="1/Long Rest">
+			<description>When casting any water-based spell, can activate the gem to double all of the spell’s damage and effects, but with a chance (30%) for the spell to hit a random target instead. Once used, cannot be used again until you finish a long rest.</description>
+		</sheet>
 		<setters>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
@@ -22,11 +27,14 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Ring of the Faceless Ones" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE1">
+	<element name="Ring of the Faceless Ones (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE1">
 		<description>
-			<p>A small gold band with no discernable features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a unique enchantment specifically designed to help unlock barred doors, whether literal or figurative. </p>
-			<p class="indent"><strong><em>Charm of Unlocking (Stage 1):</em></strong> As an action, can unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can also be used to cast <i>Charm Person</i>. Once either of these features are used, the ring cannot be used again until you finish a long rest.</p>
+			<p>A small gold band with no discernible features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a unique enchantment specifically designed to help unlock barred doors, whether literal or figurative. </p>
+			<p class="indent"><strong><em>Charm of Unlocking (Stage 1):</em></strong> As an action, can unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can also be used to cast the <i>charm person</i> spell once without using a spell slot. Once either of these features are used, the ring cannot be used again until you finish a long rest.</p>
 		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>Can unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can also be used to cast the <i>charm person</i> spell once without using a spell slot.</description>
+		</sheet>
 		<setters>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
@@ -36,11 +44,14 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Rune of Soul Harvest" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RUNE_SOUL_HARVEST_STAGE1">
+	<element name="Rune of Soul Harvest (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RUNE_SOUL_HARVEST_STAGE1">
 		<description>
-			<p>A glowing rune in the shape of a waning moon, placed upon the blade of Apsinthos Levia's greatsword. This rune was bestowed to him by his Patron after pleasing her during his secret meeting with Eris'atemor, of Telmivir's House of the Moon, at the Levia Estate in Galeran's Noble District.</p>
-			<p class="indent"><strong><em>Soul Harvest (Stage 1):</em></strong> After landing a killing blow upon a creature, can harvest the creature's soul to either regain hitpoints or gain temporary hitpoints equal to 1d8 + your Constitution modifier. Once used, cannot be used again until you finish a long rest.</p>
+			<p>A glowing rune in the shape of a waning moon, placed upon the blade of Apsinthos Levia's pact weapon. This rune was bestowed to him by his Patron after pleasing her during his secret meeting with Eris'atemor, of Telmivir's House of the Moon, at the Levia Estate in Galeran's Noble District.</p>
+			<p class="indent"><strong><em>Soul Harvest (Stage 1):</em></strong> After landing a killing blow upon a creature, can harvest the creature's soul to either regain hit points or gain temporary hit points equal to 1d8 + your Constitution modifier. Once used, cannot be used again until you finish a long rest.</p>
 		</description>
+		<sheet usage="1/Long Rest">
+			<description>After landing a killing blow upon a creature, can harvest the creature's soul to either regain hit points or gain temporary hit points equal to 1d8+{{constitution:modifier}}.</description>
+		</sheet>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
 			<set name="cost" currency="gp">0</set>
@@ -50,13 +61,18 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-		<element name="Dreamer's Visage" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMER_VISAGE_STAGE1">
+	<element name="Dreamer's Visage (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMER_VISAGE_STAGE1">
 		<description>
 			<p>After her fateful encounter with the shadowy apparitions somehow bound to her, Morani was able to earn their trust by offering to restore them to their home within the Astral Plane. In return, they are able to grant her a semblance of control over the immaterial, allowing her to assume a visage of dreams or nightmares to influence the Material world around her.</p>
 			<p class="indent"><strong><em>Visage of Horror (Stage 1):</em></strong> Assume a horrific visage of nightmares; for 1 minute, can cause a single creature to have disadvantage on all attacks that target you.</p>
 			<p class="indent"><strong><em>Visage of Dreams (Stage 1):</em></strong> Assume a shifting, mirage-like visage; for 1 minute, you gain advantage to all Persuasion and Deception checks.</p>
 			<p>Once either visage is used, the apparitions' power is depleted and cannot be used again until you finish a long rest. </p>
 		</description>
+		<sheet action="Bonus Action" usage="1/Long Rest">
+			<description>You can harness the raw arcane power of your astral companions in order to disrupt the actions of those around you. As a bonus action, you can assume one of the following magical forms:&#13;
+			• Nightmare Form: For 1 minute, can cause one creature to have disadvantage on all attacks that target you. &#13;
+			• Dream Form: For 1 minute, you gain advantage to all Persuasion and Deception checks against one creature you can see.</description>
+		</sheet>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
 			<set name="cost" currency="gp">0</set>
@@ -66,11 +82,14 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Shadow Meld" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SHADOW_MELD_STAGE1">
+	<element name="Shadow Meld (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SHADOW_MELD_STAGE1">
 		<description>
 			<p>While attempting to attune to a simple magical necklace, Themor Hunwut found himself brought back to the site of his kingdom's destruction, surrounded by shadowy forms and the muffled sounds of battle. Suddenly, he came upon a skeletal figure cloaked in shadow, who proceeded to challenge the human to single combat. However, Themor's skill managed to both appease and impress his sudden challenger. Introducing himself as Neun, Knight of the Realm, he then granted Themor the power to meld with the Shadow Plane, albeit briefly.</p>
 			<p class="indent"><strong><em>Shadow Meld (Stage 1):</em></strong> As an action or reaction, can meld with the shadows; for 1 minute, all attacks targeting you are made at disadvantage. If an attack does hit, can choose to prematurely end the melding and reduce the damage of that attack by half. Once used in either form, cannot be used against until you finish a long rest. </p>
 		</description>
+		<sheet action="Action or Reaction" usage="1/Long Rest">
+			<description>Can meld with the shadows; for 1 minute, all attacks targeting you are made at disadvantage. If an attack does hit, can choose to prematurely end the melding and reduce the damage of that attack by half.</description>
+		</sheet>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
 			<set name="cost" currency="gp">0</set>
@@ -80,14 +99,19 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Mantle of the Warden" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_STAGE1">
+	<element name="Mantle of the Warden (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_STAGE1">
 		<description>
-			<p>Upon arriving in Galeran, Zedan Yazkash had saught a way to reunite with his former savior and mentor, Father Riel. However, it seemed that the elder human was already aware of Zedan's presence, and arranged a secret meeting with the young paladin upon the top of the city's inner walls. After hearing of Zedan's encounter with Fae'lorin, the priest chose to bestow upon him an ancient mantle of power to aid him in his travels, and to help him choose what path his life will take.</p>
-			<p class="indent"><strong><em>Warden's Embrace (Stage 1):</em></strong> As an action, can choose one creature that you can see and cause it to regain hitpoints equal to 1d8 + your spellcasting modifier. In addition, you bestow one of the following auras upon the creature:</p>
+			<p>Upon arriving in Galeran, Zedan Yazkash had sought a way to reunite with his former savior and mentor, Father Riel. However, it seemed that the elder human was already aware of Zedan's presence, and arranged a secret meeting with the young paladin upon the top of the city's inner walls. After hearing of Zedan's encounter with Fae'lorin, the priest chose to bestow upon him an ancient mantle of power to aid him in his travels, and to help him choose what path his life will take.</p>
+			<p class="indent"><strong><em>Warden's Embrace (Stage 1):</em></strong> As an action, can choose one creature that you can see and cause it to regain hit points equal to 1d8 + your spellcasting modifier. In addition, you bestow one of the following auras upon the creature:</p>
 			<p class="indent"><i><em>Aura of Light:</em></i> The target glows with a brilliant light; all adjacent creatures must succeed on a DC 13 Constitution saving throw or be Blinded for 1 minute.</p>
-			<p class="indent"><i><em>Aura of Life:</em></i> The target glows with a dim light; for 1 minute, it regains hitpoints equal to your Constitution modifier at the beginning of each of its turns.</p> 
+			<p class="indent"><i><em>Aura of Life:</em></i> The target glows with a dim light; for 1 minute, it regains hit points equal to your Constitution modifier at the beginning of each of its turns.</p> 
 			<p>Once either aura is used, the mantle's power is depleted and cannot be used against until you finish a long rest.</p>
 		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>Can choose one creature that you can see and cause it to regain hit points equal to 1d8+{{charisma:modifier}}. In addition, you bestow one of the following auras upon the creature:&#13;
+			• Aura of Light: All adjacent creatures must succeed on a DC 13 Constitution saving throw or be Blinded for 1 minute. &#13;
+			• Aura of Life: For 1 minute, it regains {{constitution:modifier}} hit points at the beginning of each of its turns.</description>
+		</sheet>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
 			<set name="cost" currency="gp">0</set>
@@ -97,11 +121,14 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Amulet of the Fey" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_AMULET_FEY_STAGE1">
+	<element name="Amulet of the Fey (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_AMULET_FEY_STAGE1">
 		<description>
 			<p>While wandering through the streets of Galeran, Evienne Atredeske suddenly found herself transported into the Feywilds. There she met a fairy servant of the Seelie Courts name Lily, who claimed that the half-elf ranger was meant to be an emissary of the Material Plane. Confused but intrigued, Evienne allowed the fey creature to explain, and was gifted a strange necklace, shaped like a great tree and adorned with 3 small jeweled flowers. Touching the amulet, the fey fairy channeled Fey power through it, and granted a semblance of that same power to Evienne, which manifested as a pair of antlers upon her brow, as well as a set of runic tattoos running down her face and arms. </p>
 			<p class="indent"><strong><em>Power of a Name (Stage 1):</em></strong> Once per day, can channel the Fey power within the amulet to ask for a creature's name. If the creature offers their name willingly, its power is captured and stored in one of the flowers on the amulet's pendant. As long as that creature's name is stored, you have advantage on Persuasion checks against the creature. Furthermore, you can cast <i>Suggestion</i> once per day against any of the creatures whose names are stored within the amulet. You can choose to release any of the names stored within the amulet at any time, but may only capture one name per day.</p>
 		</description>
+		<sheet action="Special" usage="1/Day">
+			<description>can channel the Fey power within the amulet to ask for a creature's name. If the creature offers their name willingly, its power is captured and stored in one of the flowers on the amulet's pendant. As long as that creature's name is stored, you have advantage on Persuasion checks against the creature. Furthermore, you can cast the suggestion spell once per day against any of the creatures whose names are stored within the amulet. You can choose to release any of the names stored within the amulet at any time, but may only capture one name per day.</description>
+		</sheet>
 		<setters>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
@@ -110,5 +137,706 @@
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Artifact</set>
 		</setters>
+	</element>
+
+<!-- Session 21 Upgrades -->
+	<element name="Spirit of the Tides (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SPIRIT_OF_THE_TIDES_STAGE2">
+		<description>
+			<p>Initially, a magnificent small blue gem that pulsed slowly, like the ebb and flow of the tides. Upon its surface glowed the tiny runes of a cryptic inscription: <i>"Is it through power we gain control? Or is it through control we gain power?”</i> It was given to Barnacle by a powerful water elemental, who ominously warned the sorcerer that the sea would come to claim his life eventually, and offered the gem as proof of the sea's wrath and power.</p>
+			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Barnacle was then visited by the goddesses Selûne and Umberlee, who beseeched the sorcerer to aid them in stopping the oncoming destruction wrought by the void. The sorcerer was dubious, but eventually relented, offering himself as a vessel for their power. As a sign of their faith, they transformed the mysterious sapphire gem into a watery spirit resembling his disguised human form, a mirror of the dual natures of the sea and of the sorcerer himself.</p>
+			<h6><b>Spirit of the Tides</b></h6>
+			<p>You share a soul bond with a watery spirit, which resides inside a magical flask marked with a waning moon surrounded by crashing waves. As long as you have this flask on your person, you can, as a bonus action, cause the spirit to manifest within 5ft of you as a watery clone, which copies your attributes and has hit points equal to half of your maximum, rounded down. While it is active, you can communicate with it telepathically, it will follow your commands, and you can dismiss it with an action. On each of your turns, it can move up to its speed, and can end its turn in the same space as your own or that of any friendly creature. Additionally, once on each of your turns when you cast a spell, it can use its action to cast a cantrip from your spell list either just before or just after your spell is cast at a creature within range of the spirit. If the creature takes damage from or fails a saving throw against this cantrip, you can cause it to be affected by your Curse of the Sea.</p>
+			<p class="indent">Alternatively, you can manifest the spirit as an amorphous watery being that acts like a familiar, having hit points equal to half of your maximum, rounded down. While your watery familiar is summoned, you can communicate with it telepathically, and it will follow your commands. Additionally, as an action, you can see through your familiar’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses. If your familiar moves more than 100 feet from you, it dissipates and returns to its flask.</p>
+			<p class="indent">Your watery companion is a reflection of your own soul. Anytime it takes damage, the damage is split evenly with you, after resistances are applied. If the spirit is destroyed, it dissipates into a cloud of mist and returns to the magical flask, and can only reform to a corporeal form after a long rest.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>As a bonus action, you can cause the spirit to manifest within 5ft of you as a watery clone, which copies your attributes and has hit points equal to half of your maximum, rounded down. While it is active, you can communicate with it telepathically, it will follow your commands, and you can dismiss it with an action. On each of your turns, it can move up to its speed, and can end its turn in the same space as your own or that of any friendly creature. Additionally, once on each of your turns when you cast a spell, it can use its action to cast a cantrip from your spell list either just before or just after your spell is cast at a creature within range of the spirit. If the creature takes damage or fails a saving throw against this cantrip, you can cause it to be affected by your Curse of the Sea.&#13;
+			Alternatively, you can manifest the spirit as an amorphous watery being that acts like a familiar, having hit points equal to half of your maximum, rounded down. While your watery familiar is summoned, you can communicate with it telepathically, and it will follow your commands. Additionally, as an action, you can see through your familiar’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses. If your familiar moves more than 100 feet from you, it dissipates and returns to its flask.&#13;
+			Your watery companion is a reflection of your own soul. Anytime it takes damage, the damage is split evenly with you, after resistances are applied. If the spirit is destroyed, it dissipates into a cloud of mist and returns to the magical flask, and can only reform to a corporeal form after a long rest.</description>
+		</sheet>
+		<rules>
+			<select type="Companion" name="Spirit of the Tides" supports="Spirit of the Tides" />
+		</rules>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">carried</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Ring of the Faceless Ones (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2">
+		<description>
+			<p>A small gold band with no discernible features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
+			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Alton's benefactor chose to unlock additional enchantments unique to the ring that would benefit him greatly in his more surreptitious activities for the guild.</p>
+			<h6><b>Charm of Unlocking</b></h6>
+			<p>As an action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>charm person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.</p>
+			<h6><b>One of Many Faces Amongst None</b></h6>
+			<p>At the end of a long rest, can prepare a magical disguise within the restrictions of the spell <i>alter self</i>, which resides within the ring until the next long rest. Then as a free action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as <i>dispel magic</i>. This magical disguise does not require concentration.</p>
+			<h6><b>Narrative Dissonance</b></h6>
+			<p>Upon failing any ability check or saving throw, can use your reaction to re-roll the check or saving throw with advantage, as a smooth, sultry voice speaks in your mind: "No, no, that’s not how that happened.” The first time this special reaction is used, you take 1d6 necrotic damage, which ignores resistance and immunity. Each subsequent time you use this reaction again before finishing a long rest, the total dice count of the necrotic damage is doubled: 2d6, then 4d6, then 8d6, etc.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_CHARM_PERSON" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ALTER_SELF" />
+			</div>
+		</description>
+		<sheet action="Free Action or Reaction" usage="3/Long Rest or Special">
+			<description>This magical ring holds many special properties designed to aid those in more surreptitious walks of life: &#13;
+			• Charm of Unlocking: Can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the charm person spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.&#13;
+			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spell alter self, which resides within the ring until the next long rest. Then as an action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as dispel magic. This magical disguise does not require concentration. &#13;
+			• Narrative Dissonance: Upon failing any ability check or saving throw, can use your reaction to re-roll the check or saving throw with advantage, as a smooth, sultry voice speaks in your mind: "No, no, that’s not how that happened.” The first time this special reaction is used, you take 1d6 necrotic damage, which ignores resistance and immunity. Each subsequent time you use this reaction again before finishing a long rest, the total dice count of the necrotic damage is doubled: 2d6, then 4d6, then 8d6, etc.</description>
+		</sheet>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">carried</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Mind of the Void (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RUNE_SOUL_HARVEST_STAGE2">
+		<description>
+			<p>After his encounter with the mind of Eris'atemor's void demon form, as well as his communion with the fragment of the void beast he defeated upon the <i>Widow's Kiss</i>, Apsinthos has begun to hear a voice speaking to him in a language resembling nothing he has ever heard before. Although he cannot understand it, he soon learns that he is able to influence its power and direct it to come to his aid. However, the void is unknowable, and his attempts to harness it can be painful and often result in outcomes not exactly as he had planned...</p>
+			<h6><b>Call Upon the Void</b></h6>
+			<p>As an action, can make a 1-3 worded command to the void, causing it to cast a spell from the wizard or cleric spell list that fulfills the command that was given, as chosen by the void. However, doing so will cause you to take 1d6 necrotic damage, which ignores resistance and immunity. Each time this special action is used again before finishing a long rest, the necrotic damage increases by 1d6. You can use this feature at will.</p>
+			<h6><b>From Nothing I Will Create My Own</b></h6>
+			<p>You can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a Minor Wish. However, doing so causes a great strain on your physical body, and the release of void energy causes you to take 4d10 necrotic damage, which ignores resistance and immunity. Once you use this property, it cannot be used again for 7 days.</p>
+			</description>
+		<sheet action="Action or Special" usage="Special">
+			<description>Communing with the void has granted you special powers: &#13;
+			• Call Upon the Void: As as action, can make a 1-3 worded command to the void, which will respond by casting a spell with a cast time no greater than 1 action from the wizard or cleric spell lists that fulfills the command that was given, as chosen by the void. However, doing so will cause you to take 1d6 necrotic damage, which ignores resistance and immunity. Each time this special action is used again before finishing a long rest, the necrotic damage increases by 1d6. &#13;
+			• From Nothing I Will Create My Own: Can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a Minor Wish. However, doing so causes you to take 4d10 necrotic damage, which ignores resistance and immunity. Once you use this property, it cannot be used again for 7 days.</description>
+		</sheet>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">hilt</set>
+			<set name="type">Supernatural Gift</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Dreamer's Visage (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMER_VISAGE_STAGE2">
+		<description>
+			<p>After her fateful encounter with the shadowy apparitions somehow bound to her, Morani was able to earn their trust by offering to restore them to their home within the Astral Plane. In return, they are able to grant her a semblance of control over the immaterial, allowing her to assume a visage of dreams or nightmares to influence the Material world around her.</p>
+			<p class="indent">Later, after the defeat of Eris'atemor and his void-demon form, one of her "passengers" found a way to manifest itself as a physical creature before her. Surprised but intrigued, Morani conversed with it to find that it desired to be part of her world while they searched for a way to return the shadows to their home on the Astral Plane, and was willing to aid her in any way it could with its new corporeal form.</p>
+			<h6><b>Astral Visage</b></h6>
+			<p>You can harness the raw arcane power of your astral companions in order to disrupt the actions of those around you. As an action, you can assume one of the following magical forms:</p>
+			<ul>
+				<li><em>Nightmare Form:</em> Assume a horrific visage of nightmares; for 1 minute, can cause a single creature you can see to have disadvantage on all attacks that target you.</li>
+				<li><em>Dream Form:</em> Assume a shifting, mirage-like visage; for 1 minute, you gain advantage to all Charisma (Persuasion) or Charisma (Deception) checks against a one creature you can see.</li>
+			</ul>
+			<p>You can assume your visage up to 3 times, and you regain all expended uses when you finish a long rest.</p>
+			<h6><b>Astral Familiar</b></h6>
+			<p>Your astral companion can now manifest as a familiar, assuming any animal form of your choosing. All other abilities are defined in the <i>astral familiar</i> cantrip, which you gain as a known spell.</p>
+			<h6><b>Astral Dissonance</b></h6>
+			<p>The innate magical energies of your familiar can be harnessed in order to disrupt the spellcasting of another. As a special reaction while your Astral Familiar is summoned, you can cast <i>counterspell</i> upon one creature you can see within 60ft, as defined by the spell itself. However, doing so causes you to take 1d10 force damage, which ignores resistance and immunity, and the familiar is consumed and cannot be re-summoned again until after you perform a 1-minute ritual following your next short or long rest.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_COUNTERSPELL" />
+			</div>
+			<div class="reference">
+				<div element="ID_ALMIR_UNIQUE_SPELL_ASTRAL_FAMILIAR" />
+			</div>
+		</description>
+		<sheet action="Action or Reaction">
+			<description>You can harness the raw arcane power of your astral companions in order to disrupt the actions of those around you. As an action, you can assume one of the following magical forms: &#13;
+			• Nightmare Form: For 1 minute, can cause a single creature you can see to have disadvantage on all attacks that target you. &#13;
+			• Dream Form: For 1 minute, you gain advantage to all Charisma (Persuasion) or Charisma (Deception) checks against a one creature you can see. &#13;
+			Additionally, you can summon forth an astral familiar, which can be used for a special reaction: while summoned, you can consume its form to cast counterspell. Doing so destroys the familiar and deals 1d10 force damage to you, which ignores resistance and immunity, and the familiar cannot be re-summoned until after you perform a 1-minute ritual following your next short or long rest.</description>
+		</sheet>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">mind</set>
+			<set name="type">Supernatural Gift</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_ALMIR_UNIQUE_SPELL_ASTRAL_FAMILIAR" />
+		</rules>
+	</element>
+	<element name="Armor of Shadows (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SHADOW_MELD_STAGE2">
+		<description>
+			<p>While attempting to attune to a simple magical necklace, Themor Hunwut found himself brought back to the site of his kingdom's destruction, surrounded by shadowy forms and the muffled sounds of battle. Suddenly, he came upon a skeletal figure cloaked in shadow, who proceeded to challenge the human to single combat. However, Themor's skill managed to both appease and impress his sudden challenger. Introducing himself as Neun, Knight of the Realm, he then granted Themor the power to meld with the Shadow Plane, albeit briefly.</p>
+			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Themor was again confronted by shadowy figures, denizens of the Shadow Plane. Indignant with his progress in aiding their goals, they assaulted him with shadow, attempting to bind him for their own, but Themor once again resisted their power. Relenting, the three spirits instead wrapped around him like a great suit of obsidian armor and tasked him with searching among the secretive dwarves for more answers.</p>
+			<h6><b>Armor of Shadows</b></h6>
+			<p>As an action, can call upon your own shadow to encase you in armor, equivalent to full plate (AC 18). While armored in shadow, you cast no shadow, and you have resistance against cold and necrotic damage. However, if you take either fire or radiant damage, or are targeted by a spell of 3rd level or higher that creates light, you must make a Strength saving throw equal to 10 plus the damage taken, or 10 plus the level of the light spell. On a failed save, the armor dissipates and you cannot re-summon the armor until after a short rest.</p>
+			<h6><b>Shadow Step</b></h6>
+			<p>In place of your movement action, can teleport into the shadow cast by any object or creature you can see within 30 feet. You can use this property a number of times equal to your Constitution modifier, and you regain all expended uses when you finish a short rest.</p>
+			<h6><b>Shadow Nemesis</b></h6>
+			<p>As a reaction when you take damage, can encase yourself in vengeful shadows, which will reduce the damage taken by half and lash out against the attacker, causing them to take an equal amount as necrotic damage. You can use this property a number of times equal to your Constitution modifier, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="Action or Reaction">
+			<description>As an action, can call upon your own shadow to encase you in armor, equivalent to full plate (AC 18). While armored in shadow, your shadow is gone, and you have resistance against cold and necrotic damage. However, if you take either fire or radiant damage, you must make a Strength saving throw equal to 10 plus the damage taken. On a failed save, the armor dissipates and you cannot re-summon the armor until after a short rest. &#13;
+			Shadow Step: In place of your movement action, can teleport into the shadow of any creature you can see within 30 feet. You can use this property {{constitution:modifier}} times, and all expended uses are regained upon completing a short rest. &#13;
+			Shadow Nemesis: As a reaction when you take damage, can encase yourself in angry shadows. This will reduce the damage taken by half and lash out against the attacker, causing them to take an equal amount as necrotic damage. You can use this property {{constitution:modifier}} times, and all expended uses are regained upon completing a long rest.</description>
+		</sheet>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">mind</set>
+			<set name="type">Supernatural Gift</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Mantle of the Warden (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_STAGE2">
+		<description>
+			<p>Upon arriving in Galeran, Zedan Yazkash had sought a way to reunite with his former savior and mentor, Father Riel. However, it seemed that the elder human was already aware of Zedan's presence, and arranged a secret meeting with the young paladin upon the top of the city's inner walls. After hearing of Zedan's encounter with Fae'lorin, the priest chose to bestow upon him an ancient mantle of power to aid him in his travels, and to help him choose what path his life will take.</p>
+			<p class="indent">Later upon the <i>Widow's Kiss</i> after defeating Eris'atemor and his void-demon form, Zedan found himself transported to his new estate granted to him by his former mentor. Startled, he looked out the windows to see idyllic rolling plains and verdant forests dotted with peaceful wildlife. Suddenly, he heard a familiar voice, and turned to see Riel, younger, clad in plate armor covered in leaf motifs of emerald and silver, glowing with a soft verdant light, and flanked by a pair of similarly garbed men. Riel then explained that this home was granted to members of the Wardens, the guardians and protectors of life across the planes. As a sign of Zedan's willingness to take up the mantle in Riel's stead, the two armor-clad men—protectors from ages past—bestowed upon Zedan the title of "Warden of the Green", and with it the powers of its station.</p>
+			<h6><b>Aura of Light</b></h6>
+			<p>As an action, can choose one creature that you can see and cause it to regain hit points equal to 1d8 + your spellcasting modifier. In addition, the target glows with a dim light; for 1 minute, it regains hit points equal to your Constitution modifier at the beginning of each of its turns. You can use this special action an amount of times equal to your proficiency bonus, and regain all expended uses upon finishing a long rest.</p> 
+			<h6><b>Sentinel of Life</b></h6>
+			<p>As a bonus action, you can designate one willing target you can see to bear the symbol of your protection. This mark lasts for 1 minute, and can be dismissed at will. You can mark a number of creatures up to your Charisma modifier. Once you have reached this limit, you can move a mark from one creature to another that you can see with a bonus action. When a marked creature within 30 feet of you is about to take damage, you can use your reaction to teleport to an unoccupied space within 5 feet of it, and then take the damage instead of the marked creature. If the spot you teleport to would put you in range to make a melee attack against the attacking creature, you may also make one attack against that creature as part of that reaction.</p>
+			<h6><b>Sanctuary of the Green</b></h6>
+			<p>By spending 10 minutes, you can summon forth a magical doorway which will act as a portal to the Sanctuary of the Green, the mystical home of the Wardens. You and any creature you designate when you create this door can enter the home as long as the portal remains open. You can open or close the doorway if you are within 30 feet of it. While closed, the doorway is invisible. The dwelling itself can reshape itself to accomodate up to 10 creatures, with enough food and water to feed them as well. Furnishings and other objects created by this home dissipate into smoke if removed from it. When the doorway is dismissed, any creatures inside the extradimensional space are expelled into the open spaces nearest to the entrance.</p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">mind</set>
+			<set name="type">Supernatural Gift</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Blood Branch (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_BLOOD_BRANCH_STAGE2">
+		<description>
+			<p>Just before her fateful encounter with Eris'atemor, Evienne Atredeske was pulled back into the Feywilds. Her previous guide Lily was there to greet her along with a powerful dryad, who quickly stepped forth and thrust Evienne into a vision of her own past. Here she saw her childhood village burning, and more importantly, her father's merciless death at the hands of a younger but still recognizable Eris'atemor. As the vision faded, the enraged ranger swore vengeance upon the elf and implored her dryad to send her back. In response, the spirit then created a rough bow made of the very wooden sinews of her arms, and offered it to Evienne, commanding her to use the weapon to save those not yet lost to the elf's madness.</p>
+			<p class="indent">However, her vengeance was left unsated as Eris'atemor fell to the combined might of her companions before she could get any answers from him. In fury, she mutilated the elf's corpse with her sword, causing some of the blood to splash across her new weapon. As the group absconded from Galeran upon the <i>Widow's Kiss</i>, the bow manifested a shadowy apparition of the elf himself, constructed from the memories within that very blood, and Evienne was finally able to gain answers from him, though they be hollow at best. As she fell to the ground in exhaustion, the dryad of the Feywilds spoke with her yet again, and granted her the powers of the "Fey Reaper" so that she might help prevent the oncoming apocalypse and save the planes from oblivion.</p>
+			<h6><b>Blood Branch</b></h6>
+			<p>Infused with the fury and long memories of the Feywilds, this magical bow, made of rough tightly-corded branches resembling the wooden sinews of the dryad which bequeathed it, grants a +2 bonus to attack and damage rolls made with it.</p>
+			<h6><b>Fey Reaper's Mark</b></h6>
+			<p>You learn the <i>fey reaper's mark</i> cantrip, and can cast it at will. Additionally, after hitting a marked target with a weapon attack, you can command the mark to transform into ethereal thorny vines to bind the marked target, causing it to be <i>Restrained</i> for the duration of the spell, but removing the mark's bonus damage. On each of its turns, the target can use its action to make a Strength (Athletics) or Dexterity (Acrobatics) check against your spellcasting DC to break free of the vines. You can use this special transformation property a number of times equal to your Dexterity modifier, and all expended uses are regained upon completing a long rest.</p>
+			<h6><b>Blood of the Fallen</b></h6>
+			<p>Once per long rest, you can consume the memories of a fallen foe: if you dip the bow into the creature's blood, you can either gain insight or a memory from that enemy. If the target is a particularly powerful entity, you can gain the ability to converse with it, as if using the spell <i>speak with dead</i>.</p>
+			<div class="reference">
+				<div element="ID_ALMIR_UNIQUE_SPELL_FEY_REAPERS_MARK" />
+			</div>
+		</description>
+		<sheet action="Bonus Action" usage="{{dexterity:modifier}}/Long Rest">
+			<description>You learn the fey reaper's mark cantrip &#13;
+			Additionally, after hitting a marked target with a weapon attack, you can command the mark to transform into ethereal thorny vines to bind the marked target, causing it to be Restrained for the duration of the spell, but removing the mark's bonus damage. On each of its turns, the target can use its action to make a Strength (Athletics) or Dexterity (Acrobatics) check against your spellcasting DC to break free of the vines. You can use this special transformation property {{dexterity:modifier}} times, and all expended uses are regained upon completing a long rest.</description>
+		</sheet>
+		<setters>
+			<set name="keywords">longbow</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longbow">Weapon</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Artifact</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Longbow</set>
+		</setters>
+		<rules>
+			<grant type="Spell" id="ID_ALMIR_UNIQUE_SPELL_FEY_REAPERS_MARK" />
+		</rules>
+	</element>
+
+<!-- Spells -->
+	<element name="Fey Reaper's Mark" type="Spell" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SPELL_FEY_REAPERS_MARK">
+		<description>
+			<p>You choose a creature you can see within range and mystically mark it as your quarry. Until the spell ends, you deal an extra 1d8 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. Additionally, a marked target cannot benefit from any cover or impose disadvantage due to obscurement or line of sight as the weapons of the caster phase through the Feywilds to unerringly find their target. If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+			<set name="school">Divination</set>
+			<set name="time">1 bonus action</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">90 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Astral Familiar" type="Spell" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SPELL_ASTRAL_FAMILIAR">
+		<description>
+			<p>Your astral companion can manifest as a familiar, a spirit that takes an animal form of your choosing. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form (or closest equivalent creature that has a challenge rating of 0), though it is a magical construct instead of a beast.</p>
+			<p class="indent">Your familiar acts independently of you, but it always obeys your commands. In combat, it acts on your turn, and you can use your bonus action to command it to make actions, but it cannot attack.</p>
+			<p class="indent">When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again.</p>
+			<p class="indent">While your familiar is summoned, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses. Your familiar is linked to you, and cannot move more than 100 feet from you.</p>
+			<p class="indent">As an action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits you summons. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+			<set name="school">Conjuration</set>
+			<set name="time">Until dispelled or destroyed</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">10 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+
+	<!-- Companions -->
+	<element name="Spirit of the Tides - Human Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN">
+		<supports>Spirit of the Tides</supports>
+		<requirements>![level:5]</requirements>
+		<description></description>
+		<setters>
+			<set name="strength">5</set>
+			<set name="dexterity">10</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">10</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">20</set>
+			<set name="ac">14 (natural armor)</set>
+			<set name="hp">half your hit point maximum</set>
+			<set name="speed">30 ft., swim 90ft </set>
+			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="immunities">poison</set>
+			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
+			<set name="saves">Con +4, Cha +7</set>
+			<set name="skills">Athletics -1, Deception +7, Perception +3, Persuasion +7 </set>
+			<set name="senses">darkvision 60 ft., passive Perception 13</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="type">Elemental</set>
+			<set name="size">Medium</set>
+			<set name="alignment">Unaligned</set>
+			<set name="challenge">—</set>
+			<set name="proficiency">2</set>
+			<set name="traits">ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM</set>
+			<set name="actions">ID_ALMIR_UNIQUE_COMPANION_ACTION_SPIRIT_OF_THE_TIDES_POWER_OF_THE_SEA</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="10" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:speed" value="30" bonus="base" />	
+			<stat name="companion:speed:swim" value="90" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT">
+		<supports>Spirit of the Tides</supports>
+		<requirements>![level:5]</requirements>
+		<description></description>
+		<setters>
+			<set name="strength">5</set>
+			<set name="dexterity">20</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">10</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">10</set>
+			<set name="ac">16 (natural armor)</set>
+			<set name="hp">half your hit point maximum</set>
+			<set name="speed">30 ft., swim 90ft </set>
+			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="immunities">poison</set>
+			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
+			<set name="saves">Con +4, Cha +2</set>
+			<set name="skills">Acrobatics +7, Athletics -1, Perception +3, Stealth +7 </set>
+			<set name="senses">darkvision 60 ft., passive Perception 13</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="type">Elemental</set>
+			<set name="size">Small</set>
+			<set name="alignment">Unaligned</set>
+			<set name="challenge">—</set>
+			<set name="proficiency">2</set>
+			<set name="traits">ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="15" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:speed" value="30" bonus="base" />	
+			<stat name="companion:speed:swim" value="90" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Soul Link" type="Companion Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK">
+		<description>
+			<p>The spirit is a reflection of your own soul; whenever the spirit takes damage, the damage is split evenly with you, after any resistances are applied.</p>
+		</description>
+		<sheet>
+			<description>The spirit is a reflection of your own soul; whenever the spirit takes damage, the damage is split evenly with you, after any resistances are applied.</description>
+		</sheet>
+	</element>
+	<element name="Freeze" type="Companion Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE">
+		<description>
+			<p>If the elemental takes cold damage, it partially freezes; its speed is reduced by 20 feet until the end of its next turn.</p>
+		</description>
+		<sheet>
+			<description>If the elemental takes cold damage, it partially freezes; its speed is reduced by 20 feet until the end of its next turn.</description>
+		</sheet>
+	</element>
+	<element name="Water Form" type="Companion Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM">
+		<description>
+			<p>The spirit can enter any creature's space, but can only stop in one occupied by a willing friendly creature. It can move through a space as narrow as 1 inch wide without squeezing.</p>
+		</description>
+		<sheet>
+			<description>The spirit can enter any creature's space, but can only stop in one occupied by a willing friendly creature. It can move through a space as narrow as 1 inch wide without squeezing.</description>
+		</sheet>
+	</element>
+	<element name="Power of the Sea" type="Companion Action" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_ACTION_SPIRIT_OF_THE_TIDES_POWER_OF_THE_SEA">
+		<description>
+			<p>As part of your own action, the spirit can cast any of your cantrips upon a creature of your choice within range. If the creature is affected by the cantrip, the spirit can cause it to be affected by the Curse of the Sea.</p>
+		</description>
+		<sheet>
+			<description>As part of your own action, the spirit can cast any of your cantrips upon a creature of your choice within range. If the creature is affected by the cantrip, the spirit can cause it to be affected by the Curse of the Sea.</description>
+		</sheet>
+	</element>
+	<element name="Spirit of the Tides - Human Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN_5">
+		<supports>Spirit of the Tides</supports>
+		<requirements>[level:5],![level:9]</requirements>
+		<description></description>
+		<setters>
+			<set name="strength">5</set>
+			<set name="dexterity">10</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">10</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">20</set>
+			<set name="ac">14 (natural armor)</set>
+			<set name="hp">half your hit point maximum</set>
+			<set name="speed">30 ft., swim 90ft </set>
+			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="immunities">poison</set>
+			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
+			<set name="saves">Con +5, Cha +8</set>
+			<set name="skills">Athletics +0, Deception +8, Perception +4, Persuasion +8 </set>
+			<set name="senses">darkvision 60 ft., passive Perception 14</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="type">Elemental</set>
+			<set name="size">Medium</set>
+			<set name="alignment">Unaligned</set>
+			<set name="challenge">—</set>
+			<set name="proficiency">3</set>
+			<set name="traits">ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM</set>
+			<set name="actions">ID_ALMIR_UNIQUE_COMPANION_ACTION_SPIRIT_OF_THE_TIDES_POWER_OF_THE_SEA</set>
+			</setters>
+		<rules>
+			<stat name="companion:ac" value="10" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:speed" value="30" bonus="base" />	
+			<stat name="companion:speed:swim" value="90" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT_5">
+		<supports>Spirit of the Tides</supports>
+		<requirements>[level:5],![level:9]</requirements>
+		<description></description>
+		<setters>
+			<set name="strength">5</set>
+			<set name="dexterity">20</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">10</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">10</set>
+			<set name="ac">16 (natural armor)</set>
+			<set name="hp">half your hit point maximum</set>
+			<set name="speed">30 ft., swim 90ft </set>
+			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="immunities">poison</set>
+			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
+			<set name="saves">Con +5, Cha +3</set>
+			<set name="skills">Acrobatics +8, Athletics +0, Perception +4, Stealth +8 </set>
+			<set name="senses">darkvision 60 ft., passive Perception 14</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="type">Elemental</set>
+			<set name="size">Small</set>
+			<set name="alignment">Unaligned</set>
+			<set name="challenge">—</set>
+			<set name="proficiency">3</set>
+			<set name="traits">ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="15" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:speed" value="30" bonus="base" />	
+			<stat name="companion:speed:swim" value="90" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Spirit of the Tides - Human Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN_9">
+		<supports>Spirit of the Tides</supports>
+		<requirements>[level:9],![level:13]</requirements>
+		<description></description>
+		<setters>
+			<set name="strength">5</set>
+			<set name="dexterity">10</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">10</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">20</set>
+			<set name="ac">14 (natural armor)</set>
+			<set name="hp">half your hit point maximum</set>
+			<set name="speed">30 ft., swim 90ft </set>
+			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="immunities">poison</set>
+			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
+			<set name="saves">Con +6, Cha +9</set>
+			<set name="skills">Athletics +1, Deception +9, Perception +5, Persuasion +9 </set>
+			<set name="senses">darkvision 60 ft., passive Perception 15</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="type">Elemental</set>
+			<set name="size">Medium</set>
+			<set name="alignment">Unaligned</set>
+			<set name="challenge">—</set>
+			<set name="proficiency">4</set>
+			<set name="traits">ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM</set>
+			<set name="actions">ID_ALMIR_UNIQUE_COMPANION_ACTION_SPIRIT_OF_THE_TIDES_POWER_OF_THE_SEA</set>
+			</setters>
+		<rules>
+			<stat name="companion:ac" value="10" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:speed" value="30" bonus="base" />	
+			<stat name="companion:speed:swim" value="90" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT_9">
+		<supports>Spirit of the Tides</supports>
+		<requirements>[level:9],![level:13]</requirements>
+		<description></description>
+		<setters>
+			<set name="strength">5</set>
+			<set name="dexterity">20</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">10</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">10</set>
+			<set name="ac">16 (natural armor)</set>
+			<set name="hp">half your hit point maximum</set>
+			<set name="speed">30 ft., swim 90ft </set>
+			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="immunities">poison</set>
+			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
+			<set name="saves">Con +6, Cha +4</set>
+			<set name="skills">Acrobatics +9, Athletics +1, Perception +5, Stealth +9 </set>
+			<set name="senses">darkvision 60 ft., passive Perception 15</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="type">Elemental</set>
+			<set name="size">Small</set>
+			<set name="alignment">Unaligned</set>
+			<set name="challenge">—</set>
+			<set name="proficiency">4</set>
+			<set name="traits">ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="15" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:speed" value="30" bonus="base" />	
+			<stat name="companion:speed:swim" value="90" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Spirit of the Tides - Human Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN_13">
+		<supports>Spirit of the Tides</supports>
+		<requirements>[level:13],![level:17]</requirements>
+		<description></description>
+		<setters>
+			<set name="strength">5</set>
+			<set name="dexterity">10</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">10</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">20</set>
+			<set name="ac">14 (natural armor)</set>
+			<set name="hp">half your hit point maximum</set>
+			<set name="speed">30 ft., swim 90ft </set>
+			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="immunities">poison</set>
+			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
+			<set name="saves">Con +7, Cha +10</set>
+			<set name="skills">Athletics +2, Deception +10, Perception +6, Persuasion +10 </set>
+			<set name="senses">darkvision 60 ft., passive Perception 16</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="type">Elemental</set>
+			<set name="size">Medium</set>
+			<set name="alignment">Unaligned</set>
+			<set name="challenge">—</set>
+			<set name="proficiency">5</set>
+			<set name="traits">ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM</set>
+			<set name="actions">ID_ALMIR_UNIQUE_COMPANION_ACTION_SPIRIT_OF_THE_TIDES_POWER_OF_THE_SEA</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="10" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:speed" value="30" bonus="base" />	
+			<stat name="companion:speed:swim" value="90" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT_13">
+		<supports>Spirit of the Tides</supports>
+		<requirements>[level:13],![level:17]</requirements>
+		<description></description>
+		<setters>
+			<set name="strength">5</set>
+			<set name="dexterity">20</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">10</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">10</set>
+			<set name="ac">16 (natural armor)</set>
+			<set name="hp">half your hit point maximum</set>
+			<set name="speed">30 ft., swim 90ft </set>
+			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="immunities">poison</set>
+			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
+			<set name="saves">Con +7, Cha +5</set>
+			<set name="skills">Acrobatics +10, Athletics +2, Perception +6, Stealth +10 </set>
+			<set name="senses">darkvision 60 ft., passive Perception 16</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="type">Elemental</set>
+			<set name="size">Small</set>
+			<set name="alignment">Unaligned</set>
+			<set name="challenge">—</set>
+			<set name="proficiency">5</set>
+			<set name="traits">ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="15" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:speed" value="30" bonus="base" />	
+			<stat name="companion:speed:swim" value="90" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Spirit of the Tides - Human Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN_17">
+		<supports>Spirit of the Tides</supports>
+		<requirements>[level:17]</requirements>
+		<description></description>
+		<setters>
+			<set name="strength">5</set>
+			<set name="dexterity">10</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">10</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">20</set>
+			<set name="ac">14 (natural armor)</set>
+			<set name="hp">half your hit point maximum</set>
+			<set name="speed">30 ft., swim 90ft </set>
+			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="immunities">poison</set>
+			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
+			<set name="saves">Con +9, Cha +11</set>
+			<set name="skills">Athletics +3, Deception +11, Perception +7, Persuasion +11 </set>
+			<set name="senses">darkvision 60 ft., passive Perception 17</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="type">Elemental</set>
+			<set name="size" />
+			<set name="alignment">Unaligned</set>
+			<set name="challenge">—</set>
+			<set name="proficiency">6</set>
+			<set name="traits">ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM</set>
+			<set name="actions">ID_ALMIR_UNIQUE_COMPANION_ACTION_SPIRIT_OF_THE_TIDES_POWER_OF_THE_SEA</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="10" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:speed" value="30" bonus="base" />	
+			<stat name="companion:speed:swim" value="90" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT_17">
+		<supports>Spirit of the Tides</supports>
+		<requirements>[level:17]</requirements>
+		<description></description>
+		<setters>
+			<set name="strength">5</set>
+			<set name="dexterity">20</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">10</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">10</set>
+			<set name="ac">16 (natural armor)</set>
+			<set name="hp">half your hit point maximum</set>
+			<set name="speed">30 ft., swim 90ft </set>
+			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="immunities">poison</set>
+			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
+			<set name="saves">Con +8, Cha +6</set>
+			<set name="skills">Acrobatics +11, Athletics +3, Perception +7, Stealth +11 </set>
+			<set name="senses">darkvision 60 ft., passive Perception 13</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="type">Elemental</set>
+			<set name="size">Small</set>
+			<set name="alignment">Unaligned</set>
+			<set name="challenge">—</set>
+			<set name="proficiency">6</set>
+			<set name="traits">ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="15" bonus="base" />
+			<stat name="companion:ac" value="proficiency" bonus="proficiency" />
+			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:speed" value="30" bonus="base" />	
+			<stat name="companion:speed:swim" value="90" bonus="base" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:charisma:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
 	</element>
 </elements>
