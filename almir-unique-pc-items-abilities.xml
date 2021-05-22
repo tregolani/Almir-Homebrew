@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.4">
+    <update version="0.1.5">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -169,7 +169,7 @@
 	<element name="Ring of the Faceless Ones (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2">
 		<description>
 			<p>A small gold band with no discernible features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
-			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Alton's benefactor chose to unlock additional enchantments unique to the ring that would benefit him greatly in his more surreptitious activities for the guild.</p>
+			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Alton's ring began to glow as a new voice spoke in his head. Identifying himself as Echo, another of the Faceless Ones, he explained the purpose of their organization: to shape the world to bring balance, whether it was by dethroning corrupt leaders, redistributing wealth, or moving goods or contraband. The mysterious man then noted that the other Faceless Ones were watching Alton's progress closely, and if he were to succeed on his current mission, he would be allowed to join their ranks, taking up the name of the seat to which his ring belongs. However, as a sign of faith, Echo unlocked some of the more potent magical powers within the ring to aid the young bard in his fast-approaching trials.</p>
 			<h6><b>Charm of Unlocking</b></h6>
 			<p>As an action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>charm person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.</p>
 			<h6><b>One of Many Faces Amongst None</b></h6>
@@ -200,7 +200,7 @@
 	</element>
 	<element name="Mind of the Void (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RUNE_SOUL_HARVEST_STAGE2">
 		<description>
-			<p>After his encounter with the mind of Eris'atemor's void demon form, as well as his communion with the fragment of the void beast he defeated upon the <i>Widow's Kiss</i>, Apsinthos has begun to hear a voice speaking to him in a language resembling nothing he has ever heard before. Although he cannot understand it, he soon learns that he is able to influence its power and direct it to come to his aid. However, the void is unknowable, and his attempts to harness it can be painful and often result in outcomes not exactly as he had planned...</p>
+			<p>After his encounter with the mind of Eris'atemor's void demon form, as well as his communion with the fragment of the void beast he defeated upon the <i>Widow's Kiss</i>, Apsinthos heads below deck to take an evening's rest. However, his sleep is disturbed as an overwhelming darkness consumes his dreams. Suddenly, strange runes and glyphs begin to circle his consciousness, and though he cannot read them, their meaning is emotively conveyed into his mind with an intimacy unlike any languange he has known before. He tries to move away from the glyphs, but a voice speaks out to him through them, claiming to be the Void. He learns that the void is consumed with returning it and everything else to nothingness, and that in nothingness there is perfection. The concept intrigues the young warlock, and the void offers him the power to harness its vast inscrutable energy to meld his destiny into whatever he would want it to be. Seemingly swayed by the promise of all-encompassing equality in embracing the nothingness, Apsinthos accepts this gift. Only time will tell whether he will use it to shape his own destiny, or it will use him as a tool of the insatiable hunger of the void.</p>
 			<h6><b>Call Upon the Void</b></h6>
 			<p>As an action, can make a 1-3 worded command to the void, causing it to cast a spell from the wizard or cleric spell list that fulfills the command that was given, as chosen by the void. However, doing so will cause you to take 1d6 necrotic damage, which ignores resistance and immunity. Each time this special action is used again before finishing a long rest, the necrotic damage increases by 1d6. You can use this feature at will.</p>
 			<h6><b>From Nothing I Will Create My Own</b></h6>
