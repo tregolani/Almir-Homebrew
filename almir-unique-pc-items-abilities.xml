@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.7">
+    <update version="0.1.8">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -768,7 +768,7 @@
 			<set name="senses">darkvision 60 ft., passive Perception 17</set>
 			<set name="languages">understands the languages you speak</set>
 			<set name="type">Elemental</set>
-			<set name="size" />
+			<set name="size">Medium</set>
 			<set name="alignment">Unaligned</set>
 			<set name="challenge">—</set>
 			<set name="proficiency">6</set>
