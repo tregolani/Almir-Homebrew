@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.9">
+    <update version="0.2.0">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -234,7 +234,7 @@
 			<h6><b>Astral Familiar</b></h6>
 			<p>Your astral companion can now manifest as a familiar, assuming any animal form of your choosing. All other abilities are defined in the <i>astral familiar</i> cantrip, which you gain as a known spell.</p>
 			<h6><b>Astral Dissonance</b></h6>
-			<p>The innate magical energies of your familiar can be harnessed in order to disrupt the spellcasting of another. As a special reaction while your Astral Familiar is summoned, you can cast <i>counterspell</i> upon one creature you can see within 60ft, as defined by the spell itself. However, doing so causes you to take 1d10 force damage, which ignores resistance and immunity, and the familiar is consumed and cannot be re-summoned again until after you perform a 1-minute ritual following your next short or long rest.</p>
+			<p>The innate magical energies of your familiar can be harnessed in order to disrupt the spellcasting of another. As a special reaction while your Astral Familiar is summoned, you can cast <i>counterspell</i> at 3rd level upon one creature you can see within 60ft without expending a spell slot. However, doing so causes you to take 1d10 force damage, which ignores any and all resistance or immunity, and the familiar is consumed and cannot be re-summoned again until after you perform a 1-minute ritual following your next short or long rest.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_COUNTERSPELL" />
 			</div>
@@ -246,7 +246,7 @@
 			<description>You can harness the raw arcane power of your astral companions in order to disrupt the actions of those around you. As an action, you can assume one of the following magical forms: &#13;
 			• Nightmare Form: For 1 minute, can cause a single creature you can see to have disadvantage on all attacks that target you. &#13;
 			• Dream Form: For 1 minute, you gain advantage to all Charisma (Persuasion) or Charisma (Deception) checks against a one creature you can see. &#13;
-			Additionally, you can summon forth an astral familiar, which can be used for a special reaction: while summoned, you can consume its form to cast counterspell. Doing so destroys the familiar and deals 1d10 force damage to you, which ignores resistance and immunity, and the familiar cannot be re-summoned until after you perform a 1-minute ritual following your next short or long rest.</description>
+			Additionally, you can summon forth an astral familiar, which can be used for a special reaction: while summoned, you can consume its form to cast counterspell at 3rd level without expending a spell slot. Doing so destroys the familiar and deals 1d10 force damage to you, which ignores resistance and immunity, and the familiar cannot be re-summoned until after you perform a 1-minute ritual following your next short or long rest.</description>
 		</sheet>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
