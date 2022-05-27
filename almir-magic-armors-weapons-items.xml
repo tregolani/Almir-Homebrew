@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Almir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.4">
+    <update version="0.1.5">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
@@ -80,7 +80,7 @@
 			<set name="slot">neck</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Uncommon</set>
-			<set name="attunement">true</set>
+			<set name="attunement">false</set>
 		</setters>
 	</element>
 </elements>
