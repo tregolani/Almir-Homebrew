@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Almir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.5">
+    <update version="0.1.6">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
@@ -81,6 +81,17 @@
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Uncommon</set>
 			<set name="attunement">false</set>
+		</setters>
+	</element>
+	<element name="Ploink Bean" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_PLOINK_BEAN">		
+		<description>
+			<p>These strange speckled beans hold within them the raw chaotic potential of Ploink, the Goddess of Chaos. When ingested, the DM rolls 1d10000 and enacts the effect listed on the Expanded Wild Magic table.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
 		</setters>
 	</element>
 </elements>
