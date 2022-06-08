@@ -4,10 +4,12 @@
     <name>Almir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Almir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.6">
+    <update version="0.1.7">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
+
+<!--Wondrous Items-->
   	<element name="Amulet of Summoning" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_AMULET_OF_SUMMONING">
 		<description>
 			<p>A simple silver chain adorned with a diamond-shaped pendant with a small amethyst set in the center. While attuned to the amulet, you can summon a spectral homunculus that will obey your commands and, to the best of its ability, complete simple tasks for 1 hour. Once the homunculus has been summoned, it cannot be summoned again until you finish a long rest.</p>
@@ -92,6 +94,82 @@
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Uncommon</set>
 			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Gem of Tremorsense" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_GEM_OF_TREMORSENSE">
+		<description>
+			<p>As an action while holding this gem in one hand, you can grant yourself tremorsense out to 30 feet. This special sight fades if you are no longer holding the gem in one hand.</p>
+		</description>
+		<setters>
+			<set name="keywords">vision, tremorsense</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">false</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
+<!--Potions-->
+	<element name="Healing Potion of Hill Giant Strength" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_HEALING_POTION_OF_HILL_GIANT_STRENGTH">		
+		<description>
+			<p>You regain 2d4 + 2 hit points when you drink this potion. Additionally, your Strength score is set to 21 for 1 hour. When agitated, the potion's syrupy greenish liquid glints with small flashes of phospholuminescence.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Chaotic Potion of Water Breathing" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_CHAOTIC_POTION_OF_WATER_BREATHING">		
+		<description>
+			<p>This potion was given to the human known as Barnacle by a servant of Ploink, the Goddess of Chaos. Its bright azure fluid smells of the sea and has a jellyfish-like bubble floating in it.</p>
+			<p class="indent">Upon imbibing this potion, you can breathe underwater for 1 hour. However, due to the nature of its origin, anyone who drinks this potion and was not its original recipient will cause its chaotic magic to manifest in potentially dangerous ways.</p>
+		</description>
+		<setters>
+			<set name="category">Potions</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Weapons -->
+	<element name="Rapier of Milil" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_RAPIER_OF_MILIL">
+		<description>
+			<p>During the battle against the void-corrupted Madeline in the bowels of Dun'Morach, Alton High-Hill was granted an unexpected communion with his god Milil, the Lord of All Songs. The troubadour god imparted upon him the knowledge of the fluidity of fate—how his story, as well as those of his companions, had been inexplicably changed by forces beyond the mortal realm. However, the god urged Alton to embrace this new story, to make it one truly worth telling, and granted him this sword as a boon to assist to that endeavor.</p>
+			<p class="indent">You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">This sword has 2 charges. When you hit a creature with it, you can expend one charge to add an extra 1d8 radiant damage to the attack. The sword regains all expended charges after completing a long rest.</p>
+		</description>
+		<setters>
+			<set name="keywords">rapier, radiant</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="rapier">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">1</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_RAPIERS</set>
+			<set name="charges">2</set>
+		</setters>
+	</element>
+	<element name="Returning Weapon" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_RETURNING_WEAPON">
+		<description>
+			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it. In addition, the weapon has the thrown property with a normal range of 20 feet and a long range of 60 feet. When used to make a ranged attack, it returns to the wielder’s hand immediately after a hit, but the wielder must use a bonus action to recall it should the attack miss.</p>
+		</description>
+		<setters>
+			<set name="keywords">halberd, thrown</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="a simple or martial weapon">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_HALBERDS</set>
+			<set name="name-format">Returning {{parent}} +{{enhancement}}</set>
 		</setters>
 	</element>
 </elements>
