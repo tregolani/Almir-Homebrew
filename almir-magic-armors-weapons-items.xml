@@ -4,13 +4,28 @@
     <name>Almir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Almir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.7">
+    <update version="0.1.8">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
 
 <!--Wondrous Items-->
-  	<element name="Amulet of Summoning" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_AMULET_OF_SUMMONING">
+	<element name="Amulet of Canine Transformation" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_AMULET_OF_CANINE_TRANSFORMATION">
+			<p>This unadorned, weathered chain sports a heavy clasp and a simple pendant depicting a canine-like creature. Upon being clasped around the neck of a creature, that creature must succeed on a DC 15 Wisdom saving throw or be polymorphed into a dog. The creature can repeat the save at dawn of the next day until they succeed on the saving throw. While transformed, the creature retains its mental statistics, but cannot write, speak, use weapons or items, or cast any spells. </p>
+			<p class="indent">If the chain is broken or removed forcefully before the creature succeeds on its Wisdom saving throw, it takes 1d10 psychic damage before reverting to its original form.</p>
+			<description>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+	<element name="Amulet of Summoning" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_AMULET_OF_SUMMONING">
 		<description>
 			<p>A simple silver chain adorned with a diamond-shaped pendant with a small amethyst set in the center. While attuned to the amulet, you can summon a spectral homunculus that will obey your commands and, to the best of its ability, complete simple tasks for 1 hour. Once the homunculus has been summoned, it cannot be summoned again until you finish a long rest.</p>
 		</description>
@@ -22,35 +37,6 @@
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Uncommon</set>
 			<set name="attunement">true</set>
-		</setters>
-	</element>
-  	<element name="Indestructible Spyglass" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_INDESTRUCTIBLE_SPYGLASS">
-		<description>
-			<p>A well-built spyglass, wrapped in a soft leather grip and made of a dark mahogany wood. This particular tool is imbued with a particularly potent abjuration charm that makes it impervious to any sort of damage.</p>
-		</description>
-		<setters>
-			<set name="category">Wondrous Items</set>
-			<set name="cost" currency="gp">70</set>
-			<set name="weight" lb="1">1 lb.</set>
-			<set name="slot">belt</set>
-			<set name="type">Wondrous Item</set>
-			<set name="rarity">Common</set>
-			<set name="attunement">false</set>
-		</setters>
-	</element>
-	<element name="Ring of Waterboarding (Cursed)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_CURSED_RING_OF_WATERBOARDING">
-		<description>
-			<p>When speaking the command word, the wearer is placed under the effects of the <i>water walk</i> spell.</p>
-			<p class="indent"><strong><em>Curse.</em></strong> This item is cursed. Placing it on your finger curses you until you are targeted by a <em>remove curse</em> spell or similar magic. As long as you remain cursed, you cannot remove the ring. After having spoken the command word to activate its magic, if the ring is not submerged, it gains weight rapidly, pulling the wearer back underwater. This lasts until the ring has been dry for 1d10 minutes.</p>
-			<div class="reference">
-				<div element="ID_PHB_SPELL_WATER_WALK" />
-			</div>
-			</description>
-		<setters>
-			<set name="category">Rings</set>
-			<set name="type">Ring</set>
-			<set name="slot">ring</set>
-			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
 	<element name="Circlet of Starry Vision" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_CIRCLET_OF_STARRY_VISION">
@@ -70,32 +56,6 @@
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 		</rules>
 	</element>
-	<element name="Amulet of Canine Transformation" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_AMULET_OF_CANINE_TRANSFORMATION">
-			<p>This unadorned, weathered chain sports a heavy clasp and a simple pendant depicting a canine-like creature. Upon being clasped around the neck of a creature, that creature must succeed on a DC 15 Wisdom saving throw or be polymorphed into a dog. The creature can repeat the save at dawn of the next day until they succeed on the saving throw. While transformed, the creature retains its mental statistics, but cannot write, speak, use weapons or items, or cast any spells. </p>
-			<p class="indent">If the chain is broken or removed forcefully before the creature succeeds on its Wisdom saving throw, it takes 1d10 psychic damage before reverting to its original form.</p>
-			<description>
-		</description>
-		<setters>
-			<set name="category">Wondrous Items</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
-			<set name="slot">neck</set>
-			<set name="type">Wondrous Item</set>
-			<set name="rarity">Uncommon</set>
-			<set name="attunement">false</set>
-		</setters>
-	</element>
-	<element name="Ploink Bean" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_PLOINK_BEAN">		
-		<description>
-			<p>These strange speckled beans hold within them the raw chaotic potential of Ploink, the Goddess of Chaos. When ingested, the DM rolls 1d10000 and enacts the effect listed on the Expanded Wild Magic table.</p>
-		</description>
-		<setters>
-			<set name="category">Wondrous Items</set>
-			<set name="type">Wondrous Item</set>
-			<set name="rarity">Uncommon</set>
-			<set name="stackable">true</set>
-		</setters>
-	</element>
 	<element name="Gem of Tremorsense" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_GEM_OF_TREMORSENSE">
 		<description>
 			<p>As an action while holding this gem in one hand, you can grant yourself tremorsense out to 30 feet. This special sight fades if you are no longer holding the gem in one hand.</p>
@@ -110,6 +70,62 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
+  	<element name="Indestructible Spyglass" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_INDESTRUCTIBLE_SPYGLASS">
+		<description>
+			<p>A well-built spyglass, wrapped in a soft leather grip and made of a dark mahogany wood. This particular tool is imbued with a particularly potent abjuration charm that makes it impervious to any sort of damage.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">70</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">belt</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+  	<element name="Mammazon's Grocery Bag for the Everyday Wizard" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_MAMMAZONS_BAG_FOR_THE_EVERYDAY_WIZARD">
+		<description>
+			<p>This well-stitched velvet bag was a gift of good will from Quinn, the enigmatic tiefling betrothed to the Company of Heroes' guildmaster Gorven, as a sign of their newfound partnership with the mercantile syndicate known only as Mammazon. When in need of material components for a spell, you can whisper its name into the bag and it will appear inside in the next 1d12 minutes. Once you have placed the component's monetary value—plus a convenience fee of 10%—into the bag, the component can be withdrawn and used for whatever magical mayhem you wish to sow.</p>
+			<p class="indent">However, convenience is not without its limits. If you use the bag more than three times before completing a long rest, the convenience fee will rise steeply with each subsequent item procured. Mammazon is nothing if not a shrewd businessman, after all.</p>
+			</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">3000</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">belt</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
+	<element name="Ploink Bean" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_PLOINK_BEAN">		
+		<description>
+			<p>These strange speckled beans hold within them the raw chaotic potential of Ploink, the Goddess of Chaos. When ingested, the DM rolls 1d10000 and enacts the effect listed on the Expanded Wild Magic table.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Ring of Waterboarding (Cursed)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_CURSED_RING_OF_WATERBOARDING">
+		<description>
+			<p>When speaking the command word, the wearer is placed under the effects of the <i>water walk</i> spell.</p>
+			<p class="indent"><strong><em>Curse.</em></strong> This item is cursed. Placing it on your finger curses you until you are targeted by a <em>remove curse</em> spell or similar magic. As long as you remain cursed, you cannot remove the ring. After having spoken the command word to activate its magic, if the ring is not submerged, it gains weight rapidly, pulling the wearer back underwater. This lasts until the ring has been dry for 1d10 minutes.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_WATER_WALK" />
+			</div>
+			</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="slot">ring</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+
 
 <!--Potions-->
 	<element name="Healing Potion of Hill Giant Strength" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_HEALING_POTION_OF_HILL_GIANT_STRENGTH">		
