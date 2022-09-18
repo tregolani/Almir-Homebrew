@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.2">
+    <update version="0.2.3">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -366,7 +366,7 @@
 				• You gain vulnerability to cold and lightning damage while in this form.</td></tr>
 				<tr><td>7-8</td><td><strong>Crystalline. </strong>A balance between the primordial powers of earth and water is obtained, whether by your own will or through the influence of another power you can’t be sure. Your horns transform into translucent crystalline spirals, and your skin darkens to an ebony sheen flecked with thousands of tiny sparkling geodes. While in this form, you gain the following effects:<br/>
 				• You gain a bonus to your saving throws equal to your Constitution modifier.<br/>
-				• You gain access to the following spells: <i>absorb elements, mirror image, hypnotic pattern, gravity sinkhole, temporal shunt, summon celestial.</i> Each of these counts as a sorcerer spell for you, and you can cast them using an appropriate spell slot.<br/>
+				• You gain access to the following spells: <i>magnify gravity, mirror image, hypnotic pattern, gravity sinkhole, temporal shunt, summon celestial.</i> Each of these counts as a sorcerer spell for you, and you can cast them using an appropriate spell slot.<br/>
 				• Upon transforming, you begin to surge with arcane power. You gain a number of temporary sorcery points equal to your sorcerer level, which are separate from your normal pool of sorcery points. You can use these temporary sorcery points to cast any of the additional spells granted by this form by spending a number of sorcery points equal to the spell's level. Once this transformation ends, these temporary sorcery points vanish.<br/>
 				• Barnacle takes on a similar appearance, but does not gain the additional spells.</td></tr>
 				<tr><td>9-10</td><td><strong>Unstable Fallout. </strong>Something…isn’t right. Your voice is not your own and the powers that you draw on seem to be a torrent of twisted force. Your skin seems to develop fissures and cracks, and sizzling water hisses and bubbles from these rends. While in this form, you gain the following effects:<br/>
