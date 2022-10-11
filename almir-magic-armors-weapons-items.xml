@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Almir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.8">
+    <update version="0.1.9">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
@@ -125,7 +125,24 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
-
+	<element name="Pendant of the Grovewalker" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_PENDANT_OF_THE_GROVEWALKER">
+		<description>
+			<p>A clawmarked leaf-shaped pendant, edged with polished darkwood and dangling from a sturdy leather strap. It once belonged to the wild druid Kars, the last member of a reclusive druidic order which lived in seclusion to pursue their affinity for bestial transformations. Following his death a century prior, however, his spirit continued to linger within the grove, and was eventually corrupted by the growing influence of Faust. The dracolich's power transformed him into a twisted arboreal monstrosity consumed by hatred and enmity, and he began to siphon the very essence of the land in order to fuel the creation of an army of mindless undead. However, before his vengeful crusade could spread, he was cut down and vanquished by a passing band of adventurers, and this pendant was all that could be found of the unfortunate druid.</p>
+			<p class="indent">Once per day while holding or wearing this pendant, you can cast the <em>tree stride</em> spell. Once the pendant has been used, it can't be used to cast the spell again until the next dawn.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_TREE_STRIDE" />
+			</div>
+			</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
 
 <!--Potions-->
 	<element name="Healing Potion of Hill Giant Strength" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_HEALING_POTION_OF_HILL_GIANT_STRENGTH">		
