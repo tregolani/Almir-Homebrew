@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.3">
+    <update version="0.2.4">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -444,7 +444,7 @@
 		<setters>
 			<set name="strength">5</set>
 			<set name="dexterity">10</set>
-			<set name="constitution">15</set>
+			<set name="constitution">16</set>
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">20</set>
@@ -454,7 +454,7 @@
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
-			<set name="saves">Con +4, Cha +7</set>
+			<set name="saves">Con +5, Cha +7</set>
 			<set name="skills">Athletics -1, Deception +7, Perception +3, Persuasion +7 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 13</set>
 			<set name="languages">understands the languages you speak</set>
@@ -468,7 +468,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="14" bonus="base" />
-			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:hp:max" value="32" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -486,7 +486,7 @@
 		<setters>
 			<set name="strength">5</set>
 			<set name="dexterity">20</set>
-			<set name="constitution">15</set>
+			<set name="constitution">16</set>
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">10</set>
@@ -496,7 +496,7 @@
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
-			<set name="saves">Con +4, Cha +2</set>
+			<set name="saves">Con +5, Cha +2</set>
 			<set name="skills">Acrobatics +7, Athletics -1, Perception +3, Stealth +7 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 13</set>
 			<set name="languages">understands the languages you speak</set>
@@ -509,7 +509,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="16" bonus="base" />
-			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:hp:max" value="32" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -559,7 +559,7 @@
 		<setters>
 			<set name="strength">5</set>
 			<set name="dexterity">10</set>
-			<set name="constitution">15</set>
+			<set name="constitution">16</set>
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">20</set>
@@ -569,7 +569,7 @@
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
-			<set name="saves">Con +5, Cha +8</set>
+			<set name="saves">Con +6, Cha +8</set>
 			<set name="skills">Athletics +0, Deception +8, Perception +4, Persuasion +8 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 14</set>
 			<set name="languages">understands the languages you speak</set>
@@ -583,7 +583,7 @@
 			</setters>
 		<rules>
 			<stat name="companion:ac" value="14" bonus="base" />
-			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:hp:max" value="32" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -601,7 +601,7 @@
 		<setters>
 			<set name="strength">5</set>
 			<set name="dexterity">20</set>
-			<set name="constitution">15</set>
+			<set name="constitution">16</set>
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">10</set>
@@ -611,7 +611,7 @@
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
-			<set name="saves">Con +5, Cha +3</set>
+			<set name="saves">Con +6, Cha +3</set>
 			<set name="skills">Acrobatics +8, Athletics +0, Perception +4, Stealth +8 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 14</set>
 			<set name="languages">understands the languages you speak</set>
@@ -624,7 +624,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="16" bonus="base" />
-			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:hp:max" value="32" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -642,7 +642,7 @@
 		<setters>
 			<set name="strength">5</set>
 			<set name="dexterity">10</set>
-			<set name="constitution">15</set>
+			<set name="constitution">16</set>
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">20</set>
@@ -652,7 +652,7 @@
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
-			<set name="saves">Con +6, Cha +9</set>
+			<set name="saves">Con +7, Cha +9</set>
 			<set name="skills">Athletics +1, Deception +9, Perception +5, Persuasion +9 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 15</set>
 			<set name="languages">understands the languages you speak</set>
@@ -666,7 +666,7 @@
 			</setters>
 		<rules>
 			<stat name="companion:ac" value="14" bonus="base" />
-			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:hp:max" value="32" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -684,7 +684,7 @@
 		<setters>
 			<set name="strength">5</set>
 			<set name="dexterity">20</set>
-			<set name="constitution">15</set>
+			<set name="constitution">16</set>
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">10</set>
@@ -694,7 +694,7 @@
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
-			<set name="saves">Con +6, Cha +4</set>
+			<set name="saves">Con +7, Cha +4</set>
 			<set name="skills">Acrobatics +9, Athletics +1, Perception +5, Stealth +9 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 15</set>
 			<set name="languages">understands the languages you speak</set>
@@ -707,7 +707,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="16" bonus="base" />
-			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:hp:max" value="32" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -725,7 +725,7 @@
 		<setters>
 			<set name="strength">5</set>
 			<set name="dexterity">10</set>
-			<set name="constitution">15</set>
+			<set name="constitution">16</set>
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">20</set>
@@ -735,7 +735,7 @@
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
-			<set name="saves">Con +7, Cha +10</set>
+			<set name="saves">Con +8, Cha +10</set>
 			<set name="skills">Athletics +2, Deception +10, Perception +6, Persuasion +10 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 16</set>
 			<set name="languages">understands the languages you speak</set>
@@ -749,7 +749,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="14" bonus="base" />
-			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:hp:max" value="32" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -767,7 +767,7 @@
 		<setters>
 			<set name="strength">5</set>
 			<set name="dexterity">20</set>
-			<set name="constitution">15</set>
+			<set name="constitution">16</set>
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">10</set>
@@ -777,7 +777,7 @@
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
-			<set name="saves">Con +7, Cha +5</set>
+			<set name="saves">Con +8, Cha +5</set>
 			<set name="skills">Acrobatics +10, Athletics +2, Perception +6, Stealth +10 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 16</set>
 			<set name="languages">understands the languages you speak</set>
@@ -790,7 +790,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="16" bonus="base" />
-			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:hp:max" value="32" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -808,7 +808,7 @@
 		<setters>
 			<set name="strength">5</set>
 			<set name="dexterity">10</set>
-			<set name="constitution">15</set>
+			<set name="constitution">16</set>
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">20</set>
@@ -832,7 +832,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="14" bonus="base" />
-			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:hp:max" value="32" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -850,7 +850,7 @@
 		<setters>
 			<set name="strength">5</set>
 			<set name="dexterity">20</set>
-			<set name="constitution">15</set>
+			<set name="constitution">16</set>
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">10</set>
@@ -860,7 +860,7 @@
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
-			<set name="saves">Con +8, Cha +6</set>
+			<set name="saves">Con +9, Cha +6</set>
 			<set name="skills">Acrobatics +11, Athletics +3, Perception +7, Stealth +11 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 13</set>
 			<set name="languages">understands the languages you speak</set>
@@ -873,7 +873,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="16" bonus="base" />
-			<stat name="companion:hp:max" value="20" />
+			<stat name="companion:hp:max" value="32" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
