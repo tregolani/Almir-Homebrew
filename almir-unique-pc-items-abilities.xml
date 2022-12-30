@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.4">
+    <update version="0.2.5">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -27,7 +27,7 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Ring of the Faceless Ones (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE1">
+	<element name="Alton's Ring of the Faceless Ones (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE1_ALTON">
 		<description>
 			<p>A small gold band with no discernible features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a unique enchantment specifically designed to help unlock barred doors, whether literal or figurative. </p>
 			<p class="indent"><strong><em>Charm of Unlocking (Stage 1):</em></strong> As an action, can unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can also be used to cast the <i>charm person</i> spell once without using a spell slot. Once either of these features are used, the ring cannot be used again until you finish a long rest.</p>
@@ -166,7 +166,7 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Ring of the Faceless Ones (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2">
+	<element name="Alton's Ring of the Faceless Ones (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_ALTON">
 		<description>
 			<p>A small gold band with no discernible features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
 			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Alton's ring began to glow as a new voice spoke in his head. Identifying himself as Echo, another of the Faceless Ones, he explained the purpose of their organization: to shape the world to bring balance, whether it was by dethroning corrupt leaders, redistributing wealth, or moving goods or contraband. The mysterious man then noted that the other Faceless Ones were watching Alton's progress closely, and if he were to succeed on his current mission, he would be allowed to join their ranks, taking up the name of the seat to which his ring belongs. However, as a sign of faith, Echo unlocked some of the more potent magical powers within the ring to aid the young bard in his fast-approaching trials.</p>
@@ -188,6 +188,51 @@
 			• Charm of Unlocking: Can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the charm person spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.&#13;
 			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spell alter self, which resides within the ring until the next long rest. Then as an action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as dispel magic. This magical disguise does not require concentration. &#13;
 			• Narrative Dissonance: Upon failing any ability check or saving throw, can use your reaction to re-roll the check or saving throw with advantage, as a smooth, sultry voice speaks in your mind: "No, no, that’s not how that happened.” The first time this special reaction is used, you take 1d6 necrotic damage, which ignores resistance and immunity. Each subsequent time you use this reaction again before finishing a long rest, the total dice count of the necrotic damage is doubled: 2d6, then 4d6, then 8d6, etc.</description>
+		</sheet>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">carried</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="CeeBee's Ring of the Faceless Ones (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_CEEBEE">
+		<description>
+			<p>A small gold band with no discernible features, this ring was given to Curious Bite by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
+			<h6><b>Charm of Unlocking</b></h6>
+			<p>As an action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>charm person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.</p>
+			<h6><b>One of Many Faces Amongst None</b></h6>
+			<p>At the end of a long rest, can prepare a magical disguise within the restrictions of the spell <i>alter self</i>, which resides within the ring until the next long rest. Then as a free action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as <i>dispel magic</i>. This magical disguise does not require concentration.</p>
+			<h6><b>Twin Shadows</b></h6>
+			<p>When casting <i>shadow blade</i>, the wearer manifests not one but two swords, one in each hand. In addition, while you are holding both swords, you gain the benefits of the “Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per long rest, after which casting <i>shadow blade</i> only results in one sword and does not grant the effects of the fighting style.</p>
+			<h6><b>Enhanced Vampiric Bite</b></h6>
+			<p>Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. Your snout turns into that of a dragon, a terrifying sight to behold. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d6+1 piercing damage on a hit, and it counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite. In addition, when you attack with this bite and hit a creature that isn’t a Construct or an Undead, you can empower yourself in one of the following ways of your choice:</p>
+			<ul>
+				<li>You regain hit points equal to the piercing damage dealt by the bite.</li>
+				<li>You gain a bonus to the next ability check or attack roll you make; the bonus equals the piercing damage dealt by the bite.</li>
+			</ul>
+			<p>You can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_CHARM_PERSON" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ALTER_SELF" />
+			</div>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_SHADOW_BLADE" />
+			</div>
+			<div class="reference">
+				<div element="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING" />
+			</div>
+		</description>
+		<sheet action="Free Action or Reaction" usage="3/Long Rest or Special">
+			<description>This magical ring holds many special properties designed to aid those in more surreptitious walks of life: &#13;
+			• Charm of Unlocking: Can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the charm person spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.&#13;
+			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spell alter self, which resides within the ring until the next long rest. Then as an action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as dispel magic. This magical disguise does not require concentration. &#13;
+			• Twin Shadows: When casting shadow blade, the wearer manifests not one but two swords, one in each hand, and gains the benefits of the "Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per long rest, after which casting shadow blade only results in one sword and does not grant the effects of the fighting style. &#13;
+			• Enhanced Vampiric Bite: Your vampiric bite is improved and deals 1d6+1 piercing damage on a hit in addition to its other effects.</description>
 		</sheet>
 		<setters>
 			<set name="category">Wondrous Items</set>
