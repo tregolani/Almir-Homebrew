@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Almir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.10">
+    <update version="0.1.11">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
@@ -219,6 +219,21 @@
 			<set name="enhancement">1</set>
 			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_HALBERDS</set>
 			<set name="name-format">Returning {{parent}} +{{enhancement}}</set>
+		</setters>
+	</element>
+	<element name="Reckless Conviction" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_RECKLESS_CONVICTION">
+		<description>
+			<p>While sporting no particular markings or embellishments, those of the Order of the Wardens would recognize this magical halberd as the signature weapon of Warden Riel. Known for his courageous acts of selflessness in his later years, this weapon embodies a more youthful bravado and vigor, and its blade gleams faintly when held by another of the Order.</p>
+			<p class="indent">The first time you attack with this halberd on each of your turns, you can reduce your Armor Class to grant the weapon a bonus to attack and damage rolls equal to the amount sacrificed, up to a maximum of +3. For example, you could reduce your Armor Class by 2 in order to gain a +2 to attack and damage rolls. The adjusted bonuses remain in effect until the start of your next turn, at which your Armor Class is returned to its previous value and the weapon loses any attack and damage bonuses.</p>
+		</description>
+		<setters>
+			<set name="keywords">halberd</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="halberd">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="weapon">Halberd</set>
 		</setters>
 	</element>
 </elements>
