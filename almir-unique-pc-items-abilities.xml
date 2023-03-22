@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.5">
+    <update version="0.2.6">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -173,7 +173,7 @@
 			<h6><b>Charm of Unlocking</b></h6>
 			<p>As an action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>charm person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.</p>
 			<h6><b>One of Many Faces Amongst None</b></h6>
-			<p>At the end of a long rest, can prepare a magical disguise within the restrictions of the spell <i>alter self</i>, which resides within the ring until the next long rest. Then as a free action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as <i>dispel magic</i>. This magical disguise does not require concentration.</p>
+			<p>At the end of a long rest, can prepare a magical disguise within the restrictions of the spells <i>disguise self</i> and <i>alter self</i>, which resides within the ring until the next long rest. Then as a free action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as <i>dispel magic</i>. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class.</p>
 			<h6><b>Narrative Dissonance</b></h6>
 			<p>Upon failing any ability check or saving throw, can use your reaction to re-roll the check or saving throw with advantage, as a smooth, sultry voice speaks in your mind: "No, no, that’s not how that happened.” The first time this special reaction is used, you take 1d6 necrotic damage, which ignores resistance and immunity. Each subsequent time you use this reaction again before finishing a long rest, the total dice count of the necrotic damage is doubled: 2d6, then 4d6, then 8d6, etc.</p>
 			<div class="reference">
@@ -186,7 +186,7 @@
 		<sheet action="Free Action or Reaction" usage="3/Long Rest or Special">
 			<description>This magical ring holds many special properties designed to aid those in more surreptitious walks of life: &#13;
 			• Charm of Unlocking: Can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the charm person spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.&#13;
-			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spell alter self, which resides within the ring until the next long rest. Then as an action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as dispel magic. This magical disguise does not require concentration. &#13;
+			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spells disguise self and alter self, which resides within the ring until the next long rest. Then as an action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as dispel magic. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class. &#13;
 			• Narrative Dissonance: Upon failing any ability check or saving throw, can use your reaction to re-roll the check or saving throw with advantage, as a smooth, sultry voice speaks in your mind: "No, no, that’s not how that happened.” The first time this special reaction is used, you take 1d6 necrotic damage, which ignores resistance and immunity. Each subsequent time you use this reaction again before finishing a long rest, the total dice count of the necrotic damage is doubled: 2d6, then 4d6, then 8d6, etc.</description>
 		</sheet>
 		<setters>
@@ -204,7 +204,7 @@
 			<h6><b>Charm of Unlocking</b></h6>
 			<p>As an action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>charm person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.</p>
 			<h6><b>One of Many Faces Amongst None</b></h6>
-			<p>At the end of a long rest, can prepare a magical disguise within the restrictions of the spell <i>alter self</i>, which resides within the ring until the next long rest. Then as a free action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as <i>dispel magic</i>. This magical disguise does not require concentration.</p>
+			<p>At the end of a long rest, can prepare a magical disguise within the restrictions of the spells <i>disguise self</i> and <i>alter self</i>, which resides within the ring until the next long rest. Then as a free action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as <i>dispel magic</i>. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class.</p>
 			<h6><b>Twin Shadows</b></h6>
 			<p>When casting <i>shadow blade</i>, the wearer manifests not one but two swords, one in each hand. In addition, while you are holding both swords, you gain the benefits of the “Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per long rest, after which casting <i>shadow blade</i> only results in one sword and does not grant the effects of the fighting style.</p>
 			<h6><b>Enhanced Vampiric Bite</b></h6>
@@ -230,7 +230,7 @@
 		<sheet action="Free Action or Reaction" usage="3/Long Rest or Special">
 			<description>This magical ring holds many special properties designed to aid those in more surreptitious walks of life: &#13;
 			• Charm of Unlocking: Can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the charm person spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.&#13;
-			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spell alter self, which resides within the ring until the next long rest. Then as an action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as dispel magic. This magical disguise does not require concentration. &#13;
+			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spells disguise self and alter self, which resides within the ring until the next long rest. Then as an action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as dispel magic. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class. &#13;
 			• Twin Shadows: When casting shadow blade, the wearer manifests not one but two swords, one in each hand, and gains the benefits of the "Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per long rest, after which casting shadow blade only results in one sword and does not grant the effects of the fighting style. &#13;
 			• Enhanced Vampiric Bite: Your vampiric bite is improved and deals 1d6+1 piercing damage on a hit in addition to its other effects.</description>
 		</sheet>
