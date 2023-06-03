@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.7">
+    <update version="0.2.8">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -714,7 +714,7 @@
 			</setters>
 		<rules>
 			<stat name="companion:ac" value="14" bonus="base" />
-			<stat name="companion:hp:max" value="32" />
+			<stat name="companion:hp:max" value="36" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -755,7 +755,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="16" bonus="base" />
-			<stat name="companion:hp:max" value="32" />
+			<stat name="companion:hp:max" value="36" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -797,7 +797,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="14" bonus="base" />
-			<stat name="companion:hp:max" value="32" />
+			<stat name="companion:hp:max" value="36" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -838,7 +838,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="16" bonus="base" />
-			<stat name="companion:hp:max" value="32" />
+			<stat name="companion:hp:max" value="36" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -880,7 +880,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="14" bonus="base" />
-			<stat name="companion:hp:max" value="32" />
+			<stat name="companion:hp:max" value="36" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -921,7 +921,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="16" bonus="base" />
-			<stat name="companion:hp:max" value="32" />
+			<stat name="companion:hp:max" value="36" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
