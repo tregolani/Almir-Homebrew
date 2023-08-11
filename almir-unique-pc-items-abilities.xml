@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.9">
+    <update version="0.2.10">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -618,7 +618,7 @@
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +6, Cha +8</set>
-			<set name="skills">Athletics +0, Deception +8, Perception +4, Persuasion +8 </set>
+			<set name="skills">Athletics +0, Deception +8, Perception +4, Performance +8, Persuasion +8 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 14</set>
 			<set name="languages">understands the languages you speak</set>
 			<set name="type">Elemental</set>
@@ -661,7 +661,7 @@
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +6, Cha +3</set>
-			<set name="skills">Acrobatics +8, Athletics +0, Perception +4, Stealth +8 </set>
+			<set name="skills">Acrobatics +8, Athletics +0, Perception +4, Performance +3, Stealth +8 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 14</set>
 			<set name="languages">understands the languages you speak</set>
 			<set name="type">Elemental</set>
@@ -703,7 +703,7 @@
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +7, Cha +9</set>
-			<set name="skills">Athletics +1, Deception +9, Perception +5, Persuasion +9 </set>
+			<set name="skills">Athletics +1, Deception +9, Perception +5, Performance +9, Persuasion +9 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 15</set>
 			<set name="languages">understands the languages you speak</set>
 			<set name="type">Elemental</set>
@@ -746,7 +746,7 @@
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +7, Cha +4</set>
-			<set name="skills">Acrobatics +9, Athletics +1, Perception +5, Stealth +9 </set>
+			<set name="skills">Acrobatics +9, Athletics +1, Perception +5, Performance +4, Stealth +9 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 15</set>
 			<set name="languages">understands the languages you speak</set>
 			<set name="type">Elemental</set>
@@ -788,7 +788,7 @@
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +8, Cha +10</set>
-			<set name="skills">Athletics +2, Deception +10, Perception +6, Persuasion +10 </set>
+			<set name="skills">Athletics +2, Deception +10, Perception +6, Performance +10, Persuasion +10 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 16</set>
 			<set name="languages">understands the languages you speak</set>
 			<set name="type">Elemental</set>
@@ -831,7 +831,7 @@
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +8, Cha +5</set>
-			<set name="skills">Acrobatics +10, Athletics +2, Perception +6, Stealth +10 </set>
+			<set name="skills">Acrobatics +10, Athletics +2, Perception +6, Performance +5, Stealth +10 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 16</set>
 			<set name="languages">understands the languages you speak</set>
 			<set name="type">Elemental</set>
@@ -873,7 +873,7 @@
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +9, Cha +11</set>
-			<set name="skills">Athletics +3, Deception +11, Perception +7, Persuasion +11 </set>
+			<set name="skills">Athletics +3, Deception +11, Perception +7, Performance +11, Persuasion +11 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 17</set>
 			<set name="languages">understands the languages you speak</set>
 			<set name="type">Elemental</set>
@@ -916,7 +916,7 @@
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +9, Cha +6</set>
-			<set name="skills">Acrobatics +11, Athletics +3, Perception +7, Stealth +11 </set>
+			<set name="skills">Acrobatics +11, Athletics +3, Perception +7, Performance +6, Stealth +11 </set>
 			<set name="senses">darkvision 60 ft., passive Perception 13</set>
 			<set name="languages">understands the languages you speak</set>
 			<set name="type">Elemental</set>
