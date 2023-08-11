@@ -639,6 +639,7 @@
 			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
@@ -680,6 +681,7 @@
 			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
@@ -722,6 +724,7 @@
 			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
@@ -763,6 +766,7 @@
 			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
@@ -805,6 +809,7 @@
 			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
@@ -846,6 +851,7 @@
 			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
@@ -888,6 +894,7 @@
 			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
@@ -929,6 +936,7 @@
 			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
