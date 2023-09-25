@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.14">
+    <update version="0.2.15">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -522,6 +522,44 @@
 		</setters> -->
 	</element>
 
+	<element name="Seabreeze's Ring of the Faceless Ones (Reborn)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_SEABREEZE">
+		<description>
+			<p>A small gold band with no discernible features, this ring was given to Curious Bite by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative. However, after her restoration through Lathander, the enchantment that enhanced her dhampir bite proved to have been cleansed from the ring by the Morninglord's power.</p>
+			<h6><b>Charm of Unlocking</b></h6>
+			<p>As an action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>charm person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.</p>
+			<h6><b>One of Many Faces Amongst None</b></h6>
+			<p>At the end of a long rest, can prepare a magical disguise within the restrictions of the spells <i>disguise self</i> and <i>alter self</i>, which resides within the ring until the next long rest. Then as a free action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as <i>dispel magic</i>. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class.</p>
+			<h6><b>Twin Shadows</b></h6>
+			<p>When casting <i>shadow blade</i>, the wearer manifests not one but two swords, one in each hand. In addition, while you are holding both swords, you gain the benefits of the “Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per long rest, after which casting <i>shadow blade</i> only results in one sword and does not grant the effects of the fighting style.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_CHARM_PERSON" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ALTER_SELF" />
+			</div>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_SHADOW_BLADE" />
+			</div>
+			<div class="reference">
+				<div element="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING" />
+			</div>
+		</description>
+		<sheet action="Free Action or Reaction" usage="3/Long Rest or Special">
+			<description>This magical ring holds many special properties designed to aid those in more surreptitious walks of life: &#13;
+			• Charm of Unlocking: Can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the charm person spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.&#13;
+			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spells disguise self and alter self, which resides within the ring until the next long rest. Then as an action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as dispel magic. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class. &#13;
+			• Twin Shadows: When casting shadow blade, the wearer manifests not one but two swords, one in each hand, and gains the benefits of the "Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per long rest, after which casting shadow blade only results in one sword and does not grant the effects of the fighting style.</description>
+		</sheet>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">carried</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	
 <!-- Spells -->
 	<element name="Fey Reaper's Mark" type="Spell" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SPELL_FEY_REAPERS_MARK">
 		<description>
