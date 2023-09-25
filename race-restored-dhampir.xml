@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Restored Dhampir</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="race-restored-dhampir.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/race-restored-dhampir.xml" />
 		</update>
 	</info>
@@ -92,10 +92,10 @@
 
 	<element name="Reborn Resilience" type="Racial Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_REBORN_RESILIENCE">
 		<description>
-			<p>You have resistance to necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have advantage on saves against charm and possession effects, and can add your Intelligence modifier to the total.</p>
+			<p>You have resistance to necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have advantage on saves against charm and possession effects, and can add your Intelligence modifier to the roll.</p>
 		</description>
 		<sheet>
-			<description>You have resistance to necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have advantage on saves against charm and possession effects, and can add your Intelligence modifier to the total.</description>
+			<description>You have resistance to necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have advantage on saves against charm and possession effects, and can add your Intelligence modifier to the roll.</description>
 		</sheet>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
@@ -128,7 +128,7 @@
 			<p>A powerful light within you wards you against death. When you are reduced to 0 hit points, you can use your reaction to immediately rise back to your feet with a burst of radiant energy. You regain a number of hitpoints equal to twice your level, and all creatures of your choice within 10ft must succeed a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or take an equal amount of radiant damage and be blinded until the start of your next turn. Once you use this reaction, you cannot do so again until you complete a long rest.</p>
 		</description>
 		<sheet action="Reaction" usage="1/Long Rest">
-			<description>When you are reduced to 0 hit points, you can use your reaction to immediately rise back to your feet with a burst of radiant energy. You regain {{blazing renewal:healing}} hitpoints , and all creatures of your choice within 10ft must succeed a Constitution saving throw (DC {{blazing renewal:dc}}) or take an equal amount of radiant damage and be blinded until the start of your next turn.</description>
+			<description>When you are reduced to 0 hit points, you can use your reaction to immediately rise back to your feet with a burst of radiant energy. You regain {{blazing renewal:healing}} hitpoints, and all creatures of your choice within 10ft must succeed a Constitution saving throw (DC{{blazing renewal:dc}}) or take an equal amount of radiant damage and be blinded until the start of your next turn.</description>
 		</sheet>
 		<rules>
 			<stat name="blazing renewal:healing" value="level" />
