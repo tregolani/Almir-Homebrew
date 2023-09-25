@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Restored Dhampir</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="race-restored-dhampir.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/race-restored-dhampir.xml" />
 		</update>
 	</info>
@@ -72,6 +72,7 @@
 			<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_SPIDER_CLIMB" />
 			<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_CELESTIAL_SPARK" />
 			<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_BLAZING_RENEWAL" />
+			<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_SUBRACE" />
 		</rules>
 	</element>
 
@@ -136,5 +137,89 @@
 			<stat name="blazing renewal:dc" value="proficiency" base="proficiency" />
 			<stat name="blazing renewal:dc" value="constitution:modifier" base="ability" />
 			</rules>
+	</element>
+	<element name="Restored Dhampir Subrace" type="Racial Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_SUBRACE">
+		<description>
+			<p>Dhampirs, and those rare enough to be restored back from their forced undeath, can be found among any of the known mortal races of the universe.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Sub Race" name="Restored Dhampir Subrace" supports="Restored Dhampir" />
+		</rules>
+	</element>
+	<element name="Dwarf" type="Sub Race" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_DWARF_SUBRACE">
+		<supports>Restored Dhampir</supports>
+		<description>
+			<p>As a former dwarf, you are resilient as the stone and are blessed with both strength and tenacity.</p>
+			<p>     
+				<span class="feature">Dwarven Resilience.</span> You have advantage on saving throws against poison, and you have resistance against poison damage. <br />
+				<span class="feature">Dwarven Armor Training.</span> You have proficiency with light and medium armor. <br />
+			</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_RESILIENCE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_ARMOR_TRAINING" />
+		</rules>
+	</element>
+	<element name="Elf" type="Sub Race" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_ELF_SUBRACE">
+		<supports>Restored Dhampir</supports>
+		<description>
+			<p>As a former elf, you are blessed with unearthly grace and fine features, and a timeless perspective that protects against compulsory influences.</p>
+			<p>     
+				<span class="feature">Fey Ancestry.</span> You have advantage on saving throws against being charmed, and magic can’t put you to sleep. <br />
+				<span class="feature">Trance.</span> Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep. <br />
+			</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FEY_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRANCE" />
+		</rules>
+	</element>
+	<element name="Tabaxi" type="Sub Race" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_TABAXI_SUBRACE">
+		<supports>Restored Dhampir</supports>
+		<description>
+			<p>As a former tabaxi, your body is one graced with feline dexterity and speed, as well as equipped with a set of retractable claws which can serve as lethal weapons in a pinch.</p>
+			<p>     
+				<span class="feature">Cat's Claws.</span> You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.<br />
+				<span class="feature">Feline Agility.</span> Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns. <br />
+			</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_TABAXI_CATS_CLAWS" />
+			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_TABAXI_FELINE_AGILITY" />
+		</rules>
+	</element>
+	<element name="Tiefling" type="Sub Race" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_TIEFLING_SUBRACE">
+		<supports>Restored Dhampir</supports>
+		<description>
+			<p>As a former tiefling, your fiendish origins provide you with innate resistance to flames and a keen attunement with magic.</p>
+			<p>     
+				<span class="feature">Hellish Resistance.</span> You have resistance to fire damage. <br />
+				<span class="feature">Infernal Legacy.</span> You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells. <br />
+			</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HELLISH_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_INFERNAL_LEGACY" />
+		</rules>
+	</element>
+	<element name="Tabaxi" type="Sub Race" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_TABAXI_SUBRACE">
+		<supports>Restored Dhampir</supports>
+		<description>
+			<p>As a former tabaxi, your body is one graced with feline dexterity and speed, as well as equipped with a set of retractable claws which can serve as lethal weapons in a pinch.</p>
+			<p>     
+				<span class="feature">Cat's Claws.</span> You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.<br />
+				<span class="feature">Feline Agility.</span> Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns. <br />
+			</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_TABAXI_CATS_CLAWS" />
+			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_TABAXI_FELINE_AGILITY" />
+		</rules>
 	</element>
 </elements>
