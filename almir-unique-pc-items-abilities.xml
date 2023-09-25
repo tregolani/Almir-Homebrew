@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.10">
+    <update version="0.2.14">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -397,14 +397,14 @@
 				<thead>
 					<tr><td>d10</td><td class="center">Elemental Form</td></tr>
 				</thead>
-				<tr><td>1-3</td><td><strong>Earth.</strong> Become a living avatar of Grum’bar, strengthening your flesh as stone, with the bright ruby eyes to match. Barnacle dissolves during this transformation, lost to the overwhelming surge of the earth, and you gain the following effects:<br/>
+				<tr><td>1-3</td><td><strong>Earth.</strong> Become a living avatar of Grumbar, strengthening your flesh as stone, with the bright ruby eyes to match. Barnacle dissolves during this transformation, lost to the overwhelming surge of the earth, and you gain the following effects:<br/>
 				• You gain a bonus to AC equal to double your Constitution modifier.<br/>
 				• Gain temporary hitpoints equal to half of Barnacle’s maximum hitpoint total.<br/>
 				• Your Strength and Charisma attribute values and save proficiencies are swapped.<br/>
 				• A stone maul manifests in one of your open hands. It deals 2d6 bludgeoning damage plus an additional 1d12 force damage on a hit (which is not doubled on a critical hit), has the heavy and two-handed properties, and it counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. On your turn, you may attack twice with it when using the Attack action.<br/> 
 				• In this form, you cannot cast spells, but gain access to the <i>Petrifying Gaze</i> and <i>Stone's Lethargy</i> abilities.<br/>
 				• Upon transforming, your Watery Defense ability is recharged, and you gain an additional use of it. However, the ability is replaced by Stone’s Lethargy for the duration of the transformation.<br/>
-				• • <strong>Petrifying Gaze.</strong> Once per transformation, you can, as an action, channel the Gaze of Grum’bar. Until the start of your next turn, any creature that starts its turn within 30 feet of you and is able to see your eyes must make a Constitution saving throw. If the creature fails the saving throw by 5 or more, it is instantly petrified. Otherwise on a failure, the creature is restrained as it begins to turn to stone, and must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. This petrification lasts until removed by the <i>greater restoration</i> spell or other magic.<br/>
+				• • <strong>Petrifying Gaze.</strong> Once per transformation, you can, as an action, channel the Gaze of Grumbar. Until the start of your next turn, any creature that starts its turn within 30 feet of you and is able to see your eyes must make a Constitution saving throw. If the creature fails the saving throw by 5 or more, it is instantly petrified. Otherwise on a failure, the creature is restrained as it begins to turn to stone, and must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. This petrification lasts until removed by the <i>greater restoration</i> spell or other magic.<br/>
 				• • <strong>Stone's Lethargy.</strong> As a reaction upon being hit by a melee attack, you can strengthen the resilience of your rocky skin. You gain resistance to the attack's damage, and the creature must succeed on a Constitution saving throw or have disadvantage on all weapon attacks until the end of its next turn.<br/>
 				• While transformed, any ability requiring a saving throw uses the following DC calculation: <strong>Stone Form DC</strong> = <i>8 + your proficiency bonus + your Constitution modifier.</i></td></tr>
 				<tr><td>4-6</td><td><strong>Water. </strong>You embrace the tides of Umberlee: your form becomes fluid and mutable, and light seems to glint and refract as it strikes your skin. Refreshed and invigorated by the tides, a new storm is brought forth. While in this form, you gain the following effects:<br/>
@@ -440,7 +440,88 @@
 			<set name="rarity">Artifact</set>
 		</setters> -->
 	</element>
-	
+
+<!-- Session 70 Abilities -->
+	<element name="Hildie's All-Purpose Tool, +1" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_HILDIES_APT_STAGE1">
+		<description>
+			<p>What's an artificer without her tools? What artificer wants to lug around bundle of tools, when one could suffice?</p>
+			<p class="indent">Such is the guild stamped multitool passed down from her father to Hildie. Although branded and matching the same design as any other guild tool, this one was special. Orryn and his mentor before him had always tinkered with the tool, pushing its functions far beyond what a normal multitool was capable of. A crystalline matrix core acted as the the heart of every multitool. Powering its functions and allowing the “creative juices” to flow…figuratively and in a sense, literally. Acting as a conduit for the magic of artificers as well, it was the most important part of the tool.</p>
+			<p class="indent">The one in Hildie’s was…even more unique. Her father would tell her that the crystal itself was no ordinary thing, rather a relic of a time gone past. A mineral that to the naked eye looked like any other, but its patterns, its lattice, the very fluidity of its structure was something else entirely. It had great potential, and what he knew he imparted to Hildie. But, like any great magic or science, he was certain there was still much more to learn.</p>
+			<h6><b>All-Purpose Tool</b></h6>
+			<p>This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan’s tool of your choice (see the "Equipment" chapter in the Player’s Handbook for a list of artisan’s tools). Whatever form the tool takes, you are proficient with it.</p>
+			<p class="indent">While holding this tool, you gain a +1 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.</p>
+			<p class="indent">As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don’t know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can’t be used again until the next dawn.</p>
+			<h6><b>Blast of Ingenuity</b></h6>
+			<p>Experimentation, discovery, ingenuity; often the rise and fall of many inventors.</p>
+			<p class="indent">As an action, choose up to two spells that you could cast, and using the appropriate spell slots, infuse them into the tool’s unique core. Other spells from other casters may be used as an action on their turn, using the appropriate spell slot from them. A maximum of two spells may be stored in this fashion in the core. The stored spells last 24 hours.</p>
+			<p class="indent"><strong><em>Release!</em></strong> While one or more spells are infused into the tool's core, you can, as an action, release the blended magic in an experimental blast of creative chance. Make an ability check using your spellcasting ability, with the DC equal to 10 + the sum of the stored spells’ levels, to determine the effect from the table below:</p>
+			<table>
+				<thead>
+					<tr><td>Roll Total</td><td class="center">Result</td></tr>
+				</thead>
+				<tr><td>Result > DC+5</td><td><strong>Eureka!</strong> The result mixes the two spells successfully resulting in something entirely new. The resulting spell effect can fully mix + blend both spells with appropriate DM confirmation.</td></tr>
+				<tr><td>DC+5 ≥ Result ≥ DC</td><td><strong>Success!</strong> The result is a partial blend of the two spells. Choose one spell to act as the base and add a modifier or effect from the other spell to mix into the cast.</td></tr>
+				<tr><td>DC > Result ≥ DC-5</td><td><strong>Incomplete Melding.</strong> The spells fail to mix. Choose one of the two spells stored; that spell is cast alone as normal. The other spell remains stored in the core for its remaining duration.</td></tr>
+				<tr><td>DC-5 > Result</td><td><strong>Unstable Reaction.</strong> The spells fail to mix, and their discordant energies cause the core to destabilize. Flip a coin: if the result is heads, the spell with the higher level is cast; if the result is tails, the spell with the lower level is cast. In the event of both spells being the same level, designate each spell as heads or tails before the coin is flipped. Then, once the spell is cast, the unused spell fizzles and is lost from the core.</td></tr>
+				<tr><td>Result = Natural-1</td><td><strong>Catastrophic Failure.</strong> The spells react violently and are both expelled as an explosion centered on the caster. The caster and all creatures within 5ft must make a Dexterity saving throw, with the DC being equal to 10 + plus the sum of the stored spells' levels. On a failure, a target takes (1+X)d6 force damage (where X is the sum of the stored spells' levels), or half as much damage on a successful one.</td></tr>
+			</table>
+			<p>Any spell cast from this tool uses the wielder's spellcasting ability and spell DC to determine its effects, and the wielder must concentrate on the spell as normal if the spell requires it.</p>
+		</description>
+		<sheet action="Action">
+			<description>As an action, choose up to two spells that you could cast, and using the appropriate spell slots, infuse them into the tool’s unique core. Other spells from other casters may be used as an action on their turn, using the appropriate spell slot from them. A maximum of two spells may be stored in this fashion in the core. The stored spells last 24 hours. While one or more spells are infused into the tool's core, you can, as an action, release the blended magic in an experimental blast of creative chance.</description>
+		</sheet>
+		<setters>
+			<set name="keywords">artificer</set>
+			<set name="category">Wondrous Items</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement" addition="by an artificer">true</set>
+		</setters>
+		<rules>
+			<stat name="artificer:spellcasting:attack" value="1" />
+			<stat name="artificer:spellcasting:dc" value="1" />
+		</rules>
+	</element>
+
+	<element name="Countenance of Terror" type="Feat" source="Almir Homebrew Collection" id="ID_ALMIR_FEAT_COUNTENANCE_OF_TERROR">
+		<description>
+			<p>You learn to infuse innocent-seeming words with an insidious magic that can inspire terror.</p>
+			<p class="indent">If you speak to a humanoid alone for at least 1 minute, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell save DC or be frightened of you or another creature of your choice. The target is frightened in this way for 1 hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged.</p>
+			<p class="indent">If the target succeeds on its saving throw, the target has no hint that you tried to frighten it.</p>
+			<p class="indent">Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>After having conversation with a lone humanoid for at least 1 minute, you can force it to make a DC{{spellcasting:dc:int}} Wisdom saving throw. On a fail, it is frightened of you or another creature of your choice. This effect lasts for 1 hour, until target is attacked or damaged, or until target witnesses its allies being attacked or damaged. On a success, it has no idea you tried to frighten it.</description>
+		</sheet>
+<!--		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">misc</set>
+			<set name="type">Supernatural Gift</set>
+			<set name="rarity">Artifact</set>
+		</setters> -->
+	</element>
+
+	<element name="Imminent Demise" type="Feat" source="Almir Homebrew Collection" id="ID_ALMIR_FEAT_IMMINENT_DEMISE">
+		<description>
+			<p>When you successfully hit a creature with a Sneak Attack, you can sacrifice up to a number of the bonus damage dice equal to your Intelligence modifier to force the creature to make a Constitution saving throw against your spell DC. On a failure, the target takes 2d8 radiant damage per dice sacrificed and is blinded until the start of your next turn. On a success, it takes half that damage and is not blinded. This ability does not benefit from critical hits.</p>
+			<p class="indent">Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>When you successfully hit a creature with a Sneak Attack, you can sacrifice up to {{intelligence:modifier}} damage dice to force the creature to make a DC{{spellcasting:dc:int}} Constitution saving throw. On a failure, the target takes 2d8 radiant damage per dice sacrificed and is blinded until the start of your next turn. On a success, it takes half damage and is not blinded. This ability does not benefit from critical hits.</description>
+		</sheet>
+<!--		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">misc</set>
+			<set name="type">Supernatural Gift</set>
+			<set name="rarity">Artifact</set>
+		</setters> -->
+	</element>
+
 <!-- Spells -->
 	<element name="Fey Reaper's Mark" type="Spell" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SPELL_FEY_REAPERS_MARK">
 		<description>
