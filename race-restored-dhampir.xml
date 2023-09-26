@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Restored Dhampir</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="race-restored-dhampir.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/race-restored-dhampir.xml" />
 		</update>
 	</info>
@@ -117,10 +117,10 @@
 	
 	<element name="Celestial Spark" type="Racial Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_CELESTIAL_SPARK">
 		<description>
-			<p>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total, potentially turning failure into success. You can do this a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Alternatively if you have no uses left, you can spend a spell slot to immediately regain a use of this feature.</p>
+			<p>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total. Once this feature turns a failure into a success, you can't use it again until you finish a long rest or until you expend a spell slot of 1st level or higher.</p>
 		</description>
-		<sheet action="Reaction" usage="{{proficiency}}/Long Rest">
-			<description>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4+{{intelligence:modifier}} and add it to the total, potentially turning failure into success.</description>
+		<sheet action="Reaction" usage="1/Long Rest or 1 Spell Slot">
+			<description>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4+{{intelligence:modifier}} and add it to the total, potentially turning failure into success. </description>
 		</sheet>
 	</element>
 	<element name="Blazing Renewal" type="Racial Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_BLAZING_RENEWAL">
