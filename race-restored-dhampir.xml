@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Restored Dhampir</name>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="race-restored-dhampir.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/race-restored-dhampir.xml" />
 		</update>
 	</info>
@@ -117,9 +117,9 @@
 	
 	<element name="Celestial Spark" type="Racial Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_CELESTIAL_SPARK">
 		<description>
-			<p>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total. Once this feature turns a failure into a success, you can't use it again until you finish a long rest or until you expend a spell slot of 1st level or higher.</p>
+			<p>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total. Once this feature turns a failure into a success, you can't use it again until you finish a long rest. You can also reuse the spark by expending a spell slot of 1st level or higher.</p>
 		</description>
-		<sheet action="Reaction" usage="1/Long Rest or 1 Spell Slot">
+		<sheet action="Special" usage="1/Long Rest or 1 Spell Slot">
 			<description>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4+{{intelligence:modifier}} and add it to the total, potentially turning failure into success. </description>
 		</sheet>
 	</element>
