@@ -4,7 +4,7 @@
     <name>Almir Homebrew Collection</name>
 	<description>A collection of homebrew items and abilities for Salty Coffee's Almir DnD 5e Campaign</description>
 	<author>"Tregolani"</author>  
-    <update version="1.4">
+    <update version="1.5">
       <file name="almir-homebrew.index" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-homebrew.index" />
     </update>
   </info>
@@ -13,6 +13,7 @@
 	<file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
 	<!--<file name="almir-class-cfv-ranger.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-class-cfv-ranger.xml" /> -->
 	<file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
+	<file name="almir-warlock-genie.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-warlock-genie.xml" />
 	<file name="race-restored-dhampir.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/race-restored-dhampir.xml" />
   </files>
 </index>
