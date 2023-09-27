@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="almir-source.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-source.xml" />
 		</update>
 	</info>
 	<element name="Almir Homebrew Collection" type="Source" source="Personal Homebrew" id="ID_ALMIR_CAMPAIGN_HOMEBREW">
 		<description>
 			<![CDATA[<p>This is a collection for Salty Coffee's homebrew DnD campaign, set in the magical world of Almir. Within you will find mystical artifacts gifted to each character linking their individual backgrounds to the world at large, as well as magical weapons, armors, and items found within the world itself. As the players delve deeper into the world, who knows what unique and mysterious things the members of the Company of Heroes will discover?</p>
-			<p class="indent">Also included in this collection is a retooling of the Ranger class based on the tweaks and additions found in the <strong>UA: Class Feature Variants</strong> released on 11/4/2019 and to be released in the upcoming <strong>Tasha's Cauldron of Everything</strong></p>]]>
 		</description>
 		<setters>
 			<set name="abbreviation">AHBC20200917</set>
       			<set name="author">Tregolani</set>
-			<set name="url">https://media.wizards.com/2019/dnd/downloads/UA-ClassFeatures.pdf</set>
+			<set name="url" />
 			<set name="official">false</set>
 			<set name="playtest">true</set>
 			<set name="release">20200917</set>
