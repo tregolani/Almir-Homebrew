@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.7">
+		<update version="0.0.8">
 			<file name="almir-source.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-source.xml" />
 		</update>
 	</info>
@@ -12,7 +12,7 @@
 		<setters>
 			<set name="abbreviation">AHBC20200917</set>
       			<set name="author">Tregolani</set>
-			<set name="url" />
+			<set name="url"></set>
 			<set name="official">false</set>
 			<set name="playtest">true</set>
 			<set name="release">20200917</set>
