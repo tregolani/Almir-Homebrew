@@ -4,7 +4,7 @@
 		<name>Genie Patron (Almir)</name>
 		<description>The Genie Patron from Tasha’s Cauldron of Everything, modified for the Almir Campaign</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Tasha’s Cauldron of Everything</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="almir-warlock-genie.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
 		</update>
 	</info>
@@ -98,11 +98,11 @@
 				<thead>
 					<tr><td>Warlock Level</td><td>Genie Spells</td><td>Dao Spells</td><td>Djinni Spells</td><td>Efreeti Spells</td><td>Marid Spells</td><td>Void Spells</td></tr>
 				</thead>
-				<tr><td>1st</td><td><em>detect evil and good</em></td><td><em>sanctuary</em></td><td><em>thunderwave</em></td><td><em>burning hands</em></td><td><em>fog cloud</em></td><td><em>dissonant whispers</em></td></tr>
-				<tr><td>3rd</td><td><em>phantasmal force</em></td><td><em>spike growth</em></td><td><em>gust of wind</em></td><td><em>scorching ray</em></td><td><em>blur</em></td><td><em>mind whip</em></td></tr>
-				<tr><td>5th</td><td><em>create food and water</em></td><td><em>meld into stone</em></td><td><em>wind wall</em></td><td><em>fireball</em></td><td><em>sleet storm</em></td><td><em>intellect fortress</em></td></tr>
-				<tr><td>7th</td><td><em>phantasmal killer</em></td><td><em>stone shape</em></td><td><em>greater invisibility</em></td><td><em>fire shield</em></td><td><em>control water</em></td><td><em>confusion</em></td></tr>
-				<tr><td>9th</td><td><em>creation</em></td><td><em>wall of stone</em></td><td><em>seeming</em></td><td><em>flame strike</em></td><td><em>cone of cold</em></td><td><em>geas</em></td></tr>
+				<tr><td>1st</td><td><em>detect evil and good</em></td><td><em>sanctuary</em></td><td><em>thunderwave</em></td><td><em>burning hands</em></td><td><em>fog cloud</em></td><td><em>gift of alacrity</em></td></tr>
+				<tr><td>3rd</td><td><em>phantasmal force</em></td><td><em>spike growth</em></td><td><em>gust of wind</em></td><td><em>scorching ray</em></td><td><em>blur</em></td><td><em>silence</em></td></tr>
+				<tr><td>5th</td><td><em>create food and water</em></td><td><em>meld into stone</em></td><td><em>wind wall</em></td><td><em>fireball</em></td><td><em>sleet storm</em></td><td><em>hunger of hadar</em></td></tr>
+				<tr><td>7th</td><td><em>phantasmal killer</em></td><td><em>stone shape</em></td><td><em>greater invisibility</em></td><td><em>fire shield</em></td><td><em>control water</em></td><td><em>summon aberration</em></td></tr>
+				<tr><td>9th</td><td><em>creation</em></td><td><em>wall of stone</em></td><td><em>seeming</em></td><td><em>flame strike</em></td><td><em>cone of cold</em></td><td><em>dream</em></td></tr>
 				<tr><td>17th</td><td><em>wish</em></td><td><em>—</em></td><td><em>—</em></td><td><em>—</em></td><td><em>—</em></td><td><em>—</em></td></tr>
 			</table>
 		</description>
@@ -209,11 +209,11 @@
 			<extend>ID_PHB_SPELL_CONE_OF_COLD</extend>
 		</spellcasting> -->
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_DISSONANT_WHISPERS" level="1" spellcasting="Warlock" />
-			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_TASHAS_MIND_WHIP" level="3" spellcasting="Warlock" />
-			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_INTELLECT_FORTRESS" level="5" spellcasting="Warlock" />
-			<grant type="Spell" id="ID_PHB_SPELL_CONFUSION" level="7" spellcasting="Warlock" />
-			<grant type="Spell" id="ID_PHB_SPELL_GEAS" level="9" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_EGTW_SPELL_GIFT_OF_ALACRITY" level="1" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_PHB_SPELL_SILENCE" level="3" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_PHB_SPELL_HUNGER_OF_HADAR" level="5" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_WOTC_TCOE_SPELL_SUMMON_ABERRATION" level="7" spellcasting="Warlock" />
+			<grant type="Spell" id="ID_PHB_SPELL_DREAM" level="9" spellcasting="Warlock" />
 		</rules>
 	</element>
 	<element name="Genie’s Vessel" type="Archetype Feature" source="Almir Homebrew Collection" id="ID_ALMIR_HB_ARCHETYPE_FEATURE_THE_GENIE_GENIES_VESSEL">
