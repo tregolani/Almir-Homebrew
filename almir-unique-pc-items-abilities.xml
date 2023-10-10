@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.16">
+    <update version="0.2.17">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -557,6 +557,17 @@
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Artifact</set>
 		</setters>
+	</element>
+
+	<element name="Initiate of a Curious God Named Ploink" type="Feat" source="Almir Homebrew Collection" id="ID_ALMIR_FEAT_CURIOUS_GOD_PLOINK">
+		<description>
+			<p>The gods of Almir often work in mysterious ways, but none moreso than the curious, enigmatic god known only as Ploink. Those who call on her as their patron deity adamantly claim that She acts to bring balance to the entropy inherent in the world, but even they are hard-pressed to explain Her manifestations as anything other than random chaos. Still, Her devouts choose to spend their lives pursuing methods to summon forth Her influence into the world, and are willing to pass this knowledge on to those who express a desire to embody a life dedicated to chaos.</p>
+			<p class="indent">For Themor, the intoxicating lure of his burgeoning godhood proved irresistible, and he found himself compelled to seek out Malays, the self-titled priestess of Ploink, to learn more of his powers. As expected, she was happy to share of her knowledge, and after a month of intense communion with the Goddess of Chaos, his control over Her manifestations had grown beyond the need for a blessed catalyst, instead enacting wonders of chaos with but a mere swing of his mighty blade. However, only time will tell whether the power to wield chaos so freely will bring balance or destruction to the world of Mir.</p>
+				<p class="indent"><strong><em>Blade of Entropy.</em></strong> Once per turn when you expend a Superiority Dice, you can choose to convert it into an act of chaos. Flip a coin - on heads, the dice rolls its maximum value; on tails, the dice rolls its minimum value. The DM will then roll on the Almir Wild Magic table to create a random magical effect.</p>
+		</description>
+		<sheet usage="1/Turn when expending a Superiority Dice">
+			<description>When you expend a Superiority Dice, you can choose to convert it into an act of chaos. Flip a coin - on heads, the dice rolls its maximum value; on tails, the dice rolls its minimum value. The DM will then roll on the Almir Wild Magic table to create a random magical effect.</description>
+		</sheet>
 	</element>
 
 <!-- Spells -->
