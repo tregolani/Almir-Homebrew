@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Almir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.12">
+    <update version="0.1.13">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
@@ -138,6 +138,23 @@
 			<set name="type" addition="halberd">Weapon</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Artifact</set>
+			<set name="weapon">Halberd</set>
+		</setters>
+	</element>
+	<element name="Dwarven Lord's Returning Halberd +2" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_DWARVEN_LORDS_RETURNING_HALBERD">
+		<description>
+			<p>This unique halberd is an exquisite marvel of blacksmithing. Crafted from two separate weapons—Themor's personal throwing halberd and the fabled battleaxe of King Mordon Grimlock—the blacksmith was able to retain both magical enchantments and meld them into a single, powerful weapon worthy of being wielded by a god.</p>
+			<p class="indent">This magic weapon grants a +2 bonus to attack and damage rolls made with it. Additionally, this weapon ignores defenses and resistances granted by rock or stone; for example, an Earth Elemental would not have resistance to this weapon's damage, and its natural Armor Class would be reduced to 10 plus its Dexterity modifier.</p>
+			<p class="indent">This weapon also has the thrown property with a normal range of 20 feet and a long range of 60 feet. When used to make a ranged attack, it returns to the wielder’s hand immediately after a hit, but the wielder must use a bonus action to recall it should the attack miss.</p>
+		</description>
+		<setters>
+			<set name="keywords">halberd, thrown</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="halberd">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
 			<set name="weapon">Halberd</set>
 		</setters>
 	</element>
