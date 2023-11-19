@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.17">
+    <update version="0.2.18">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -625,7 +625,7 @@
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">20</set>
-			<set name="ac">14 (natural armor)</set>
+			<set name="ac">equal to your own</set>
 			<set name="hp">half your hit point maximum</set>
 			<set name="speed">30 ft., swim 90ft </set>
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
@@ -644,8 +644,8 @@
 			<set name="actions">ID_ALMIR_UNIQUE_COMPANION_ACTION_SPIRIT_OF_THE_TIDES_POWER_OF_THE_SEA</set>
 		</setters>
 		<rules>
-			<stat name="companion:ac" value="14" bonus="base" />
-			<stat name="companion:hp:max" value="32" />
+			<stat name="companion:ac" value="15" bonus="base" />
+			<stat name="companion:hp:max" value="39" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -686,7 +686,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="16" bonus="base" />
-			<stat name="companion:hp:max" value="32" />
+			<stat name="companion:hp:max" value="39" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -740,7 +740,7 @@
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">20</set>
-			<set name="ac">14 (natural armor)</set>
+			<set name="ac">equal to your own</set>
 			<set name="hp">half your hit point maximum</set>
 			<set name="speed">30 ft., swim 90ft </set>
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
@@ -759,8 +759,8 @@
 			<set name="actions">ID_ALMIR_UNIQUE_COMPANION_ACTION_SPIRIT_OF_THE_TIDES_POWER_OF_THE_SEA</set>
 			</setters>
 		<rules>
-			<stat name="companion:ac" value="14" bonus="base" />
-			<stat name="companion:hp:max" value="32" />
+			<stat name="companion:ac" value="15" bonus="base" />
+			<stat name="companion:hp:max" value="39" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -802,7 +802,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="16" bonus="base" />
-			<stat name="companion:hp:max" value="32" />
+			<stat name="companion:hp:max" value="39" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -825,7 +825,7 @@
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">20</set>
-			<set name="ac">14 (natural armor)</set>
+			<set name="ac">equal to your own</set>
 			<set name="hp">half your hit point maximum</set>
 			<set name="speed">30 ft., swim 90ft </set>
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
@@ -844,8 +844,8 @@
 			<set name="actions">ID_ALMIR_UNIQUE_COMPANION_ACTION_SPIRIT_OF_THE_TIDES_POWER_OF_THE_SEA</set>
 			</setters>
 		<rules>
-			<stat name="companion:ac" value="14" bonus="base" />
-			<stat name="companion:hp:max" value="36" />
+			<stat name="companion:ac" value="15" bonus="base" />
+			<stat name="companion:hp:max" value="39" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -887,7 +887,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="16" bonus="base" />
-			<stat name="companion:hp:max" value="36" />
+			<stat name="companion:hp:max" value="39" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -910,7 +910,7 @@
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">20</set>
-			<set name="ac">14 (natural armor)</set>
+			<set name="ac">equal to your own</set>
 			<set name="hp">half your hit point maximum</set>
 			<set name="speed">30 ft., swim 90ft </set>
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
@@ -929,8 +929,8 @@
 			<set name="actions">ID_ALMIR_UNIQUE_COMPANION_ACTION_SPIRIT_OF_THE_TIDES_POWER_OF_THE_SEA</set>
 		</setters>
 		<rules>
-			<stat name="companion:ac" value="14" bonus="base" />
-			<stat name="companion:hp:max" value="36" />
+			<stat name="companion:ac" value="15" bonus="base" />
+			<stat name="companion:hp:max" value="39" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -972,7 +972,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="16" bonus="base" />
-			<stat name="companion:hp:max" value="36" />
+			<stat name="companion:hp:max" value="39" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -995,7 +995,7 @@
 			<set name="intelligence">10</set>
 			<set name="wisdom">12</set>
 			<set name="charisma">20</set>
-			<set name="ac">14 (natural armor)</set>
+			<set name="ac">equal to your own</set>
 			<set name="hp">half your hit point maximum</set>
 			<set name="speed">30 ft., swim 90ft </set>
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
@@ -1014,8 +1014,8 @@
 			<set name="actions">ID_ALMIR_UNIQUE_COMPANION_ACTION_SPIRIT_OF_THE_TIDES_POWER_OF_THE_SEA</set>
 		</setters>
 		<rules>
-			<stat name="companion:ac" value="14" bonus="base" />
-			<stat name="companion:hp:max" value="36" />
+			<stat name="companion:ac" value="15" bonus="base" />
+			<stat name="companion:hp:max" value="39" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -1057,7 +1057,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="16" bonus="base" />
-			<stat name="companion:hp:max" value="36" />
+			<stat name="companion:hp:max" value="39" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
