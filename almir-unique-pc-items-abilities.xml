@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.18">
+    <update version="0.2.19">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -391,7 +391,7 @@
 	<prerequisite>Sea Sorcerer</prerequisite>
 		<requirements>ID_TREGOLANI_HB_ARCHETYPE_SEA_SORCERER</requirements>
 	<description>
-			<p>You can tap into the primordial powers that are paired with your soul. As a bonus action, roll a d10, and for 10 minutes, your body assumes the corresponding elemental form. Alternative, you can forgo this roll if you spend 2 sorcery points to force the transformation into either Earth or Water (your choice).</p>
+			<p>You can tap into the primordial powers that are paired with your soul. As a bonus action, roll a d10, and for 10 minutes (or until you use a bonus action to end it), your body assumes the corresponding elemental form. Alternative, you can forgo this roll if you spend 2 sorcery points to force the transformation into either Earth or Water (your choice).</p>
 			<p class="indent">You may use this boon a number of times equal to your Constitution modifier, and regain all expended uses after completing a long rest. </p>
 			<table>
 				<thead>
@@ -408,7 +408,7 @@
 				• • <strong>Stone's Lethargy.</strong> As a reaction upon being hit by a melee attack, you can strengthen the resilience of your rocky skin. You gain resistance to the attack's damage, and the creature must succeed on a Constitution saving throw or have disadvantage on all weapon attacks until the end of its next turn.<br/>
 				• While transformed, any ability requiring a saving throw uses the following DC calculation: <strong>Stone Form DC</strong> = <i>8 + your proficiency bonus + your Constitution modifier.</i></td></tr>
 				<tr><td>4-6</td><td><strong>Water. </strong>You embrace the tides of Umberlee: your form becomes fluid and mutable, and light seems to glint and refract as it strikes your skin. Refreshed and invigorated by the tides, a new storm is brought forth. While in this form, you gain the following effects:<br/>
-				• Upon transforming, you can choose to regain expended spell slots. The spell slots can have a combined level that is equal to or less than half your sorcerer level (rounded up), and none of the slots can be 6th level or high. You must complete a long rest before you can benefit from this recovery again.<br/>
+				• Upon transforming, you can choose to regain expended spell slots. The spell slots can have a combined level that is equal to or less than half your sorcerer level (rounded up), and none of the slots can be 6th level or higher. You must complete a long rest before you can benefit from this recovery again.<br/>
 				• Your Ocean Magic spells are improved. Upon casting a Ocean Magic spell, you can choose to either add your Charisma modifier to the damage roll(s) of the spell, or add half of your Charisma modifier (rounded down) to the DC of the spell.<br/>
 				• Upon transforming, your Watery Defense is recharged, and you an additional use of it. Additionally, if you are within 30 feet of an ally when they take bludgeoning, piercing, or slashing damage from an attack, you can use your reaction to expend a use of your Watery Defense in order for that ally to benefit from its effects as if it were you.<br/>
 				• You gain vulnerability to cold and lightning damage while in this form.</td></tr>
