@@ -4,7 +4,7 @@
     <name>Almir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Almir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.17">
+    <update version="0.1.18">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
@@ -294,152 +294,152 @@
 		</setters>
 	</element>
 
-<!-- Spell Matrix Crystals -->
-	<element name="Spell Matrix Crystal, Cantrip" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_CANTRIP">
+<!-- Spell-Matrix Crystals -->
+	<element name="Spell-Matrix Crystal, Cantrip" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_CANTRIP">
 		<description>
 			<p>This small, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single cantrip.</p> 
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Common</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell Matrix Crystal, 1st Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL1">
+	<element name="Spell-Matrix Crystal, 1st Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL1">
 		<description>
 			<p>This small, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 1st-level or below.</p> 
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Common</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell Matrix Crystal, 2nd Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL2">
+	<element name="Spell-Matrix Crystal, 2nd Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL2">
 		<description>
 			<p>This small, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 2nd-level or below.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Uncommon</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell Matrix Crystal, 3rd Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL3">
+	<element name="Spell-Matrix Crystal, 3rd Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL3">
 		<description>
 			<p>This palm-sized, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 3rd-level or below.</p> 
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Uncommon</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell Matrix Crystal, 4th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL4">
+	<element name="Spell-Matrix Crystal, 4th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL4">
 		<description>
 			<p>This palm-sized, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 4th-level or below.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell Matrix Crystal, 5th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL5">
+	<element name="Spell-Matrix Crystal, 5th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL5">
 		<description>
 			<p>This palm-sized, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 5th-level or below.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell Matrix Crystal, 6th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL6">
+	<element name="Spell-Matrix Crystal, 6th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL6">
 		<description>
 			<p>This fist-sized, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 6th-level or below.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell Matrix Crystal, 7th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL7">
+	<element name="Spell-Matrix Crystal, 7th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL7">
 		<description>
 			<p>This fist-sized, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 5th-level or below.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell Matrix Crystal, 8th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL8">
+	<element name="Spell-Matrix Crystal, 8th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL8">
 		<description>
 			<p>This 1-foot diameter translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 8th-level or below.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Legendary</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell Matrix Crystal, 9th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL9">
+	<element name="Spell-Matrix Crystal, 9th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL9">
 		<description>
 			<p>This 2-foot diameter translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 9th-level or below.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Legendary</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
@@ -447,160 +447,160 @@
 	</element>
 	
 <!-- Flawed Matrix Crystals -->
-	<element name="Flawed Spell Matrix Crystal, Cantrip" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_CANTRIP_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, Cantrip" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_CANTRIP_FLAWED">
 		<description>
-			<p>This small, cloudy crystal resembles the spell matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
+			<p>This small, cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 10 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use. On a failure the crystal detonates, dealing XdX force damage to the holder. Any other creatures within a 5-foot-radius sphere centered on the crystal must make a DC 10 Dexterity saving throw, taking the same damage on a failure, or half as much damage on a success.</p> 
 		<p class="indent">This specific crystal can store a single cantrip, and disintegrates to dust after a successfully stored spell is cast from it.</p>		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Common</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell Matrix Crystal, 1st Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL1_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 1st Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL1_FLAWED">
 		<description>
-			<p>This small, cloudy crystal resembles the spell matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
+			<p>This small, cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 11 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use. On a failure the crystal detonates, dealing XdX force damage to the holder. Any other creatures within a 5-foot-radius sphere centered on the crystal must make a DC 11 Dexterity saving throw, taking the same damage on a failure, or half as much damage on a success.</p> 
 		<p class="indent">This specific crystal can store a single spell of 1st-level or below, and disintegrates to dust after a successfully stored spell is cast from it.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Common</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell Matrix Crystal, 2nd Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL2_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 2nd Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL2_FLAWED">
 		<description>
-			<p>This small, cloudy crystal resembles the spell matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
+			<p>This small, cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 12 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use. On a failure the crystal detonates, dealing XdX force damage to the holder. Any other creatures within a 5-foot-radius sphere centered on the crystal must make a DC 12 Dexterity saving throw, taking the same damage on a failure, or half as much damage on a success.</p> 
 		<p class="indent">This specific crystal can store a single spell of 2nd-level or below, and disintegrates to dust after a successfully stored spell is cast from it.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Uncommon</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell Matrix Crystal, 3rd Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL3_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 3rd Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL3_FLAWED">
 		<description>
-			<p>This palm-sized cloudy crystal resembles the spell matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
+			<p>This palm-sized cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 13 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use. On a failure the crystal detonates, dealing XdX force damage to the holder. Any other creatures within a 5-foot-radius sphere centered on the crystal must make a DC 13 Dexterity saving throw, taking the same damage on a failure, or half as much damage on a success.</p> 
 		<p class="indent">This specific crystal can store a single spell of 3rd-level or below, and disintegrates to dust after a successfully stored spell is cast from it.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Uncommon</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell Matrix Crystal, 4th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL4_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 4th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL4_FLAWED">
 		<description>
-			<p>This palm-sized cloudy crystal resembles the spell matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
+			<p>This palm-sized cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 14 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use. On a failure the crystal detonates, dealing XdX force damage to the holder. Any other creatures within a 10-foot-radius sphere centered on the crystal must make a DC 14 Dexterity saving throw, taking the same damage on a failure, or half as much damage on a success.</p> 
 		<p class="indent">This specific crystal can store a single spell of 4th-level or below, and disintegrates to dust after a successfully stored spell is cast from it.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell Matrix Crystal, 5th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL5_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 5th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL5_FLAWED">
 		<description>
-			<p>This palm-sized cloudy crystal resembles the spell matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
+			<p>This palm-sized cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 15 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use. On a failure the crystal detonates, dealing XdX force damage to the holder. Any other creatures within a 10-foot-radius sphere centered on the crystal must make a DC 15 Dexterity saving throw, taking the same damage on a failure, or half as much damage on a success.</p> 
 		<p class="indent">This specific crystal can store a single spell of 5th-level or below, and disintegrates to dust after a successfully stored spell is cast from it.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell Matrix Crystal, 6th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL6_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 6th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL6_FLAWED">
 		<description>
-			<p>This fist-sized cloudy crystal resembles the spell matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
+			<p>This fist-sized cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 16 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use. On a failure the crystal detonates, dealing XdX force damage to the holder. Any other creatures within a 10-foot-radius sphere centered on the crystal must make a DC 16 Dexterity saving throw, taking the same damage on a failure, or half as much damage on a success.</p> 
 		<p class="indent">This specific crystal can store a single spell of 6th-level or below, and disintegrates to dust after a successfully stored spell is cast from it.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell Matrix Crystal, 7th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL7_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 7th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL7_FLAWED">
 		<description>
-			<p>This fist-sized cloudy crystal resembles the spell matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
+			<p>This fist-sized cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 17 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use. On a failure the crystal detonates, dealing XdX force damage to the holder. Any other creatures within a 10-foot-radius sphere centered on the crystal must make a DC 17 Dexterity saving throw, taking the same damage on a failure, or half as much damage on a success.</p> 
 		<p class="indent">This specific crystal can store a single spell of 7th-level or below, and disintegrates to dust after a successfully stored spell is cast from it.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell Matrix Crystal, 8th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL8_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 8th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL8_FLAWED">
 		<description>
-			<p>This 1-foot diameter cloudy crystal resembles the spell matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
+			<p>This 1-foot diameter cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 18 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use. On a failure the crystal detonates, dealing XdX force damage to the holder. Any other creatures within a 15-foot-radius sphere centered on the crystal must make a DC 18 Dexterity saving throw, taking the same damage on a failure, or half as much damage on a success.</p> 
 		<p class="indent">This specific crystal can store a single spell of 8th-level or below, and disintegrates to dust after a successfully stored spell is cast from it.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Legendary</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell Matrix Crystal, 9th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL9_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 9th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL9_FLAWED">
 		<description>
-			<p>This 2-foot diameter cloudy crystal resembles the spell matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
+			<p>This 2-foot diameter cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 19 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use. On a failure the crystal detonates, dealing XdX force damage to the holder. Any other creatures within a 20-foot-radius sphere centered on the crystal must make a DC 19 Dexterity saving throw, taking the same damage on a failure, or half as much damage on a success.</p> 
 		<p class="indent">This specific crystal can store a single spell of 9th-level or below, and disintegrates to dust after a successfully stored spell is cast from it.</p>
 		</description>
 		<setters>
-			<set name="category">Spell Matrix Crystals</set>
+			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="weight" lb="0">0 lb.</set>
-			<set name="type">Spell Matrix Crystals</set>
+			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Legendary</set>
 			<set name="attunement">false</set>
 			<set name="stackable">true</set>
