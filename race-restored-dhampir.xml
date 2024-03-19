@@ -2,12 +2,12 @@
 <elements>
 	<info>
 		<name>Restored Dhampir</name>
-		<update version="0.0.6">
+		<update version="0.0.7">
 			<file name="race-restored-dhampir.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/race-restored-dhampir.xml" />
 		</update>
 	</info>
 
-	<element name="Restored Dhampir" type="Race" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACE_RESTORED_DHAMPIR">
+	<element name="Restored Dhampir" type="Race" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACE_RESTORED_DHAMPIR">
 		<description>
 			<p>Poised between the worlds of the living and the dead, dhampirs retain their grip on life yet are endlessly tested by vicious hungers. However, it is possible for a dhampir to be restored back to life, but such an occurrence is exceedingly rare. The few cases that have been recorded in known history claim some sort of deific intervention as the catalyst for their transformation</p>
 			<p class="indent">With unique insights into the nature of the undead, many restored dhampirs become adventurers and monster hunters. Their reasons are often deeply personal. Some seek danger, imagining monsters as personifications of their former selves. Others pursue revenge against whatever turned them into a dhampir. And still others embrace solitude as penitence, ever striving to atone for the pain caused by the hunger to which they were once a slave.</p>
@@ -76,7 +76,7 @@
 		</rules>
 	</element>
 
-	<element name="Ancestral Legacy" type="Racial Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_ANCESTRAL_LEGACY">
+	<element name="Ancestral Legacy" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_ANCESTRAL_LEGACY">
 		<description>
 			<p>If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p>
 			<p class="indent">If you don’t keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</p>
@@ -90,7 +90,7 @@
 		</rules>
 	</element>
 
-	<element name="Reborn Resilience" type="Racial Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_REBORN_RESILIENCE">
+	<element name="Reborn Resilience" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_REBORN_RESILIENCE">
 		<description>
 			<p>You have resistance to necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have advantage on saves against charm and possession effects, and can add your Intelligence modifier to the roll.</p>
 		</description>
@@ -102,7 +102,7 @@
 		</rules>
 	</element>
 
-	<element name="Spider Climb" type="Racial Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_SPIDER_CLIMB">
+	<element name="Spider Climb" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_SPIDER_CLIMB">
 		<description>
 			<p>You have a climbing speed equal to your walking speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</p>
 		</description>
@@ -115,7 +115,7 @@
 		</rules>
 	</element>
 	
-	<element name="Celestial Spark" type="Racial Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_CELESTIAL_SPARK">
+	<element name="Celestial Spark" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_CELESTIAL_SPARK">
 		<description>
 			<p>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total. Once this feature turns a failure into a success, you can't use it again until you finish a long rest. You can also reuse the spark by expending a spell slot of 1st level or higher.</p>
 		</description>
@@ -123,7 +123,7 @@
 			<description>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4+{{intelligence:modifier}} and add it to the total, potentially turning failure into success. </description>
 		</sheet>
 	</element>
-	<element name="Blazing Renewal" type="Racial Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_BLAZING_RENEWAL">
+	<element name="Blazing Renewal" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_BLAZING_RENEWAL">
 		<description>
 			<p>A powerful light within you wards you against death. When you are reduced to 0 hit points, you can use your reaction to immediately rise back to your feet with a burst of radiant energy. You regain a number of hitpoints equal to twice your level, and all creatures of your choice within 10ft must succeed a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or take an equal amount of radiant damage and be blinded until the start of your next turn. Once you use this reaction, you cannot do so again until you complete a long rest.</p>
 		</description>
@@ -138,7 +138,7 @@
 			<stat name="blazing renewal:dc" value="constitution:modifier" base="ability" />
 			</rules>
 	</element>
-	<element name="Restored Dhampir Subrace" type="Racial Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_SUBRACE">
+	<element name="Restored Dhampir Subrace" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_SUBRACE">
 		<description>
 			<p>Dhampirs, and those rare enough to be restored back from their forced undeath, can be found among any of the known mortal races of the universe.</p>
 		</description>
@@ -147,7 +147,7 @@
 			<select type="Sub Race" name="Restored Dhampir Subrace" supports="Restored Dhampir" />
 		</rules>
 	</element>
-	<element name="Dwarf" type="Sub Race" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_DWARF_SUBRACE">
+	<element name="Dwarf" type="Sub Race" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_DWARF_SUBRACE">
 		<supports>Restored Dhampir</supports>
 		<description>
 			<p>As a former dwarf, you are resilient as the stone and are blessed with both strength and tenacity.</p>
@@ -162,7 +162,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_ARMOR_TRAINING" />
 		</rules>
 	</element>
-	<element name="Elf" type="Sub Race" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_ELF_SUBRACE">
+	<element name="Elf" type="Sub Race" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_ELF_SUBRACE">
 		<supports>Restored Dhampir</supports>
 		<description>
 			<p>As a former elf, you are blessed with unearthly grace and fine features, and a timeless perspective that protects against compulsory influences.</p>
@@ -177,7 +177,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TRANCE" />
 		</rules>
 	</element>
-	<element name="Tabaxi" type="Sub Race" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_TABAXI_SUBRACE">
+	<element name="Tabaxi" type="Sub Race" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_TABAXI_SUBRACE">
 		<supports>Restored Dhampir</supports>
 		<description>
 			<p>As a former tabaxi, your body is one graced with feline dexterity and speed, as well as equipped with a set of retractable claws which can serve as lethal weapons in a pinch.</p>
@@ -192,7 +192,7 @@
 			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_TABAXI_FELINE_AGILITY" />
 		</rules>
 	</element>
-	<element name="Tiefling" type="Sub Race" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_TIEFLING_SUBRACE">
+	<element name="Tiefling" type="Sub Race" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_TIEFLING_SUBRACE">
 		<supports>Restored Dhampir</supports>
 		<description>
 			<p>As a former tiefling, your fiendish origins provide you with innate resistance to flames and a keen attunement with magic.</p>
@@ -207,7 +207,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_INFERNAL_LEGACY" />
 		</rules>
 	</element>
-	<element name="Tabaxi" type="Sub Race" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_TABAXI_SUBRACE">
+	<element name="Tabaxi" type="Sub Race" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_TABAXI_SUBRACE">
 		<supports>Restored Dhampir</supports>
 		<description>
 			<p>As a former tabaxi, your body is one graced with feline dexterity and speed, as well as equipped with a set of retractable claws which can serve as lethal weapons in a pinch.</p>
