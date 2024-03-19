@@ -2,8 +2,8 @@
 <elements>
 	<info>
 		<name>Alchemist Artificer Archetype, Modified for Almir</name>
-		<update version="0.0.1">
-			<file name="artificer-alchemist-almir.xml" url="https://github.com/tregolani/Almir-Homebrew/artificer-alchemist-almir" />
+		<update version="0.0.2">
+			<file name="almir-artificer-alchemist.xml" url="https://github.com/tregolani/Almir-Homebrew/almir-artificer-alchemist.xml" />
 		</update>
 	</info>
 
