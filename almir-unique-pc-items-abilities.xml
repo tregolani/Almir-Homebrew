@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
   <info>
-    <name>Almir Homebrew: Unique PC Items and Abilities</name>
-    <description>A collection of unique items and abilities given to the PCs of the Almir campaign to represent their connection to an element of their personal backstories.</description>
+    <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
+    <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.20">
+    <update version="0.2.21">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
 
 <!-- Session 8 Abilities -->
- 	<element name="Sapphire of the Tides (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SAPPHIRE_OF_THE_TIDES_STAGE1">
+ 	<element name="Sapphire of the Tides (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_SAPPHIRE_OF_THE_TIDES_STAGE1">
 		<description>
 			<p>A magnificent small blue gem that pulses slowly, like the ebb and flow of the tides. Upon its surface glow the tiny runes of a cryptic inscription: <i>"Is it through power we gain control? Or is it through control we gain power?”</i> It was given to Barnacle by a powerful water elemental, who ominously warned the old sorcerer that the sea would come to claim his life eventually, and offered the gem as proof of the sea's wrath and power.</p>
 			<p class="indent"><strong><em>Tides Unleashed (Stage 1):</em></strong> When casting any water-based spell, can activate the gem to double all of the spell’s damage and effects, but with a chance (30%) for the spell to hit a random target instead. Once used, cannot be used again until you finish a long rest.</p>
@@ -27,7 +27,7 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Alton's Ring of the Faceless Ones (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE1_ALTON">
+	<element name="Alton's Ring of the Faceless Ones (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE1_ALTON">
 		<description>
 			<p>A small gold band with no discernible features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a unique enchantment specifically designed to help unlock barred doors, whether literal or figurative. </p>
 			<p class="indent"><strong><em>Charm of Unlocking (Stage 1):</em></strong> As an action, can unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can also be used to cast the <i>charm person</i> spell once without using a spell slot. Once either of these features are used, the ring cannot be used again until you finish a long rest.</p>
@@ -44,7 +44,7 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Rune of Soul Harvest (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RUNE_SOUL_HARVEST_STAGE1">
+	<element name="Rune of Soul Harvest (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RUNE_SOUL_HARVEST_STAGE1">
 		<description>
 			<p>A glowing rune in the shape of a waning moon, placed upon the blade of Apsinthos Levia's pact weapon. This rune was bestowed to him by his Patron after pleasing her during his secret meeting with Eris'atemor, of Telmivir's House of the Moon, at the Levia Estate in Galeran's Noble District.</p>
 			<p class="indent"><strong><em>Soul Harvest (Stage 1):</em></strong> After landing a killing blow upon a creature, can harvest the creature's soul to either regain hit points or gain temporary hit points equal to 1d8 + your Constitution modifier. Once used, cannot be used again until you finish a long rest.</p>
@@ -61,7 +61,7 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Dreamer's Visage (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMER_VISAGE_STAGE1">
+	<element name="Dreamer's Visage (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMER_VISAGE_STAGE1">
 		<description>
 			<p>After her fateful encounter with the shadowy apparitions somehow bound to her, Morani was able to earn their trust by offering to restore them to their home within the Astral Plane. In return, they are able to grant her a semblance of control over the immaterial, allowing her to assume a visage of dreams or nightmares to influence the Material world around her.</p>
 			<p class="indent"><strong><em>Visage of Horror (Stage 1):</em></strong> Assume a horrific visage of nightmares; for 1 minute, can cause a single creature to have disadvantage on all attacks that target you.</p>
@@ -82,7 +82,7 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Shadow Meld (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SHADOW_MELD_STAGE1">
+	<element name="Shadow Meld (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_SHADOW_MELD_STAGE1">
 		<description>
 			<p>While attempting to attune to a simple magical necklace, Themor Hunwut found himself brought back to the site of his kingdom's destruction, surrounded by shadowy forms and the muffled sounds of battle. Suddenly, he came upon a skeletal figure cloaked in shadow, who proceeded to challenge the human to single combat. However, Themor's skill managed to both appease and impress his sudden challenger. Introducing himself as Neun, Knight of the Realm, he then granted Themor the power to meld with the Shadow Plane, albeit briefly.</p>
 			<p class="indent"><strong><em>Shadow Meld (Stage 1):</em></strong> As an action or reaction, can meld with the shadows; for 1 minute, all attacks targeting you are made at disadvantage. If an attack does hit, can choose to prematurely end the melding and reduce the damage of that attack by half. Once used in either form, cannot be used against until you finish a long rest. </p>
@@ -99,7 +99,7 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Mantle of the Warden (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_STAGE1">
+	<element name="Mantle of the Warden (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_STAGE1">
 		<description>
 			<p>Upon arriving in Galeran, Zedan Yazkash had sought a way to reunite with his former savior and mentor, Father Riel. However, it seemed that the elder human was already aware of Zedan's presence, and arranged a secret meeting with the young paladin upon the top of the city's inner walls. After hearing of Zedan's encounter with Fae'lorin, the priest chose to bestow upon him an ancient mantle of power to aid him in his travels, and to help him choose what path his life will take.</p>
 			<p class="indent"><strong><em>Warden's Embrace (Stage 1):</em></strong> As an action, can choose one creature that you can see and cause it to regain hit points equal to 1d8 + your spellcasting modifier. In addition, you bestow one of the following auras upon the creature:</p>
@@ -121,7 +121,7 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Amulet of the Fey (Dormant)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_AMULET_FEY_STAGE1">
+	<element name="Amulet of the Fey (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_AMULET_FEY_STAGE1">
 		<description>
 			<p>While wandering through the streets of Galeran, Evienne Atredeske suddenly found herself transported into the Feywilds. There she met a fairy servant of the Seelie Courts name Lily, who claimed that the half-elf ranger was meant to be an emissary of the Material Plane. Confused but intrigued, Evienne allowed the fey creature to explain, and was gifted a strange necklace, shaped like a great tree and adorned with 3 small jeweled flowers. Touching the amulet, the fey fairy channeled Fey power through it, and granted a semblance of that same power to Evienne, which manifested as a pair of antlers upon her brow, as well as a set of runic tattoos running down her face and arms. </p>
 			<p class="indent"><strong><em>Power of a Name (Stage 1):</em></strong> Once per day, can channel the Fey power within the amulet to ask for a creature's name. If the creature offers their name willingly, its power is captured and stored in one of the flowers on the amulet's pendant. As long as that creature's name is stored, you have advantage on Persuasion checks against the creature. Furthermore, you can cast <i>Suggestion</i> once per day against any of the creatures whose names are stored within the amulet. You can choose to release any of the names stored within the amulet at any time, but may only capture one name per day.</p>
@@ -140,7 +140,7 @@
 	</element>
 
 <!-- Session 21 Upgrades -->
-	<element name="Spirit of the Tides (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SPIRIT_OF_THE_TIDES_STAGE2">
+	<element name="Spirit of the Tides (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_SPIRIT_OF_THE_TIDES_STAGE2">
 		<description>
 			<p>Initially, a magnificent small blue gem that pulsed slowly, like the ebb and flow of the tides. Upon its surface glowed the tiny runes of a cryptic inscription: <i>"Is it through power we gain control? Or is it through control we gain power?”</i> It was given to Barnacle by a powerful water elemental, who ominously warned the sorcerer that the sea would come to claim his life eventually, and offered the gem as proof of the sea's wrath and power.</p>
 			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Barnacle was then visited by the goddesses Selûne and Umberlee, who beseeched the sorcerer to aid them in stopping the oncoming destruction wrought by the void. The sorcerer was dubious, but eventually relented, offering himself as a vessel for their power. As a sign of their faith, they transformed the mysterious sapphire gem into a watery spirit resembling his disguised human form, a mirror of the dual natures of the sea and of the sorcerer himself.</p>
@@ -169,7 +169,7 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Alton's Ring of the Faceless Ones (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_ALTON">
+	<element name="Alton's Ring of the Faceless Ones (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_ALTON">
 		<description>
 			<p>A small gold band with no discernible features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
 			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Alton's ring began to glow as a new voice spoke in his head. Identifying himself as Echo, another of the Faceless Ones, he explained the purpose of their organization: to shape the world to bring balance, whether it was by dethroning corrupt leaders, redistributing wealth, or moving goods or contraband. The mysterious man then noted that the other Faceless Ones were watching Alton's progress closely, and if he were to succeed on his current mission, he would be allowed to join their ranks, taking up the name of the seat to which his ring belongs. However, as a sign of faith, Echo unlocked some of the more potent magical powers within the ring to aid the young bard in his fast-approaching trials.</p>
@@ -201,7 +201,7 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="CeeBee's Ring of the Faceless Ones (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_CEEBEE">
+	<element name="CeeBee's Ring of the Faceless Ones (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_CEEBEE">
 		<description>
 			<p>A small gold band with no discernible features, this ring was given to Curious Bite by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
 			<h6><b>Charm of Unlocking</b></h6>
@@ -246,7 +246,7 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Mind of the Void (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_RUNE_SOUL_HARVEST_STAGE2">
+	<element name="Mind of the Void (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RUNE_SOUL_HARVEST_STAGE2">
 		<description>
 			<p>After his encounter with the mind of Eris'atemor's void demon form, as well as his communion with the fragment of the void beast he defeated upon the <i>Widow's Kiss</i>, Apsinthos heads below deck to take an evening's rest. However, his sleep is disturbed as an overwhelming darkness consumes his dreams. Suddenly, strange runes and glyphs begin to circle his consciousness, and though he cannot read them, their meaning is emotively conveyed into his mind with an intimacy unlike any languange he has known before. He tries to move away from the glyphs, but a voice speaks out to him through them, claiming to be the Void. He learns that the void is consumed with returning it and everything else to nothingness, and that in nothingness there is perfection. The concept intrigues the young warlock, and the void offers him the power to harness its vast inscrutable energy to meld his destiny into whatever he would want it to be. Seemingly swayed by the promise of all-encompassing equality in embracing the nothingness, Apsinthos accepts this gift. Only time will tell whether he will use it to shape his own destiny, or it will use him as a tool of the insatiable hunger of the void.</p>
 			<h6><b>Call Upon the Void</b></h6>
@@ -269,7 +269,7 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Dreamer's Visage (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMER_VISAGE_STAGE2">
+	<element name="Dreamer's Visage (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMER_VISAGE_STAGE2">
 		<description>
 			<p>After her fateful encounter with the shadowy apparitions somehow bound to her, Morani was able to earn their trust by offering to restore them to their home within the Astral Plane. In return, they are able to grant her a semblance of control over the immaterial, allowing her to assume a visage of dreams or nightmares to influence the Material world around her.</p>
 			<p class="indent">Later, after the defeat of Eris'atemor and his void-demon form, one of her "passengers" found a way to manifest itself as a physical creature before her. Surprised but intrigued, Morani conversed with it to find that it desired to be part of her world while they searched for a way to return the shadows to their home on the Astral Plane, and was willing to aid her in any way it could with its new corporeal form.</p>
@@ -309,7 +309,7 @@
 			<grant type="Spell" id="ID_ALMIR_UNIQUE_SPELL_ASTRAL_FAMILIAR" />
 		</rules>
 	</element>
-	<element name="Armor of Shadows (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SHADOW_MELD_STAGE2">
+	<element name="Armor of Shadows (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_SHADOW_MELD_STAGE2">
 		<description>
 			<p>While attempting to attune to a simple magical necklace, Themor Hunwut found himself brought back to the site of his kingdom's destruction, surrounded by shadowy forms and the muffled sounds of battle. Suddenly, he came upon a skeletal figure cloaked in shadow, who proceeded to challenge the human to single combat. However, Themor's skill managed to both appease and impress his sudden challenger. Introducing himself as Neun, Knight of the Realm, he then granted Themor the power to meld with the Shadow Plane, albeit briefly.</p>
 			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Themor was again confronted by shadowy figures, denizens of the Shadow Plane. Indignant with his progress in aiding their goals, they assaulted him with shadow, attempting to bind him for their own, but Themor once again resisted their power. Relenting, the three spirits instead wrapped around him like a great suit of obsidian armor and tasked him with searching among the secretive dwarves for more answers.</p>
@@ -334,7 +334,7 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Mantle of the Warden (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_STAGE2">
+	<element name="Mantle of the Warden (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_STAGE2">
 		<description>
 			<p>Upon arriving in Galeran, Zedan Yazkash had sought a way to reunite with his former savior and mentor, Father Riel. However, it seemed that the elder human was already aware of Zedan's presence, and arranged a secret meeting with the young paladin upon the top of the city's inner walls. After hearing of Zedan's encounter with Fae'lorin, the priest chose to bestow upon him an ancient mantle of power to aid him in his travels, and to help him choose what path his life will take.</p>
 			<p class="indent">Later upon the <i>Widow's Kiss</i> after defeating Eris'atemor and his void-demon form, Zedan found himself transported to his new estate granted to him by his former mentor. Startled, he looked out the windows to see idyllic rolling plains and verdant forests dotted with peaceful wildlife. Suddenly, he heard a familiar voice, and turned to see Riel, younger, clad in plate armor covered in leaf motifs of emerald and silver, glowing with a soft verdant light, and flanked by a pair of similarly garbed men. Riel then explained that this home was granted to members of the Wardens, the guardians and protectors of life across the planes. As a sign of Zedan's willingness to take up the mantle in Riel's stead, the two armor-clad men—protectors from ages past—bestowed upon Zedan the title of "Warden of the Green", and with it the powers of its station.</p>
@@ -354,7 +354,7 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-	<element name="Blood Branch (Awakened)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_BLOOD_BRANCH_STAGE2">
+	<element name="Blood Branch (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_BLOOD_BRANCH_STAGE2">
 		<description>
 			<p>Just before her fateful encounter with Eris'atemor, Evienne Atredeske was pulled back into the Feywilds. Her previous guide Lily was there to greet her along with a powerful dryad, who quickly stepped forth and thrust Evienne into a vision of her own past. Here she saw her childhood village burning, and more importantly, her father's merciless death at the hands of a younger but still recognizable Eris'atemor. As the vision faded, the enraged ranger swore vengeance upon the elf and implored her dryad to send her back. In response, the spirit then created a rough bow made of the very wooden sinews of her arms, and offered it to Evienne, commanding her to use the weapon to save those not yet lost to the elf's madness.</p>
 			<p class="indent">However, her vengeance was left unsated as Eris'atemor fell to the combined might of her companions before she could get any answers from him. In fury, she mutilated the elf's corpse with her sword, causing some of the blood to splash across her new weapon. As the group absconded from Galeran upon the <i>Widow's Kiss</i>, the bow manifested a shadowy apparition of the elf himself, constructed from the memories within that very blood, and Evienne was finally able to gain answers from him, though they be hollow at best. As she fell to the ground in exhaustion, the dryad of the Feywilds spoke with her yet again, and granted her the powers of the "Fey Reaper" so that she might help prevent the oncoming apocalypse and save the planes from oblivion.</p>
@@ -388,7 +388,7 @@
 	</element>
 
 <!-- Session 43 Abilities -->
-	<element name="Primordial Convergence" type="Feat" source="Almir Homebrew Collection" id="ID_ALMIR_FEAT_PRIMORDIAL_CONVERGENCE_STAGE1">
+	<element name="Primordial Convergence" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_PRIMORDIAL_CONVERGENCE_STAGE1">
 	<prerequisite>Sea Sorcerer</prerequisite>
 		<requirements>ID_TREGOLANI_HB_ARCHETYPE_SEA_SORCERER</requirements>
 	<description>
@@ -443,7 +443,7 @@
 	</element>
 
 <!-- Session 70 Abilities -->
-	<element name="Hildie's All-Purpose Tool, +1" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_HILDIES_APT_STAGE1">
+	<element name="Hildie's All-Purpose Tool, +1" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_HILDIES_APT_STAGE1">
 		<description>
 			<p>What's an artificer without her tools? What artificer wants to lug around bundle of tools, when one could suffice?</p>
 			<p class="indent">Such is the guild stamped multitool passed down from her father to Hildie. Although branded and matching the same design as any other guild tool, this one was special. Orryn and his mentor before him had always tinkered with the tool, pushing its functions far beyond what a normal multitool was capable of. A crystalline matrix core acted as the the heart of every multitool. Powering its functions and allowing the “creative juices” to flow…figuratively and in a sense, literally. Acting as a conduit for the magic of artificers as well, it was the most important part of the tool.</p>
@@ -484,7 +484,7 @@
 			<stat name="artificer:spellcasting:dc" value="1" />
 		</rules>
 	</element>
-	<element name="Countenance of Terror" type="Feat" source="Almir Homebrew Collection" id="ID_ALMIR_FEAT_COUNTENANCE_OF_TERROR">
+	<element name="Countenance of Terror" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_COUNTENANCE_OF_TERROR">
 		<requirements>ID_ALMIR_UNIQUE_RACE_RESTORED_DHAMPIR</requirements>
 		<description>
 			<p>You learn to infuse innocent-seeming words with an insidious magic that can inspire terror.</p>
@@ -504,7 +504,7 @@
 			<set name="rarity">Artifact</set>
 		</setters> -->
 	</element>
-	<element name="Imminent Demise" type="Feat" source="Almir Homebrew Collection" id="ID_ALMIR_FEAT_IMMINENT_DEMISE">
+	<element name="Imminent Demise" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_IMMINENT_DEMISE">
 		<requirements>ID_ALMIR_UNIQUE_RACE_RESTORED_DHAMPIR</requirements>
 		<description>
 			<p>When you successfully hit a creature with a Sneak Attack, you can sacrifice up to a number of the bonus damage dice equal to your Intelligence modifier to force the creature to make a Constitution saving throw against your spell DC. On a failure, the target takes 2d8 radiant damage per dice sacrificed and is blinded until the start of your next turn. On a success, it takes half that damage and is not blinded. This ability does not benefit from critical hits.</p>
@@ -522,7 +522,7 @@
 			<set name="rarity">Artifact</set>
 		</setters> -->
 	</element>
-	<element name="Seabreeze's Ring of the Faceless Ones (Reborn)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_SEABREEZE">
+	<element name="Seabreeze's Ring of the Faceless Ones (Reborn)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_SEABREEZE">
 		<description>
 			<p>A small gold band with no discernible features, this ring was given to Curious Bite by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative. However, after her restoration through Lathander, the enchantment that enhanced her dhampir bite proved to have been cleansed from the ring by the Morninglord's power.</p>
 			<h6><b>Charm of Unlocking</b></h6>
@@ -560,7 +560,7 @@
 		</setters>
 	</element>
 
-	<element name="Initiate of a Curious God Named Ploink" type="Feat" source="Almir Homebrew Collection" id="ID_ALMIR_FEAT_CURIOUS_GOD_PLOINK">
+	<element name="Initiate of a Curious God Named Ploink" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_CURIOUS_GOD_PLOINK">
 		<description>
 			<p>The gods of Almir often work in mysterious ways, but none moreso than the curious, enigmatic god known only as Ploink. Those who call on her as their patron deity adamantly claim that She acts to bring balance to the entropy inherent in the world, but even they are hard-pressed to explain Her manifestations as anything other than random chaos. Still, Her devouts choose to spend their lives pursuing methods to summon forth Her influence into the world, and are willing to pass this knowledge on to those who express a desire to embody a life dedicated to chaos.</p>
 			<p class="indent">For Themor, the intoxicating lure of his burgeoning godhood proved irresistible, and he found himself compelled to seek out Malays, the self-titled priestess of Ploink, to learn more of his powers. As expected, she was happy to share of her knowledge, and after a month of intense communion with the Goddess of Chaos, his control over Her manifestations had grown beyond the need for a blessed catalyst, instead enacting wonders of chaos with but a mere swing of his mighty blade. However, only time will tell whether the power to wield chaos so freely will bring balance or destruction to the world of Mir.</p>
@@ -572,7 +572,7 @@
 	</element>
 
 <!-- Spells -->
-	<element name="Fey Reaper's Mark" type="Spell" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SPELL_FEY_REAPERS_MARK">
+	<element name="Fey Reaper's Mark" type="Spell" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_SPELL_FEY_REAPERS_MARK">
 		<description>
 			<p>You choose a creature you can see within range and mystically mark it as your quarry. Until the spell ends, you deal an extra 1d8 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. Additionally, a marked target cannot benefit from any cover or impose disadvantage due to obscurement or line of sight as the weapons of the caster phase through the Feywilds to unerringly find their target. If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.</p>
 		</description>
@@ -591,7 +591,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Astral Familiar" type="Spell" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_SPELL_ASTRAL_FAMILIAR">
+	<element name="Astral Familiar" type="Spell" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_SPELL_ASTRAL_FAMILIAR">
 		<description>
 			<p>Your astral companion can manifest as a familiar, a spirit that takes an animal form of your choosing. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form (or closest equivalent creature that has a challenge rating of 0), though it is a magical construct instead of a beast.</p>
 			<p class="indent">Your familiar acts independently of you, but it always obeys your commands. In combat, it acts on your turn, and you can use your bonus action to command it to make actions, but it cannot attack.</p>
@@ -615,7 +615,7 @@
 	</element>
 
 	<!-- Companions -->
-	<element name="Spirit of the Tides - Human Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN">
+	<element name="Spirit of the Tides - Human Form" type="Companion" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN">
 		<supports>Spirit of the Tides</supports>
 		<requirements>![level:5]</requirements>
 		<description></description>
@@ -657,7 +657,7 @@
 			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT">
+	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT">
 		<supports>Spirit of the Tides</supports>
 		<requirements>![level:5]</requirements>
 		<description></description>
@@ -698,7 +698,7 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Soul Link" type="Companion Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK">
+	<element name="Soul Link" type="Companion Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK">
 		<description>
 			<p>The spirit is a reflection of your own soul; whenever the spirit takes damage, the damage is split evenly with you, after any resistances are applied.</p>
 		</description>
@@ -706,7 +706,7 @@
 			<description>The spirit is a reflection of your own soul; whenever the spirit takes damage, the damage is split evenly with you, after any resistances are applied.</description>
 		</sheet>
 	</element>
-	<element name="Freeze" type="Companion Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE">
+	<element name="Freeze" type="Companion Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE">
 		<description>
 			<p>If the elemental takes cold damage, it partially freezes; its speed is reduced by 20 feet until the end of its next turn.</p>
 		</description>
@@ -714,7 +714,7 @@
 			<description>If the elemental takes cold damage, it partially freezes; its speed is reduced by 20 feet until the end of its next turn.</description>
 		</sheet>
 	</element>
-	<element name="Water Form" type="Companion Trait" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM">
+	<element name="Water Form" type="Companion Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM">
 		<description>
 			<p>The spirit can enter any creature's space, but can only stop in one occupied by a willing friendly creature. It can move through a space as narrow as 1 inch wide without squeezing.</p>
 		</description>
@@ -722,7 +722,7 @@
 			<description>The spirit can enter any creature's space, but can only stop in one occupied by a willing friendly creature. It can move through a space as narrow as 1 inch wide without squeezing.</description>
 		</sheet>
 	</element>
-	<element name="Power of the Sea" type="Companion Action" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_ACTION_SPIRIT_OF_THE_TIDES_POWER_OF_THE_SEA">
+	<element name="Power of the Sea" type="Companion Action" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_ACTION_SPIRIT_OF_THE_TIDES_POWER_OF_THE_SEA">
 		<description>
 			<p>As part of your own action, the spirit can cast any of your cantrips upon a creature of your choice within range. If the creature is affected by the cantrip, the spirit can cause it to be affected by the Curse of the Sea.</p>
 		</description>
@@ -730,7 +730,7 @@
 			<description>As part of your own action, the spirit can cast any of your cantrips upon a creature of your choice within range. If the creature is affected by the cantrip, the spirit can cause it to be affected by the Curse of the Sea.</description>
 		</sheet>
 	</element>
-	<element name="Spirit of the Tides - Human Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN_5">
+	<element name="Spirit of the Tides - Human Form" type="Companion" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN_5">
 		<supports>Spirit of the Tides</supports>
 		<requirements>[level:5],![level:9]</requirements>
 		<description></description>
@@ -773,7 +773,7 @@
 			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT_5">
+	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT_5">
 		<supports>Spirit of the Tides</supports>
 		<requirements>[level:5],![level:9]</requirements>
 		<description></description>
@@ -815,7 +815,7 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Spirit of the Tides - Human Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN_9">
+	<element name="Spirit of the Tides - Human Form" type="Companion" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN_9">
 		<supports>Spirit of the Tides</supports>
 		<requirements>[level:9],![level:13]</requirements>
 		<description></description>
@@ -858,7 +858,7 @@
 			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT_9">
+	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT_9">
 		<supports>Spirit of the Tides</supports>
 		<requirements>[level:9],![level:13]</requirements>
 		<description></description>
@@ -900,7 +900,7 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Spirit of the Tides - Human Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN_13">
+	<element name="Spirit of the Tides - Human Form" type="Companion" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN_13">
 		<supports>Spirit of the Tides</supports>
 		<requirements>[level:13],![level:17]</requirements>
 		<description></description>
@@ -943,7 +943,7 @@
 			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT_13">
+	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT_13">
 		<supports>Spirit of the Tides</supports>
 		<requirements>[level:13],![level:17]</requirements>
 		<description></description>
@@ -985,7 +985,7 @@
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Spirit of the Tides - Human Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN_17">
+	<element name="Spirit of the Tides - Human Form" type="Companion" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN_17">
 		<supports>Spirit of the Tides</supports>
 		<requirements>[level:17]</requirements>
 		<description></description>
@@ -1028,7 +1028,7 @@
 			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
-	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Almir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT_17">
+	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT_17">
 		<supports>Spirit of the Tides</supports>
 		<requirements>[level:17]</requirements>
 		<description></description>
