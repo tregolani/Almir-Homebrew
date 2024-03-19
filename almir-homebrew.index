@@ -2,9 +2,9 @@
 <index>
   <info>
     <name>Almir Homebrew Collection</name>
-	<description>A collection of homebrew items and abilities for Salty Coffee's Almir DnD 5e Campaign</description>
+	<description>A collection of homebrew items and abilities for Salty Coffee's Tales of Mir DnD 5e Campaign</description>
 	<author>"Tregolani"</author>  
-    <update version="1.6">
+    <update version="1.7">
       <file name="almir-homebrew.index" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-homebrew.index" />
     </update>
   </info>
