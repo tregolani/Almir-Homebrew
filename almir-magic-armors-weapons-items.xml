@@ -2,15 +2,15 @@
 <elements>
   <info>
     <name>Almir Homebrew: Magical Armors, Weapons, and Items</name>
-    <description>A collection of magical weapons, armors, and items found by the PCs of the Almir campaign.</description>
+    <description>A collection of magical weapons, armors, and items found by the PCs of the Tales of Mir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.19">
+    <update version="0.1.20">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
 
 <!--Armors-->
-	<element name="Stonelord's Chain" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_MAGIC_ITEM_STONELORDS_CHAIN">
+	<element name="Stonelord's Chain" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_MAGIC_ITEM_STONELORDS_CHAIN">
 		<description>
 			<p>You gain a +2 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor.</p>
 			<p class="indent">In addition, when something attempts to move you against your will, you have advantage on the ability check or saving throw to resist the effect.</p>
@@ -33,7 +33,7 @@
 	</element>
 	
 <!--Potions-->
-	<element name="Healing Potion of Hill Giant Strength" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_HEALING_POTION_OF_HILL_GIANT_STRENGTH">		
+	<element name="Healing Potion of Hill Giant Strength" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_HEALING_POTION_OF_HILL_GIANT_STRENGTH">		
 		<description>
 			<p>You regain 2d4 + 2 hit points when you drink this potion. Additionally, your Strength score is set to 21 for 1 hour. When agitated, the potion's syrupy greenish liquid glints with small flashes of phospholuminescence.</p>
 		</description>
@@ -45,7 +45,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Chaotic Potion of Water Breathing" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_CHAOTIC_POTION_OF_WATER_BREATHING">		
+	<element name="Chaotic Potion of Water Breathing" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_CHAOTIC_POTION_OF_WATER_BREATHING">		
 		<description>
 			<p>This potion was given to the human known as Barnacle by a servant of Ploink, the Goddess of Chaos. Its bright azure fluid smells of the sea and has a jellyfish-like bubble floating in it.</p>
 			<p class="indent">Upon imbibing this potion, you can breathe underwater for 1 hour. However, due to the nature of its origin, anyone who drinks this potion and was not its original recipient will cause its chaotic magic to manifest in potentially dangerous ways.</p>
@@ -60,7 +60,7 @@
 	</element>
 
 <!--Rings-->
-	<element name="Ring of Waterboarding (Cursed)" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_CURSED_RING_OF_WATERBOARDING">
+	<element name="Ring of Waterboarding (Cursed)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_CURSED_RING_OF_WATERBOARDING">
 		<description>
 			<p>When speaking the command word, the wearer is placed under the effects of the <i>water walk</i> spell.</p>
 			<p class="indent"><strong><em>Curse.</em></strong> This item is cursed. Placing it on your finger curses you until you are targeted by a <em>remove curse</em> spell or similar magic. As long as you remain cursed, you cannot remove the ring. After having spoken the command word to activate its magic, if the ring is not submerged, it gains weight rapidly, pulling the wearer back underwater. This lasts until the ring has been dry for 1d10 minutes.</p>
@@ -77,7 +77,7 @@
 	</element>
 
 <!-- Weapons -->
-	<element name="Rapier of Milil" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_RAPIER_OF_MILIL">
+	<element name="Rapier of Milil" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_RAPIER_OF_MILIL">
 		<description>
 			<p>During the battle against the void-corrupted Madeline in the bowels of Dun'Morach, Alton High-Hill was granted an unexpected communion with his god Milil, the Lord of All Songs. The troubadour god imparted upon him the knowledge of the fluidity of fate—how his story, as well as those of his companions, had been inexplicably changed by forces beyond the mortal realm. However, the god urged Alton to embrace this new story, to make it one truly worth telling, and granted him this sword as a boon to assist to that endeavor.</p>
 			<p class="indent">You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
@@ -95,7 +95,7 @@
 			<set name="charges">2</set>
 		</setters>
 	</element>
-	<element name="Battleaxe of Mordon Grimlock" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_BATTLEAXE_OF_MORDON_GRIMLOCK">
+	<element name="Battleaxe of Mordon Grimlock" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_BATTLEAXE_OF_MORDON_GRIMLOCK">
 		<description>
 			<p>Found buried within the bowls of the sunken Underkeep of Dun'Morach, this finely-crafted battleaxe gleams with a golden sheen and is inset with glittering rubies.</p>
 			<p class="indent">You gain a +1 bonus to attack and damage rolls made with this magic weapon. Additionally, this weapon ignores defenses and resistances granted by rock or stone; for example, an Earth Elemental would not have resistance to this weapon's damage, and its natural Armor Class would be reduced to 10 plus its Dexterity modifier.</p>
@@ -111,7 +111,7 @@
 			<set name="weapon">Battleaxe</set>
 		</setters>
 	</element>
-	<element name="Returning Weapon" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_RETURNING_WEAPON">
+	<element name="Returning Weapon" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_RETURNING_WEAPON">
 		<description>
 			<p>This magic weapon grants a +1 bonus to attack and damage rolls made with it. In addition, the weapon has the thrown property with a normal range of 20 feet and a long range of 60 feet. When used to make a ranged attack, it returns to the wielder’s hand immediately after a hit, but the wielder must use a bonus action to recall it should the attack miss.</p>
 		</description>
@@ -126,7 +126,7 @@
 			<set name="name-format">Returning {{parent}} +{{enhancement}}</set>
 		</setters>
 	</element>
-	<element name="Reckless Conviction" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_RECKLESS_CONVICTION">
+	<element name="Reckless Conviction" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_RECKLESS_CONVICTION">
 		<description>
 			<p>While sporting no particular markings or embellishments, those of the Order of the Wardens would recognize this magical halberd as the signature weapon of Warden Riel. Known for his courageous acts of selflessness in his later years, this weapon embodies a more youthful bravado and vigor, and its blade gleams faintly when held by another of the Order.</p>
 			<p class="indent">The first time you attack with this halberd on each of your turns, you can reduce your Armor Class to grant the weapon a bonus to attack and damage rolls equal to the amount sacrificed, up to a maximum of +3. For example, you could reduce your Armor Class by 2 in order to gain a +2 to attack and damage rolls. The adjusted bonuses remain in effect until the start of your next turn, at which your Armor Class is returned to its previous value and the weapon loses any attack and damage bonuses.</p>
@@ -141,7 +141,7 @@
 			<set name="weapon">Halberd</set>
 		</setters>
 	</element>
-	<element name="Dwarven Lord's Returning Halberd" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_DWARVEN_LORDS_RETURNING_HALBERD">
+	<element name="Dwarven Lord's Returning Halberd" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_DWARVEN_LORDS_RETURNING_HALBERD">
 		<description>
 			<p>This unique halberd is an exquisite marvel of blacksmithing. Crafted from two separate weapons—Themor's personal throwing halberd and the fabled battleaxe of King Mordon Grimlock—the blacksmith was able to retain both magical enchantments and meld them into a single, powerful weapon worthy of being wielded by a god.</p>
 			<p class="indent">This magic weapon grants a +2 bonus to attack and damage rolls made with it. Additionally, this weapon ignores defenses and resistances granted by rock or stone; for example, an Earth Elemental would not have resistance to this weapon's damage, and its natural Armor Class would be reduced to 10 plus its Dexterity modifier.</p>
@@ -160,7 +160,7 @@
 	</element>
 
 <!--Wondrous Items-->
-	<element name="Amulet of Canine Transformation" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_AMULET_OF_CANINE_TRANSFORMATION">
+	<element name="Amulet of Canine Transformation" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_AMULET_OF_CANINE_TRANSFORMATION">
 			<p>This unadorned, weathered chain sports a heavy clasp and a simple pendant depicting a canine-like creature. Upon being clasped around the neck of a creature, that creature must succeed on a DC 15 Wisdom saving throw or be polymorphed into a dog. The creature can repeat the save at dawn of the next day until they succeed on the saving throw. While transformed, the creature retains its mental statistics, but cannot write, speak, use weapons or items, or cast any spells. </p>
 			<p class="indent">If the chain is broken or removed forcefully before the creature succeeds on its Wisdom saving throw, it takes 1d10 psychic damage before reverting to its original form.</p>
 			<description>
@@ -175,7 +175,7 @@
 			<set name="attunement">false</set>
 		</setters>
 	</element>
-	<element name="Amulet of Summoning" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_AMULET_OF_SUMMONING">
+	<element name="Amulet of Summoning" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_AMULET_OF_SUMMONING">
 		<description>
 			<p>A simple silver chain adorned with a diamond-shaped pendant with a small amethyst set in the center. While attuned to the amulet, you can summon a spectral homunculus that will obey your commands and, to the best of its ability, complete simple tasks for 1 hour. Once the homunculus has been summoned, it cannot be summoned again until you finish a long rest.</p>
 		</description>
@@ -189,7 +189,7 @@
 			<set name="attunement">true</set>
 		</setters>
 	</element>
-	<element name="Circlet of Starry Vision" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_CIRCLET_OF_STARRY_VISION">
+	<element name="Circlet of Starry Vision" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_CIRCLET_OF_STARRY_VISION">
 		<description>
 			<p>While wearing this silver circlet inset with a single sparkling gem, you have darkvision out to a range of 60 feet. The area is illuminated as if bathed in starlight.</p>
 		</description>
@@ -206,7 +206,7 @@
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 		</rules>
 	</element>
-	<element name="Gem of Tremorsense" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_GEM_OF_TREMORSENSE">
+	<element name="Gem of Tremorsense" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_GEM_OF_TREMORSENSE">
 		<description>
 			<p>As an action while holding this gem in one hand, you can grant yourself tremorsense out to 30 feet. You retain this special sense for as long as you continue to hold the gem, but it fades once you are no longer holding the gem in at least one hand.</p>
 			<p class="indent">This version of tremorsense can always sense those you are friendly with as long as they are within 30 feet. However, it can only sense unfamiliar presences—hostile or otherwise—once you have perceived the creature with mundane senses such as sight or hearing.</p>
@@ -221,7 +221,7 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 	</element>
-  	<element name="Indestructible Spyglass" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_INDESTRUCTIBLE_SPYGLASS">
+  	<element name="Indestructible Spyglass" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_INDESTRUCTIBLE_SPYGLASS">
 		<description>
 			<p>A well-built spyglass, wrapped in a soft leather grip and made of a dark mahogany wood. This particular tool is imbued with a particularly potent abjuration charm that makes it impervious to any sort of damage.</p>
 		</description>
@@ -235,7 +235,7 @@
 			<set name="attunement">false</set>
 		</setters>
 	</element>
-  	<element name="Mammazon's Grocery Bag for the Everyday Wizard" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_MAMMAZONS_BAG_FOR_THE_EVERYDAY_WIZARD">
+  	<element name="Mammazon's Grocery Bag for the Everyday Wizard" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_MAMMAZONS_BAG_FOR_THE_EVERYDAY_WIZARD">
 		<description>
 			<p>This well-stitched velvet bag was a gift of good will from Quinn, the enigmatic tiefling betrothed to the Company of Heroes' guildmaster Gorven, as a sign of their newfound partnership with the mercantile syndicate known only as Mammazon. When in need of material components for a spell, you can whisper its name into the bag and it will appear inside in the next 1d12 minutes. Once you have placed the component's monetary value—plus a convenience fee of 10%—into the bag, the component can be withdrawn and used for whatever magical mayhem you wish to sow.</p>
 			<p class="indent">However, convenience is not without its limits. If you use the bag more than three times before completing a long rest, the convenience fee will rise steeply with each subsequent item procured. Mammazon is nothing if not a shrewd businessman, after all.</p>
@@ -250,7 +250,7 @@
 			<set name="attunement">false</set>
 		</setters>
 	</element>
-	<element name="Ploink Bean" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_PLOINK_BEAN">		
+	<element name="Ploink Bean" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_PLOINK_BEAN">		
 		<description>
 			<p>These strange speckled beans hold within them the raw chaotic potential of Ploink, the Goddess of Chaos. When ingested, the DM rolls 1d10000 and enacts the effect listed on the Expanded Wild Magic table.</p>
 		</description>
@@ -261,7 +261,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Pendant of the Grovewalker" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_PENDANT_OF_THE_GROVEWALKER">
+	<element name="Pendant of the Grovewalker" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_PENDANT_OF_THE_GROVEWALKER">
 		<description>
 			<p>A clawmarked leaf-shaped pendant, edged with polished darkwood and dangling from a sturdy leather strap. It once belonged to the wild druid Kars, the last member of a reclusive druidic order which lived in seclusion to pursue their affinity for bestial transformations. Following his death a century prior, however, his spirit continued to linger within the grove, and was eventually corrupted by the growing influence of Faust. The dracolich's power transformed him into a twisted arboreal monstrosity consumed by hatred and enmity, and he began to siphon the very essence of the land in order to fuel the creation of an army of mindless undead. However, before his vengeful crusade could spread, he was cut down and vanquished by a passing band of adventurers, and this pendant was all that could be found of the unfortunate druid.</p>
 			<p class="indent">Once per day while holding or wearing this pendant, you can cast the <em>tree stride</em> spell. Once the pendant has been used, it can't be used to cast the spell again until the next dawn.</p>
@@ -279,7 +279,7 @@
 			<set name="attunement">false</set>
 		</setters>
 	</element>
-	<element name="Flawed Pendant of the Silver Tongue" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_FLAWED_PENDANT_OF_SILVER_TONGUE">
+	<element name="Flawed Pendant of the Silver Tongue" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FLAWED_PENDANT_OF_SILVER_TONGUE">
 		<description>
 			<p>A thin golden chain adorned with a simple circular pendant with a smooth, curiously dull stone set in the center. While the pendant is on your person, you gain advantage on Charisma (Deception) and Charisma (Persuasion) checks. However, if ever you fail one of these checks by more than 5, the central stone will detonate, shattering the pendant in a spray of magic-infused shrapnel. Each creature within a 10-foot-radius sphere centered on the stone must make a Dexterity saving throw, taking 6d6 force damage on a failed save, or half as much on a success. If a creature has the pendant on their person when it explodes, it has disadvantage on this save.</p>
 		</description>
@@ -295,7 +295,7 @@
 	</element>
 
 <!-- Spell-Matrix Crystals -->
-	<element name="Spell-Matrix Crystal, Cantrip" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_CANTRIP">
+	<element name="Spell-Matrix Crystal, Cantrip" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_CANTRIP">
 		<description>
 			<p>This small, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single cantrip.</p> 
@@ -310,7 +310,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell-Matrix Crystal, 1st Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL1">
+	<element name="Spell-Matrix Crystal, 1st Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL1">
 		<description>
 			<p>This small, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 1st-level or below.</p> 
@@ -325,7 +325,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell-Matrix Crystal, 2nd Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL2">
+	<element name="Spell-Matrix Crystal, 2nd Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL2">
 		<description>
 			<p>This small, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 2nd-level or below.</p>
@@ -340,7 +340,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell-Matrix Crystal, 3rd Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL3">
+	<element name="Spell-Matrix Crystal, 3rd Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL3">
 		<description>
 			<p>This palm-sized, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 3rd-level or below.</p> 
@@ -355,7 +355,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell-Matrix Crystal, 4th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL4">
+	<element name="Spell-Matrix Crystal, 4th Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL4">
 		<description>
 			<p>This palm-sized, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 4th-level or below.</p>
@@ -370,7 +370,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell-Matrix Crystal, 5th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL5">
+	<element name="Spell-Matrix Crystal, 5th Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL5">
 		<description>
 			<p>This palm-sized, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 5th-level or below.</p>
@@ -385,7 +385,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell-Matrix Crystal, 6th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL6">
+	<element name="Spell-Matrix Crystal, 6th Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL6">
 		<description>
 			<p>This fist-sized, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 6th-level or below.</p>
@@ -400,7 +400,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell-Matrix Crystal, 7th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL7">
+	<element name="Spell-Matrix Crystal, 7th Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL7">
 		<description>
 			<p>This fist-sized, translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 5th-level or below.</p>
@@ -415,7 +415,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell-Matrix Crystal, 8th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL8">
+	<element name="Spell-Matrix Crystal, 8th Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL8">
 		<description>
 			<p>This 1-foot diameter translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 8th-level or below.</p>
@@ -430,7 +430,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Spell-Matrix Crystal, 9th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL9">
+	<element name="Spell-Matrix Crystal, 9th Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL9">
 		<description>
 			<p>This 2-foot diameter translucent crystal stores spells cast into it, holding them until a creature speaks the command word to release them. When released, the spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if the creature holding the crystal cast the spell.</p>
 		<p class="indent">This specific crystal can store a single spell of 9th-level or below.</p>
@@ -447,7 +447,7 @@
 	</element>
 	
 <!-- Flawed Matrix Crystals -->
-	<element name="Flawed Spell-Matrix Crystal, Cantrip" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_CANTRIP_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, Cantrip" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_CANTRIP_FLAWED">
 		<description>
 			<p>This small, cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 10 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use, while on a failure the crystal refuses to accept the spell and the crystal crumbles to dust. However, if the check is failed by more than 5, the crystal detonates in a spray of magic-infused shrapnel. Each creature within a 5-foot-radius sphere centered on the crystal must make a DC 10 Dexterity saving throw, taking 2d6 force damage on a failed save, or half as much on a success. If a creature is holding the crystal when it explodes, it has disadvantage on this save.</p> 
@@ -462,7 +462,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell-Matrix Crystal, 1st Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL1_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 1st Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL1_FLAWED">
 		<description>
 			<p>This small, cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 11 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use, while on a failure the crystal refuses to accept the spell and the crystal crumbles to dust. However, if the check is failed by more than 5, the crystal detonates in a spray of magic-infused shrapnel. Each creature within a 5-foot-radius sphere centered on the crystal must make a DC 11 Dexterity saving throw, taking 4d6 force damage on a failed save, or half as much on a success. If a creature is holding the crystal when it explodes, it has disadvantage on this save.</p> 
@@ -478,7 +478,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell-Matrix Crystal, 2nd Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL2_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 2nd Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL2_FLAWED">
 		<description>
 			<p>This small, cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 12 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use, while on a failure the crystal refuses to accept the spell and the crystal crumbles to dust. However, if the check is failed by more than 5, the crystal detonates in a spray of magic-infused shrapnel. Each creature within a 5-foot-radius sphere centered on the crystal must make a DC 12 Dexterity saving throw, taking 6d6 force damage on a failed save, or half as much on a success. If a creature is holding the crystal when it explodes, it has disadvantage on this save.</p> 
@@ -494,7 +494,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell-Matrix Crystal, 3rd Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL3_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 3rd Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL3_FLAWED">
 		<description>
 			<p>This palm-sized cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 13 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use, while on a failure the crystal refuses to accept the spell and the crystal crumbles to dust. However, if the check is failed by more than 5, the crystal detonates in a spray of magic-infused shrapnel. Each creature within a 5-foot-radius sphere centered on the crystal must make a DC 13 Dexterity saving throw, taking 8d6 force damage on a failed save, or half as much on a success. If a creature is holding the crystal when it explodes, it has disadvantage on this save.</p> 
@@ -510,7 +510,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell-Matrix Crystal, 4th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL4_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 4th Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL4_FLAWED">
 		<description>
 			<p>This palm-sized cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 14 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use, while on a failure the crystal refuses to accept the spell and the crystal crumbles to dust. However, if the check is failed by more than 5, the crystal detonates in a spray of magic-infused shrapnel. Each creature within a 10-foot-radius sphere centered on the crystal must make a DC 14 Dexterity saving throw, taking 10d6 force damage on a failed save, or half as much on a success. If a creature is holding the crystal when it explodes, it has disadvantage on this save.</p> 
@@ -526,7 +526,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell-Matrix Crystal, 5th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL5_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 5th Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL5_FLAWED">
 		<description>
 			<p>This palm-sized cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 15 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use, while on a failure the crystal refuses to accept the spell and the crystal crumbles to dust. However, if the check is failed by more than 5, the crystal detonates in a spray of magic-infused shrapnel. Each creature within a 10-foot-radius sphere centered on the crystal must make a DC 15 Dexterity saving throw, taking 12d6 force damage on a failed save, or half as much on a success. If a creature is holding the crystal when it explodes, it has disadvantage on this save.</p> 
@@ -542,7 +542,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell-Matrix Crystal, 6th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL6_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 6th Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL6_FLAWED">
 		<description>
 			<p>This fist-sized cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 16 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use, while on a failure the crystal refuses to accept the spell and the crystal crumbles to dust. However, if the check is failed by more than 5, the crystal detonates in a spray of magic-infused shrapnel. Each creature within a 10-foot-radius sphere centered on the crystal must make a DC 16 Dexterity saving throw, taking 14d6 force damage on a failed save, or half as much on a success. If a creature is holding the crystal when it explodes, it has disadvantage on this save.</p> 
@@ -558,7 +558,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell-Matrix Crystal, 7th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL7_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 7th Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL7_FLAWED">
 		<description>
 			<p>This fist-sized cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 17 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use, while on a failure the crystal refuses to accept the spell and the crystal crumbles to dust. However, if the check is failed by more than 5, the crystal detonates in a spray of magic-infused shrapnel. Each creature within a 10-foot-radius sphere centered on the crystal must make a DC 17 Dexterity saving throw, taking 16d6 force damage on a failed save, or half as much on a success. If a creature is holding the crystal when it explodes, it has disadvantage on this save.</p> 
@@ -574,7 +574,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell-Matrix Crystal, 8th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL8_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 8th Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL8_FLAWED">
 		<description>
 			<p>This 1-foot diameter cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 18 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use, while on a failure the crystal refuses to accept the spell and the crystal crumbles to dust. However, if the check is failed by more than 5, the crystal detonates in a spray of magic-infused shrapnel. Each creature within a 15-foot-radius sphere centered on the crystal must make a DC 18 Dexterity saving throw, taking 18d6 force damage on a failed save, or half as much on a success. If a creature is holding the crystal when it explodes, it has disadvantage on this save.</p> 
@@ -590,7 +590,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Flawed Spell-Matrix Crystal, 9th Level" type="Magic Item" source="Almir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL9_FLAWED">
+	<element name="Flawed Spell-Matrix Crystal, 9th Level" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_MATRIX_CRYSTAL_LEVEL9_FLAWED">
 		<description>
 			<p>This 2-foot diameter cloudy crystal resembles the spell-matrix crystals produced by Jerirag, but is currently in an unrefined state. It can still store spells cast into it in the same way as its refined counterparts, but the imperfect cut and luster of the gem results in some arcane instability.</p>
 			<p class="indent">When a creature attempts to imbue the crystal with a spell, it must make a DC 19 Intelligence (Arcana) check. On a success, the crystal accepts and stores the spell for later use, while on a failure the crystal refuses to accept the spell and the crystal crumbles to dust. However, if the check is failed by more than 5, the crystal detonates in a spray of magic-infused shrapnel. Each creature within a 20-foot-radius sphere centered on the crystal must make a DC 19 Dexterity saving throw, taking 20d6 force damage on a failed save, or half as much on a success. If a creature is holding the crystal when it explodes, it has disadvantage on this save.</p> 
