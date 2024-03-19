@@ -2,19 +2,19 @@
 <elements>
 	<info>
 		<name>Alchemist Artificer Archetype, Modified for Tales of Mir</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="almir-artificer-alchemist.xml" url="https://github.com/tregolani/Almir-Homebrew/almir-artificer-alchemist.xml" />
 		</update>
 	</info>
 
-	<element name="Alchemist" type="Archetype" source="Tales of Mir Homebrew Collection" id="ID_TREG_HB_ARCHETYPE_ARTIFICER_ALCHEMIST_ALMIR">
+	<element name="Alchemist" type="Archetype" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_HB_ARCHETYPE_ARTIFICER_ALCHEMIST_ALMIR">
 		<supports>Artificer Specialist, TCOE Base</supports>
 		<description>
 			<p>An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.</p>
 			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ALCHEMIST_TOOL_PROFICIENCY" />
 			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ALCHEMIST_ALCHEMIST_SPELLS" />
-			<div element="ID_TREG_HB_ARCHETYPE_FEATURE_ALCHEMIST_EXPERIMENTAL_ELIXIR_ALMIR" />
-			<div element="ID_TREG_HB_ARCHETYPE_FEATURE_ALCHEMIST_COMBAT_CHEMIST" />
+			<div element="ID_ALMIR_HB_ARCHETYPE_FEATURE_ALCHEMIST_EXPERIMENTAL_ELIXIR_ALMIR" />
+			<div element="ID_ALMIR_HB_ARCHETYPE_FEATURE_ALCHEMIST_COMBAT_CHEMIST" />
 			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ALCHEMIST_ALCHEMICAL_SAVANT" />
 			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ALCHEMIST_RESTORATIVE_REAGENTS" />
 			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ALCHEMIST_CHEMICAL_MASTERY" />
@@ -23,8 +23,8 @@
 		<rules>
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ALCHEMIST_TOOL_PROFICIENCY" level="3" />
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ALCHEMIST_ALCHEMIST_SPELLS" level="3" />
-			<grant type="Archetype Feature" id="ID_TREG_HB_ARCHETYPE_FEATURE_ALCHEMIST_EXPERIMENTAL_ELIXIR_ALMIR" level="3" />
-			<grant type="Archetype Feature" id="ID_TREG_HB_ARCHETYPE_FEATURE_ALCHEMIST_COMBAT_CHEMIST" level="3" />
+			<grant type="Archetype Feature" id="ID_ALMIR_HB_ARCHETYPE_FEATURE_ALCHEMIST_EXPERIMENTAL_ELIXIR_ALMIR" level="3" />
+			<grant type="Archetype Feature" id="ID_ALMIR_HB_ARCHETYPE_FEATURE_ALCHEMIST_COMBAT_CHEMIST" level="3" />
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ALCHEMIST_ALCHEMICAL_SAVANT" level="5" />
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ALCHEMIST_RESTORATIVE_REAGENTS" level="9" />
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ALCHEMIST_CHEMICAL_MASTERY" level="15" />
@@ -72,7 +72,7 @@
 			<grant type="Spell" id="ID_PHB_SPELL_RAISE_DEAD" spellcasting="Artificer" level="17" prepared="true" />
 		</rules>
 	</element> -->
-	<element name="Experimental Elixir" type="Archetype Feature" source="Tales of Mir Homebrew Collection" id="ID_TREG_HB_ARCHETYPE_FEATURE_ALCHEMIST_EXPERIMENTAL_ELIXIR_ALMIR">
+	<element name="Experimental Elixir" type="Archetype Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_HB_ARCHETYPE_FEATURE_ALCHEMIST_EXPERIMENTAL_ELIXIR_ALMIR">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_TCOE_ARTIFICER_ALCHEMIST_EXPERIMENTAL_ELIXIR</requirements>
 		<description>
 			<p><em>3rd-level Alchemist feature</em></p>
@@ -93,8 +93,7 @@
 			</table>
 		</description>
 		<sheet>
-			<description>Whenever you finish a long rest, you can magically produce up to {{proficiency}} elixirs, each in an empty flask you touch. &#13;
-			Any elixir you create with this feature lasts until it is drunk or until the end of your next long rest. &#13;
+			<description>Whenever you finish a long rest, you can magically produce up to {{proficiency}} elixirs, each in an empty flask you touch. Any elixir you create with this feature lasts until it is drunk or until the end of your next long rest. &#13;
 			•Healing: Regain 2d4 + {{intelligence:modifier}} hit points. &#13;
 			•Swiftness: Speed increased by 10 feet for 1 hour. &#13;
 			•Resilience: Gain +1 AC for 10 minutes. &#13;
@@ -102,8 +101,7 @@
 			•Flight: Gain 10 feet of flying speed for 10 minutes. &#13;
 			•Transformation: Body is transformed as if by the alter self spell for 10 minutes.
 			</description>
-			<description level="6">Whenever you finish a long rest, you can magically produce up to {{proficiency}} elixirs, each in an empty flask you touch. &#13;
-			Any elixir you create with this feature lasts until it is drunk or until the end of your next long rest. &#13;
+			<description level="6">Whenever you finish a long rest, you can magically produce up to {{proficiency}} elixirs, each in an empty flask you touch. Any elixir you create with this feature lasts until it is drunk or until the end of your next long rest. &#13;
 			•Healing: Regain 3d4 + {{intelligence:modifier}} hit points. &#13;
 			•Swiftness: Speed increased by 15 feet for 1 hour. &#13;
 			•Resilience: Gain +1 AC for 1 hour. &#13;
@@ -111,8 +109,7 @@
 			•Flight: Gain a flying speed equal to their walking speed for 10 minutes. &#13;
 			•Transformation: Body is transformed as if by the alter self spell for 1 hour.
 			</description>
-			<description level="15">Whenever you finish a long rest, you can magically produce up to {{proficiency}} elixirs, each in an empty flask you touch. &#13;
-			Any elixir you create with this feature lasts until it is drunk or until the end of your next long rest. &#13;
+			<description level="15">Whenever you finish a long rest, you can magically produce up to {{proficiency}} elixirs, each in an empty flask you touch. Any elixir you create with this feature lasts until it is drunk or until the end of your next long rest. &#13;
 			•Healing: Regain 4d4 + {{intelligence:modifier}} hit points. &#13;
 			•Swiftness: Speed increased by 20 feet for 1 hour. &#13;
 			•Resilience: Gain +1 AC for 8 hours. &#13;
@@ -122,7 +119,7 @@
 			</description>
 		</sheet>
 	</element>
-	<element name="Combat Chemist" type="Archetype Feature" source="Tales of Mir Homebrew Collection" id="ID_TREG_HB_ARCHETYPE_FEATURE_ALCHEMIST_COMBAT_CHEMIST">
+	<element name="Combat Chemist" type="Archetype Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_HB_ARCHETYPE_FEATURE_ALCHEMIST_COMBAT_CHEMIST">
 		<description>
 			<p><em>3rd-level Alchemist feature</em></p>
 			<p>Also at 3rd level, you always have a handful of extra tools on hand to aid you in combat.</p>
@@ -130,10 +127,10 @@
 			<p class="indent">You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.</p>
 			<div element="ID_WOTC_PHB_ITEM_ALCHEMISTS_FIRE_FLASK" />
 			<div element="ID_WOTC_PHB_ITEM_ACID_VIAL" />
-			<div element="ID_TREG_HB_ITEM_GRENADE_FLASH" />
+			<div element="ID_ALMIR_HB_ITEM_GRENADE_FLASH" />
 			<div element="ID_WOTC_DMG_ITEM_GRENADE_SMOKE" />
 			<div element="ID_WOTC_DMG_ITEM_BOMB" />
-			<div element="ID_TREG_HB_ITEM_GLUEBOMB" />
+			<div element="ID_ALMIR_HB_ITEM_GLUEBOMB" />
 		</description>
 		<sheet action="Action" usage="{{proficiency}}/Long Rest">
 			<description>You can create a flask of alchemist's fire, a vial of acid, flash bomb, or smoke bomb with your alchemist tools. You may throw it as a part of the same action, and if the item forces a saving throw, the DC is {{artificer:spellcasting:dc}}. The item becomes inert if you do not use it with an hour.</description>
@@ -194,7 +191,7 @@
 	</element> -->
 
 <!-- Combat Chemist Extra Items -->
-	<element name="Grenade, Flash" type="Item" source="Tales of Mir Homebrew Collection" id="ID_TREG_HB_ITEM_GRENADE_FLASH">
+	<element name="Grenade, Flash" type="Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_HB_ITEM_GRENADE_FLASH">
 		<description>
 			<p>As an action, a character can throw a flash grenade at a point up to 60 feet away, where it explodes in a brilliant flash of light. Creatures within 20 feet of the point of impact must succeed on a <b>DC 13 Constitution Saving Throw</b> or be <i>blinded</i> until the end of their next turn. The explosion does not spread around corners, so creatures behind full cover automatically succeed on the saving throw.</p>
 		</description>
@@ -205,7 +202,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Gluebomb" type="Item" source="Tales of Mir Homebrew Collection" id="ID_TREG_HB_ITEM_GLUEBOMB">
+	<element name="Gluebomb" type="Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_HB_ITEM_GLUEBOMB">
 		<description>
 			<p>This unique explosive can be primed and thrown up to 30 feet as an action, exploding on impact. Creatures within 20 feet of it must make a <b>DC 12 Dexterity Saving Throw</b> or be <i>restrained</i> for 1 minute. A restrained creature can make a DC 12 Strength check as an action, escaping on a success.</p>
 		</description>
