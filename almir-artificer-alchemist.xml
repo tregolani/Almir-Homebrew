@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Alchemist Artificer Archetype, Modified for Tales of Mir</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="almir-artificer-alchemist.xml" url="https://github.com/tregolani/Almir-Homebrew/almir-artificer-alchemist.xml" />
 		</update>
 	</info>
@@ -197,7 +197,7 @@
 		</description>
 		<setters>
 			<set name="category">Explosives</set>
-			<set name="cost" currency="gp">0</set>
+			<set name="cost" currency="gp">20</set>
 			<set name="weight" lb="2">2 lb.</set>
 			<set name="stackable">true</set>
 		</setters>
@@ -208,7 +208,7 @@
 		</description>
 		<setters>
 			<set name="category">Explosives</set>
-			<set name="cost" currency="gp">0</set>
+			<set name="cost" currency="gp">50</set>
 			<set name="weight" lb="2">2 lb.</set>
 			<set name="stackable">true</set>
 		</setters>
