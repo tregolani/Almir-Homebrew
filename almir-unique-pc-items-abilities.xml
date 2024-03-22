@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.21">
+    <update version="0.2.22">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -505,7 +505,7 @@
 		</setters> -->
 	</element>
 	<element name="Imminent Demise" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_IMMINENT_DEMISE">
-		<requirements>ID_ALMIR_UNIQUE_RACE_RESTORED_DHAMPIR</requirements>
+		<requirements>ID_ALMIR_UNIQUE_RACE_RESTORED_DHAMPIR,ID_WOTC_PHB_CLASS_ROGUE</requirements>
 		<description>
 			<p>When you successfully hit a creature with a Sneak Attack, you can sacrifice up to a number of the bonus damage dice equal to your Intelligence modifier to force the creature to make a Constitution saving throw against your spell DC. On a failure, the target takes 2d8 radiant damage per dice sacrificed and is blinded until the start of your next turn. On a success, it takes half that damage and is not blinded. This ability does not benefit from critical hits.</p>
 			<p class="indent">Once you use this feature, you can't use it again until you finish a short or long rest.</p>
@@ -887,7 +887,7 @@
 			<set name="traits">ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM</set>
 		</setters>
 		<rules>
-			<stat name="companion:ac" value="16" bonus="base" />
+			<stat name="companion:ac" value="17" bonus="base" />
 			<stat name="companion:hp:max" value="39" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
@@ -972,7 +972,7 @@
 			<set name="traits">ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM</set>
 		</setters>
 		<rules>
-			<stat name="companion:ac" value="16" bonus="base" />
+			<stat name="companion:ac" value="17" bonus="base" />
 			<stat name="companion:hp:max" value="39" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
@@ -1057,7 +1057,7 @@
 			<set name="traits">ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE,ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_WATER_FORM</set>
 		</setters>
 		<rules>
-			<stat name="companion:ac" value="16" bonus="base" />
+			<stat name="companion:ac" value="17" bonus="base" />
 			<stat name="companion:hp:max" value="39" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
