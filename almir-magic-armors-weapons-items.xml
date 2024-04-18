@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Tales of Mir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.20">
+    <update version="0.1.21">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
@@ -249,6 +249,32 @@
 			<set name="rarity">Rare</set>
 			<set name="attunement">false</set>
 		</setters>
+	</element>
+	<element name="Morani's Starry Shroud" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_MAGIC_ITEM_MORANI_STARRY_SHROUD">
+		<description>
+			<p>The weathered brown cloak lovingly maintained through the years by one of the famed Cursebreakers serves its original purpose as a comfort on cold nights and bleak days, though now has been imbued with additional properties by an artisan of no repute.</p>
+			<p class="indent">Functionally, it possesses the same characteristics of a Cloak of Protection, conferring +1 to AC and Saving Throws. It requires attunement to gain these benefits.</p>
+			<p class="indent">At night or when its wearer wills it, the earthen canvas alights into a gentle night sky full of stars. Prominently featured are three constellations, that of an Archer, a Chalice, with a Dragon motif wrapped around the shoulders. The hood also possesses a tiny astral elephant, constantly strolling across the cloth surface. The glow acts as 5 feet of dim light or 10 feet if fully illuminated.</p>
+		</description>
+		<setters>
+			<set name="keywords">cloak, armor, saving throw</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">shoulders</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="1" />		
+			<stat name="strength:save:misc" value="1" />
+			<stat name="dexterity:save:misc" value="1" />
+			<stat name="constitution:save:misc" value="1" />
+			<stat name="intelligence:save:misc" value="1" />
+			<stat name="wisdom:save:misc" value="1" />
+			<stat name="charisma:save:misc" value="1" />
+		</rules>
 	</element>
 	<element name="Ploink Bean" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_PLOINK_BEAN">		
 		<description>
