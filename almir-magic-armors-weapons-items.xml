@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Tales of Mir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.21">
+    <update version="0.1.22">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
@@ -235,6 +235,24 @@
 			<set name="attunement">false</set>
 		</setters>
 	</element>
+  	<element name="Indestructible Sorcerous Spyglass" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_INDESTRUCTIBLE_SORCEROUS_SPYGLASS">
+		<description>
+			<p>A well-built spyglass, wrapped in a soft leather grip and made of a dark mahogany wood. This particular tool is imbued with a particularly potent abjuration charm that makes it impervious to any sort of damage.</p>
+			<p class="indent">A creature looking through this spyglass has advantage on Wisdom (Perception) checks to detect things that can be seen. In addition, the user can view magical auras while looking through the spyglass, as if under the effect of a <i>detect magic</i> spell.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_DETECT_MAGIC" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">500</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">belt</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement">false</set>
+		</setters>
+	</element>
   	<element name="Mammazon's Grocery Bag for the Everyday Wizard" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_MAMMAZONS_BAG_FOR_THE_EVERYDAY_WIZARD">
 		<description>
 			<p>This well-stitched velvet bag was a gift of good will from Quinn, the enigmatic tiefling betrothed to the Company of Heroes' guildmaster Gorven, as a sign of their newfound partnership with the mercantile syndicate known only as Mammazon. When in need of material components for a spell, you can whisper its name into the bag and it will appear inside in the next 1d12 minutes. Once you have placed the component's monetary value—plus a convenience fee of 10%—into the bag, the component can be withdrawn and used for whatever magical mayhem you wish to sow.</p>
@@ -267,7 +285,7 @@
 			<set name="rarity">Uncommon</set>
 		</setters>
 		<rules>
-			<stat name="ac:misc" value="1" />		
+			<stat name="ac:misc" value="1" />
 			<stat name="strength:save:misc" value="1" />
 			<stat name="dexterity:save:misc" value="1" />
 			<stat name="constitution:save:misc" value="1" />
