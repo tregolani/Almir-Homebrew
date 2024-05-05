@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.25">
+    <update version="0.2.26">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -250,14 +250,14 @@
 		<description>
 			<p>After his encounter with the mind of Eris'atemor's void demon form, as well as his communion with the fragment of the void beast he defeated upon the <i>Widow's Kiss</i>, Apsinthos heads below deck to take an evening's rest. However, his sleep is disturbed as an overwhelming darkness consumes his dreams. Suddenly, strange runes and glyphs begin to circle his consciousness, and though he cannot read them, their meaning is emotively conveyed into his mind with an intimacy unlike any languange he has known before. He tries to move away from the glyphs, but a voice speaks out to him through them, claiming to be the Void. He learns that the void is consumed with returning it and everything else to nothingness, and that in nothingness there is perfection. The concept intrigues the young warlock, and the void offers him the power to harness its vast inscrutable energy to meld his destiny into whatever he would want it to be. Seemingly swayed by the promise of all-encompassing equality in embracing the nothingness, Apsinthos accepts this gift. Only time will tell whether he will use it to shape his own destiny, or it will use him as a tool of the insatiable hunger of the void.</p>
 			<h6><b>Call Upon the Void</b></h6>
-			<p>As an action, can make a 1-3 worded command to the void, causing it to cast a spell from the wizard or cleric spell list as chosen by the void to fulfill the command given. However, doing so will cause you to take 1d6 necrotic damage, which ignores resistance and immunity. Each subsequent time this special action is used again before finishing a short or long rest, the necrotic damage increases by 1d6.</p>
+			<p>As an action, can make a 1-3 worded command to the void, causing it to cast a spell as chosen by the void to fulfill the command given. This spell must be from the cleric or wizard spell lists, and cannot exceed the highest spell level you can cast, up to a maximum of 5th level. Immediately when the spell is cast, you take 1d6 necrotic damage, which ignores resistance and immunity. Each subsequent time this special action is used again before finishing a short or long rest, the necrotic damage increases by 1d6.</p>
 			<p class="indent">When you cast a spell in this manner, it does not expend a spell slot.</p>
 			<h6><b>From Nothing I Will Create My Own</b></h6>
 			<p>You can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a Minor Wish. However, doing so causes a great strain on your physical body, and the release of void energy causes you to take 4d10 necrotic damage, which ignores resistance and immunity. Once you use this property, it cannot be used again for 7 days.</p>
 			</description>
 		<sheet action="Action or Special" usage="Special">
 			<description>Communing with the void has granted you special powers: &#13;
-			• Call Upon the Void: As an action, can make a 1-3 worded command to the void, causing it to cast a spell from the wizard or cleric spell list as chosen by the void to fulfill the command given. However, doing so will cause you to take 1d6 necrotic damage, which ignores resistance and immunity. Each subsequent time this special action is used again before finishing a short or long rest, the necrotic damage increases by 1d6. &#13;
+			• Call Upon the Void: As an action, can make a 1-3 worded command to the void, causing it to cast a spell as chosen by the void to fulfill the command given. This spell must be from the cleric or wizard spell lists, and cannot exceed the highest spell level you can cast, up to a maximum of 5th level. Immediately when the spell is cast, you take 1d6 necrotic damage, which ignores resistance and immunity. Each subsequent time this special action is used again before finishing a short or long rest, the necrotic damage increases by 1d6. &#13;
 			• From Nothing I Will Create My Own: Can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a Minor Wish. However, doing so causes you to take 4d10 necrotic damage, which ignores resistance and immunity. Once you use this property, it cannot be used again for 7 days.</description>
 		</sheet>
 		<setters>
