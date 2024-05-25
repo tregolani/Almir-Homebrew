@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.26">
+    <update version="0.2.27">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -484,6 +484,7 @@
 			<stat name="artificer:spellcasting:dc" value="1" />
 		</rules>
 	</element>
+
 	<element name="Countenance of Terror" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_COUNTENANCE_OF_TERROR">
 		<requirements>ID_ALMIR_UNIQUE_RACE_RESTORED_DHAMPIR</requirements>
 		<description>
@@ -504,6 +505,7 @@
 			<set name="rarity">Artifact</set>
 		</setters> -->
 	</element>
+
 	<element name="Imminent Demise" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_IMMINENT_DEMISE">
 		<requirements>ID_ALMIR_UNIQUE_RACE_RESTORED_DHAMPIR,ID_WOTC_PHB_CLASS_ROGUE</requirements>
 		<description>
@@ -522,6 +524,7 @@
 			<set name="rarity">Artifact</set>
 		</setters> -->
 	</element>
+
 	<element name="Seabreeze's Ring of the Faceless Ones (Reborn)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_SEABREEZE">
 		<description>
 			<p>A small gold band with no discernible features, this ring was given to Curious Bite by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative. However, after her restoration through Lathander, the enchantment that enhanced her dhampir bite proved to have been cleansed from the ring by the Morninglord's power.</p>
@@ -580,6 +583,61 @@
 		</description>
 		<sheet action="Reaction" usage="1/Short Rest or a 3rd lvl spell slot">
 			<description>When an ally you can see within 30 ft is reduced below 50% of their max hp, you can surround them in a swirl of protective waters. Immediately, and then again at the start of their next 2 turns, they recover 1d6 + {{wisdom:modifier}} hitpoints. Additionally, they gain a +1 to AC and saving throws, and gain resistance against the damage type triggering the reaction until the start of their 3rd turn since receiving this blessing.</description>
+		</sheet>
+	</element>
+
+<!-- Session 88 Abilities -->
+	<element name="Alchemical Masterwork: Draconis Rising" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_DRACONIS_RISING">
+		<requirements>ID_WOTC_TCOE_CLASS_ARTIFICER,ID_ALMIR_HB_ARCHETYPE_ARTIFICER_ALCHEMIST_ALMIR</requirements>
+		<description>
+			<p>It is not like the dragons to give thought to the small, the weak, those that they would either call food or servant. Even less so for one to give such a creature even a modicum of their power. Yet the one they called Faust, the one that nearly ended the world (again if stories were to be believed) was doing just that.</p>
+			<p class="indent">There are old myths that he once protected the realm, that perhaps this was once something that truly set this being apart, or perhaps this is but a last laugh of a fallen foe, to throw chaos amidst his old rivals. Time will tell. In the end, the power is very much real, and it has found itself in the claws of a most unsuspecting host….but is it a power meant just for you?</p>
+			<p class="indent">You can feel the power stirring within, a roaring, terrifying thing...and yet you cant seem to let it out. Maybe because you are still new, or perhaps because the sheer power of a dragon is still a bit much for the body of a kobold. But that doesn't deter you; in fact it only spurs you on. Knowledge paired with instinct is a true marvel and in your own way, you find the proper key to unlocking this growing power: potions.</p>
+			<h6><b>Draconic Alchemy</b></h6>
+			<p>You gain access to three new Experimental Elixir options, each based on an aspect of the draconic legacy which swells within you. As with your other elixirs, the potency of these increases with your artificer level.</p>
+			<p><strong>Draconic Elixirs</strong></p>
+			<table>
+				<thead>
+					<tr><td>d3</td><td>Effect</td></tr>
+				</thead>
+				<tr><td>1</td><td><strong>Scales.</strong> The drinker gains resistance to one of the following damage types for 10 minutes: acid, cold, fire, lightning, poison. The duration increases to 1 hour at 6th level and 8 hours at 15th level.</td></tr>
+				<tr><td>2</td><td><strong>Talons.</strong> The drinker's attacks deal an extra 1d4 force damage for the next minute. The duration increases to 10 minutes at 6th level and 1 hour at 15th level.</td></tr>
+				<tr><td>3</td><td><strong>Blood.</strong> For the next minute, the drinker has advantage on ability checks and saving throws to resist the charmed or frightened conditions, and has advantage on Charisma (Persuasion) and Charisma (Deception) checks. The duration increases to 10 minutes at 6th level and 1 hour at 15th level.</td></tr>
+			</table>
+			<h6><b>Alchemical Masterwork: Apotheosis Draconis</b></h6>
+			<p>You can unleash the latent draconic power within yourself through special elixirs created from one of three ingredients taken from your own body: scale, talon, or blood. As an action you can imbibe the brew, and your body changes with a roar; wings unfurl from your back, your scales crackle with elemental power, and the very presence of the dragons of old pulses around you. For the next 10 minutes, you gain the following effects:</p>
+			<ul>
+				<li><strong>Wings.</strong> Incorporeal wings sprout from your back, giving you a flying speed of 60 feet.</li>
+				<li><strong>Blindsight.</strong> You have blindsight with a range of 30 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re blinded or in darkness. Moreover, you can see an invisible creature, unless the creature successfully hides from you.</li>
+				<li><strong>Draconic Aura.</strong> When you transform, you may choose a number of friendly targets equal to your proficiency bonus within 30 feet to mark as your protected kin. For the duration of your transformation, your protected kin gain the benefits of the Draconis Elixir associated with the ingredient chosen when creating the potion while they are within 30 feet of you. If you chose Scale, the protected kin gain resistance to two damage types instead of one.</li>
+				<li><strong>Breath Weapon.</strong> When you transform, and as a bonus action on subsequent turns for the duration, you can exhale shimmering energy in a 30-foot cone. All creatures in the area must make a Dexterity saving throw (the DC being equal to your spellcasting DC), taking 4d6 force damage on a failed save, or half as much damage on a successful one. However, those marked as protected kin are shielded from the blast and take no damage, and instead can choose to erupt with draconic power as their mark is empowered.</li>
+				<ul>
+					<li><i>Scale.</i> Marked kin can choose to draw on the mark to cause an explosion of elemental devastation. Each creature in a 5-foot-radius sphere centered on the marked kin must make a Dexterity saving throw. A target takes 3d8 damage on a failed save, or half as much damage on a successful one. The marked kin chooses the damage type from one of their two granted resistances, and then loses that resistance for the rest of the transformation's duration.</li>
+					<li><i>Talon.</i> Marked kin can choose to further enhance their boon, increasing the bonus damage of their next attack to 4d4 instead of 1d4. Once a marked kin uses this effect a number of times equal to half their proficiency bonus, rounded down, the kin no longer benefits from the aura's bonus damage for the remainder of the transformation.</li>
+					<li><i>Blood.</i> Marked kin can choose to momentarily overwhelm those around them with draconic presence, allowing them to immediately use a reaction to move up to its speed, without provoking opportunity attacks. Once a marked kin has used this reaction, it cannot do so again for the remainder of your transformation.</li>
+				</ul>
+			</ul>
+			<p>You can create a number of Apotheosis Draconis elixirs equal to half your proficiency bonus, and regain all uses upon completing a long rest. All elixirs created must be used with an hour or they become inert. If any creature besides yourself consumes an Apotheosis Draconis elixir, they do not gain any of its effects and instead suffer from the <i>poisoned</i> condition for the next 24 hours.</p>
+		</description>
+		<sheet>
+			<description>You gain access to three new Experimental Elixir options, each based on an aspect of the draconic legacy which swells within you. &#13;
+			•Scales: The drinker gains resistance to one of the following damage types for 10 minutes: acid, cold, fire, lightning, poison. &#13;
+			•Talons: The drinker's attacks deal an extra 1d4 force damage for the next minute. &#13;
+			•Blood: For 1 minute, the drinker has advantage on ability checks and saving throws to resist the charmed and frightened conditions, and has advantage on Charisma (Persuasion) and Charisma (Deception) checks. &#13;
+			You also can create {{proficiency:half}} elixirs of Apotheosis Draconis, which you can drink to unleash the latent draconic power within you. For 1 minute, you gain wings, blindsight, a breath weapon, and exude a powerful draconic aura to shield or bolster your allies.
+			</description>
+			<description level="6">You gain access to three new Experimental Elixir options, each based on an aspect of the draconic legacy which swells within you. &#13;
+			•Scales: The drinker gains resistance to one of the following damage types for 1 hour: acid, cold, fire, lightning, poison. &#13;
+			•Talons: The drinker's attacks deal an extra 1d4 force damage for the next 10 minutes. &#13;
+			•Blood: For 10 minutes, the drinker has advantage on ability checks and saving throws to resist the charmed and frightened conditions, and has advantage on Charisma (Persuasion) and Charisma (Deception) checks. &#13;
+			You also can create {{proficiency:half}} elixirs of Apotheosis Draconis, which you can drink to unleash the latent draconic power within you. For 10 minutes, you gain wings, blindsight, a breath weapon, and exude a powerful draconic aura to shield or bolster your allies.
+			</description>
+			<description level="15">You gain access to three new Experimental Elixir options, each based on an aspect of the draconic legacy which swells within you. &#13;
+			•Scales: The drinker gains resistance to one of the following damage types for 8 hours: acid, cold, fire, lightning, poison. &#13;
+			•Talons: The drinker's attacks deal an extra 1d4 force damage for the next hour. &#13;
+			•Blood: For 1 hour, the drinker has advantage on ability checks and saving throws to resist the charmed and frightened conditions, and has advantage on Charisma (Persuasion) and Charisma (Deception) checks. &#13;
+			You also can create {{proficiency:half}} elixirs of Apotheosis Draconis, which you can drink to unleash the latent draconic power within you. For 1 hour, you gain wings, blindsight, a breath weapon, and exude a powerful draconic aura to shield or bolster your allies.
+			</description>
 		</sheet>
 	</element>
 
