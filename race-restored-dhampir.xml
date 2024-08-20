@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<name>Restored Dhampir</name>
-		<update version="0.0.7">
+		<name>Restored Dhampir (Tales of Mir)</name>
+		<update version="0.0.8">
 			<file name="race-restored-dhampir.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/race-restored-dhampir.xml" />
 		</update>
 	</info>
