@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.28">
+    <update version="0.2.29">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -29,7 +29,7 @@
 	</element>
 	<element name="Alton's Ring of the Faceless Ones (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE1_ALTON">
 		<description>
-			<p>A small gold band with no discernible features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a unique enchantment specifically designed to help unlock barred doors, whether literal or figurative. </p>
+			<p>A small gold band with no discernible features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Mir. However, this particular band also holds a unique enchantment specifically designed to help unlock barred doors, whether literal or figurative. </p>
 			<p class="indent"><strong><em>Charm of Unlocking (Stage 1):</em></strong> As an action, can unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can also be used to cast the <i>charm person</i> spell once without using a spell slot. Once either of these features are used, the ring cannot be used again until you finish a long rest.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
@@ -171,7 +171,7 @@
 	</element>
 	<element name="Alton's Ring of the Faceless Ones (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_ALTON">
 		<description>
-			<p>A small gold band with no discernible features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
+			<p>A small gold band with no discernible features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Mir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
 			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Alton's ring began to glow as a new voice spoke in his head. Identifying himself as Echo, another of the Faceless Ones, he explained the purpose of their organization: to shape the world to bring balance, whether it was by dethroning corrupt leaders, redistributing wealth, or moving goods or contraband. The mysterious man then noted that the other Faceless Ones were watching Alton's progress closely, and if he were to succeed on his current mission, he would be allowed to join their ranks, taking up the name of the seat to which his ring belongs. However, as a sign of faith, Echo unlocked some of the more potent magical powers within the ring to aid the young bard in his fast-approaching trials.</p>
 			<h6><b>Charm of Unlocking</b></h6>
 			<p>As an action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>charm person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.</p>
@@ -203,7 +203,7 @@
 	</element>
 	<element name="CeeBee's Ring of the Faceless Ones (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_CEEBEE">
 		<description>
-			<p>A small gold band with no discernible features, this ring was given to Curious Bite by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
+			<p>A small gold band with no discernible features, this ring was given to Curious Bite by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Mir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
 			<h6><b>Charm of Unlocking</b></h6>
 			<p>As an action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>charm person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.</p>
 			<h6><b>One of Many Faces Amongst None</b></h6>
@@ -527,7 +527,7 @@
 
 	<element name="Seabreeze's Ring of the Faceless Ones (Reborn)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_SEABREEZE">
 		<description>
-			<p>A small gold band with no discernible features, this ring was given to Curious Bite by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Almir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative. However, after her restoration through Lathander, the enchantment that enhanced her dhampir bite proved to have been cleansed from the ring by the Morninglord's power.</p>
+			<p>A small gold band with no discernible features, this ring was given to Curious Bite by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Mir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative. However, after her restoration through Lathander, the enchantment that enhanced her dhampir bite proved to have been cleansed from the ring by the Morninglord's power.</p>
 			<h6><b>Charm of Unlocking</b></h6>
 			<p>As an action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>charm person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.</p>
 			<h6><b>One of Many Faces Amongst None</b></h6>
@@ -565,12 +565,12 @@
 
 	<element name="Initiate of a Curious God Named Ploink" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_CURIOUS_GOD_PLOINK">
 		<description>
-			<p>The gods of Almir often work in mysterious ways, but none moreso than the curious, enigmatic god known only as Ploink. Those who call on her as their patron deity adamantly claim that She acts to bring balance to the entropy inherent in the world, but even they are hard-pressed to explain Her manifestations as anything other than random chaos. Still, Her devouts choose to spend their lives pursuing methods to summon forth Her influence into the world, and are willing to pass this knowledge on to those who express a desire to embody a life dedicated to chaos.</p>
+			<p>The gods of Mir often work in mysterious ways, but none moreso than the curious, enigmatic god known only as Ploink. Those who call on her as their patron deity adamantly claim that She acts to bring balance to the entropy inherent in the world, but even they are hard-pressed to explain Her manifestations as anything other than random chaos. Still, Her devouts choose to spend their lives pursuing methods to summon forth Her influence into the world, and are willing to pass this knowledge on to those who express a desire to embody a life dedicated to chaos.</p>
 			<p class="indent">For Themor, the intoxicating lure of his burgeoning godhood proved irresistible, and he found himself compelled to seek out Malays, the self-titled priestess of Ploink, to learn more of his powers. As expected, she was happy to share of her knowledge, and after a month of intense communion with the Goddess of Chaos, his control over Her manifestations had grown beyond the need for a blessed catalyst, instead enacting wonders of chaos with but a mere swing of his mighty blade. However, only time will tell whether the power to wield chaos so freely will bring balance or destruction to the world of Mir.</p>
-			<p class="indent"><strong><em>Blade of Entropy.</em></strong> Once per turn when you expend a Superiority Dice, you can choose to convert it into an act of chaos. Flip a coin - on heads, the dice rolls its maximum value; on tails, the dice rolls its minimum value. The DM will then roll on the Almir Wild Magic table to create a random magical effect.</p>
+			<p class="indent"><strong><em>Blade of Entropy.</em></strong> Once per turn when you expend a Superiority Dice, you can choose to convert it into an act of chaos. Flip a coin - on heads, the dice rolls its maximum value; on tails, the dice rolls its minimum value. The DM will then roll on the Tales of Mir Wild Magic table to create a random magical effect.</p>
 		</description>
 		<sheet usage="1/Turn when expending a Superiority Dice">
-			<description>When you expend a Superiority Dice, you can choose to convert it into an act of chaos. Flip a coin - on heads, the dice rolls its maximum value; on tails, the dice rolls its minimum value. The DM will then roll on the Almir Wild Magic table to create a random magical effect.</description>
+			<description>When you expend a Superiority Dice, you can choose to convert it into an act of chaos. Flip a coin - on heads, the dice rolls its maximum value; on tails, the dice rolls its minimum value. The DM will then roll on the Tales of Mir Wild Magic table to create a random magical effect.</description>
 		</sheet>
 	</element>
 
