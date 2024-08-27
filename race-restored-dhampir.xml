@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Restored Dhampir (Tales of Mir)</name>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="race-restored-dhampir.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/race-restored-dhampir.xml" />
 		</update>
 	</info>
@@ -51,9 +51,9 @@
 			<p class="indent"><strong><em>Ancestral Legacy.</em></strong> If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p>
 			<p class="indent">If you don’t keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</p>
 			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray.</p>
-			<p class="indent"><strong><em>Reborn Resilience.</em></strong> You have resistance to necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have advantage on saves against charm and possession effects, and can add your Intelligence modifier to the total.</p>
+			<p class="indent"><strong><em>Reborn Resilience.</em></strong> You have resistance to necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have advantage on saving throws to resist the charmed condition or any effect that would allow another creature to possess or control you, and can add your Intelligence modifier to the roll.</p>
 			<p class="indent"><strong><em>Spider Climb.</em></strong> You have a climbing speed equal to your walking speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</p>
-			<p class="indent"><strong><em>Celestial Spark.</em></strong> When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total, potentially turning failure into success. You can do this a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Alternatively if you have no uses left, you can spend a spell slot to immediately regain a use of this feature.</p>
+			<!--<p class="indent"><strong><em>Celestial Spark.</em></strong> When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total, potentially turning failure into success. You can do this a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Alternatively if you have no uses left, you can spend a spell slot to immediately regain a use of this feature.</p>-->
 			<p class="indent"><strong><em>Blazing Renewal.</em></strong> A powerful light within you wards you against death. When you are reduced to 0 hit points, you can use your reaction to immediately rise back to your feet with a burst of radiant energy. You regain a number of hitpoints equal to twice your level, and all creatures of your choice within 10ft must succeed a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or take an equal amount of radiant damage and be blinded until the start of your next turn. Once you use this reaction, you cannot do so again until you complete a long rest.</p>
 			<p class="indent"><strong><em>Languages.</em></strong> Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.</p>
 		</description>
@@ -70,7 +70,7 @@
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_REBORN_RESILIENCE" />
 			<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_SPIDER_CLIMB" />
-			<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_CELESTIAL_SPARK" />
+			<!--<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_CELESTIAL_SPARK" /> -->
 			<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_BLAZING_RENEWAL" />
 			<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_SUBRACE" />
 		</rules>
@@ -92,10 +92,10 @@
 
 	<element name="Reborn Resilience" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_REBORN_RESILIENCE">
 		<description>
-			<p>You have resistance to necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have advantage on saves against charm and possession effects, and can add your Intelligence modifier to the roll.</p>
+			<p>You have resistance to necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have advantage on saving throws to resist the charmed condition or any effect that would allow another creature to possess or control you, and can add your Intelligence modifier to the roll.</p>
 		</description>
 		<sheet>
-			<description>You have resistance to necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have advantage on saves against charm and possession effects, and can add your Intelligence modifier to the roll.</description>
+			<description>You have resistance to necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have advantage on saving throws to resist the charmed condition or any effect that would allow another creature to possess or control you, and can add your Intelligence modifier to the roll.</description>
 		</sheet>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
@@ -115,14 +115,14 @@
 		</rules>
 	</element>
 	
-	<element name="Celestial Spark" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_CELESTIAL_SPARK">
+	<!--<element name="Celestial Spark" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_CELESTIAL_SPARK">
 		<description>
 			<p>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total. Once this feature turns a failure into a success, you can't use it again until you finish a long rest. You can also reuse the spark by expending a spell slot of 1st level or higher.</p>
 		</description>
 		<sheet action="Special" usage="1/Long Rest or 1 Spell Slot">
 			<description>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4+{{intelligence:modifier}} and add it to the total, potentially turning failure into success. </description>
 		</sheet>
-	</element>
+	</element>-->
 	<element name="Blazing Renewal" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_BLAZING_RENEWAL">
 		<description>
 			<p>A powerful light within you wards you against death. When you are reduced to 0 hit points, you can use your reaction to immediately rise back to your feet with a burst of radiant energy. You regain a number of hitpoints equal to twice your level, and all creatures of your choice within 10ft must succeed a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or take an equal amount of radiant damage and be blinded until the start of your next turn. Once you use this reaction, you cannot do so again until you complete a long rest.</p>
@@ -205,21 +205,6 @@
 		<rules>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HELLISH_RESISTANCE" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_INFERNAL_LEGACY" />
-		</rules>
-	</element>
-	<element name="Tabaxi" type="Sub Race" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_TABAXI_SUBRACE">
-		<supports>Restored Dhampir</supports>
-		<description>
-			<p>As a former tabaxi, your body is one graced with feline dexterity and speed, as well as equipped with a set of retractable claws which can serve as lethal weapons in a pinch.</p>
-			<p>     
-				<span class="feature">Cat's Claws.</span> You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.<br />
-				<span class="feature">Feline Agility.</span> Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns. <br />
-			</p>
-		</description>
-		<sheet display="false"/>
-		<rules>
-			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_TABAXI_CATS_CLAWS" />
-			<grant type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_TABAXI_FELINE_AGILITY" />
 		</rules>
 	</element>
 </elements>
