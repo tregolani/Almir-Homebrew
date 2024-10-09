@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.30">
+    <update version="0.2.31">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -406,7 +406,7 @@
 				• In this form, you cannot cast spells, but gain access to the <i>Petrifying Gaze</i> and <i>Stone's Lethargy</i> abilities.<br/>
 				• Upon transforming, your Watery Defense ability is recharged, and you gain an additional use of it. However, the ability is replaced by Stone’s Lethargy for the duration of the transformation.<br/>
 				• • <strong>Petrifying Gaze.</strong> Once per transformation, you can, as an action, channel the Gaze of Grumbar. Until the start of your next turn, any creature that starts its turn within 30 feet of you and is able to see your eyes must make a Constitution saving throw. If the creature fails the saving throw by 5 or more, it is instantly petrified. Otherwise on a failure, the creature is restrained as it begins to turn to stone, and must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. This petrification lasts until removed by the <i>greater restoration</i> spell or other magic.<br/>
-				• • <strong>Stone's Lethargy.</strong> As a reaction upon being hit by a melee attack, you can strengthen the resilience of your rocky skin. You gain resistance to the attack's damage, and the creature must succeed on a Constitution saving throw or have disadvantage on all weapon attacks until the end of its next turn.<br/>
+				• • <strong>Stone's Lethargy.</strong> As a reaction upon being hit by a melee attack, you can strengthen the resilience of your rocky skin. You gain resistance to the attack's damage, and the creature must succeed on a Constitution saving throw or have disadvantage on all attacks until the end of its next turn.<br/>
 				• While transformed, any ability requiring a saving throw uses the following DC calculation: <strong>Stone Form DC</strong> = <i>8 + your proficiency bonus + your Constitution modifier.</i></td></tr>
 				<tr><td>4-6</td><td><strong>Water. </strong>You embrace the tides of Umberlee: your form becomes fluid and mutable, and light seems to glint and refract as it strikes your skin. Refreshed and invigorated by the tides, a new storm is brought forth. While in this form, you gain the following effects:<br/>
 				• Upon transforming, you can choose to regain expended spell slots. The spell slots can have a combined level that is equal to or less than half your sorcerer level (rounded up), and none of the slots can be 6th level or higher. You must complete a long rest before you can benefit from this recovery again.<br/>
