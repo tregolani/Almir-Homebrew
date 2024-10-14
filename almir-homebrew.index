@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew Collection</name>
 	<description>A collection of homebrew items and abilities for Salty Coffee's Tales of Mir DnD 5e Campaign</description>
 	<author>"Tregolani"</author>  
-    <update version="1.8">
+    <update version="1.9">
       <file name="almir-homebrew.index" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-homebrew.index" />
     </update>
   </info>
@@ -16,5 +16,6 @@
 	<file name="almir-warlock-genie.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-warlock-genie.xml" />
 	<file name="race-restored-dhampir.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/race-restored-dhampir.xml" />
 	<file name="spells_tales_of_mir_upcasting.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/spells_tales_of_mir_upcasting.xml" />
+	<file name="tales_of_mir_spells.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/tales-of-mir-spells.xml" />
   </files>
 </index>
