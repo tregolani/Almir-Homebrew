@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew Spells</name>
     <description>These are some homebrew spells used in the Tales of Mir campaign. Currently contains: Crusader Strike</description>
     <author>Tregolani</author>
-    <update version="0.1.1">
+    <update version="0.1.2">
       <file name="tales-of-mir-spells.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/tales-of-mir-spells.xml" />
     </update>
   </info>
@@ -13,7 +13,7 @@
 	<element name="Crusader Strike" type="Spell" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_SPELL_CRUSADER_STRIKE">
 		<supports>Cleric, Sorcerer, Warlock, Wizard, Melee Spell Attack</supports>
 		<description>
-			<p>You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects and a radiant mark of retribution hovers over the creature until the start of your next turn. If the target damages someone other than you before your next turn, it immediately takes 1d8 radiant damage and the spell ends.</p>
+			<p>You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within range. On a hit, the target suffers the weapon attack’s normal effects and a radiant mark of retribution hovers over the creature until the start of your next turn. If the target damages someone other than you before your next turn, it immediately takes 1d8 radiant damage and the spell ends.</p>
 			<p class="indent">This spell’s damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 radiant damage to the target on a hit, and the damage the target takes for damaging a creature other than you increases to 2d8. Both damage rolls increase by 1d8 at 11th level (2d8 and 3d8) and again at 17th level (3d8 and 4d8).</p>
 	</description>
 		<setters>
