@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Restored Dhampir (Tales of Mir)</name>
-		<update version="0.0.9">
+		<update version="0.0.10">
 			<file name="race-restored-dhampir.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/race-restored-dhampir.xml" />
 		</update>
 	</info>
@@ -11,37 +11,6 @@
 		<description>
 			<p>Poised between the worlds of the living and the dead, dhampirs retain their grip on life yet are endlessly tested by vicious hungers. However, it is possible for a dhampir to be restored back to life, but such an occurrence is exceedingly rare. The few cases that have been recorded in known history claim some sort of deific intervention as the catalyst for their transformation</p>
 			<p class="indent">With unique insights into the nature of the undead, many restored dhampirs become adventurers and monster hunters. Their reasons are often deeply personal. Some seek danger, imagining monsters as personifications of their former selves. Others pursue revenge against whatever turned them into a dhampir. And still others embrace solitude as penitence, ever striving to atone for the pain caused by the hunger to which they were once a slave.</p>
-<!--			<h4>Dhampir Hungers</h4>
-			<p>Every dhampir knows a thirst slaked only by the living. Those who overindulge their thirst risk losing control and forever viewing others as prey. Those who resist might find exceptional ways of controlling their urges or suppress them through constant, molar-grinding restraint. In any case, temptation haunts dhampirs, and circumstances conspire to give them endless reasons to indulge.</p>
-			<p class="indent">While many dhampirs thirst for blood, your character might otherwise gain sustenance from the living. Roll on or choose an option from the Dhampir Hungers table to determine what tempts your character to feed.</p>
-			<h5>Dhampir Hungers</h5>
-			<table>
-				<thead>
-					<tr><td>d6</td><td>Hunger</td></tr>
-				</thead>
-				<tr><td>1</td><td>Blood</td></tr>
-				<tr><td>2</td><td>Flesh or raw meat</td></tr>
-				<tr><td>3</td><td>Cerebral spinal fluid</td></tr>
-				<tr><td>4</td><td>Psychic energy</td></tr>
-				<tr><td>5</td><td>Dreams</td></tr>
-				<tr><td>6</td><td>Life energy</td></tr>
-			</table>
-			<h4>Restored Dhampir Origins</h4>
-			<p>Dhampirs often arise from encounters with vampires, but all manner of macabre bargains, necromantic influences, and encounters with mysterious immortals might have transformed your character. However, those Dhampirs restored back to life from their existence of undeath are exceedingly rare.</p>
-			<h5>Dhampir Origins</h5>
-			<table>
-				<thead>
-					<tr><td>d8</td><td>Origin</td></tr>
-				</thead>
-				<tr><td>1</td><td>You are the reincarnation of an ancestor who was a vampiric tyrant.</td></tr>
-				<tr><td>2</td><td>Your pact with a predatory deity, fiend, fey, or spirit causes you to share their hunger.</td></tr>
-				<tr><td>3</td><td>You survived being attacked by a vampire but were forever changed.</td></tr>
-				<tr><td>4</td><td>A parasite lives inside you. You indulge its hunger.</td></tr>
-				<tr><td>5</td><td>Tragedy interrupted your transformation into an immortal.</td></tr>
-				<tr><td>6</td><td>You are a diminished form of an otherworldly being. Slaking your hunger hastens your renewal.</td></tr>
-				<tr><td>7</td><td>One of your parents was a vampire.</td></tr>
-				<tr><td>8</td><td>A radical experiment changed your body, making you reliant on others for vital fluids.</td></tr>
-			</table> -->
 			<h4>Restored Dhampir Traits</h4>
 			<p>You have the following racial traits.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Increase one score by 2 and increase a different score by 1, or you increase three different scores by 1.</p>
@@ -53,7 +22,7 @@
 			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray.</p>
 			<p class="indent"><strong><em>Reborn Resilience.</em></strong> You have resistance to necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have advantage on saving throws to resist the charmed condition or any effect that would allow another creature to possess or control you, and can add your Intelligence modifier to the roll.</p>
 			<p class="indent"><strong><em>Spider Climb.</em></strong> You have a climbing speed equal to your walking speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</p>
-			<!--<p class="indent"><strong><em>Celestial Spark.</em></strong> When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total, potentially turning failure into success. You can do this a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Alternatively if you have no uses left, you can spend a spell slot to immediately regain a use of this feature.</p>-->
+			<p class="indent"><strong><em>Celestial Spark.</em></strong> When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total, potentially turning failure into success. Once this feature turns a failure into a success, you can't use it again until you finish a long rest. You can also reuse the spark by expending a spell slot of 1st level or higher (no action required).</p>
 			<p class="indent"><strong><em>Blazing Renewal.</em></strong> A powerful light within you wards you against death. When you are reduced to 0 hit points, you can use your reaction to immediately rise back to your feet with a burst of radiant energy. You regain a number of hitpoints equal to twice your level, and all creatures of your choice within 10ft must succeed a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or take an equal amount of radiant damage and be blinded until the start of your next turn. Once you use this reaction, you cannot do so again until you complete a long rest.</p>
 			<p class="indent"><strong><em>Languages.</em></strong> Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.</p>
 		</description>
@@ -70,12 +39,11 @@
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_REBORN_RESILIENCE" />
 			<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_SPIDER_CLIMB" />
-			<!--<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_CELESTIAL_SPARK" /> -->
+			<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_CELESTIAL_SPARK" />
 			<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_BLAZING_RENEWAL" />
 			<grant type="Racial Trait" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_SUBRACE" />
 		</rules>
 	</element>
-
 	<element name="Ancestral Legacy" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_ANCESTRAL_LEGACY">
 		<description>
 			<p>If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p>
@@ -101,7 +69,6 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
 		</rules>
 	</element>
-
 	<element name="Spider Climb" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_SPIDER_CLIMB">
 		<description>
 			<p>You have a climbing speed equal to your walking speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</p>
@@ -114,15 +81,14 @@
 			<stat name="innate speed:climb" value="innate speed" bonus="base" />
 		</rules>
 	</element>
-	
-	<!--<element name="Celestial Spark" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_CELESTIAL_SPARK">
+	<element name="Celestial Spark" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_CELESTIAL_SPARK">
 		<description>
-			<p>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total. Once this feature turns a failure into a success, you can't use it again until you finish a long rest. You can also reuse the spark by expending a spell slot of 1st level or higher.</p>
+			<p>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total. Once this feature turns a failure into a success, you can't use it again until you finish a long rest. You can also reuse the spark by expending a spell slot of 1st level or higher (no action required).</p>
 		</description>
 		<sheet action="Special" usage="1/Long Rest or 1 Spell Slot">
-			<description>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4+{{intelligence:modifier}} and add it to the total, potentially turning failure into success. </description>
+			<description>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4+{{intelligence:modifier}} and add it to the total, potentially turning failure into success.</description>
 		</sheet>
-	</element>-->
+	</element>
 	<element name="Blazing Renewal" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_BLAZING_RENEWAL">
 		<description>
 			<p>A powerful light within you wards you against death. When you are reduced to 0 hit points, you can use your reaction to immediately rise back to your feet with a burst of radiant energy. You regain a number of hitpoints equal to twice your level, and all creatures of your choice within 10ft must succeed a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or take an equal amount of radiant damage and be blinded until the start of your next turn. Once you use this reaction, you cannot do so again until you complete a long rest.</p>
