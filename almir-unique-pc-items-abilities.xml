@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.32">
+    <update version="0.2.33">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -569,7 +569,7 @@
 			<p class="indent">For Themor, the intoxicating lure of his burgeoning godhood proved irresistible, and he found himself compelled to seek out Malays, the self-titled priestess of Ploink, to learn more of his powers. As expected, she was happy to share of her knowledge, and after a month of intense communion with the Goddess of Chaos, his control over Her manifestations had grown beyond the need for a blessed catalyst, instead enacting wonders of chaos with but a mere swing of his mighty blade. However, only time will tell whether the power to wield chaos so freely will bring balance or destruction to the world of Mir.</p>
 			<p class="indent"><strong><em>Blade of Entropy.</em></strong> Once per turn when you expend a Superiority Dice, you can choose to convert it into an act of chaos. Flip a coin - on heads, the dice rolls its maximum value; on tails, the dice rolls its minimum value. The DM will then roll on the Tales of Mir Wild Magic table to create a random magical effect.</p>
 		</description>
-		<sheet usage="1/Turn when expending a Superiority Dice">
+		<sheet usage="1/Turn">
 			<description>When you expend a Superiority Dice, you can choose to convert it into an act of chaos. Flip a coin - on heads, the dice rolls its maximum value; on tails, the dice rolls its minimum value. The DM will then roll on the Tales of Mir Wild Magic table to create a random magical effect.</description>
 		</sheet>
 	</element>
