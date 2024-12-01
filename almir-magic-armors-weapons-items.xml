@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Tales of Mir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.22">
+    <update version="0.1.23">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
@@ -29,6 +29,26 @@
 		<rules>
 			<stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT" />			
+		</rules>
+	</element>
+	<element name="Shadow Plate" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_MAGIC_ITEM_SHADOW_PLATE">
+		<description>
+			<p>A set of shadowy plate mail conjured from the Shadowfell to aid their Chosen in battle.</p>
+			<p class="indent">While armored in shadow, you cast no shadow, and you have resistance against cold and necrotic damage. However, if you take either fire or radiant damage, or are targeted by a spell of 3rd level or higher that creates light, you must make a Strength saving throw equal to 10 plus the damage taken, or 10 plus the level of the light spell. On a failed save, the armor dissipates and you cannot re-summon the armor until after a short rest.</p>
+		</description>
+		<setters>
+			<set name="keywords">plate, cold, necrotic</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="plate">Armor</set>
+			<set name="rarity">-</set>
+			<set name="armor">Plate</set>
+			<set name="name-format">Shadow {{parent}}</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
 		</rules>
 	</element>
 	
