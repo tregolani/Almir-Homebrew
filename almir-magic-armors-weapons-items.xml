@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Tales of Mir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.23">
+    <update version="0.1.24">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
@@ -65,7 +65,7 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
-	<element name="Chaotic Potion of Water Breathing" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_CHAOTIC_POTION_OF_WATER_BREATHING">		
+	<element name="Chaotic Potion of Water Breathing" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_CHAOTIC_POTION_OF_WATER_BREATHING">
 		<description>
 			<p>This potion was given to the human known as Barnacle by a servant of Ploink, the Goddess of Chaos. Its bright azure fluid smells of the sea and has a jellyfish-like bubble floating in it.</p>
 			<p class="indent">Upon imbibing this potion, you can breathe underwater for 1 hour. However, due to the nature of its origin, anyone who drinks this potion and was not its original recipient will cause its chaotic magic to manifest in potentially dangerous ways.</p>
@@ -217,7 +217,7 @@
 			<set name="keywords">darkvision</set>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="slot">head</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Uncommon</set>
@@ -235,7 +235,7 @@
 			<set name="keywords">vision, tremorsense</set>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="attunement">false</set>
 			<set name="rarity">Uncommon</set>
@@ -298,7 +298,7 @@
 			<set name="keywords">cloak, armor, saving throw</set>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="2">2 lb.</set>
 			<set name="slot">shoulders</set>
 			<set name="type">Wondrous Item</set>
 			<set name="attunement">true</set>
@@ -333,6 +333,9 @@
 				<div element="ID_PHB_SPELL_TREE_STRIDE" />
 			</div>
 			</description>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_TREE_STRIDE" />
+		</rules>
 		<setters>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
@@ -367,7 +370,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Common</set>
 			<set name="attunement">false</set>
@@ -382,7 +385,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Common</set>
 			<set name="attunement">false</set>
@@ -397,7 +400,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Uncommon</set>
 			<set name="attunement">false</set>
@@ -412,7 +415,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="1">1 lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Uncommon</set>
 			<set name="attunement">false</set>
@@ -427,7 +430,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="1">1 lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement">false</set>
@@ -442,7 +445,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="1">1 lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement">false</set>
@@ -457,7 +460,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="2">2 lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement">false</set>
@@ -472,7 +475,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="2">2 lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement">false</set>
@@ -487,7 +490,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="5">5 lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Legendary</set>
 			<set name="attunement">false</set>
@@ -502,7 +505,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="10">10 lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Legendary</set>
 			<set name="attunement">false</set>
@@ -519,7 +522,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Common</set>
 			<set name="attunement">false</set>
@@ -535,7 +538,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Common</set>
 			<set name="attunement">false</set>
@@ -551,7 +554,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="0.5">½ lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Uncommon</set>
 			<set name="attunement">false</set>
@@ -567,7 +570,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="1">1 lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Uncommon</set>
 			<set name="attunement">false</set>
@@ -583,7 +586,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="1">1 lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement">false</set>
@@ -599,7 +602,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="1">1 lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Rare</set>
 			<set name="attunement">false</set>
@@ -615,7 +618,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="2">2 lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement">false</set>
@@ -631,7 +634,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="2">2 lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Very Rare</set>
 			<set name="attunement">false</set>
@@ -647,7 +650,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="5">5 lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Legendary</set>
 			<set name="attunement">false</set>
@@ -663,7 +666,7 @@
 		<setters>
 			<set name="category">Spell-Matrix Crystals</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
+			<set name="weight" lb="10">10 lb.</set>
 			<set name="type">Spell-Matrix Crystal</set>
 			<set name="rarity">Legendary</set>
 			<set name="attunement">false</set>
