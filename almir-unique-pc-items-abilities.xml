@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.34">
+    <update version="0.2.35">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -352,7 +352,8 @@
 			<h6><b>Aura of Light</b></h6>
 			<p>As an action, choose one creature that you can see. It immediately regains hit points equal to 1d8 + your spellcasting modifier, and begins to glow with a dim, verdant light. For the next minute, the creature regains hit points equal to your Constitution modifier at the beginning of each of its turns, provided it starts the turn with at least 1 hit point. Additionally, if the affected creature is reduced to 0 hit points at any point during the aura's duration, it instead falls to 1 hit point, and the aura ends. You can use this special action an amount of times equal to your proficiency bonus, and regain all expended uses upon finishing a long rest.</p> 
 			<h6><b>Sentinel of Life</b></h6>
-			<p>As a bonus action, you can designate a number of willing targets equal to your Charisma modifier that you can see to bear the symbol of your protection. This mark lasts for 1 minute, and can be dismissed at will. Additionally, you can use a bonus action to move a mark from one creature to another that you can see. When a marked creature within 30 feet of you is about to take damage, you can use your reaction to teleport to an unoccupied space within 5 feet of it, and then take the damage instead of the marked creature. If the spot you teleport to would put you in range to make a melee attack against the attacking creature, you may also make one attack against that creature as part of that reaction.</p>
+			<p>As a bonus action, you can designate one willing target you can see to bear the symbol of your protection. This mark lasts for 1 minute, and can be dismissed at will. You can mark a number of creatures up to your Charisma modifier. Once you have reached this limit, you can move a mark from one creature to another that you can see with a bonus action.</p>
+			<p class="indent">When a marked creature within 30 feet of you is about to take damage, you can use your reaction to teleport to an unoccupied space within 5 feet of it, and then take the damage instead of the marked creature. If the spot you teleport to would put you in range for a melee attack against the attacking creature, you may also make one attack against that creature as part of that reaction.</p>
 			<h6><b>Sanctuary of the Green</b></h6>
 			<p>By spending 10 minutes, you can summon forth a magical doorway which will act as a portal to the Sanctuary of the Green, the mystical home of the Wardens. You and any creature you designate when you create this door can enter the home as long as the portal remains open. You can open or close the doorway if you are within 30 feet of it. While closed, the doorway is invisible. The dwelling itself can reshape itself to accomodate up to 10 creatures, with enough food and water to feed them as well. Furnishings and other objects created by this home dissipate into smoke if removed from it. When the doorway is dismissed, any creatures inside the extradimensional space are expelled into the open spaces nearest to the entrance.</p>
 		</description>
