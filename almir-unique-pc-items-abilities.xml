@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.36">
+    <update version="0.2.37">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -1019,7 +1019,7 @@
 			<set name="dexterity">10</set>
 			<set name="constitution">16</set>
 			<set name="intelligence">10</set>
-			<set name="wisdom">13</set>
+			<set name="wisdom">14</set>
 			<set name="charisma">20</set>
 			<set name="ac">equal to your own</set>
 			<set name="hp">half your hit point maximum</set>
@@ -1027,9 +1027,9 @@
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
-			<set name="saves">Con +8, Wis +6, Cha +10</set>
-			<set name="skills">Athletics +2, Deception +10, Perception +6, Performance +10, Persuasion +10 </set>
-			<set name="senses">darkvision 60 ft., passive Perception 16</set>
+			<set name="saves">Con +8, Wis +7, Cha +10</set>
+			<set name="skills">Acrobatics +5, Athletics +2, Deception +10, Insight +7, Perception +7, Performance +10, Persuasion +10, Survival +7 </set>
+			<set name="senses">darkvision 60 ft., passive Perception 17</set>
 			<set name="languages">understands the languages you speak</set>
 			<set name="type">Elemental</set>
 			<set name="size">Medium</set>
@@ -1041,7 +1041,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="15" bonus="base" />
-			<stat name="companion:hp:max" value="46" />
+			<stat name="companion:hp:max" value="51" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -1050,11 +1050,14 @@
 			<!--<stat name="companion:charisma:save:proficiency" value="1" />-->
 			<stat name="companion:wisdom:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 			<!--stat name="companion:wisdom:save:proficiency" value="1" />-->
+			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:insight:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:survival:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
 	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT_13">
@@ -1066,7 +1069,7 @@
 			<set name="dexterity">20</set>
 			<set name="constitution">16</set>
 			<set name="intelligence">10</set>
-			<set name="wisdom">13</set>
+			<set name="wisdom">14</set>
 			<set name="charisma">10</set>
 			<set name="ac">17 (natural armor)</set>
 			<set name="hp">half your hit point maximum</set>
@@ -1074,9 +1077,9 @@
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
-			<set name="saves">Con +8, Wis +6, Cha +5</set>
-			<set name="skills">Acrobatics +10, Athletics +2, Perception +6, Performance +5, Stealth +10 </set>
-			<set name="senses">darkvision 60 ft., passive Perception 16</set>
+			<set name="saves">Con +8, Wis +7, Cha +5</set>
+			<set name="skills">Acrobatics +10, Athletics +2, Insight +7, Perception +7, Performance +5, Stealth +10, Survival +10 </set>
+			<set name="senses">darkvision 60 ft., passive Perception 17</set>
 			<set name="languages">understands the languages you speak</set>
 			<set name="type">Elemental</set>
 			<set name="size">Small</set>
@@ -1087,7 +1090,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="17" bonus="base" />
-			<stat name="companion:hp:max" value="46" />
+			<stat name="companion:hp:max" value="51" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -1098,9 +1101,11 @@
 			<!--<stat name="companion:wisdom:save:proficiency" value="1" />-->
 			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:insight:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:survival:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
 	<element name="Spirit of the Tides - Human Form" type="Companion" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_HUMAN_17">
@@ -1110,9 +1115,9 @@
 		<setters>
 			<set name="strength">5</set>
 			<set name="dexterity">10</set>
-			<set name="constitution">16</set>
+			<set name="constitution">17</set>
 			<set name="intelligence">10</set>
-			<set name="wisdom">13</set>
+			<set name="wisdom">14</set>
 			<set name="charisma">20</set>
 			<set name="ac">equal to your own</set>
 			<set name="hp">half your hit point maximum</set>
@@ -1120,9 +1125,9 @@
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
-			<set name="saves">Con +9, Wis +7, Cha +11</set>
-			<set name="skills">Athletics +3, Deception +11, Perception +7, Performance +11, Persuasion +11 </set>
-			<set name="senses">darkvision 60 ft., passive Perception 17</set>
+			<set name="saves">Con +9, Wis +8, Cha +11</set>
+			<set name="skills">Acrobatics +6, Arcana +6, Athletics +3, Deception +11, Insight +8, Perception +8, Performance +11, Persuasion +17, Survival +8 </set>
+			<set name="senses">darkvision 60 ft., passive Perception 18</set>
 			<set name="languages">understands the languages you speak</set>
 			<set name="type">Elemental</set>
 			<set name="size">Medium</set>
@@ -1134,7 +1139,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="15" bonus="base" />
-			<stat name="companion:hp:max" value="46" />
+			<stat name="companion:hp:max" value="51" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -1143,11 +1148,15 @@
 			<!--<stat name="companion:charisma:save:proficiency" value="1" />-->
 			<stat name="companion:wisdom:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 			<!--<stat name="companion:wisdom:save:proficiency" value="1" />-->
+			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:arcana:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:insight:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
-			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="double" />
+			<stat name="companion:survival:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
 	<element name="Spirit of the Tides - Scout Form" type="Companion" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_SPIRIT_OF_THE_TIDES_SCOUT_17">
@@ -1157,9 +1166,9 @@
 		<setters>
 			<set name="strength">5</set>
 			<set name="dexterity">20</set>
-			<set name="constitution">16</set>
+			<set name="constitution">17</set>
 			<set name="intelligence">10</set>
-			<set name="wisdom">13</set>
+			<set name="wisdom">14</set>
 			<set name="charisma">10</set>
 			<set name="ac">17 (natural armor)</set>
 			<set name="hp">half your hit point maximum</set>
@@ -1167,9 +1176,9 @@
 			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
 			<set name="immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
-			<set name="saves">Con +9, Wis +7, Cha +6</set>
-			<set name="skills">Acrobatics +11, Athletics +3, Perception +7, Performance +6, Stealth +11 </set>
-			<set name="senses">darkvision 60 ft., passive Perception 13</set>
+			<set name="saves">Con +9, Wis +8, Cha +6</set>
+			<set name="skills">Acrobatics +11, Arcana +6, Athletics +3, Insight +8, Perception +8, Performance +6, Stealth +17, Survival +8 </set>
+			<set name="senses">darkvision 60 ft., passive Perception 18</set>
 			<set name="languages">understands the languages you speak</set>
 			<set name="type">Elemental</set>
 			<set name="size">Small</set>
@@ -1180,7 +1189,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="17" bonus="base" />
-			<stat name="companion:hp:max" value="46" />
+			<stat name="companion:hp:max" value="51" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -1190,10 +1199,13 @@
 			<stat name="companion:wisdom:save:proficiency" value="companion:proficiency" bonus="proficiency" />
 			<!--<stat name="companion:wisdom:save:proficiency" value="1" />-->
 			<stat name="companion:acrobatics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:arcana:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:insight:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
 			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="base" />
-			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="double" />
+			<stat name="companion:survival:proficiency" value="companion:proficiency" bonus="base" />
 		</rules>
 	</element>
 </elements>
