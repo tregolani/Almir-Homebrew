@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.37">
+    <update version="0.2.38">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -13,10 +13,10 @@
  	<element name="Sapphire of the Tides (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_SAPPHIRE_OF_THE_TIDES_STAGE1">
 		<description>
 			<p>A magnificent small blue gem that pulses slowly, like the ebb and flow of the tides. Upon its surface glow the tiny runes of a cryptic inscription: <i>"Is it through power we gain control? Or is it through control we gain power?”</i> It was given to Barnacle by a powerful water elemental, who ominously warned the old sorcerer that the sea would come to claim his life eventually, and offered the gem as proof of the sea's wrath and power.</p>
-			<p class="indent"><strong><em>Tides Unleashed (Stage 1):</em></strong> When casting any water-based spell, can activate the gem to double all of the spell’s damage and effects, but with a chance (30%) for the spell to hit a random target instead. Once used, cannot be used again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Tides Unleashed (Stage 1):</em></strong> When casting any water-based spell, can activate the gem to double all of the spell’s damage and effects, but with a chance (30%) for the spell to hit a random target instead. Once used, cannot be used again until you finish a Long Rest.</p>
 		</description>
 		<sheet usage="1/Long Rest">
-			<description>When casting any water-based spell, can activate the gem to double all of the spell’s damage and effects, but with a chance (30%) for the spell to hit a random target instead. Once used, cannot be used again until you finish a long rest.</description>
+			<description>When casting any water-based spell, can activate the gem to double all of the spell’s damage and effects, but with a chance (30%) for the spell to hit a random target instead.</description>
 		</sheet>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -30,10 +30,10 @@
 	<element name="Alton's Ring of the Faceless Ones (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE1_ALTON">
 		<description>
 			<p>A small gold band with no discernible features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Mir. However, this particular band also holds a unique enchantment specifically designed to help unlock barred doors, whether literal or figurative. </p>
-			<p class="indent"><strong><em>Charm of Unlocking (Stage 1):</em></strong> As an action, can unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can also be used to cast the <i>charm person</i> spell once without using a spell slot. Once either of these features are used, the ring cannot be used again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Charm of Unlocking (Stage 1):</em></strong> As a Magic Action, can unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can also be used to cast the <i>Charm Person</i> spell once without using a spell slot. Once either of these features are used, the ring cannot be used again until you finish a Long Rest.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
-			<description>Can unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can also be used to cast the <i>charm person</i> spell once without using a spell slot.</description>
+			<description>Can unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can also be used to cast the Charm Person spell once without using a spell slot.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" />
@@ -50,10 +50,10 @@
 	<element name="Rune of Soul Harvest (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RUNE_SOUL_HARVEST_STAGE1">
 		<description>
 			<p>A glowing rune in the shape of a waning moon, placed upon the blade of Apsinthos Levia's pact weapon. This rune was bestowed to him by his Patron after pleasing her during his secret meeting with Eris'atemor, of Telmivir's House of the Moon, at the Levia Estate in Galeran's Noble District.</p>
-			<p class="indent"><strong><em>Soul Harvest (Stage 1):</em></strong> After landing a killing blow upon a creature, can harvest the creature's soul to either regain hit points or gain temporary hit points equal to 1d8 + your Constitution modifier. Once used, cannot be used again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Soul Harvest (Stage 1):</em></strong> After landing a killing blow upon a creature, can harvest the creature's soul to either regain Hit Points or gain Temporary Hit Points equal to 1d8 + your Constitution modifier. Once used, cannot be used again until you finish a Long Rest.</p>
 		</description>
 		<sheet usage="1/Long Rest">
-			<description>After landing a killing blow upon a creature, can harvest the creature's soul to either regain hit points or gain temporary hit points equal to 1d8+{{constitution:modifier}}.</description>
+			<description>After landing a killing blow upon a creature, can harvest the creature's soul to either regain Hit Points or gain 1d8+{{constitution:modifier}} Temporary Hit Points.</description>
 		</sheet>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -67,14 +67,14 @@
 	<element name="Dreamer's Visage (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMER_VISAGE_STAGE1">
 		<description>
 			<p>After her fateful encounter with the shadowy apparitions somehow bound to her, Morani was able to earn their trust by offering to restore them to their home within the Astral Plane. In return, they are able to grant her a semblance of control over the immaterial, allowing her to assume a visage of dreams or nightmares to influence the Material world around her.</p>
-			<p class="indent"><strong><em>Visage of Horror (Stage 1):</em></strong> Assume a horrific visage of nightmares; for 1 minute, can cause a single creature to have disadvantage on all attacks that target you.</p>
-			<p class="indent"><strong><em>Visage of Dreams (Stage 1):</em></strong> Assume a shifting, mirage-like visage; for 1 minute, you gain advantage to all Persuasion and Deception checks.</p>
-			<p>Once either visage is used, the apparitions' power is depleted and cannot be used again until you finish a long rest. </p>
+			<p class="indent"><strong><em>Visage of Horror (Stage 1):</em></strong> Assume a horrific visage of nightmares; for 1 minute, can cause a single creature to have Disadvantage on all attacks that target you.</p>
+			<p class="indent"><strong><em>Visage of Dreams (Stage 1):</em></strong> Assume a shifting, mirage-like visage; for 1 minute, you gain Advantage to all Persuasion and Deception checks.</p>
+			<p>Once either visage is used, the apparitions' power is depleted and cannot be used again until you finish a Long Rest. </p>
 		</description>
 		<sheet action="Bonus Action" usage="1/Long Rest">
-			<description>You can harness the raw arcane power of your astral companions in order to disrupt the actions of those around you. As a bonus action, you can assume one of the following magical forms:&#13;
-			• Nightmare Form: For 1 minute, can cause one creature to have disadvantage on all attacks that target you. &#13;
-			• Dream Form: For 1 minute, you gain advantage to all Persuasion and Deception checks against one creature you can see.</description>
+			<description>You can harness the raw arcane power of your astral companions in order to disrupt the actions of those around you. As a Bonus Action, you can assume one of the following magical forms:&#13;
+			• Nightmare Form: For 1 minute, can cause one creature to have Disadvantage on all attacks that target you. &#13;
+			• Dream Form: For 1 minute, you gain Advantage to all Persuasion and Deception checks against one creature you can see.</description>
 		</sheet>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -88,10 +88,10 @@
 	<element name="Shadow Meld (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_SHADOW_MELD_STAGE1">
 		<description>
 			<p>While attempting to attune to a simple magical necklace, Themor Hunwut found himself brought back to the site of his kingdom's destruction, surrounded by shadowy forms and the muffled sounds of battle. Suddenly, he came upon a skeletal figure cloaked in shadow, who proceeded to challenge the human to single combat. However, Themor's skill managed to both appease and impress his sudden challenger. Introducing himself as Neun, Knight of the Realm, he then granted Themor the power to meld with the Shadow Plane, albeit briefly.</p>
-			<p class="indent"><strong><em>Shadow Meld (Stage 1):</em></strong> As an action or reaction, can meld with the shadows; for 1 minute, all attacks targeting you are made at disadvantage. If an attack does hit, can choose to prematurely end the melding and reduce the damage of that attack by half. Once used in either form, cannot be used against until you finish a long rest. </p>
+			<p class="indent"><strong><em>Shadow Meld (Stage 1):</em></strong> As a Magic Action or Reaction, can meld with the shadows; for 1 minute, all attacks targeting you are made at Disadvantage. If an attack does hit, can choose to prematurely end the melding and reduce the damage of that attack by half. Once used in either form, cannot be used against until you finish a Long Rest.</p>
 		</description>
 		<sheet action="Action or Reaction" usage="1/Long Rest">
-			<description>Can meld with the shadows; for 1 minute, all attacks targeting you are made at disadvantage. If an attack does hit, can choose to prematurely end the melding and reduce the damage of that attack by half.</description>
+			<description>Can meld with the shadows; for 1 minute, all attacks targeting you are made at Disadvantage. If an attack does hit, can choose to prematurely end the melding and reduce the damage of that attack by half.</description>
 		</sheet>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -105,15 +105,15 @@
 	<element name="Mantle of the Warden (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_STAGE1">
 		<description>
 			<p>Upon arriving in Galeran, Zedan Yazkash had sought a way to reunite with his former savior and mentor, Father Riel. However, it seemed that the elder human was already aware of Zedan's presence, and arranged a secret meeting with the young paladin upon the top of the city's inner walls. After hearing of Zedan's encounter with Fae'lorin, the priest chose to bestow upon him an ancient mantle of power to aid him in his travels, and to help him choose what path his life will take.</p>
-			<p class="indent"><strong><em>Warden's Embrace (Stage 1):</em></strong> As an action, can choose one creature that you can see and cause it to regain hit points equal to 1d8 + your spellcasting modifier. In addition, you bestow one of the following auras upon the creature:</p>
+			<p class="indent"><strong><em>Warden's Embrace (Stage 1):</em></strong> As a Magic Action, can choose one creature that you can see and cause it to regain Hit Points equal to 1d8 + your spellcasting modifier. In addition, you bestow one of the following auras upon the creature:</p>
 			<p class="indent"><i><em>Aura of Light:</em></i> The target glows with a brilliant light; all adjacent creatures must succeed on a DC 13 Constitution saving throw or be Blinded for 1 minute.</p>
-			<p class="indent"><i><em>Aura of Life:</em></i> The target glows with a dim light; for 1 minute, it regains hit points equal to your Constitution modifier at the beginning of each of its turns.</p> 
-			<p>Once either aura is used, the mantle's power is depleted and cannot be used against until you finish a long rest.</p>
+			<p class="indent"><i><em>Aura of Life:</em></i> The target glows with a dim light; for 1 minute, it regains Hit Points equal to your Constitution modifier at the beginning of each of its turns.</p> 
+			<p>Once either aura is used, the mantle's power is depleted and cannot be used against until you finish a Long Rest.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
-			<description>Can choose one creature that you can see and cause it to regain hit points equal to 1d8+{{charisma:modifier}}. In addition, you bestow one of the following auras upon the creature:&#13;
+			<description>Can choose one creature that you can see and cause it to regain Hit Points equal to 1d8+{{charisma:modifier}}. In addition, you bestow one of the following auras upon the creature:&#13;
 			• Aura of Light: All adjacent creatures must succeed on a DC 13 Constitution saving throw or be Blinded for 1 minute. &#13;
-			• Aura of Life: For 1 minute, it regains {{constitution:modifier}} hit points at the beginning of each of its turns.</description>
+			• Aura of Life: For 1 minute, it regains {{constitution:modifier}} Hit Points at the beginning of each of its turns.</description>
 		</sheet>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -127,10 +127,10 @@
 	<element name="Amulet of the Fey (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_AMULET_FEY_STAGE1">
 		<description>
 			<p>While wandering through the streets of Galeran, Evienne Atredeske suddenly found herself transported into the Feywilds. There she met a fairy servant of the Seelie Courts name Lily, who claimed that the half-elf ranger was meant to be an emissary of the Material Plane. Confused but intrigued, Evienne allowed the fey creature to explain, and was gifted a strange necklace, shaped like a great tree and adorned with 3 small jeweled flowers. Touching the amulet, the fey fairy channeled Fey power through it, and granted a semblance of that same power to Evienne, which manifested as a pair of antlers upon her brow, as well as a set of runic tattoos running down her face and arms. </p>
-			<p class="indent"><strong><em>Power of a Name (Stage 1):</em></strong> Once per day, can channel the Fey power within the amulet to ask for a creature's name. If the creature offers their name willingly, its power is captured and stored in one of the flowers on the amulet's pendant. As long as that creature's name is stored, you have advantage on Persuasion checks against the creature. Furthermore, you can cast <i>Suggestion</i> once per day against any of the creatures whose names are stored within the amulet. You can choose to release any of the names stored within the amulet at any time, but may only capture one name per day.</p>
+			<p class="indent"><strong><em>Power of a Name (Stage 1):</em></strong> Once per day, can channel the Fey power within the amulet to ask for a creature's name. If the creature offers their name willingly, its power is captured and stored in one of the flowers on the amulet's pendant. As long as that creature's name is stored, you have Advantage on Charisma (Persuasion or Deception) checks against the creature. Furthermore, you can cast <i>Suggestion</i> once per day against any of the creatures whose names are stored within the amulet. You can choose to release any of the names stored within the amulet at any time, but may only capture one name per day.</p>
 		</description>
 		<sheet action="Special" usage="1/Day">
-			<description>can channel the Fey power within the amulet to ask for a creature's name. If the creature offers their name willingly, its power is captured and stored in one of the flowers on the amulet's pendant. As long as that creature's name is stored, you have advantage on Persuasion checks against the creature. Furthermore, you can cast the suggestion spell once per day against any of the creatures whose names are stored within the amulet. You can choose to release any of the names stored within the amulet at any time, but may only capture one name per day.</description>
+			<description>can channel the Fey power within the amulet to ask for a creature's name. If the creature offers their name willingly, its power is captured and stored in one of the flowers on the amulet's pendant. As long as that creature's name is stored, you have Advantage on Charisma (Persuasion or Deception) checks against the creature. Furthermore, you can cast the Suggestion spell once per day against any of the creatures whose names are stored within the amulet. You can choose to release any of the names stored within the amulet at any time, but may only capture one name per day.</description>
 		</sheet>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -148,16 +148,16 @@
 			<p>Initially, a magnificent small blue gem that pulsed slowly, like the ebb and flow of the tides. Upon its surface glowed the tiny runes of a cryptic inscription: <i>"Is it through power we gain control? Or is it through control we gain power?”</i> It was given to Barnacle by a powerful water elemental, who ominously warned the sorcerer that the sea would come to claim his life eventually, and offered the gem as proof of the sea's wrath and power.</p>
 			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Barnacle was then visited by the goddesses Selûne and Umberlee, who beseeched the sorcerer to aid them in stopping the oncoming destruction wrought by the void. The sorcerer was dubious, but eventually relented, offering himself as a vessel for their power. As a sign of their faith, they transformed the mysterious sapphire gem into a watery spirit resembling his disguised human form, a mirror of the dual natures of the sea and of the sorcerer himself.</p>
 			<h6><b>Spirit of the Tides</b></h6>
-			<p>As a Bonus Action, you can manifest a watery spirit within 5 feet of you. Its statblock is identical to yours, with the following exceptions: its hit point maximum is equal to half of your hitpoint maximum, and its movement speeds, resistances, and immunities are replaced with those of a water elemental as per its statblock. It can communicate with you telepathically, and can move up to its speed as part of your movement action, but no farther than 100ft from you. The clone has two forms:</p>
+			<p>As a Bonus Action, you can manifest a watery spirit within 5 feet of you. Its statblock is identical to yours, with the following exceptions: its Hit Point maximum is equal to half of your Hit Point maximum, and its movement speeds, Resistances, and Immunities are replaced with those of a water elemental as per its statblock. It can communicate with you telepathically, and can move up to its speed as part of your movement action, but no farther than 100ft from you. The clone has two forms:</p>
 			<p class="indent"><b>Watery Clone.</b> The spirit takes the form of Barnacle, your humanoid alter-ego. In this form, it can interact with surrounding objects as well as communicate with other creatures using any languages you know. Additionally, once on each of your turns, it can use its action to cast any of your cantrips, originating from the spirit’s location. Upon hitting a creature with the spell or a creature failing its saving throw against it, you can apply your Curse of the Sea feature to that target as if you had affected it with your own spell. This special action can be used as part of your own action just before or just after your action occurs.</p>
 			<p class="indent"><b>Watery Scout.</b> The spirit takes the form of a puddle or stream of water. It has the following changes to its statblock: its Dexterity and Charisma ability scores are swapped, it gains proficiency with Acrobatics and Stealth, and it loses proficiency in Persuasion, Deception, and can no longer speak verbally. Otherwise it acts like a familiar, as per the find familiar spell.</p>
-			<p class="indent"><b>Soul Link.</b> The spirit is a reflection of your own soul; any time it takes damage, it splits the damage evenly with you, after applying any of its resistances. If it is destroyed, it dissolves into mist and cannot be resummoned until after a long rest.</p>
+			<p class="indent"><b>Soul Link.</b> The spirit is a reflection of your own soul; any time it takes damage, it splits the damage evenly with you, after applying any of its Resistances. If it is destroyed, it dissolves into mist and cannot be resummoned until after a Long Rest.</p>
 		</description>
 		<sheet action="Bonus Action">
-			<description>As a Bonus Action, you can manifest a watery spirit within 5 feet of you. Its statblock is identical to yours, with the following exceptions: its hit point maximum is equal to half of your hitpoint maximum, and its movement speeds, resistances, and immunities are replaced with those of a water elemental as per its statblock. It can communicate with you telepathically, and can move up to its speed as part of your movement action, but no farther than 100ft from you. The clone has two forms:&#13;
+			<description>As a Bonus Action, you can manifest a watery spirit within 5 feet of you. Its statblock is identical to yours, with the following exceptions: its Hit Point maximum is equal to half of your Hit Point maximum, and its movement speeds, Resistances, and Immunities are replaced with those of a water elemental as per its statblock. It can communicate with you telepathically, and can move up to its speed as part of your movement action, but no farther than 100ft from you. The clone has two forms:&#13;
 			• Watery Clone. The spirit takes the form of Barnacle, your humanoid alter-ego. In this form, it can interact with surrounding objects as well as communicate with other creatures using any languages you know. Additionally, once on each of your turns, it can use its action to cast any of your cantrips, originating from the spirit’s location. Upon hitting a creature with the spell or a creature failing its saving throw against it, you can apply your Curse of the Sea feature to that target as if you had affected it with your own spell. This special action can be used as part of your own action just before or just after your action occurs.&#13;
 			• Watery Scout. The spirit takes the form of a puddle or stream of water. It has the following changes to its statblock: its Dexterity and Charisma ability scores are swapped, it gains proficiency with Acrobatics and Stealth, and it loses proficiency in Persuasion, Deception, and can no longer speak verbally. Otherwise it acts like a familiar, as per the find familiar spell.&#13;
-			• Soul Link. The spirit is a reflection of your own soul; any time it takes damage, it splits the damage evenly with you, after applying any of its resistances. If it is destroyed, it dissolves into mist and cannot be resummoned until after a long rest.
+			• Soul Link. The spirit is a reflection of your own soul; any time it takes damage, it splits the damage evenly with you, after applying any of its Resistances. If it is destroyed, it dissolves into mist and cannot be resummoned until after a Long Rest.
 		</description>
 		</sheet>
 		<rules>
@@ -177,11 +177,11 @@
 			<p>A small gold band with no discernible features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Mir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
 			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Alton's ring began to glow as a new voice spoke in his head. Identifying himself as Echo, another of the Faceless Ones, he explained the purpose of their organization: to shape the world to bring balance, whether it was by dethroning corrupt leaders, redistributing wealth, or moving goods or contraband. The mysterious man then noted that the other Faceless Ones were watching Alton's progress closely, and if he were to succeed on his current mission, he would be allowed to join their ranks, taking up the name of the seat to which his ring belongs. However, as a sign of faith, Echo unlocked some of the more potent magical powers within the ring to aid the young bard in his fast-approaching trials.</p>
 			<h6><b>Charm of Unlocking</b></h6>
-			<p>As an action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>charm person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.</p>
+			<p>As an Magic Action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>Charm Person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a Long Rest.</p>
 			<h6><b>One of Many Faces Amongst None</b></h6>
-			<p>At the end of a long rest, can prepare a magical disguise within the restrictions of the spells <i>disguise self</i> and <i>alter self</i>, which resides within the ring until the next long rest. Then as a free action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as <i>dispel magic</i>. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class.</p>
+			<p>At the end of a Long Rest, can prepare a magical disguise within the restrictions of the spells <i>Disguise Self</i> and <i>Alter Self</i>, which resides within the ring until the next Long Rest. You can then assume this new form (no action required), which lasts until you release the form, or until dispelled by a spell such as <i>Dispel Magic</i>. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class.</p>
 			<h6><b>Narrative Dissonance</b></h6>
-			<p>Upon failing any ability check or saving throw, can use your reaction to re-roll the check or saving throw with advantage, as a smooth, sultry voice speaks in your mind: "No, no, that’s not how that happened.” The first time this special reaction is used, you take 1d6 necrotic damage, which ignores resistance and immunity. Each subsequent time you use this reaction again before finishing a long rest, the total dice count of the necrotic damage is doubled: 2d6, then 4d6, then 8d6, etc.</p>
+			<p>Upon failing any ability check or saving throw, can use your Reaction to re-roll the check or saving throw with Advantage, as a smooth, sultry voice speaks in your mind: "No, no, that’s not how that happened.” The first time this special Reaction is used, you take 1d6 necrotic damage, which ignores Resistance and Immunity. Each subsequent time you use this Reaction again before finishing a Long Rest, the total dice count of the necrotic damage is doubled: 2d6, then 4d6, then 8d6, etc.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_CHARM_PERSON" />
 			</div>
@@ -191,9 +191,9 @@
 		</description>
 		<sheet action="Free Action or Reaction" usage="3/Long Rest or Special">
 			<description>This magical ring holds many special properties designed to aid those in more surreptitious walks of life: &#13;
-			• Charm of Unlocking: Can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the charm person spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.&#13;
-			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spells disguise self and alter self, which resides within the ring until the next long rest. Then as an action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as dispel magic. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class. &#13;
-			• Narrative Dissonance: Upon failing any ability check or saving throw, can use your reaction to re-roll the check or saving throw with advantage, as a smooth, sultry voice speaks in your mind: "No, no, that’s not how that happened.” The first time this special reaction is used, you take 1d6 necrotic damage, which ignores resistance and immunity. Each subsequent time you use this reaction again before finishing a long rest, the total dice count of the necrotic damage is doubled: 2d6, then 4d6, then 8d6, etc.</description>
+			• Charm of Unlocking: Can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the Charm Person spell. You can use either property up to 3 times, and you regain all expended uses when you finish a Long Rest.&#13;
+			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spells Disguise Self and Alter Self, which resides within the ring until the next Long Rest. You can then assume this new form (no action required), which lasts until you release the form, or until dispelled by a spell such as Dispel Magic. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class. &#13;
+			• Narrative Dissonance: Upon failing any ability check or saving throw, can use your Reaction to re-roll the check or saving throw with Advantage, as a smooth, sultry voice speaks in your mind: "No, no, that’s not how that happened.” The first time this special Reaction is used, you take 1d6 necrotic damage, which ignores Resistance and Immunity. Each subsequent time you use this Reaction again before finishing a Long Rest, the total dice count of the necrotic damage is doubled: 2d6, then 4d6, then 8d6, etc.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" />
@@ -211,18 +211,18 @@
 		<description>
 			<p>A small gold band with no discernible features, this ring was given to Curious Bite by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Mir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
 			<h6><b>Charm of Unlocking</b></h6>
-			<p>As an action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>charm person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.</p>
+			<p>As an Magic Action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>Charm Person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a Long Rest.</p>
 			<h6><b>One of Many Faces Amongst None</b></h6>
-			<p>At the end of a long rest, can prepare a magical disguise within the restrictions of the spells <i>disguise self</i> and <i>alter self</i>, which resides within the ring until the next long rest. Then as a free action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as <i>dispel magic</i>. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class.</p>
+			<p>At the end of a Long Rest, can prepare a magical disguise within the restrictions of the spells <i>Disguise Self</i> and <i>Alter Self</i>, which resides within the ring until the next Long Rest. You can then assume this new form (no action required), which lasts until you release the form, or until dispelled by a spell such as <i>Dispel Magic</i>. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class.</p>
 			<h6><b>Twin Shadows</b></h6>
-			<p>When casting <i>shadow blade</i>, the wearer manifests not one but two swords, one in each hand. In addition, while you are holding both swords, you gain the benefits of the “Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per long rest, after which casting <i>shadow blade</i> only results in one sword and does not grant the effects of the fighting style.</p>
+			<p>When casting <i>Shadow Blade</i>, the wearer manifests not one but two swords, one in each hand. In addition, while you are holding both swords, you gain the benefits of the “Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per Long Rest, after which casting <i>Shadow Blade</i> only results in one sword and does not grant the effects of the fighting style.</p>
 			<h6><b>Enhanced Vampiric Bite</b></h6>
-			<p>Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. Your snout turns into that of a dragon, a terrifying sight to behold. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d6+1 piercing damage on a hit, and it counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. While you are missing half or more of your hit points, you have advantage on attack rolls you make with this bite. In addition, when you attack with this bite and hit a creature that isn’t a Construct or an Undead, you can empower yourself in one of the following ways of your choice:</p>
+			<p>Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. Your snout turns into that of a dragon, a terrifying sight to behold. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d6+1 piercing damage on a hit, and it counts as magical for the purpose of overcoming Resistance and Immunity to nonmagical attacks and damage. While you are missing half or more of your Hit Points, you have Advantage on attack rolls you make with this bite. In addition, when you attack with this bite and hit a creature that isn’t a Construct or an Undead, you can empower yourself in one of the following ways of your choice:</p>
 			<ul>
-				<li>You regain hit points equal to the piercing damage dealt by the bite.</li>
+				<li>You regain Hit Points equal to the piercing damage dealt by the bite.</li>
 				<li>You gain a bonus to the next ability check or attack roll you make; the bonus equals the piercing damage dealt by the bite.</li>
 			</ul>
-			<p>You can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<p>You can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a Long Rest.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_CHARM_PERSON" />
 			</div>
@@ -238,9 +238,9 @@
 		</description>
 		<sheet action="Free Action or Reaction" usage="3/Long Rest or Special">
 			<description>This magical ring holds many special properties designed to aid those in more surreptitious walks of life: &#13;
-			• Charm of Unlocking: Can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the charm person spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.&#13;
-			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spells disguise self and alter self, which resides within the ring until the next long rest. Then as an action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as dispel magic. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class. &#13;
-			• Twin Shadows: When casting shadow blade, the wearer manifests not one but two swords, one in each hand, and gains the benefits of the "Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per long rest, after which casting shadow blade only results in one sword and does not grant the effects of the fighting style. &#13;
+			• Charm of Unlocking: Can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the Charm Person spell. You can use either property up to 3 times, and you regain all expended uses when you finish a Long Rest.&#13;
+			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spells Disguise Self and Alter Self, which resides within the ring until the next Long Rest. You can then assume this new form (no action required), which lasts until you release the form, or until dispelled by a spell such as Dispel Magic. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class. &#13;
+			• Twin Shadows: When casting Shadow Blade, the wearer manifests not one but two swords, one in each hand, and gains the benefits of the "Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per Long Rest, after which casting Shadow Blade only results in one sword and does not grant the effects of the fighting style. &#13;
 			• Enhanced Vampiric Bite: Your vampiric bite is improved and deals 1d6+1 piercing damage on a hit in addition to its other effects.</description>
 		</sheet>
 		<rules>
@@ -259,15 +259,15 @@
 		<description>
 			<p>After his encounter with the mind of Eris'atemor's void demon form, as well as his communion with the fragment of the void beast he defeated upon the <i>Widow's Kiss</i>, Apsinthos heads below deck to take an evening's rest. However, his sleep is disturbed as an overwhelming darkness consumes his dreams. Suddenly, strange runes and glyphs begin to circle his consciousness, and though he cannot read them, their meaning is emotively conveyed into his mind with an intimacy unlike any languange he has known before. He tries to move away from the glyphs, but a voice speaks out to him through them, claiming to be the Void. He learns that the void is consumed with returning it and everything else to nothingness, and that in nothingness there is perfection. The concept intrigues the young warlock, and the void offers him the power to harness its vast inscrutable energy to meld his destiny into whatever he would want it to be. Seemingly swayed by the promise of all-encompassing equality in embracing the nothingness, Apsinthos accepts this gift. Only time will tell whether he will use it to shape his own destiny, or it will use him as a tool of the insatiable hunger of the void.</p>
 			<h6><b>Call Upon the Void</b></h6>
-			<p>As an action, can make a 1-3 worded command to the void, causing it to cast a spell as chosen by the void to fulfill the command given. This spell must be from the cleric or wizard spell lists, and cannot exceed the highest spell level you can cast, up to a maximum of 5th level. Immediately when the spell is cast, you take 1d6 necrotic damage, which ignores resistance and immunity. Each subsequent time this special action is used again before finishing a short or long rest, the necrotic damage increases by 1d6.</p>
+			<p>As a Magic Action, can make a 1-3 worded command to the Void, causing it to cast a spell as chosen by the Void to fulfill the command given. This spell must be from the Cleric or Wizard spell lists, and cannot exceed the highest spell level you can cast, up to a maximum of 5th level. Immediately when the spell is cast, you take 1d6 necrotic damage, which ignores Resistance and Immunity. Each subsequent time this special action is used again before finishing a Short or Long Rest, the necrotic damage increases by 1d6.</p>
 			<p class="indent">When you cast a spell in this manner, it does not expend a spell slot.</p>
 			<h6><b>From Nothing I Will Create My Own</b></h6>
-			<p>You can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a Minor Wish. However, doing so causes a great strain on your physical body, and the release of void energy causes you to take 4d10 necrotic damage, which ignores resistance and immunity. Once you use this property, it cannot be used again for 7 days.</p>
+			<p>You can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a Minor Wish. However, doing so causes a great strain on your physical body, and the release of void energy causes you to take 4d10 necrotic damage, which ignores Resistance and Immunity. Once you use this property, it cannot be used again for 7 days.</p>
 			</description>
 		<sheet action="Action or Special" usage="Special">
 			<description>Communing with the void has granted you special powers: &#13;
-			• Call Upon the Void: As an action, can make a 1-3 worded command to the void, causing it to cast a spell as chosen by the void to fulfill the command given. This spell must be from the cleric or wizard spell lists, and cannot exceed the highest spell level you can cast, up to a maximum of 5th level. Immediately when the spell is cast, you take 1d6 necrotic damage, which ignores resistance and immunity. Each subsequent time this special action is used again before finishing a short or long rest, the necrotic damage increases by 1d6. &#13;
-			• From Nothing I Will Create My Own: Can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a Minor Wish. However, doing so causes you to take 4d10 necrotic damage, which ignores resistance and immunity. Once you use this property, it cannot be used again for 7 days.</description>
+			• Call Upon the Void: As a Magic Action, can make a 1-3 worded command to the Void, causing it to cast a spell as chosen by the Void to fulfill the command given. This spell must be from the Cleric or Wizard spell lists, and cannot exceed the highest spell level you can cast, up to a maximum of 5th level. Immediately when the spell is cast, you take 1d6 necrotic damage, which ignores Resistance and Immunity. Each subsequent time this special action is used again before finishing a short or Long Rest, the necrotic damage increases by 1d6. &#13;
+			• From Nothing I Will Create My Own: Can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a Minor Wish. However, doing so causes you to take 4d10 necrotic damage, which ignores Resistance and Immunity. Once you use this property, it cannot be used again for 7 days.</description>
 		</sheet>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -283,16 +283,16 @@
 			<p>After her fateful encounter with the shadowy apparitions somehow bound to her, Morani was able to earn their trust by offering to restore them to their home within the Astral Plane. In return, they are able to grant her a semblance of control over the immaterial, allowing her to assume a visage of dreams or nightmares to influence the Material world around her.</p>
 			<p class="indent">Later, after the defeat of Eris'atemor and his void-demon form, one of her "passengers" found a way to manifest itself as a physical creature before her. Surprised but intrigued, Morani conversed with it to find that it desired to be part of her world while they searched for a way to return the shadows to their home on the Astral Plane, and was willing to aid her in any way it could with its new corporeal form.</p>
 			<h6><b>Astral Visage</b></h6>
-			<p>You can harness the raw arcane power of your astral companions in order to disrupt the actions of those around you. As an action, you can assume one of the following magical forms:</p>
+			<p>You can harness the raw arcane power of your astral companions in order to disrupt the actions of those around you. As a Magic Action, you can assume one of the following magical forms:</p>
 			<ul>
-				<li><em>Nightmare Form:</em> Assume a horrific visage of nightmares; for 1 minute, can cause a single creature you can see to have disadvantage on all attacks that target you.</li>
-				<li><em>Dream Form:</em> Assume a shifting, mirage-like visage; for 1 minute, you gain advantage to all Charisma (Persuasion) or Charisma (Deception) checks against a one creature you can see.</li>
+				<li><em>Nightmare Form:</em> Assume a horrific visage of nightmares. Choose one creature you can see; for the next minute, it has Disadvantage on all attacks against you.</li>
+				<li><em>Dream Form:</em> Assume a shifting, mirage-like visage. Choose one creature you can see; for the next minute, you have Advantage on all Charisma (Persuasion or Deception) checks against it.</li>
 			</ul>
-			<p>You can assume your visage up to 3 times, and you regain all expended uses when you finish a long rest.</p>
+			<p>You can assume your visage up to 3 times, and you regain all expended uses when you finish a Long Rest.</p>
 			<h6><b>Astral Familiar</b></h6>
 			<p>Your astral companion can now manifest as a familiar, assuming any animal form of your choosing. All other abilities are defined in the <i>astral familiar</i> cantrip, which you gain as a known spell.</p>
 			<h6><b>Astral Dissonance</b></h6>
-			<p>The innate magical energies of your familiar can be harnessed in order to disrupt the spellcasting of another. As a special reaction while your Astral Familiar is summoned, you can cast <i>counterspell</i> at 3rd level upon one creature you can see within 60ft without expending a spell slot. However, doing so causes you to take 1d10 force damage, which ignores any and all resistance or immunity, and the familiar is consumed and cannot be re-summoned again until after you perform a 1-minute ritual following your next short or long rest.</p>
+			<p>The innate magical energies of your familiar can be harnessed in order to disrupt the spellcasting of another. As a special Reaction while your Astral Familiar is summoned, you can cast <i>Counterspell</i> at 3rd level upon one creature you can see within 60ft without expending a spell slot. However, doing so causes you to take 1d10 force damage, which ignores any and all Resistance or Immunity, and the familiar is destroyed and cannot be re-summoned again until after you perform a 1-minute ritual following your next Short or Long Rest.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_COUNTERSPELL" />
 			</div>
@@ -302,9 +302,9 @@
 		</description>
 		<sheet action="Action or Reaction">
 			<description>You can harness the raw arcane power of your astral companions in order to disrupt the actions of those around you. As an action, you can assume one of the following magical forms: &#13;
-			• Nightmare Form: For 1 minute, can cause a single creature you can see to have disadvantage on all attacks that target you. &#13;
-			• Dream Form: For 1 minute, you gain advantage to all Charisma (Persuasion) or Charisma (Deception) checks against a one creature you can see. &#13;
-			Additionally, you can summon forth an astral familiar, which can be used for a special reaction: while summoned, you can consume its form to cast counterspell at 3rd level without expending a spell slot. Doing so destroys the familiar and deals 1d10 force damage to you, which ignores resistance and immunity, and the familiar cannot be re-summoned until after you perform a 1-minute ritual following your next short or long rest.</description>
+			• Nightmare Form: Choose one creature you can see; for the next minute, it has Disadvantage on all attacks against you. &#13;
+			• Dream Form: Choose one creature you can see; for the next minute, you have Advantage on all Charisma (Persuasion or Deception) checks against it. &#13;
+			Additionally, you can summon forth an astral familiar, which can be used for a special Reaction: while summoned, you can consume its form to cast Counterspell at 3rd level without expending a spell slot. Doing so destroys the familiar and deals 1d10 force damage to you, which ignores Resistance and Immunity, and the familiar cannot be re-summoned until after you perform a 1-minute ritual following your next Short or Long Rest.</description>
 		</sheet>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -324,16 +324,16 @@
 			<p>While attempting to attune to a simple magical necklace, Themor Hunwut found himself brought back to the site of his kingdom's destruction, surrounded by shadowy forms and the muffled sounds of battle. Suddenly, he came upon a skeletal figure cloaked in shadow, who proceeded to challenge the human to single combat. However, Themor's skill managed to both appease and impress his sudden challenger. Introducing himself as Neun, Knight of the Realm, he then granted Themor the power to meld with the Shadow Plane, albeit briefly.</p>
 			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Themor was again confronted by shadowy figures, denizens of the Shadow Plane. Indignant with his progress in aiding their goals, they assaulted him with shadow, attempting to bind him for their own, but Themor once again resisted their power. Relenting, the three spirits instead wrapped around him like a great suit of obsidian armor and tasked him with searching among the secretive dwarves for more answers.</p>
 			<h6><b>Armor of Shadows</b></h6>
-			<p>As an action, can call upon your own shadow to encase you in armor, equivalent to full plate (AC 18). While armored in shadow, you cast no shadow, and you have resistance against cold and necrotic damage. However, if you take either fire or radiant damage, or are targeted by a spell of 3rd level or higher that creates light, you must make a Strength saving throw equal to 10 plus the damage taken, or 10 plus the level of the light spell. On a failed save, the armor dissipates and you cannot re-summon the armor until after a short rest.</p>
+			<p>As a Magic Action, you can call upon your own shadow to encase you in armor, equivalent to full plate (AC 18). While armored in shadow, you cast no shadow, and you have Resistance against cold and necrotic damage. However, if you take either fire or radiant damage, or are targeted by a spell of 3rd level or higher that creates light, you must make a Strength saving throw equal to 10 plus the damage taken, or 10 plus the level of the light spell. On a failed save, the armor dissipates and you cannot re-summon the armor until after a Short Rest.</p>
 			<h6><b>Shadow Step</b></h6>
-			<p>In place of your movement action, can teleport into the shadow cast by any object or creature you can see within 30 feet. You can use this property a number of times equal to your Constitution modifier, and you regain all expended uses when you finish a short rest.</p>
+			<p>You can spend 30 feet of your movement to teleport into any shadow cast by any object or creature you can see within 30 feet. You can use this property a number of times equal to your Constitution modifier, and you regain all expended uses when you finish a Short Rest.</p>
 			<h6><b>Shadow Nemesis</b></h6>
-			<p>As a reaction when you take damage, can encase yourself in vengeful shadows, which will reduce the damage taken by half and lash out against the attacker, causing them to take an equal amount as necrotic damage. You can use this property a number of times equal to your Constitution modifier, and you regain all expended uses when you finish a long rest.</p>
+			<p>As a Reaction when you take damage, you can encase yourself in vengeful shadows. You immediately reduce the damage taken by half and the shadows lash out against the attacker, causing them to take an equal amount as necrotic damage. You can use this property a number of times equal to your Constitution modifier, and you regain all expended uses when you finish a Long Rest.</p>
 		</description>
 		<sheet action="Action or Reaction">
-			<description>As an action, can call upon your own shadow to encase you in armor, equivalent to full plate (AC 18). While armored in shadow, your shadow is gone, and you have resistance against cold and necrotic damage. However, if you take either fire or radiant damage, you must make a Strength saving throw equal to 10 plus the damage taken. On a failed save, the armor dissipates and you cannot re-summon the armor until after a short rest. &#13;
-			Shadow Step: In place of your movement action, can teleport into the shadow of any creature you can see within 30 feet. You can use this property {{constitution:modifier}} times, and all expended uses are regained upon completing a short rest. &#13;
-			Shadow Nemesis: As a reaction when you take damage, can encase yourself in angry shadows. This will reduce the damage taken by half and lash out against the attacker, causing them to take an equal amount as necrotic damage. You can use this property {{constitution:modifier}} times, and all expended uses are regained upon completing a long rest.</description>
+			<description>As a Magic Action, can call upon your own shadow to encase you in armor, equivalent to full plate (AC 18). While armored in shadow, your shadow is gone, and you have Resistance against cold and necrotic damage. However, if you take either fire or radiant damage, you must make a Strength saving throw equal to 10 plus the damage taken. On a failed save, the armor dissipates and you cannot re-summon the armor until after a Short Rest. &#13;
+			Shadow Step: You can spend 30 feet of your movement to teleport into any shadow you can see within 30 feet. You can use this property {{constitution:modifier}} times, and all expended uses are regained upon completing a Short Rest. &#13;
+			Shadow Nemesis: As a Reaction when you take damage, can encase yourself in angry shadows. You immediately reduce the damage taken by half and the shadows lash out against the attacker, causing them to take an equal amount as necrotic damage. You can use this property {{constitution:modifier}} times, and all expended uses are regained upon completing a Long Rest.</description>
 		</sheet>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -349,10 +349,10 @@
 			<p>Upon arriving in Galeran, Zedan Yazkash had sought a way to reunite with his former savior and mentor, Father Riel. However, it seemed that the elder human was already aware of Zedan's presence, and arranged a secret meeting with the young paladin upon the top of the city's inner walls. After hearing of Zedan's encounter with Fae'lorin, the priest chose to bestow upon him an ancient mantle of power to aid him in his travels, and to help him choose what path his life will take.</p>
 			<p class="indent">Later upon the <i>Widow's Kiss</i> after defeating Eris'atemor and his void-demon form, Zedan found himself transported to his new estate granted to him by his former mentor. Startled, he looked out the windows to see idyllic rolling plains and verdant forests dotted with peaceful wildlife. Suddenly, he heard a familiar voice, and turned to see Riel, younger, clad in plate armor covered in leaf motifs of emerald and silver, glowing with a soft verdant light, and flanked by a pair of similarly garbed men. Riel then explained that this home was granted to members of the Wardens, the guardians and protectors of life across the planes. As a sign of Zedan's willingness to take up the mantle in Riel's stead, the two armor-clad men—protectors from ages past—bestowed upon Zedan the title of "Warden of the Green", and with it the powers of its station.</p>
 			<h6><b>Aura of Light</b></h6>
-			<p>As an action, choose one creature that you can see. It immediately regains hit points equal to 1d8 + your spellcasting modifier, and begins to glow with a dim, verdant light. For the next minute, the creature regains hit points equal to your Constitution modifier at the beginning of each of its turns, provided it starts the turn with at least 1 hit point. Additionally, if the affected creature is reduced to 0 hit points at any point during the aura's duration, it instead falls to 1 hit point, and the aura ends. You can use this special action an amount of times equal to your proficiency bonus, and regain all expended uses upon finishing a long rest.</p> 
+			<p>As a Magic Action, choose one creature that you can see. It immediately regains Hit Points equal to 1d8 + your spellcasting modifier, and begins to glow with a dim, verdant light. For the next minute, the creature regains Hit Points equal to your Constitution modifier at the beginning of each of its turns, provided it starts the turn with at least 1 Hit Point. Additionally, if the affected creature is reduced to 0 Hit Points at any point during the aura's duration, it instead falls to 1 Hit Point, and the aura ends. You can use this special Action a number of times equal to your proficiency bonus, and you regain all expended uses upon finishing a Long Rest.</p> 
 			<h6><b>Sentinel of Life</b></h6>
-			<p>As a bonus action, you can designate one willing target you can see to bear the symbol of your protection. This mark lasts for 1 minute, and can be dismissed at will. You can mark a number of creatures up to your Charisma modifier. Once you have reached this limit, you can move a mark from one creature to another that you can see with a bonus action.</p>
-			<p class="indent">When a marked creature within 30 feet of you is about to take damage, you can use your reaction to teleport to an unoccupied space within 5 feet of it, and then take the damage instead of the marked creature. If the spot you teleport to would put you in range for a melee attack against the attacking creature, you may also make one attack against that creature as part of that reaction.</p>
+			<p>As a Bonus Action, you can designate one willing target you can see to bear the symbol of your protection. This mark lasts for 1 minute, and can be dismissed at will. You can mark a number of creatures up to your Charisma modifier, spending a Bonus Action for each one. Once you have reached this limit, you can move a mark from one creature to another that you can see with a Bonus Action.</p>
+			<p class="indent">When a marked creature within 30 feet of you is about to take damage, you can use your Reaction to teleport to an unoccupied space within 5 feet of it, and then take the damage instead of the marked creature. If the spot you teleport to would put you in range for a melee attack against the attacking creature, you may also make one attack against that creature as part of that Reaction.</p>
 			<h6><b>Sanctuary of the Green</b></h6>
 			<p>By spending 10 minutes, you can summon forth a magical doorway which will act as a portal to the Sanctuary of the Green, the mystical home of the Wardens. You and any creature you designate when you create this door can enter the home as long as the portal remains open. You can open or close the doorway if you are within 30 feet of it. While closed, the doorway is invisible. The dwelling itself can reshape itself to accomodate up to 10 creatures, with enough food and water to feed them as well. Furnishings and other objects created by this home dissipate into smoke if removed from it. When the doorway is dismissed, any creatures inside the extradimensional space are expelled into the open spaces nearest to the entrance.</p>
 		</description>
@@ -372,16 +372,16 @@
 			<h6><b>Blood Branch</b></h6>
 			<p>Infused with the fury and long memories of the Feywilds, this magical bow, made of rough tightly-corded branches resembling the wooden sinews of the dryad which bequeathed it, grants a +2 bonus to attack and damage rolls made with it.</p>
 			<h6><b>Fey Reaper's Mark</b></h6>
-			<p>You learn the <i>fey reaper's mark</i> cantrip, and can cast it at will. Additionally, after hitting a marked target with a weapon attack, you can command the mark to transform into ethereal thorny vines to bind the marked target, causing it to be <i>Restrained</i> for the duration of the spell, but removing the mark's bonus damage. On each of its turns, the target can use its action to make a Strength (Athletics) or Dexterity (Acrobatics) check against your spellcasting DC to break free of the vines. You can use this special transformation property a number of times equal to your Dexterity modifier, and all expended uses are regained upon completing a long rest.</p>
+			<p>You learn the <i>Fey Reaper's Mark</i> cantrip, and can cast it at will. Additionally, after hitting a marked target with a weapon attack, you can command the mark (no action required) to transform into ethereal thorny vines to bind the marked target, causing it to be <i>Restrained</i> for the duration of the spell, but removing the mark's bonus damage. On each of its turns, the target can use its action to make a Strength (Athletics) or Dexterity (Acrobatics) check against your spellcasting DC to break free of the vines. You can use this special transformation property a number of times equal to your Dexterity modifier, and all expended uses are regained upon completing a Long Rest.</p>
 			<h6><b>Blood of the Fallen</b></h6>
-			<p>Once per long rest, you can consume the memories of a fallen foe: if you dip the bow into the creature's blood, you can either gain insight or a memory from that enemy. If the target is a particularly powerful entity, you can gain the ability to converse with it, as if using the spell <i>speak with dead</i>.</p>
+			<p>Once per Long Rest, you can consume the memories of a fallen foe: if you dip the bow into the creature's blood, you can either gain insight or a memory from that enemy. If the target is a particularly powerful entity, you can gain the ability to converse with it, as if using the spell <i>Speak with Dead</i>.</p>
 			<div class="reference">
 				<div element="ID_ALMIR_UNIQUE_SPELL_FEY_REAPERS_MARK" />
 			</div>
 		</description>
 		<sheet action="Bonus Action" usage="{{dexterity:modifier}}/Long Rest">
-			<description>You learn the fey reaper's mark cantrip &#13;
-			Additionally, after hitting a marked target with a weapon attack, you can command the mark to transform into ethereal thorny vines to bind the marked target, causing it to be Restrained for the duration of the spell, but removing the mark's bonus damage. On each of its turns, the target can use its action to make a Strength (Athletics) or Dexterity (Acrobatics) check against your spellcasting DC to break free of the vines. You can use this special transformation property {{dexterity:modifier}} times, and all expended uses are regained upon completing a long rest.</description>
+			<description>You learn the Fey Reaper's Mark cantrip &#13;
+			Additionally, after hitting a marked target with a weapon attack, you can command the mark (no action required) to transform into ethereal thorny vines to bind the marked target, causing it to be Restrained for the duration of the spell, but removing the mark's bonus damage. On each of its turns, the target can use its action to make a Strength (Athletics) or Dexterity (Acrobatics) check against your spellcasting DC to break free of the vines. You can use this special transformation property {{dexterity:modifier}} times, and all expended uses are regained upon completing a Long Rest.</description>
 		</sheet>
 		<setters>
 			<set name="keywords">longbow</set>
@@ -403,41 +403,41 @@
 	<prerequisite>Sea Sorcerer</prerequisite>
 		<requirements>ID_TREGOLANI_HB_ARCHETYPE_SEA_SORCERER</requirements>
 	<description>
-			<p>You can tap into the primordial powers that are paired with your soul. As a bonus action, roll a d10, and for 10 minutes (or until you use a bonus action to end it), your body assumes the corresponding elemental form. Alternative, you can forgo this roll if you spend 2 sorcery points to force the transformation into either Earth or Water (your choice).</p>
-			<p class="indent">You may use this boon a number of times equal to your Constitution modifier, and regain all expended uses after completing a long rest. </p>
+			<p>You can tap into the primordial powers that are paired with your soul. As a Bonus Action, roll a d10, and for 10 minutes (or until you use a Bonus Action to end it), your body assumes the corresponding elemental form. Alternative, you can forgo this roll if you spend 2 Sorcery Points to force the transformation into either Earth or Water (your choice).</p>
+			<p class="indent">You may use this boon a number of times equal to your Constitution modifier, and regain all expended uses after completing a Long Rest. </p>
 			<table>
 				<thead>
 					<tr><td>d10</td><td class="center">Elemental Form</td></tr>
 				</thead>
 				<tr><td>1-3</td><td><strong>Earth.</strong> Become a living avatar of Grumbar, strengthening your flesh as stone, with the bright ruby eyes to match. Barnacle dissolves during this transformation, lost to the overwhelming surge of the earth, and you gain the following effects:<br/>
 				• You gain a bonus to AC equal to double your Constitution modifier.<br/>
-				• Gain temporary hitpoints equal to half of Barnacle’s maximum hitpoint total.<br/>
+				• Gain temporary Hit Points equal to half of Barnacle’s maximum Hit Point total.<br/>
 				• Your Strength and Charisma attribute values and save proficiencies are swapped.<br/>
-				• A stone maul manifests in one of your open hands. It deals 2d6 bludgeoning damage plus an additional 1d12 force damage on a hit (which is not doubled on a critical hit), has the heavy and two-handed properties, and it counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. On your turn, you may attack twice with it when using the Attack action.<br/> 
+				• A stone maul manifests in one of your open hands. It deals 2d6 bludgeoning damage plus an additional 1d12 force damage on a hit (which is not doubled on a critical hit), has the heavy and two-handed properties, and it counts as magical for the purpose of overcoming Resistance and Immunity to nonmagical attacks and damage. On your turn, you may attack twice with it when using the Attack action.<br/> 
 				• In this form, you cannot cast spells, but gain access to the <i>Petrifying Gaze</i> and <i>Stone's Lethargy</i> abilities.<br/>
 				• Upon transforming, your Watery Defense ability is recharged, and you gain an additional use of it. However, the ability is replaced by Stone’s Lethargy for the duration of the transformation.<br/>
-				• • <strong>Petrifying Gaze.</strong> Once per transformation, you can, as an action, channel the Gaze of Grumbar. Until the start of your next turn, any creature that starts its turn within 30 feet of you and is able to see your eyes must make a Constitution saving throw. If the creature fails the saving throw by 5 or more, it is instantly petrified. Otherwise on a failure, the creature is restrained as it begins to turn to stone, and must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. This petrification lasts until removed by the <i>greater restoration</i> spell or other magic.<br/>
-				• • <strong>Stone's Lethargy.</strong> As a reaction upon being hit by a melee attack, you can strengthen the resilience of your rocky skin. You gain resistance to the attack's damage, and the creature must succeed on a Constitution saving throw or have disadvantage on all attacks until the end of its next turn.<br/>
+				• • <strong>Petrifying Gaze.</strong> Once per transformation as a Magic Action, you can channel the Gaze of Grumbar. Until the start of your next turn, any creature that starts its turn within 30 feet of you and is able to see your eyes must make a Constitution saving throw. If the creature fails the saving throw by 5 or more, it is instantly petrified. Otherwise on a failure, the creature is restrained as it begins to turn to stone, and must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. This petrification lasts until removed by the <i>greater restoration</i> spell or other magic.<br/>
+				• • <strong>Stone's Lethargy.</strong> As a Reaction upon being hit by a melee attack, you can strengthen the resilience of your rocky skin. You gain Resistance to the attack's damage, and the creature must succeed on a Constitution saving throw or have Disadvantage on all attacks until the end of its next turn.<br/>
 				• While transformed, any ability requiring a saving throw uses the following DC calculation: <strong>Stone Form DC</strong> = <i>8 + your proficiency bonus + your Constitution modifier.</i></td></tr>
 				<tr><td>4-6</td><td><strong>Water. </strong>You embrace the tides of Umberlee: your form becomes fluid and mutable, and light seems to glint and refract as it strikes your skin. Refreshed and invigorated by the tides, a new storm is brought forth. While in this form, you gain the following effects:<br/>
-				• Upon transforming, you can choose to regain expended spell slots. The spell slots can have a combined level that is equal to or less than half your sorcerer level (rounded up), and none of the slots can be 6th level or higher. You must complete a long rest before you can benefit from this recovery again.<br/>
+				• Upon transforming, you can choose to regain expended spell slots. The spell slots can have a combined level that is equal to or less than half your sorcerer level (rounded up), and none of the slots can be 6th level or higher. You must complete a Long Rest before you can benefit from this recovery again.<br/>
 				• Your Ocean Magic spells are improved. Upon casting a Ocean Magic spell, you can choose to either add your Charisma modifier to the damage roll(s) of the spell, or add half of your Charisma modifier (rounded down) to the DC of the spell.<br/>
-				• Upon transforming, your Watery Defense is recharged, and you an additional use of it. Additionally, if you are within 30 feet of an ally when they take bludgeoning, piercing, or slashing damage from an attack, you can use your reaction to expend a use of your Watery Defense in order for that ally to benefit from its effects as if it were you.<br/>
-				• You gain vulnerability to cold and lightning damage while in this form.</td></tr>
+				• Upon transforming, your Watery Defense is recharged, and you an additional use of it. Additionally, if you are within 30 feet of an ally when they take bludgeoning, piercing, or slashing damage from an attack, you can use a Reaction to expend a use of your Watery Defense in order for that ally to benefit from its effects as if it were you.<br/>
+				• You gain Vulnerability to cold and lightning damage while in this form.</td></tr>
 				<tr><td>7-8</td><td><strong>Crystalline. </strong>A balance between the primordial powers of earth and water is obtained, whether by your own will or through the influence of another power you can’t be sure. Your horns transform into translucent crystalline spirals, and your skin darkens to an ebony sheen flecked with thousands of tiny sparkling geodes. While in this form, you gain the following effects:<br/>
 				• You gain a bonus to your saving throws equal to your Constitution modifier.<br/>
-				• You gain access to the following spells: <i>magnify gravity, mirror image, hypnotic pattern, gravity sinkhole, temporal shunt, summon celestial.</i> Each of these counts as a sorcerer spell for you, and you can cast them using an appropriate spell slot.<br/>
-				• Upon transforming, you begin to surge with arcane power. You gain a number of temporary sorcery points equal to your sorcerer level, which are separate from your normal pool of sorcery points. You can use these temporary sorcery points to cast any of the additional spells granted by this form by spending a number of sorcery points equal to the spell's level. Once this transformation ends, these temporary sorcery points vanish.<br/>
+				• You gain access to the following spells: <i>Magnify Gravity, Mirror Image, Hypnotic Pattern, Gravity Sinkhole, Temporal Shunt, Summon Celestial.</i> Each of these counts as a sorcerer spell for you, and you can cast them using an appropriate spell slot.<br/>
+				• Upon transforming, you begin to surge with arcane power. You gain a number of temporary Sorcery Points equal to your sorcerer level, which are separate from your normal pool of Sorcery Points. You can use these temporary Sorcery Points to cast any of the additional spells granted by this form by spending a number of Sorcery Points equal to the spell's level. Once this transformation ends, these temporary Sorcery Points vanish.<br/>
 				• Barnacle takes on a similar appearance, but does not gain the additional spells.</td></tr>
 				<tr><td>9-10</td><td><strong>Unstable Fallout. </strong>Something…isn’t right. Your voice is not your own and the powers that you draw on seem to be a torrent of twisted force. Your skin seems to develop fissures and cracks, and sizzling water hisses and bubbles from these rends. While in this form, you gain the following effects:<br/>
-				• Upon transforming, you must immediately make a <strong>DC 14 Constitution saving throw</strong>. On a failure, Barnacle dissolves, returning to your flask. However, if you fail the save by 5 or more, your control over Barnacle is severed, and he goes into a frenzy, directing spells and attacks randomly on his turns. If he is defeated in this state, he immediately dissolves and returns to your flask, and cannot be summoned again until you complete a long rest.<br/>
+				• Upon transforming, you must immediately make a <strong>DC 14 Constitution saving throw</strong>. On a failure, Barnacle dissolves, returning to your flask. However, if you fail the save by 5 or more, your control over Barnacle is severed, and he goes into a frenzy, directing spells and attacks randomly on his turns. If he is defeated in this state, he immediately dissolves and returns to your flask, and cannot be summoned again until you complete a Long Rest.<br/>
 				• Each time you cast a spell of 2nd level or higher, you must roll on the chaos magic table and create the corresponding effect.<br/>
 				• You gain a bonus to AC equal to half your Constitution modifier (rounded down).<br/>
 				• You have a penalty to all saving throws equal to half your Constitution modifier (rounded down).</td></tr>
 			</table>
 		</description>
 		<sheet action="Bonus Action" usage="{{constitution:modifier}}/Long Rest">
-			<description>You can tap into the primordial powers that are paired with your soul. As a bonus action, roll a d10, and for 10 minutes, your body assumes the corresponding elemental form. Alternative, you can forgo this roll if you spend 2 sorcery points to force the transformation into either Earth or Water (your choice).&#13;
+			<description>You can tap into the primordial powers that are paired with your soul. As a Bonus Action, roll a d10, and for 10 minutes, your body assumes the corresponding elemental form. Alternative, you can forgo this roll if you spend 2 Sorcery Points to force the transformation into either Earth or Water (your choice).&#13;
 			•1-3: Earth.&#13;
 			•4-6: Water.&#13;
 			•7-8: Crystalline.&#13;
@@ -460,13 +460,13 @@
 			<p class="indent">Such is the guild stamped multitool passed down from her father to Hildie. Although branded and matching the same design as any other guild tool, this one was special. Orryn and his mentor before him had always tinkered with the tool, pushing its functions far beyond what a normal multitool was capable of. A crystalline matrix core acted as the the heart of every multitool. Powering its functions and allowing the “creative juices” to flow…figuratively and in a sense, literally. Acting as a conduit for the magic of artificers as well, it was the most important part of the tool.</p>
 			<p class="indent">The one in Hildie’s was…even more unique. Her father would tell her that the crystal itself was no ordinary thing, rather a relic of a time gone past. A mineral that to the naked eye looked like any other, but its patterns, its lattice, the very fluidity of its structure was something else entirely. It had great potential, and what he knew he imparted to Hildie. But, like any great magic or science, he was certain there was still much more to learn.</p>
 			<h6><b>All-Purpose Tool</b></h6>
-			<p>This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan’s tool of your choice (see the "Equipment" chapter in the Player’s Handbook for a list of artisan’s tools). Whatever form the tool takes, you are proficient with it.</p>
+			<p>This simple screwdriver can transform into a variety of tools; as a Magic Action, you can touch the item and transform it into any type of artisan’s tool of your choice (see the "Equipment" chapter in the Player’s Handbook for a list of artisan’s tools). Whatever form the tool takes, you are proficient with it.</p>
 			<p class="indent">While holding this tool, you gain a +1 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.</p>
-			<p class="indent">As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don’t know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can’t be used again until the next dawn.</p>
+			<p class="indent">As a Magic Action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don’t know from any class list. For 8 hours, you can cast that cantrip, and it counts as an Artificer cantrip for you. Once this property is used, it can’t be used again until the next dawn.</p>
 			<h6><b>Blast of Ingenuity</b></h6>
 			<p>Experimentation, discovery, ingenuity; often the rise and fall of many inventors.</p>
-			<p class="indent">As an action, choose up to two spells that you can cast, and using the appropriate spell slots, infuse them into the tool’s unique core. Spells from other casters may be used as an action on their turn, using the appropriate spell slot from them. A maximum of two spells may be stored in this fashion in the core. The stored spells last 24 hours.</p>
-			<p class="indent"><strong><em>Release!</em></strong> While one or more spells are infused into the tool's core, you can, as an action, release the blended magic in an experimental blast of creative chance. Make an ability check using your spellcasting ability, with the DC equal to 10 + the sum of the stored spells’ levels, to determine the effect from the table below:</p>
+			<p class="indent">As a Magic Action, choose up to two spells that you can cast, and using the appropriate spell slots, infuse them into the tool’s unique core. Spells from other casters may be used as an action on their turn, using the appropriate spell slot from them. A maximum of two spells may be stored in this fashion in the core. The stored spells last 24 hours.</p>
+			<p class="indent"><strong><em>Release!</em></strong> As a Magic Action while one or more spells are infused into the tool's core, you can release the blended magic in an experimental blast of creative chance. Make an ability check using your spellcasting ability, with the DC equal to 10 + the sum of the stored spells’ levels, to determine the effect from the table below:</p>
 			<table>
 				<thead>
 					<tr><td>Roll Total</td><td class="center">Result</td></tr>
@@ -480,7 +480,7 @@
 			<p>Any spell cast from this tool uses the wielder's spellcasting ability and spell DC to determine its effects, and the wielder must concentrate on the spell as normal if the spell requires it.</p>
 		</description>
 		<sheet action="Action">
-			<description>As an action, choose up to two spells that you could cast, and using the appropriate spell slots, infuse them into the tool’s unique core. Other spells from other casters may be used as an action on their turn, using the appropriate spell slot from them. A maximum of two spells may be stored in this fashion in the core. The stored spells last 24 hours. While one or more spells are infused into the tool's core, you can, as an action, release the blended magic in an experimental blast of creative chance.</description>
+			<description>As a Magic Action, choose up to two spells that you could cast, and using the appropriate spell slots, infuse them into the tool’s unique core. Other spells from other casters may be used as a Magic Action on their turn, using the appropriate spell slot from them. A maximum of two spells may be stored in this fashion in the core. The stored spells last 24 hours. While one or more spells are infused into the tool's core, you can use a Magic Action to release the blended magic in an experimental blast of creative chance.</description>
 		</sheet>
 		<setters>
 			<set name="keywords">artificer</set>
@@ -500,12 +500,12 @@
 		<requirements>ID_ALMIR_UNIQUE_RACE_RESTORED_DHAMPIR</requirements>
 		<description>
 			<p>You learn to infuse innocent-seeming words with an insidious magic that can inspire terror.</p>
-			<p class="indent">If you speak to a humanoid alone for at least 1 minute, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell save DC or be frightened of you or another creature of your choice. The target is frightened in this way for 1 hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged.</p>
+			<p class="indent">If you speak to a humanoid alone for at least 1 minute, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell save DC or be Frightened of you or another creature of your choice. The target is Frightened in this way for 1 hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged.</p>
 			<p class="indent">If the target succeeds on its saving throw, the target has no hint that you tried to frighten it.</p>
-			<p class="indent">Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+			<p class="indent">Once you use this feature, you can't use it again until you finish a Short or Long Rest.</p>
 		</description>
 		<sheet usage="1/Short Rest">
-			<description>After having conversation with a lone humanoid for at least 1 minute, you can force it to make a DC{{spellcasting:dc:int}} Wisdom saving throw. On a fail, it is frightened of you or another creature of your choice. This effect lasts for 1 hour, until target is attacked or damaged, or until target witnesses its allies being attacked or damaged. On a success, it has no idea you tried to frighten it.</description>
+			<description>After having conversation with a lone humanoid for at least 1 minute, you can force it to make a DC{{spellcasting:dc:int}} Wisdom saving throw. On a fail, it is Frightened of you or another creature of your choice. This effect lasts for 1 hour, until target is attacked or damaged, or until target witnesses its allies being attacked or damaged. On a success, it has no idea you tried to frighten it.</description>
 		</sheet>
 <!--		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -520,11 +520,11 @@
 	<element name="Imminent Demise" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_IMMINENT_DEMISE">
 		<requirements>ID_ALMIR_UNIQUE_RACE_RESTORED_DHAMPIR,ID_WOTC_PHB_CLASS_ROGUE</requirements>
 		<description>
-			<p>When you successfully hit a creature with a Sneak Attack, you can sacrifice up to a number of the bonus damage dice equal to your Intelligence modifier to force the creature to make a Constitution saving throw against your spell DC. On a failure, the target takes 2d8 radiant damage per dice sacrificed and is blinded until the start of your next turn. On a success, it takes half that damage and is not blinded. This ability does not benefit from critical hits.</p>
-			<p class="indent">Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+			<p>When you successfully hit a creature with a Sneak Attack, you can sacrifice up to a number of the bonus damage dice equal to your Intelligence modifier to force the creature to make a Constitution saving throw against your spell DC. On a failure, the target takes 2d8 radiant damage per dice sacrificed and is Blinded until the start of your next turn. On a success, it takes half that damage and is not Blinded. This ability does not benefit from critical hits.</p>
+			<p class="indent">Once you use this feature, you can't use it again until you finish a short or Long Rest.</p>
 		</description>
 		<sheet usage="1/Short Rest">
-			<description>When you successfully hit a creature with a Sneak Attack, you can sacrifice up to {{intelligence:modifier}} damage dice to force the creature to make a DC{{spellcasting:dc:int}} Constitution saving throw. On a failure, the target takes 2d8 radiant damage per dice sacrificed and is blinded until the start of your next turn. On a success, it takes half damage and is not blinded. This ability does not benefit from critical hits.</description>
+			<description>When you successfully hit a creature with a Sneak Attack, you can sacrifice up to {{intelligence:modifier}} damage dice to force the creature to make a DC{{spellcasting:dc:int}} Constitution saving throw. On a failure, the target takes 2d8 radiant damage per dice sacrificed and is Blinded until the start of your next turn. On a success, it takes half damage and is not Blinded. This ability does not benefit from critical hits.</description>
 		</sheet>
 <!--		<setters>
 			<set name="category">Supernatural Gifts</set>
@@ -540,11 +540,11 @@
 		<description>
 			<p>A small gold band with no discernible features, this ring was given to Curious Bite by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Mir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative. However, after her restoration through Lathander, the enchantment that enhanced her dhampir bite proved to have been cleansed from the ring by the Morninglord's power.</p>
 			<h6><b>Charm of Unlocking</b></h6>
-			<p>As an action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>charm person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.</p>
+			<p>As a Magic Action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>Charm Person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a Long Rest.</p>
 			<h6><b>One of Many Faces Amongst None</b></h6>
-			<p>At the end of a long rest, can prepare a magical disguise within the restrictions of the spells <i>disguise self</i> and <i>alter self</i>, which resides within the ring until the next long rest. Then as a free action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as <i>dispel magic</i>. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class.</p>
+			<p>At the end of a Long Rest, can prepare a magical disguise within the restrictions of the spells <i>Disguise Self</i> and <i>Alter Self</i>, which resides within the ring until the next Long Rest. You can then assume this new form (no action required), which lasts until you release the form, or until dispelled by a spell such as <i>Dispel Magic</i>. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class.</p>
 			<h6><b>Twin Shadows</b></h6>
-			<p>When casting <i>shadow blade</i>, the wearer manifests not one but two swords, one in each hand. In addition, while you are holding both swords, you gain the benefits of the “Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per long rest, after which casting <i>shadow blade</i> only results in one sword and does not grant the effects of the fighting style.</p>
+			<p>When casting <i>Shadow Blade</i>, the wearer manifests not one but two swords, one in each hand. In addition, while you are holding both swords, you gain the benefits of the “Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per Long Rest, after which casting <i>Shadow Blade</i> only results in one sword and does not grant the effects of the fighting style.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_CHARM_PERSON" />
 			</div>
@@ -560,9 +560,9 @@
 		</description>
 		<sheet action="Free Action or Reaction" usage="3/Long Rest or Special">
 			<description>This magical ring holds many special properties designed to aid those in more surreptitious walks of life: &#13;
-			• Charm of Unlocking: Can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the charm person spell. You can use either property up to 3 times, and you regain all expended uses when you finish a long rest.&#13;
-			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spells disguise self and alter self, which resides within the ring until the next long rest. Then as an action, can assume this new form, which lasts until you release the form, or until dispelled by a spell such as dispel magic. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class. &#13;
-			• Twin Shadows: When casting shadow blade, the wearer manifests not one but two swords, one in each hand, and gains the benefits of the "Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per long rest, after which casting shadow blade only results in one sword and does not grant the effects of the fighting style.</description>
+			• Charm of Unlocking: Can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the Charm Person spell. You can use either property up to 3 times, and you regain all expended uses when you finish a Long Rest.&#13;
+			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spells Disguise Self and Alter Self, which resides within the ring until the next Long Rest. You can then assume this new form (no action required), which lasts until you release the form, or until dispelled by a spell such as Dispel Magic. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class. &#13;
+			• Twin Shadows: When casting Shadow Blade, the wearer manifests not one but two swords, one in each hand, and gains the benefits of the "Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per Long Rest, after which casting Shadow Blade only results in one sword and does not grant the effects of the fighting style.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" />
@@ -593,11 +593,11 @@
 	<element name="Shelter of the Waves" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_SHELTER_OF_THE_WAVES">
 		<description>
 			<p>Ever since you began to worship the Goddess of Shining Waters, the the calming presence of Eldath has been a constant companion, and your devotion to Her has felt more akin to a friendship than any religious compulsion. Likewise, Her power has guided you to bring peace and restoration to those in need, wherever you meet them along your travels. However, with conflict brewing nearer with every dawn, your prayers to Eldath have seen Her willing to grant you the ability to protect those actively battling the forces of discord and suffering.</p>
-			<p class="indent">As a reaction when an ally you can see within 30 ft is reduced below 50% of their max hp, you can surround them in a swirl of protective waters. Immediately, and then again at the start of their next 2 turns, they recover hitpoints equal to 1d6 plus your Wisdom modifier. Additionally, they gain a +1 to AC and saving throws, and gain resistance against the damage type triggering the reaction until the start of their 3rd turn since receiving this blessing. You can use this reaction once per short rest. If you have no more uses remaining, you can use this ability again by expending a spellslot of 3rd lvl or higher.</p>
-			<p class="indent">Alternatively, you can beseech Eldath to watch over your companions in your absence. As a ritual, you can bless any number of creatures you can see or are familiar to you following a long rest, spending a spell slot of 3rd or higher on each creature past the first. Until the next dawn, this ability will trigger the first time they are reduced below 50% of their max hp. Once you use this ritual, you cannot use the reaction ability again until you complete a long rest.</p>
+			<p class="indent">When an ally you can see within 30 ft is reduced below 50% of their max hp, you can use a Reaction to surround them in a swirl of protective waters. Immediately, and then again at the start of their next 2 turns, they recover Hit Points equal to 1d6 plus your Wisdom modifier. Additionally, they gain a +1 to AC and saving throws, and gain Resistance to the damage type triggering the Reaction until they begin a turn without regaining Hit Points from this ability. Once you use this ability, you cannot do so again until you complete a Short Rest. If you have no uses remaining, you can use this ability again by expending a spellslot of 3rd lvl or higher as part of the Reaction.</p>
+			<p class="indent">Alternatively, you can beseech Eldath to watch over your companions in your absence. After completing a Long Rest, you can invoke this ability as a ritual, blessing any number of creatures you can see or are familiar to you, spending a level 3 spell slot or higher for each creature past the first. Until the next dawn, this ability will trigger the first time they are reduced below 50% of their max Hit Points. Once you use this ritual, you cannot use the Reaction ability again until you complete a Long Rest.</p>
 		</description>
 		<sheet action="Reaction" usage="1/Short Rest or a 3rd lvl spell slot">
-			<description>When an ally you can see within 30 ft is reduced below 50% of their max hp, you can surround them in a swirl of protective waters. Immediately, and then again at the start of their next 2 turns, they recover 1d6 + {{wisdom:modifier}} hitpoints. Additionally, they gain a +1 to AC and saving throws, and gain resistance against the damage type triggering the reaction until the start of their 3rd turn since receiving this blessing.</description>
+			<description>When an ally you can see within 30 ft is reduced below 50% of their max hp, you can surround them in a swirl of protective waters. Immediately, and then again at the start of their next 2 turns, they recover 1d6 + {{wisdom:modifier}} Hit Points. Additionally, they gain a +1 to AC and saving throws, and gain Resistance to the damage type triggering the Reaction until they begin a turn without regaining Hit Points from this ability.</description>
 		</sheet>
 	</element>
 
@@ -615,43 +615,43 @@
 				<thead>
 					<tr><td>d3</td><td>Effect</td></tr>
 				</thead>
-				<tr><td>1</td><td><strong>Scales.</strong> The drinker gains resistance to one of the following damage types for 10 minutes: acid, cold, fire, lightning, poison. The duration increases to 1 hour at 6th level and 8 hours at 15th level.</td></tr>
+				<tr><td>1</td><td><strong>Scales.</strong> The drinker gains Resistance to one of the following damage types for 10 minutes: acid, cold, fire, lightning, poison. The duration increases to 1 hour at 6th level and 8 hours at 15th level.</td></tr>
 				<tr><td>2</td><td><strong>Talons.</strong> The drinker's attacks deal an extra 1d4 force damage for the next minute. The duration increases to 10 minutes at 6th level and 1 hour at 15th level.</td></tr>
-				<tr><td>3</td><td><strong>Blood.</strong> For the next minute, the drinker has advantage on ability checks and saving throws to resist the charmed or frightened conditions, and has advantage on Charisma (Persuasion) and Charisma (Deception) checks. The duration increases to 10 minutes at 6th level and 1 hour at 15th level.</td></tr>
+				<tr><td>3</td><td><strong>Blood.</strong> For the next minute, the drinker has Advantage on ability checks and saving throws to resist the Charmed or Frightened conditions, and has Advantage on Charisma (Persuasion or Deception) checks. The duration increases to 10 minutes at 6th level and 1 hour at 15th level.</td></tr>
 			</table>
 			<h6><b>Alchemical Masterwork: Apotheosis Draconis</b></h6>
-			<p>You can unleash the latent draconic power within yourself through special elixirs created from one of three ingredients taken from your own body: scale, talon, or blood. As an action you can imbibe the brew, and your body changes with a roar; wings unfurl from your back, your scales crackle with elemental power, and the very presence of the dragons of old pulses around you. For the next 10 minutes, you gain the following effects:</p>
+			<p>You can unleash the latent draconic power within yourself through special elixirs created from one of three ingredients taken from your own body: scale, talon, or blood. As a Magic Action you can imbibe the brew, and your body changes with a roar; wings unfurl from your back, your scales crackle with elemental power, and the very presence of the dragons of old pulses around you. For the next 10 minutes, you gain the following effects:</p>
 			<ul>
 				<li><strong>Wings.</strong> Incorporeal wings sprout from your back, giving you a flying speed of 60 feet.</li>
-				<li><strong>Blindsight.</strong> You have blindsight with a range of 30 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re blinded or in darkness. Moreover, you can see an invisible creature, unless the creature successfully hides from you.</li>
-				<li><strong>Draconic Aura.</strong> When you transform, you may choose a number of friendly targets equal to your proficiency bonus within 30 feet to mark as your protected kin. For the duration of your transformation, your protected kin gain the benefits of the Draconis Elixir associated with the ingredient chosen when creating the potion while they are within 30 feet of you. If you chose Scale, the protected kin gain resistance to two damage types instead of one.</li>
-				<li><strong>Breath Weapon.</strong> When you transform, and as a bonus action on subsequent turns for the duration, you can exhale shimmering energy in a 30-foot cone. All creatures in the area must make a Dexterity saving throw (the DC being equal to your spellcasting DC), taking 4d6 force damage on a failed save, or half as much damage on a successful one. However, those marked as protected kin are shielded from the blast and take no damage, and instead can choose to erupt with draconic power as their mark is empowered.</li>
+				<li><strong>Blindsight.</strong> You have Blindsight with a range of 30 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re Blinded or in darkness. Moreover, you can see an invisible creature, unless the creature successfully hides from you.</li>
+				<li><strong>Draconic Aura.</strong> When you transform, you may choose a number of friendly targets equal to your proficiency bonus within 30 feet to mark as your protected kin. For the duration of your transformation, your protected kin gain the benefits of the Draconis Elixir associated with the ingredient chosen when creating the potion while they are within 30 feet of you. If you chose Scale, the protected kin gain Resistance to two damage types instead of one.</li>
+				<li><strong>Breath Weapon.</strong> When you transform, and as a Bonus Action on subsequent turns for the duration, you can exhale shimmering energy in a 30-foot cone. All creatures in the area must make a Dexterity saving throw (the DC being equal to your spellcasting DC), taking 4d6 force damage on a failed save, or half as much damage on a successful one. However, those marked as protected kin are shielded from the blast and take no damage, and instead can choose to erupt with draconic power as their mark is empowered.</li>
 				<ul>
-					<li><i>Scale.</i> Marked kin can choose to draw on the mark to cause an explosion of elemental devastation. Each creature in a 5-foot-radius sphere centered on the marked kin must make a Dexterity saving throw. A target takes 3d8 damage on a failed save, or half as much damage on a successful one. The marked kin chooses the damage type from one of their two granted resistances, and then loses that resistance for the rest of the transformation's duration.</li>
+					<li><i>Scale.</i> Marked kin can choose to draw on the mark to cause an explosion of elemental devastation. Each creature in a 5-foot-radius sphere centered on the marked kin must make a Dexterity saving throw. A target takes 3d8 damage on a failed save, or half as much damage on a successful one. The marked kin chooses the damage type from one of their two granted Resistances, and then loses that Resistance for the rest of the transformation's duration.</li>
 					<li><i>Talon.</i> Marked kin can choose to further enhance their boon, increasing the bonus damage of their next attack to 4d4 instead of 1d4. Once a marked kin uses this effect a number of times equal to half their proficiency bonus, rounded down, the kin no longer benefits from the aura's bonus damage for the remainder of the transformation.</li>
-					<li><i>Blood.</i> Marked kin can choose to momentarily overwhelm those around them with draconic presence, allowing them to immediately use a reaction to move up to its speed, without provoking opportunity attacks. Once a marked kin has used this reaction, it cannot do so again for the remainder of your transformation.</li>
+					<li><i>Blood.</i> Marked kin can choose to momentarily overwhelm those around them with draconic presence, allowing them to immediately use a Reaction to move up to its speed, without provoking opportunity attacks. Once a marked kin has used this Reaction, it cannot do so again for the remainder of your transformation.</li>
 				</ul>
 			</ul>
-			<p>You can create a number of Apotheosis Draconis elixirs equal to half your proficiency bonus, and regain all uses upon completing a long rest. All elixirs created must be used with an hour or they become inert. If any creature besides yourself consumes an Apotheosis Draconis elixir, they do not gain any of its effects and instead suffer from the <i>poisoned</i> condition for the next 24 hours.</p>
+			<p>You can create a number of Apotheosis Draconis elixirs equal to half your proficiency bonus, and regain all uses upon completing a Long Rest. All elixirs created must be used with an hour or they become inert. If any creature besides yourself consumes an Apotheosis Draconis elixir, they do not gain any of its effects and instead suffer from the <i>Poisoned</i> condition for the next 24 hours.</p>
 		</description>
 		<sheet>
 			<description>You gain access to three new Experimental Elixir options, each based on an aspect of the draconic legacy which swells within you. &#13;
-			•Scales: The drinker gains resistance to one of the following damage types for 10 minutes: acid, cold, fire, lightning, poison. &#13;
+			•Scales: The drinker gains Resistance to one of the following damage types for 10 minutes: acid, cold, fire, lightning, poison. &#13;
 			•Talons: The drinker's attacks deal an extra 1d4 force damage for the next minute. &#13;
-			•Blood: For 1 minute, the drinker has advantage on ability checks and saving throws to resist the charmed and frightened conditions, and has advantage on Charisma (Persuasion) and Charisma (Deception) checks. &#13;
-			You also can create {{proficiency:half}} elixirs of Apotheosis Draconis, which you can drink to unleash the latent draconic power within you. For 1 minute, you gain wings, blindsight, a breath weapon, and exude a powerful draconic aura to shield or bolster your allies.
+			•Blood: For 1 minute, the drinker has Advantage on ability checks and saving throws to resist the Charmed and Frightened conditions, and has Advantage on Charisma (Persuasion or Deception) checks. &#13;
+			You also can create {{proficiency:half}} elixirs of Apotheosis Draconis, which you can drink to unleash the latent draconic power within you. For 1 minute, you gain 60 feet of Fly Speed, Blindsight, a breath weapon, and exude a powerful draconic aura to shield or bolster your allies.
 			</description>
 			<description level="6">You gain access to three new Experimental Elixir options, each based on an aspect of the draconic legacy which swells within you. &#13;
-			•Scales: The drinker gains resistance to one of the following damage types for 1 hour: acid, cold, fire, lightning, poison. &#13;
+			•Scales: The drinker gains Resistance to one of the following damage types for 1 hour: acid, cold, fire, lightning, poison. &#13;
 			•Talons: The drinker's attacks deal an extra 1d4 force damage for the next 10 minutes. &#13;
-			•Blood: For 10 minutes, the drinker has advantage on ability checks and saving throws to resist the charmed and frightened conditions, and has advantage on Charisma (Persuasion) and Charisma (Deception) checks. &#13;
-			You also can create {{proficiency:half}} elixirs of Apotheosis Draconis, which you can drink to unleash the latent draconic power within you. For 10 minutes, you gain wings, blindsight, a breath weapon, and exude a powerful draconic aura to shield or bolster your allies.
+			•Blood: For 10 minutes, the drinker has Advantage on ability checks and saving throws to resist the Charmed and Frightened conditions, and has Advantage on Charisma (Persuasion or Deception) checks. &#13;
+			You also can create {{proficiency:half}} elixirs of Apotheosis Draconis, which you can drink to unleash the latent draconic power within you. For 10 minutes, you gain 60 feet of Fly Speed, Blindsight, a breath weapon, and exude a powerful draconic aura to shield or bolster your allies.
 			</description>
 			<description level="15">You gain access to three new Experimental Elixir options, each based on an aspect of the draconic legacy which swells within you. &#13;
-			•Scales: The drinker gains resistance to one of the following damage types for 8 hours: acid, cold, fire, lightning, poison. &#13;
+			•Scales: The drinker gains Resistance to one of the following damage types for 8 hours: acid, cold, fire, lightning, poison. &#13;
 			•Talons: The drinker's attacks deal an extra 1d4 force damage for the next hour. &#13;
-			•Blood: For 1 hour, the drinker has advantage on ability checks and saving throws to resist the charmed and frightened conditions, and has advantage on Charisma (Persuasion) and Charisma (Deception) checks. &#13;
-			You also can create {{proficiency:half}} elixirs of Apotheosis Draconis, which you can drink to unleash the latent draconic power within you. For 1 hour, you gain wings, blindsight, a breath weapon, and exude a powerful draconic aura to shield or bolster your allies.
+			•Blood: For 1 hour, the drinker has Advantage on ability checks and saving throws to resist the Charmed and Frightened conditions, and has Advantage on Charisma (Persuasion or Deception) checks. &#13;
+			You also can create {{proficiency:half}} elixirs of Apotheosis Draconis, which you can drink to unleash the latent draconic power within you. For 1 hour, you gain 60 feet of Fly Speed, Blindsight, a breath weapon, and exude a powerful draconic aura to shield or bolster your allies.
 			</description>
 		</sheet>
 	</element>
@@ -676,13 +676,13 @@
 <!-- Spells -->
 	<element name="Fey Reaper's Mark" type="Spell" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_SPELL_FEY_REAPERS_MARK">
 		<description>
-			<p>You choose a creature you can see within range and mystically mark it as your quarry. Until the spell ends, you deal an extra 1d8 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. Additionally, a marked target cannot benefit from any cover or impose disadvantage due to obscurement or line of sight as the weapons of the caster phase through the Feywilds to unerringly find their target. If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.</p>
+			<p>You choose a creature you can see within range and mystically mark it as your quarry. Until the spell ends, you deal an extra 1d8 damage to the target whenever you hit it with a weapon attack, and you have Advantage on any Wisdom (Perception or Survival) check you make to find it. Additionally, a marked target cannot benefit from any cover or impose Disadvantage due to Obscurement or line of sight as the weapons of the caster phase through the Feywilds to unerringly find their target. If the target drops to 0 Hit Points before this spell ends, you can use a Bonus Action on a subsequent turn of yours to mark a new creature.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
 			<set name="level">0</set>
 			<set name="school">Divination</set>
-			<set name="time">1 bonus action</set>
+			<set name="time">Bonus Action</set>
 			<set name="duration">Concentration, up to 1 hour</set>
 			<set name="range">90 feet</set>
 			<set name="hasVerbalComponent">true</set>
@@ -696,10 +696,10 @@
 	<element name="Astral Familiar" type="Spell" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_SPELL_ASTRAL_FAMILIAR">
 		<description>
 			<p>Your astral companion can manifest as a familiar, a spirit that takes an animal form of your choosing. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form (or closest equivalent creature that has a challenge rating of 0), though it is a magical construct instead of a beast.</p>
-			<p class="indent">Your familiar acts independently of you, but it always obeys your commands. In combat, it acts on your turn, and you can use your bonus action to command it to make actions, but it cannot attack.</p>
-			<p class="indent">When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again.</p>
-			<p class="indent">While your familiar is summoned, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses. Your familiar is linked to you, and cannot move more than 100 feet from you.</p>
-			<p class="indent">As an action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits you summons. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.</p>
+			<p class="indent">Your familiar acts independently of you, but it always obeys your commands. In combat, it acts on your turn, and you can use your Bonus Action to command it to make actions, but it cannot attack.</p>
+			<p class="indent">When the familiar drops to 0 Hit Points, it disappears, leaving behind no physical form. It reappears after you cast this spell again.</p>
+			<p class="indent">While your familiar is summoned, you can communicate with it telepathically. Additionally, as a Magic Action, you can see through your familiar’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses. Your familiar is linked to you, and cannot move more than 100 feet from you.</p>
+			<p class="indent">As a Magic Action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits you summons. As a Magic Action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
@@ -729,10 +729,10 @@
 			<set name="wisdom">12</set>
 			<set name="charisma">20</set>
 			<set name="ac">equal to your own</set>
-			<set name="hp">half your hit point maximum</set>
+			<set name="hp">half your Hit Point maximum</set>
 			<set name="speed">30 ft., swim 90ft </set>
-			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
-			<set name="immunities">poison</set>
+			<set name="Resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="Immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +5, Cha +7</set>
 			<set name="skills">Athletics -1, Deception +7, Perception +3, Persuasion +7 </set>
@@ -771,10 +771,10 @@
 			<set name="wisdom">12</set>
 			<set name="charisma">10</set>
 			<set name="ac">16 (natural armor)</set>
-			<set name="hp">half your hit point maximum</set>
+			<set name="hp">half your Hit Point maximum</set>
 			<set name="speed">30 ft., swim 90ft </set>
-			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
-			<set name="immunities">poison</set>
+			<set name="Resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="Immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +5, Cha +2</set>
 			<set name="skills">Acrobatics +7, Athletics -1, Perception +3, Stealth +7 </set>
@@ -802,10 +802,10 @@
 	</element>
 	<element name="Soul Link" type="Companion Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_SOUL_LINK">
 		<description>
-			<p>The spirit is a reflection of your own soul; whenever the spirit takes damage, the damage is split evenly with you, after any resistances are applied.</p>
+			<p>The spirit is a reflection of your own soul; whenever the spirit takes damage, the damage is split evenly with you, after any Resistances are applied.</p>
 		</description>
 		<sheet>
-			<description>The spirit is a reflection of your own soul; whenever the spirit takes damage, the damage is split evenly with you, after any resistances are applied.</description>
+			<description>The spirit is a reflection of your own soul; whenever the spirit takes damage, the damage is split evenly with you, after any Resistances are applied.</description>
 		</sheet>
 	</element>
 	<element name="Freeze" type="Companion Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_COMPANION_TRAIT_SPIRIT_OF_THE_TIDES_FREEZE">
@@ -844,10 +844,10 @@
 			<set name="wisdom">12</set>
 			<set name="charisma">20</set>
 			<set name="ac">equal to your own</set>
-			<set name="hp">half your hit point maximum</set>
+			<set name="hp">half your Hit Point maximum</set>
 			<set name="speed">30 ft., swim 90ft </set>
-			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
-			<set name="immunities">poison</set>
+			<set name="Resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="Immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +6, Cha +8</set>
 			<set name="skills">Athletics +0, Deception +8, Perception +4, Performance +8, Persuasion +8 </set>
@@ -887,10 +887,10 @@
 			<set name="wisdom">12</set>
 			<set name="charisma">10</set>
 			<set name="ac">16 (natural armor)</set>
-			<set name="hp">half your hit point maximum</set>
+			<set name="hp">half your Hit Point maximum</set>
 			<set name="speed">30 ft., swim 90ft </set>
-			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
-			<set name="immunities">poison</set>
+			<set name="Resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="Immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +6, Cha +3</set>
 			<set name="skills">Acrobatics +8, Athletics +0, Perception +4, Performance +3, Stealth +8 </set>
@@ -929,10 +929,10 @@
 			<set name="wisdom">13</set>
 			<set name="charisma">20</set>
 			<set name="ac">equal to your own</set>
-			<set name="hp">half your hit point maximum</set>
+			<set name="hp">half your Hit Point maximum</set>
 			<set name="speed">30 ft., swim 90ft </set>
-			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
-			<set name="immunities">poison</set>
+			<set name="Resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="Immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +7, Wis +5, Cha +9</set>
 			<set name="skills">Athletics +1, Deception +9, Perception +5, Performance +9, Persuasion +9 </set>
@@ -976,10 +976,10 @@
 			<set name="wisdom">13</set>
 			<set name="charisma">10</set>
 			<set name="ac">17 (natural armor)</set>
-			<set name="hp">half your hit point maximum</set>
+			<set name="hp">half your Hit Point maximum</set>
 			<set name="speed">30 ft., swim 90ft </set>
-			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
-			<set name="immunities">poison</set>
+			<set name="Resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="Immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +7, Wis +5, Cha +4</set>
 			<set name="skills">Acrobatics +9, Athletics +1, Perception +5, Performance +4, Stealth +9 </set>
@@ -1022,10 +1022,10 @@
 			<set name="wisdom">14</set>
 			<set name="charisma">20</set>
 			<set name="ac">equal to your own</set>
-			<set name="hp">half your hit point maximum</set>
+			<set name="hp">half your Hit Point maximum</set>
 			<set name="speed">30 ft., swim 90ft </set>
-			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
-			<set name="immunities">poison</set>
+			<set name="Resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="Immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +8, Wis +7, Cha +10</set>
 			<set name="skills">Acrobatics +5, Athletics +2, Deception +10, Insight +7, Perception +7, Performance +10, Persuasion +10, Survival +7 </set>
@@ -1072,10 +1072,10 @@
 			<set name="wisdom">14</set>
 			<set name="charisma">10</set>
 			<set name="ac">17 (natural armor)</set>
-			<set name="hp">half your hit point maximum</set>
+			<set name="hp">half your Hit Point maximum</set>
 			<set name="speed">30 ft., swim 90ft </set>
-			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
-			<set name="immunities">poison</set>
+			<set name="Resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="Immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +8, Wis +7, Cha +5</set>
 			<set name="skills">Acrobatics +10, Athletics +2, Insight +7, Perception +7, Performance +5, Stealth +10, Survival +10 </set>
@@ -1120,10 +1120,10 @@
 			<set name="wisdom">14</set>
 			<set name="charisma">20</set>
 			<set name="ac">equal to your own</set>
-			<set name="hp">half your hit point maximum</set>
+			<set name="hp">half your Hit Point maximum</set>
 			<set name="speed">30 ft., swim 90ft </set>
-			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
-			<set name="immunities">poison</set>
+			<set name="Resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="Immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +9, Wis +8, Cha +11</set>
 			<set name="skills">Acrobatics +6, Arcana +6, Athletics +3, Deception +11, Insight +8, Perception +8, Performance +11, Persuasion +17, Survival +8 </set>
@@ -1171,10 +1171,10 @@
 			<set name="wisdom">14</set>
 			<set name="charisma">10</set>
 			<set name="ac">17 (natural armor)</set>
-			<set name="hp">half your hit point maximum</set>
+			<set name="hp">half your Hit Point maximum</set>
 			<set name="speed">30 ft., swim 90ft </set>
-			<set name="resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
-			<set name="immunities">poison</set>
+			<set name="Resistances">acid, bludgeoning, piercing, and slashing from nonmagical attacks</set>
+			<set name="Immunities">poison</set>
 			<set name="conditionImmunities">exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</set>
 			<set name="saves">Con +9, Wis +8, Cha +6</set>
 			<set name="skills">Acrobatics +11, Arcana +6, Athletics +3, Insight +8, Perception +8, Performance +6, Stealth +17, Survival +8 </set>
