@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.38">
+    <update version="0.2.39">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -657,7 +657,7 @@
 	</element>
 
 <!-- Generic Feats -->
-	<element name="Charger" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_CHARGER">
+	<element name="Charger (2024)" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_CHARGER">
 		<description>
 			<p>You gain the following benefits.</p>
 			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Strength or Dexterity score by 1, to a maximum of 20.</p>
@@ -670,6 +670,25 @@
 		<rules>
 			<select type="Ability Score Improvement" name="Ability Score Increase (Charger)" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY" />
 			<!--<stat name="speed:climb" value="speed" bonus="base" />-->
+		</rules>
+	</element>
+	<element name="Metamagic Adept (2024)" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_METAMAGIC_ADEPT">
+		<prerequisite>Spellcasting or Pact Magic feature</prerequisite>
+		<description>
+			<p><em>Prerequisite: Spellcasting or Pact Magic feature</em></p>
+			<p>You’ve learned how to exert your will on your spells to alter how they function:</p>
+			<p class="indent"><b><i>Ability Score Increase.</i></b> Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of 20.</p>
+			<p class="indent"><b><i>Metamagic Adept.</i></b> You learn two Metamagic options of your choice from the Sorcerer class. You can use only one Metamagic option on a spell when you cast it, unless the option says otherwise. Whenever you reach a level that grants the Ability Score Improvement feature, you can replace one of these Metamagic options with another one from the Sorcerer class.</p>
+			<p class="indent"><b><i>Touch of Sorcery.</i></b> You gain 2 Sorcery Points to spend on Metamagic (these Points are added to any Sorcery Points you have from another source but can be used only on Metamagic). You regain all spent Sorcery Points when you finish a Long Rest.</p>
+		</description>
+		<sheet>
+			<description>You gain 2 Sorcery Points to spend on Metamagic. You regain all spent Sorcery Points when you finish a Long Rest. &#13;
+			You can use only one Metamagic option on a spell when you cast it, unless the option says otherwise.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase, Metamagic Adept (2024)" supports="ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" />			
+			<select type="Class Feature" name="Metamagic, Metamagic Adept" supports="Metamagic" number="2" />
+			<stat name="sorcery-points" value="2" />
 		</rules>
 	</element>
 
