@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.41">
+    <update version="0.2.42">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -681,12 +681,12 @@
 			<p class="indent"><b><i>Metamagic Adept.</i></b> You learn two Metamagic options of your choice from the Sorcerer class. You can use only one Metamagic option on a spell when you cast it, unless the option says otherwise. Whenever you reach a level that grants the Ability Score Improvement feature, you can replace one of these Metamagic options with another one from the Sorcerer class.</p>
 			<p class="indent"><b><i>Touch of Sorcery.</i></b> You gain 2 Sorcery Points to spend on Metamagic (these Points are added to any Sorcery Points you have from another source but can be used only on Metamagic). You regain all spent Sorcery Points when you finish a Long Rest.</p>
 		</description>
-		<sheet>
+		<sheet alt="Metamagic Adept">
 			<description>You gain 2 Sorcery Points to spend on Metamagic. You regain all spent Sorcery Points when you finish a Long Rest. &#13;
 			You can use only one Metamagic option on a spell when you cast it, unless the option says otherwise.</description>
 		</sheet>
 		<rules>
-			<select type="Ability Score Improvement" name="Ability Score Increase, Metamagic Adept (2024)" supports="ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" />			
+			<select type="Ability Score Improvement" name="Ability Score Increase, Metamagic Adept" supports="ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" />			
 			<select type="Class Feature" name="Metamagic, Metamagic Adept" supports="Metamagic" number="2" />
 			<stat name="sorcery-points" value="2" />
 		</rules>
