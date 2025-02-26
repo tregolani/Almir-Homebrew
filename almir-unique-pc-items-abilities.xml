@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.40">
+    <update version="0.2.41">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -488,6 +488,7 @@
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Artifact</set>
+			<set name="slot">misc</set>
 			<set name="attunement">false</set>
 		</setters>
 		<rules>
