@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Restored Dhampir (Tales of Mir)</name>
-		<update version="0.0.11">
+		<update version="0.0.12">
 			<file name="race-restored-dhampir.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/race-restored-dhampir.xml" />
 		</update>
 	</info>
@@ -16,14 +16,14 @@
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Increase one score by 2 and increase a different score by 1, or you increase three different scores by 1.</p>
 			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
 			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you gain this lineage.</p>
-			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 35 feet.</p>
-			<p class="indent"><strong><em>Ancestral Legacy.</em></strong> If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your Speed is 35 feet.</p>
+			<p class="indent"><strong><em>Ancestral Legacy.</em></strong> If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any Climb, Fly, or Swim Speed you gained from it.</p>
 			<p class="indent">If you don’t keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</p>
 			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness as shades of gray.</p>
-			<p class="indent"><strong><em>Reborn Resilience.</em></strong> You have resistance to necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have advantage on saving throws to resist the charmed condition or any effect that would allow another creature to possess or control you, and can add your Intelligence modifier to the roll.</p>
-			<p class="indent"><strong><em>Spider Climb.</em></strong> You have a climbing speed equal to your walking speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</p>
-			<p class="indent"><strong><em>Celestial Spark.</em></strong> When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total, potentially turning failure into success. Once this feature turns a failure into a success, you can't use it again until you finish a long rest. You can also reuse the spark by expending a spell slot of 1st level or higher (no action required).</p>
-			<p class="indent"><strong><em>Blazing Renewal.</em></strong> A powerful light within you wards you against death. When you are reduced to 0 hit points, you can use your reaction to immediately rise back to your feet with a burst of radiant energy. You regain a number of hitpoints equal to twice your level, and all creatures of your choice within 10ft must succeed a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or take an equal amount of radiant damage and be blinded until the start of your next turn. Once you use this reaction, you cannot do so again until you complete a long rest.</p>
+			<p class="indent"><strong><em>Reborn Resilience.</em></strong> You have Resistance to Necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have Advantage on saving throws to resist the Charmed condition or any effect that would allow another creature to possess or control you, and can add your Intelligence modifier to the roll.</p>
+			<p class="indent"><strong><em>Spider Climb.</em></strong> You have a Climb Speed equal to your Speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</p>
+			<p class="indent"><strong><em>Celestial Spark.</em></strong> When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total, potentially turning failure into success. Once this feature turns a failure into a success, you can't use it again until you finish a Long Rest. You can also reuse the spark by expending a level 1+ spell slot (no action required).</p>
+			<p class="indent"><strong><em>Blazing Renewal.</em></strong> A powerful light within you wards you against death. When you are reduced to 0 hit points, you can use your Reaction to immediately rise back to your feet with a burst of radiant energy. You regain a number of Hit Points equal to twice your level, and all creatures of your choice within 10ft must succeed a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or take an equal amount of Radiant damage and be Blinded until the start of your next turn. Once you use this Reaction, you cannot do so again until you finish a Long Rest.</p>
 			<p class="indent"><strong><em>Languages.</em></strong> Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character.</p>
 		</description>
 		<sheet display="false" />
@@ -46,7 +46,7 @@
 	</element>
 	<element name="Ancestral Legacy" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_ANCESTRAL_LEGACY">
 		<description>
-			<p>If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.</p>
+			<p>If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any Climb, Fly, or Swim Speed you gained from it.</p>
 			<p class="indent">If you don’t keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.</p>
 			<p><strong><em>Notes:</em></strong> This trait's mechanics aren't implemented in the Aurora Builder. But you can emulate mechanics of this trait with following options:</p>
 			<p class="indent"><b>Skill Proficiencies.</b> You can recover lost skill proficiencies by selecting and equipping items from Additional Proficiency category of the Equipment section.</p>
@@ -60,10 +60,10 @@
 
 	<element name="Reborn Resilience" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_REBORN_RESILIENCE">
 		<description>
-			<p>You have resistance to necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have advantage on saving throws to resist the charmed condition or any effect that would allow another creature to possess or control you, and can add your Intelligence modifier to the roll.</p>
+			<p>You have Resistance to Necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have Advantage on saving throws to resist the Charmed condition or any effect that would allow another creature to possess or control you, and can add your Intelligence modifier to the roll.</p>
 		</description>
 		<sheet>
-			<description>You have resistance to necrotic damage. Furthermore, your mind is honed against the controlling influence of other minds; you have advantage on saving throws to resist the charmed condition or any effect that would allow another creature to possess or control you, and can add your Intelligence modifier to the roll.</description>
+			<description>Your mind is honed against the controlling influence of other minds; you have Advantage on saving throws to resist the Charmed condition or any effect that would allow another creature to possess or control you, and can add +{{intelligence:modifier}} to the roll.</description>
 		</sheet>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
@@ -71,30 +71,31 @@
 	</element>
 	<element name="Spider Climb" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_SPIDER_CLIMB">
 		<description>
-			<p>You have a climbing speed equal to your walking speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</p>
+			<p>You have a Climb Speed equal to your Speed. In addition, at 3rd level, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</p>
 		</description>
 		<sheet>
-			<description>You have a climbing speed equal to your walking speed.</description>
-			<description level="3">You have a climbing speed equal to your walking speed. In addition you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</description>
+			<description>You have a Climb Speed equal to your Speed.</description>
+			<description level="3">You have a Climb Speed equal to your Speed. In addition you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</description>
 		</sheet>
 		<rules>
-			<stat name="innate speed:climb" value="innate speed" bonus="base" />
+			<stat name="speed:climb" value="speed" bonus="base" />
 		</rules>
 	</element>
 	<element name="Celestial Spark" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_CELESTIAL_SPARK">
 		<description>
-			<p>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total. Once this feature turns a failure into a success, you can't use it again until you finish a long rest. You can also reuse the spark by expending a spell slot of 1st level or higher (no action required).</p>
+			<p>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4 plus your Intelligence modifier and add it to the total. Once this feature turns a failure into a success, you can't use it again until you finish a long rest. You can also reuse the spark by expending a level 1+ spell slot (no action required).</p>
 		</description>
-		<sheet action="Special" usage="1/Long Rest or 1 Spell Slot">
-			<description>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4+{{intelligence:modifier}} and add it to the total, potentially turning failure into success.</description>
+		<sheet action="Special" usage="1/Long Rest">
+			<description>When you fail a saving throw or skill check, or miss an attack roll, you can roll 1d4+{{intelligence:modifier}} and add it to the total, potentially turning failure into success. &#13;
+			You can also reuse the spark by expending a level 1+ spell slot (no action required).</description>
 		</sheet>
 	</element>
 	<element name="Blazing Renewal" type="Racial Trait" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_BLAZING_RENEWAL">
 		<description>
-			<p>A powerful light within you wards you against death. When you are reduced to 0 hit points, you can use your reaction to immediately rise back to your feet with a burst of radiant energy. You regain a number of hitpoints equal to twice your level, and all creatures of your choice within 10ft must succeed a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or take an equal amount of radiant damage and be blinded until the start of your next turn. Once you use this reaction, you cannot do so again until you complete a long rest.</p>
+			<p>A powerful light within you wards you against death. When you are reduced to 0 hit points, you can use your Reaction to immediately rise back to your feet with a burst of radiant energy. You regain a number of Hit Points equal to twice your level, and all creatures of your choice within 10ft must succeed a Constitution saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or take an equal amount of Radiant damage and be Blinded until the start of your next turn. Once you use this Reaction, you cannot do so again until you complete a long rest.</p>
 		</description>
 		<sheet action="Reaction" usage="1/Long Rest">
-			<description>When you are reduced to 0 hit points, you can use your reaction to immediately rise back to your feet with a burst of radiant energy. You regain {{blazing renewal:healing}} hitpoints, and all creatures of your choice within 10ft must succeed a Constitution saving throw (DC{{blazing renewal:dc}}) or take an equal amount of radiant damage and be blinded until the start of your next turn.</description>
+			<description>When you are reduced to 0 hit points, you can use your Reaction to immediately rise back to your feet with a burst of radiant energy. You regain {{blazing renewal:healing}} Hit Points, and all creatures of your choice within 10ft must succeed a Constitution saving throw (DC{{blazing renewal:dc}}) or take an equal amount of Radiant damage and be Blinded until the start of your next turn.</description>
 		</sheet>
 		<rules>
 			<stat name="blazing renewal:healing" value="level" />
@@ -118,8 +119,8 @@
 		<description>
 			<p>As a former dwarf, you are resilient as the stone and are blessed with both strength and tenacity.</p>
 			<p>     
-				<span class="feature">Dwarven Resilience.</span> You have advantage on saving throws against poison, and you have resistance against poison damage. <br />
-				<span class="feature">Dwarven Armor Training.</span> You have proficiency with light and medium armor. <br />
+				<span class="feature">Dwarven Resilience.</span> You have Advantage on saving throws against Poison, and you have Resistance against Poison damage. <br />
+				<span class="feature">Dwarven Armor Training.</span> You have training with Light and Medium armor. <br />
 			</p>
 		</description>
 		<sheet display="false"/>
@@ -133,7 +134,7 @@
 		<description>
 			<p>As a former elf, you are blessed with unearthly grace and fine features, and a timeless perspective that protects against compulsory influences.</p>
 			<p>     
-				<span class="feature">Fey Ancestry.</span> You have advantage on saving throws against being charmed, and magic can’t put you to sleep. <br />
+				<span class="feature">Fey Ancestry.</span> You have Advantage on saving throws against being Charmed, and magic can’t put you to sleep. <br />
 				<span class="feature">Trance.</span> Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep. <br />
 			</p>
 		</description>
@@ -148,8 +149,8 @@
 		<description>
 			<p>As a former tabaxi, your body is one graced with feline dexterity and speed, as well as equipped with a set of retractable claws which can serve as lethal weapons in a pinch.</p>
 			<p>     
-				<span class="feature">Cat's Claws.</span> You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike.<br />
-				<span class="feature">Feline Agility.</span> Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns. <br />
+				<span class="feature">Cat's Claws.</span> You can use your claws to make unarmed strikes. When you hit with them, the strike deals 1d6 + your Strength modifier Slashing damage, instead of the Bludgeoning damage normal for an unarmed strike.<br />
+				<span class="feature">Feline Agility.</span> Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your Speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns. <br />
 			</p>
 		</description>
 		<sheet display="false"/>
@@ -163,8 +164,8 @@
 		<description>
 			<p>As a former tiefling, your fiendish origins provide you with innate resistance to flames and a keen attunement with magic.</p>
 			<p>     
-				<span class="feature">Hellish Resistance.</span> You have resistance to fire damage. <br />
-				<span class="feature">Infernal Legacy.</span> You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells. <br />
+				<span class="feature">Hellish Resistance.</span> You have Resistance to Fire damage. <br />
+				<span class="feature">Infernal Legacy.</span> You know the <i>Thaumaturgy</i> cantrip. When you reach 3rd level, you can cast the <i>Hellish Rebuke</i> spell at level 2 once with this trait and regain the ability to do so when you finish a Long Rest. When you reach 5th level, you can cast the <i>Darkness</i> spell once with this trait and regain the ability to do so when you finish a Long Rest. Charisma is your spellcasting ability for these spells. <br />
 			</p>
 		</description>
 		<sheet display="false"/>
