@@ -812,6 +812,18 @@
 			<select type="Ability Score Improvement" name="Ability Score Increase (Charger)" supports="ID_INTERNAL_ASI_STRENGTH|ID_INTERNAL_ASI_DEXTERITY" />
 		</rules>
 	</element>
+	<element name="Great Weapon Fighting (2014)" type="Feat" source="Player’s Handbook 2024" id="ID_ALMIR_FEAT_GREAT_WEAPON_FIGHTING">
+		<requirements>ID_WOTC_PHB24_CLASS_FEATURE_FIGHTER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_RANGER_FIGHTING_STYLE||ID_WOTC_PHB24_CLASS_FEATURE_PALADIN_FIGHTING_STYLE</requirements>
+		<supports>Fighting Style</supports>
+		<prerequisite>Fighting Style Feature, Fighting Style Feat</prerequisite>
+		<description>
+    			<p><em>Fighting Style Feat (Prerequisite: Fighting Style Feature)</em></p>
+			<p>When you roll a 1 or 2 on a damage die for an attack you make with a Melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the Two-Handed or Versatile property for you to gain this benefit.</p>
+		</description>
+		<sheet alt="Great Weapon Fighting">
+			<description>When you roll a 1 or 2 on a damage die for an attack you make with a Two-Handed or Versatile melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll.</description>
+		</sheet>
+	</element>
 	<element name="Metamagic Adept (2024)" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_METAMAGIC_ADEPT">
 		<prerequisite>Spellcasting or Pact Magic feature</prerequisite>
 		<description>
