@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.44">
+    <update version="0.2.45">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -181,7 +181,7 @@
 		<description>
 			<p>A small gold band with no discernible features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Mir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
 			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Alton's ring began to glow as a new voice spoke in his head. Identifying himself as Echo, another of the Faceless Ones, he explained the purpose of their organization: to shape the world to bring balance, whether it was by dethroning corrupt leaders, redistributing wealth, or moving goods or contraband. The mysterious man then noted that the other Faceless Ones were watching Alton's progress closely, and if he were to succeed on his current mission, he would be allowed to join their ranks, taking up the name of the seat to which his ring belongs. However, as a sign of faith, Echo unlocked some of the more potent magical powers within the ring to aid the young bard in his fast-approaching trials.</p>
-			<p><b><i>Charm of Unlocking.</i></b> As a Magic Action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>Charm Person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a Long Rest.</p>
+			<p><b><i>Charm of Unlocking.</i></b> As a Magic Action, can use the ring to unlock any non-magical lock or magical lock of spell level 3 or lower. Alternatively, can use the ring to cast the <i>Charm Person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a Long Rest.</p>
 			<p><b><i>One of Many Faces Amongst None.</i></b> At the end of a Long Rest, can prepare a magical disguise within the restrictions of the spells <i>Disguise Self</i> and <i>Alter Self</i>, which resides within the ring until the next Long Rest. You can then assume this new form (no action required), which lasts until you release the form, or until dispelled by a spell such as <i>Dispel Magic</i>. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class.</p>
 			<p><b><i>Narrative Dissonance</i></b> Upon failing any ability check or saving throw, can use your Reaction to re-roll the check or saving throw with Advantage, as a smooth, sultry voice speaks in your mind: "No, no, that’s not how that happened.” The first time this special Reaction is used, you take 1d6 Necrotic damage, which ignores Resistance and Immunity. Each subsequent time you use this Reaction again before finishing a Long Rest, the total dice count of the Necrotic damage is doubled: 2d6, then 4d6, then 8d6, etc.</p>
 			<div class="reference">
@@ -191,14 +191,11 @@
 				<div element="ID_PHB_SPELL_ALTER_SELF" />
 			</div>
 		</description>
-		<sheet action="Free Action or Reaction" usage="3/Long Rest or Special">
-			<description>This magical ring holds many special properties designed to aid those in more surreptitious walks of life: &#13;
-			• Charm of Unlocking: Can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the Charm Person spell. You can use either property up to 3 times, and you regain all expended uses when you finish a Long Rest.&#13;
-			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spells Disguise Self and Alter Self, which resides within the ring until the next Long Rest. You can then assume this new form (no action required), which lasts until you release the form, or until dispelled by a spell such as Dispel Magic. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class. &#13;
-			• Narrative Dissonance: Upon failing any ability check or saving throw, can use your Reaction to re-roll the check or saving throw with Advantage, as a smooth, sultry voice speaks in your mind: "No, no, that’s not how that happened.” The first time this special Reaction is used, you take 1d6 Necrotic damage, which ignores Resistance and Immunity. Each subsequent time you use this Reaction again before finishing a Long Rest, the total dice count of the Necrotic damage is doubled: 2d6, then 4d6, then 8d6, etc.</description>
-		</sheet>
+		<sheet display="false" />
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_RING_OF_THE_FACELESS_CHARM_OF_UNLOCKING" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_RING_OF_THE_FACELESS_ONE_OF_MANY_FACES_AMONGST_NONE" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_RING_OF_THE_FACELESS_NARRATIVE_DISSONANCE" />
 		</rules>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -209,65 +206,54 @@
 			<set name="rarity">Artifact</set>
 		</setters>
 	</element>
-
-	<element name="CeeBee's Ring of the Faceless Ones (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_CEEBEE">
+	<element name="Charm of Unlocking" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RING_OF_THE_FACELESS_CHARM_OF_UNLOCKING">
+		<compendium display="false"/>
 		<description>
-			<p>A small gold band with no discernible features, this ring was given to Curious Bite by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Mir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
-			<p><b><i>Charm of Unlocking.</i></b> As a Magic Action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>Charm Person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a Long Rest.</p>
-			<p><b><i>One of Many Faces Amongst None.</i></b> At the end of a Long Rest, can prepare a magical disguise within the restrictions of the spells <i>Disguise Self</i> and <i>Alter Self</i>, which resides within the ring until the next Long Rest. You can then assume this new form (no action required), which lasts until you release the form, or until dispelled by a spell such as <i>Dispel Magic</i>. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class.</p>
-			<p><b><i>Twin Shadows.</i></b> When casting <i>Shadow Blade</i>, the wearer manifests not one but two swords, one in each hand. In addition, while you are holding both swords, you gain the benefits of the “Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per Long Rest, after which casting <i>Shadow Blade</i> only results in one sword and does not grant the effects of the fighting style.</p>
-			<p><b><i>Enhanced Vampiric Bite.</i></b> Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. Your snout turns into that of a dragon, a terrifying sight to behold. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d6+1 Piercing damage on a hit, and it counts as magical for the purpose of overcoming Resistance and Immunity to nonmagical attacks and damage. While you are missing half or more of your Hit Points, you have Advantage on attack rolls you make with this bite. In addition, when you attack with this bite and hit a creature that isn’t a Construct or an Undead, you can empower yourself in one of the following ways of your choice:</p>
-			<ul>
-				<li>You regain Hit Points equal to the Piercing damage dealt by the bite.</li>
-				<li>You gain a bonus to the next ability check or attack roll you make; the bonus equals the Piercing damage dealt by the bite.</li>
-			</ul>
-			<p class="indent">You can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a Long Rest.</p>
+			<p>As a Magic Action, can use the ring to unlock any non-magical lock or magical lock of spell level 3 or lower. Alternatively, can use the ring to cast the <i>Charm Person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a Long Rest.</p>
+		</description>
+		<sheet action="Magic Action" usage="3/Long Rest">
+			<description>Can unlock any non-magical lock or magical lock of spell level 3 or lower. Alternatively, can cast the Charm Person spell.</description>
+		</sheet>
+	</element>
+	<element name="One of Many Faces Amongst None" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RING_OF_THE_FACELESS_ONE_OF_MANY_FACES_AMONGST_NONE">
+		<compendium display="false"/>
+		<description>
+			<p>At the end of a Long Rest, can prepare a magical disguise within the restrictions of the spells <i>Disguise Self</i> and <i>Alter Self</i>, which resides within the ring until the next Long Rest. You can then assume this new form (no action required), which lasts until you release the form, or until dispelled by a spell such as <i>Dispel Magic</i>. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_CHARM_PERSON" />
 			</div>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_ALTER_SELF" />
 			</div>
-			<div class="reference">
-				<div element="ID_XGTE_SPELL_SHADOW_BLADE" />
-			</div>
-			<div class="reference">
-				<div element="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING" />
-			</div>
 		</description>
-		<sheet action="Free Action or Reaction" usage="3/Long Rest or Special">
-			<description>This magical ring holds many special properties designed to aid those in more surreptitious walks of life: &#13;
-			• Charm of Unlocking: Can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the Charm Person spell. You can use either property up to 3 times, and you regain all expended uses when you finish a Long Rest.&#13;
-			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spells Disguise Self and Alter Self, which resides within the ring until the next Long Rest. You can then assume this new form (no action required), which lasts until you release the form, or until dispelled by a spell such as Dispel Magic. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class. &#13;
-			• Twin Shadows: When casting Shadow Blade, the wearer manifests not one but two swords, one in each hand, and gains the benefits of the "Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per Long Rest, after which casting Shadow Blade only results in one sword and does not grant the effects of the fighting style. &#13;
-			• Enhanced Vampiric Bite: Your vampiric bite is improved and deals 1d6+1 Piercing damage on a hit in addition to its other effects.</description>
+		<sheet usage="1/Long Rest">
+			<description>Can prepare a magical disguise within the restrictions of the spells Disguise Self and Alter Self, which resides within the ring until the next Long Rest. You can then assume this new form (no action required), which lasts until you release the form, or until dispelled by a spell such as Dispel Magic. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class.</description>
 		</sheet>
-		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" />
-		</rules>
-		<setters>
-			<set name="category">Wondrous Items</set>
-			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="0">0 lb.</set>
-			<set name="slot">carried</set>
-			<set name="type">Wondrous Item</set>
-			<set name="rarity">Artifact</set>
-		</setters>
+	</element>
+	<element name="Narrative Dissonance" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RING_OF_THE_FACELESS_NARRATIVE_DISSONANCE">
+		<compendium display="false"/>
+		<description>
+			<p>Upon failing any ability check or saving throw, can use your Reaction to re-roll the check or saving throw with Advantage, as a smooth, sultry voice speaks in your mind: "No, no, that’s not how that happened.” The first time this special Reaction is used, you take 1d6 Necrotic damage, which ignores Resistance and Immunity. Each subsequent time you use this Reaction again before finishing a Long Rest, the total dice count of the Necrotic damage is doubled: 2d6, then 4d6, then 8d6, etc.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>Upon failing any ability check or saving throw, can re-roll the check or saving throw with Advantage. The first time you use this Reaction, you take 1d6 Necrotic damage, which ignores Resistance and Immunity. Each subsequent time you use this Reaction again before finishing a Long Rest, the total dice count of the Necrotic damage is doubled: 2d6, then 4d6, then 8d6, etc.</description>
+		</sheet>
 	</element>
 
 	<element name="Mind of the Void (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RUNE_SOUL_HARVEST_STAGE2">
 		<description>
 			<p>After his encounter with the mind of Eris'atemor's void demon form, as well as his communion with the fragment of the void beast he defeated upon the <i>Widow's Kiss</i>, Apsinthos heads below deck to take an evening's rest. However, his sleep is disturbed as an overwhelming darkness consumes his dreams. Suddenly, strange runes and glyphs begin to circle his consciousness, and though he cannot read them, their meaning is emotively conveyed into his mind with an intimacy unlike any language he has known before. He tries to move away from the glyphs, but a voice speaks out to him through them, claiming to be the Void. He learns that the void is consumed with returning it and everything else to nothingness, and that in nothingness there is perfection. The concept intrigues the young warlock, and the void offers him the power to harness its vast inscrutable energy to meld his destiny into whatever he would want it to be. Seemingly swayed by the promise of all-encompassing equality in embracing the nothingness, Apsinthos accepts this gift. Only time will tell whether he will use it to shape his own destiny, or it will use him as a tool of the insatiable hunger of the void.</p>
 			<p class="indent">Some months later, the group finds themselves preparing to take on Faust’s hordes in defense of Galeran, with Apsinthos’ mother acting as the forefront defender of the city. However, Apsinthos now carries a new complication with him: his long-lost sister Madeline, who is now suffused with the Void after her short-but-traumatic stint in its realm following her inexplicable liberation from her captivity in the Nine Hells. Knowing their mother would seek to take advantage of their connection with the Void using her patron, the Archduchess Zariel, they opt to sever their familial ties with the Queen of Hell and use the resulting eruption of raw arcana to allow Madeline to ascend to a position of quasi-deific power—an Exarch of the Void—to act as a mental shield and refining prism for her brother’s burgeoning Void powers.</p>
-			<p><b><i>Call Upon the Void.</i></b> As a Magic Action, can make a 1-3 worded command to the Void, causing it to cast a spell as chosen by the Void to fulfill the command given. This spell must be from the Cleric or Wizard spell lists, and cannot exceed the highest spell level you can cast, up to a maximum of level 5 spells. Immediately when the spell is cast, you take 1d6 Necrotic damage, which ignores Resistance and Immunity. Each subsequent time this special action is used again before finishing a Short or Long Rest, the Necrotic damage increases by 1d6.</p>
-			<p class="indent">When you cast a spell in this manner, it does not expend a spell slot.</p>
-			<p><b><i>From Nothing I Will Create My Own.</i></b> You can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a Minor Wish. However, doing so causes a great strain on your physical body, and the release of Void energy causes you to take 4d10 Necrotic damage, which ignores Resistance and Immunity. Once you use this property, it cannot be used again for 7 days.</p>
+			<p><b><i>Call Upon the Void.</i></b> As a Magic Action, can make a 1-3 worded command to the Void, causing it to cast a spell as chosen by the Void to fulfill the command given. This spell must be from the Cleric or Wizard spell lists, and cannot exceed the highest spell level you can cast, up to a maximum of level 5 spells. When you cast a spell in this manner, it does not expend a spell slot.</p>
+			<p class="indent">Immediately when the spell is cast, you take 1d6 Necrotic damage, which ignores Resistance and Immunity. Each subsequent time this special action is used again before finishing a Short or Long Rest, the Necrotic damage increases by 1d6.</p>
+			<p><b><i>From Nothing I Will Create My Own.</i></b> You can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a Minor Wish. However, doing so causes a great strain on your physical body, and the release of void energy causes you to take 4d10 Necrotic damage, which ignores Resistance and Immunity.</p>
+			<p class="indent">Once you use this property, it cannot be used again for 7 days.</p>
 			</description>
-		<sheet action="Action or Special" usage="Special">
-			<description>Communing with the Void has granted you special powers: &#13;
-			• Call Upon the Void: As a Magic Action, can make a 1-3 worded command to the Void, causing it to cast a spell as chosen by the Void to fulfill the command given. This spell must be from the Cleric or Wizard spell lists, and cannot exceed the highest spell level you can cast, up to a maximum of 5th level. Immediately when the spell is cast, you take 1d6 Necrotic damage, which ignores Resistance and Immunity. Each subsequent time this special action is used again before finishing a short or Long Rest, the Necrotic damage increases by 1d6. &#13;
-			• From Nothing I Will Create My Own: Can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a Minor Wish. However, doing so causes you to take 4d10 Necrotic damage, which ignores Resistance and Immunity. Once you use this property, it cannot be used again for 7 days.</description>
-		</sheet>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_CALL_UPON_THE_VOID" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_FROM_NOTHING_I_WILL_CREATE_MY_OWN" />
+		</rules>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
 			<set name="cost" currency="gp">0</set>
@@ -276,6 +262,26 @@
 			<set name="type">Supernatural Gift</set>
 			<set name="rarity">Artifact</set>
 		</setters>
+	</element>
+	<element name="Call Upon the Void" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_CALL_UPON_THE_VOID">
+		<compendium display="false"/>
+		<description>
+			<p>As a Magic Action, can make a 1-3 worded command to the Void, causing it to cast a spell as chosen by the Void to fulfill the command given. This spell must be from the Cleric or Wizard spell lists, and cannot exceed the highest spell level you can cast, up to a maximum of level 5 spells. When you cast a spell in this manner, it does not expend a spell slot.</p>
+			<p class="indent">Immediately when the spell is cast, you take 1d6 Necrotic damage, which ignores Resistance and Immunity. Each subsequent time this special action is used again before finishing a Short or Long Rest, the Necrotic damage increases by 1d6.</p> 
+		</description>
+		<sheet action="Magic Action" >
+			<description>Make a 1-3 worded command to the Void, causing it to cast a spell from the Cleric and Wizard spell lists as chosen by the Void to fulfill the command given. The level of spell chosen cannot exceed the highest spell level you can cast, up to a maximum of level 5 spells. Immediately after the spell is cast, you take 1d6 Necrotic damage, which ignores Resistance and Immunity. Each subsequent time this ability before finishing a Short or Long Rest, the Necrotic damage increases by 1d6.</description>
+		</sheet>
+	</element>
+	<element name="From Nothing I Will Create My Own" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_FROM_NOTHING_I_WILL_CREATE_MY_OWN">
+		<compendium display="false"/>
+		<description>
+			<p>You can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a Minor Wish. However, doing so causes a great strain on your physical body, and the release of void energy causes you to take 4d10 Necrotic damage, which ignores Resistance and Immunity.</p>
+			<p class="indent">Once you use this property, it cannot be used again for 7 days.</p>
+		</description>
+		<sheet>
+			<description>Can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a Minor Wish as determined by the DM. However, doing so causes you to take 4d10 Necrotic damage, which ignores Resistance and Immunity. Once you use this property, it cannot be used again for 7 days.</description>
+		</sheet>
 	</element>
 
 	<element name="Dreamer's Visage (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMER_VISAGE_STAGE2">
@@ -289,7 +295,7 @@
 			</ul>
 			<p class="indent">You can assume your visage up to 3 times, and you regain all expended uses when you finish a Long Rest.</p>
 			<p><b><i>Astral Familiar.</i></b> Your astral companion can now manifest as a familiar, assuming any animal form of your choosing. All other abilities are defined in the <i>Astral Familiar</i> cantrip, which you always have prepared.</p>
-			<p><b><i>Astral Dissonance.</i></b> The innate magical energies of your familiar can be harnessed in order to disrupt the spellcasting of another. As a special Reaction while your Astral Familiar is summoned, you can cast <i>Counterspell</i> at 3rd level upon one creature you can see within 60ft without expending a spell slot. However, doing so causes you to take 1d10 Force damage, which ignores any and all Resistance or Immunity, and the familiar is destroyed and cannot be re-summoned again until after you perform a 1-minute ritual following your next Short or Long Rest.</p>
+			<p><b><i>Arcane Dissonance.</i></b> The innate magical energies of your familiar can be harnessed in order to disrupt the spellcasting of another. As a special Reaction while your Astral Familiar is summoned, you can cast <i>Counterspell</i> at level 3 without expending a spell slot. However, doing so causes you to take 1d10 Force damage, which ignores any and all Resistance or Immunity, and the familiar is destroyed and cannot be re-summoned again until after you perform a 1-minute ritual following your next Short or Long Rest.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_COUNTERSPELL" />
 			</div>
@@ -297,12 +303,12 @@
 				<div element="ID_ALMIR_UNIQUE_SPELL_ASTRAL_FAMILIAR" />
 			</div>
 		</description>
-		<sheet action="Action or Reaction">
-			<description>You can harness the raw arcane power of your astral companions in order to disrupt the actions of those around by assuming one of the following magical forms:&#13;
-			• Nightmare Form: Choose one creature you can see; for the next minute, it has Disadvantage on all attacks against you. &#13;
-			• Dream Form: Choose one creature you can see; for the next minute, you have Advantage on all Charisma (Persuasion or Deception) checks against it. &#13;
-			Additionally, you can summon forth an astral familiar, which can be used for a special Reaction: while summoned, you can consume its form to cast Counterspell at level 3 without expending a spell slot. Doing so destroys the familiar and deals 1d10 Force damage to you, which ignores Resistance and Immunity, and the familiar cannot be re-summoned until after you perform a 1-minute ritual following your next Short or Long Rest.</description>
-		</sheet>
+		<sheet display="false" />
+		<rules>
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_ASTRAL_VISAGE" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_ARCANE_DISSONANCE" />
+			<grant type="Spell" id="ID_ALMIR_UNIQUE_SPELL_ASTRAL_FAMILIAR" />
+		</rules>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
 			<set name="cost" currency="gp">0</set>
@@ -311,10 +317,34 @@
 			<set name="type">Supernatural Gift</set>
 			<set name="rarity">Artifact</set>
 		</setters>
-		<rules>
-			<grant type="Spell" id="ID_ALMIR_UNIQUE_SPELL_ASTRAL_FAMILIAR" />
-			<grant type="Spell" id="ID_PHB_SPELL_COUNTERSPELL" />
-		</rules>
+	</element>
+	<element name="Astral Visage" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_ASTRAL_VISAGE">
+		<compendium display="false"/>
+		<description>
+			<p>You can harness the raw arcane power of your astral companions in order to disrupt the actions of those around you. As a Magic Action, you can assume one of the following magical forms:</p>
+			<ul>
+				<li><em>Nightmare Form:</em> Assume a horrific visage of nightmares. Choose one creature you can see; for the next minute, it has Disadvantage on all attacks against you.</li>
+				<li><em>Dream Form:</em> Assume a shifting, mirage-like visage. Choose one creature you can see; for the next minute, you have Advantage on all Charisma (Persuasion or Deception) checks against it.</li>
+			</ul>
+			<p class="indent">You can assume your visage up to 3 times, and you regain all expended uses when you finish a Long Rest.</p> 
+		</description>
+		<sheet action="Magic Action" usage="3/Long Rest">
+			<description>You can harness the raw arcane power of your astral companions to assume a magical form: &#13;
+			• Nightmare Form: For 1 minute, one creature you can see has Disadvantage on all attacks against you. &#13;
+			• Dream Form: For 1 minute, you have Advantage on all Charisma (Persuasion or Deception) checks against one creature you can see.</description>
+		</sheet>
+	</element>
+	<element name="Arcane Dissonance" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_ARCANE_DISSONANCE">
+		<compendium display="false"/>
+		<description>
+			<p>The innate magical energies of your familiar can be harnessed in order to disrupt the spellcasting of another. As a special Reaction while your Astral Familiar is summoned, you can cast <i>Counterspell</i> at level 3 without expending a spell slot. However, doing so causes you to take 1d10 Force damage, which ignores any and all Resistance or Immunity, and the familiar is destroyed and cannot be re-summoned again until after you perform a 1-minute ritual following your next Short or Long Rest.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_COUNTERSPELL" />
+			</div>
+		</description>
+		<sheet action="Reaction" usage="1/Short Rest">
+			<description>While your astral familiar is summoned, you can consume its form to cast Counterspell at level 3 without expending a spell slot. You immediately take 1d10 Force damage, which ignores Resistance and Immunity, and your familiar is destroyed.</description>
+		</sheet>
 	</element>
 
 	<element name="Armor of Shadows (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_SHADOW_MELD_STAGE2">
@@ -322,15 +352,15 @@
 			<p>While attempting to attune to a simple magical necklace, Themor Hunwut found himself brought back to the site of his kingdom's destruction, surrounded by shadowy forms and the muffled sounds of battle. Suddenly, he came upon a skeletal figure cloaked in shadow, who proceeded to challenge the human to single combat. However, Themor's skill managed to both appease and impress his sudden challenger. Introducing himself as Neun, Knight of the Realm, he then granted Themor the power to meld with the Shadow Plane, albeit briefly.</p>
 			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Themor was again confronted by shadowy figures, denizens of the Shadow Plane. Indignant with his progress in aiding their goals, they assaulted him with shadow, attempting to bind him for their own, but Themor once again resisted their power. Relenting, the three spirits instead wrapped around him like a great suit of obsidian armor and tasked him with searching among the secretive dwarves for more answers.</p>
 			<h6><b>Armor of Shadows</b></h6>
-			<p>As a Magic Action, you can call upon your own shadow to encase you in armor, equivalent to full plate (AC 18). While armored in shadow, you cast no shadow, and you have Resistance to Cold and Necrotic damage. However, if you take either Fire or Radiant damage, or are targeted by a level 3+ spell that creates light, you must make a Strength saving throw equal to 10 plus the damage taken, or 10 plus the level of the light spell. On a failed save, the armor dissipates and you cannot re-summon the armor until after a Short Rest.</p>
-			<p><b><i>Shadow Step.</i></b> You can spend 30 feet of your movement to teleport into any shadow cast by any object or creature you can see within 30 feet. You can use this property a number of times equal to your Constitution modifier, and you regain all expended uses when you finish a Short Rest.</p>
+			<p>As a Magic Action, you can call upon your own shadow to encase you in armor, equivalent to Plate Armor (AC 18). While wearing this armor, you cast no shadow and have Resistance to Cold and Necrotic damage. However, if you take either Fire or Radiant damage, or are targeted by a level 3+ spell that creates light, you must make a Strength saving throw equal to 10 plus the damage taken, or 10 plus the level of the light spell. On a failed save, the armor dissipates and you cannot re-summon the armor until after a Short Rest.</p>
+			<p><b><i>Shadow Step.</i></b> You can spend your Speed to teleport into any shadow cast by any object or creature you can see within 30 feet. You can use this property a number of times equal to your Constitution modifier, and you regain all expended uses when you finish a Short Rest.</p>
 			<p><b><i>Shadow Nemesis.</i></b> As a Reaction when you take damage, you can encase yourself in vengeful shadows. You immediately reduce the damage taken by half and the shadows lash out against the attacker, causing them to take an equal amount as Necrotic damage. You can use this property a number of times equal to your Constitution modifier, and you regain all expended uses when you finish a Long Rest.</p>
 		</description>
-		<sheet action="Action or Reaction">
-			<description>Can call upon your own shadow to encase you in armor equivalent to full plate (AC 18). While armored in shadow, your shadow is gone, and you have Resistance against Cold and Necrotic damage. However, if you take either Fire or Radiant damage, you must make a Strength saving throw equal to 10 plus the damage taken. On a failed save, the armor dissipates and you cannot re-summon the armor until after a Short Rest. &#13;
-			Shadow Step: You can spend 30 feet of your movement to teleport into any shadow you can see within 30 feet. You can use this property {{constitution:modifier}} times, and all expended uses are regained upon completing a Short Rest. &#13;
-			Shadow Nemesis: As a Reaction when you take damage, can encase yourself in angry shadows. You immediately reduce the damage taken by half and the shadows lash out against the attacker, causing them to take an equal amount as Necrotic damage. You can use this property {{constitution:modifier}} times, and all expended uses are regained upon completing a Long Rest.</description>
-		</sheet>
+		<sheet display="false" />
+		<rules>
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_ARMOR_OF_SHADOWS_SHADOW_STEP" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_ARMOR_OF_SHADOWS_SHADOW_NEMESIS" />
+		</rules>
 		<setters>
 			<set name="category">Supernatural Gifts</set>
 			<set name="cost" currency="gp">0</set>
@@ -339,6 +369,24 @@
 			<set name="type">Supernatural Gift</set>
 			<set name="rarity">Artifact</set>
 		</setters>
+	</element>
+	<element name="Shadow Step" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_ARMOR_OF_SHADOWS_SHADOW_STEP">
+		<compendium display="false"/>
+		<description>
+			<p>You can spend your Speed to teleport into any shadow cast by any object or creature you can see within 30 feet. You can use this property a number of times equal to your Constitution modifier, and you regain all expended uses when you finish a Short Rest.</p> 
+		</description>
+		<sheet usage="{{constitution:modifier}}/Short Rest" >
+			<description>You can spend your Speed to teleport into any shadow cast by any object or creature you can see within 30 feet.</description>
+		</sheet>
+	</element>
+	<element name="Shadow Nemesis" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_ARMOR_OF_SHADOWS_SHADOW_NEMESIS">
+		<compendium display="false"/>
+		<description>
+			<p>As a Reaction when you take damage, you can encase yourself in vengeful shadows. You immediately reduce the damage taken by half and the shadows lash out against the attacker, causing them to take an equal amount as Necrotic damage. You can use this property a number of times equal to your Constitution modifier, and you regain all expended uses when you finish a Long Rest.</p> 
+		</description>
+		<sheet action="Reaction" usage="{{constitution:modifier}}/Long Rest" >
+			<description>When you take damage, you can reduce the damage taken by half and cause the attacker to take an equal amount as Necrotic damage.</description>
+		</sheet>
 	</element>
 
 	<element name="Mantle of the Warden (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_STAGE2">
@@ -350,6 +398,7 @@
 			<p class="indent">When a marked creature within 30 feet of you is about to take damage, you can use your Reaction to teleport to an unoccupied space within 5 feet of it, and then take the damage instead of the marked creature. If the spot you teleport to would put you in range for a melee attack against the attacking creature, you may also make one attack against that creature as part of that Reaction.</p>
 			<p><b><i>Sanctuary of the Green</i></b> By spending 10 minutes, you can summon forth a magical doorway which will act as a portal to the Sanctuary of the Green, the mystical home of the Wardens. You and any creature you designate when you create this door can enter the home as long as the portal remains open. You can open or close the doorway if you are within 30 feet of it. While closed, the doorway is invisible. The dwelling itself can reshape itself to accommodate up to 10 creatures, with enough food and water to feed them as well. Furnishings and other objects created by this home dissipate into smoke if removed from it. When the doorway is dismissed, any creatures inside the extradimensional space are expelled into the open spaces nearest to the entrance.</p>
 		</description>
+		<sheet display="false"/>
 		<rules>
 			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_AURA_OF_LIGHT" />
 			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_SENTINEL_OF_LIFE" />
@@ -473,6 +522,79 @@
 		</sheet>
 	</element>
 
+<!-- Session 57 Abilities -->
+	<element name="CeeBee's Ring of the Faceless Ones (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_CEEBEE">
+		<description>
+			<p>A small gold band with no discernible features, this ring was given to Curious Bite by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Mir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
+			<p><b><i>Charm of Unlocking.</i></b> As a Magic Action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>Charm Person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a Long Rest.</p>
+			<p><b><i>One of Many Faces Amongst None.</i></b> At the end of a Long Rest, can prepare a magical disguise within the restrictions of the spells <i>Disguise Self</i> and <i>Alter Self</i>, which resides within the ring until the next Long Rest. You can then assume this new form (no action required), which lasts until you release the form, or until dispelled by a spell such as <i>Dispel Magic</i>. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class.</p>
+			<p><b><i>Twin Shadows.</i></b> When casting <i>Shadow Blade</i>, the wearer manifests not one but two swords, one in each hand. While you are holding both swords, you gain the benefits of the “Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per Long Rest, after which casting <i>Shadow Blade</i> only results in one sword and does not grant the effects of the fighting style.</p>
+			<p><b><i>Enhanced Vampiric Bite.</i></b> Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. Your snout turns into that of a dragon, a terrifying sight to behold. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d6+1 Piercing damage on a hit, and it counts as magical for the purpose of overcoming Resistance and Immunity to nonmagical attacks and damage. While you are missing half or more of your Hit Points, you have Advantage on attack rolls you make with this bite. In addition, when you attack with this bite and hit a creature that isn’t a Construct or an Undead, you can empower yourself in one of the following ways of your choice:</p>
+			<ul>
+				<li>You regain Hit Points equal to the Piercing damage dealt by the bite.</li>
+				<li>You gain a bonus to the next ability check or attack roll you make; the bonus equals the Piercing damage dealt by the bite.</li>
+			</ul>
+			<p class="indent">You can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a Long Rest.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_CHARM_PERSON" />
+			</div>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_ALTER_SELF" />
+			</div>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_SHADOW_BLADE" />
+			</div>
+			<div class="reference">
+				<div element="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING" />
+			</div>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_RING_OF_THE_FACELESS_CHARM_OF_UNLOCKING" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_RING_OF_THE_FACELESS_ONE_OF_MANY_FACES_AMONGST_NONE" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_RING_OF_THE_FACELESS_TWIN_SHADOWS" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_RING_OF_THE_FACELESS_ENHANCED_VAMPIRIC_BITE" />
+		</rules>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">carried</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Twin Shadows" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RING_OF_THE_FACELESS_TWIN_SHADOWS">
+		<compendium display="false"/>
+		<description>
+			<p>When casting <i>Shadow Blade</i>, the wearer manifests not one but two swords, one in each hand. While you are holding both swords, you gain the benefits of the “Two-Weapon Fighting” fighting style for the duration of the spell. You can use this ability twice per Long Rest, after which casting <i>Shadow Blade</i> only results in one sword and does not grant the effects of the fighting style.</p>
+			<div class="reference">
+				<div element="ID_XGTE_SPELL_SHADOW_BLADE" />
+			</div>
+			<div class="reference">
+				<div element="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING" />
+			</div>
+		</description>
+		<sheet usage="2/Long Rest">
+			<description>When casting Shadow Blade, you manifest two swords and gain the benefits of the "Two-Weapon Fighting” fighting style for the duration of the spell.</description>
+		</sheet>
+	</element>
+	<element name="Enhanced Vampiric Bite" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RING_OF_THE_FACELESS_ENHANCED_VAMPIRIC_BITE">
+		<compendium display="false"/>
+		<description>
+			<p>Your fanged bite is a natural weapon, which counts as a simple melee weapon with which you are proficient. Your snout turns into that of a dragon, a terrifying sight to behold. You add your Constitution modifier, instead of your Strength modifier, to the attack and damage rolls when you attack with this bite. It deals 1d6+1 Piercing damage on a hit, and it counts as magical for the purpose of overcoming Resistance and Immunity to nonmagical attacks and damage. While you are missing half or more of your Hit Points, you have Advantage on attack rolls you make with this bite. In addition, when you attack with this bite and hit a creature that isn’t a Construct or an Undead, you can empower yourself in one of the following ways of your choice:</p>
+			<ul>
+				<li>You regain Hit Points equal to the Piercing damage dealt by the bite.</li>
+				<li>You gain a bonus to the next ability check or attack roll you make; the bonus equals the Piercing damage dealt by the bite.</li>
+			</ul>
+			<p class="indent">You can empower yourself with this bite a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a Long Rest.</p>
+		</description>
+		<sheet action="Attack Action" usage="{{proficiency}}/Long Rest">
+			<description>Your vampiric bite, which uses your Constitution modifier instead of Strength for attacks and damage, deals 1d6+1 Piercing damage on a hit, and you have Advantage with it while you are Bloodied. &#13;
+			When you hit a creature that isn't a Construct or Undead with your bite, you can either regain Hit Points equal to the damage dealt, or gain a bonus to the next ability check or attack roll you make equal to the damage dealt.</description>
+		</sheet>
+	</element>
+
 <!-- Session 70 Abilities -->
 	<element name="Hildie's All-Purpose Tool, +1" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_HILDIES_APT_STAGE1">
 		<description>
@@ -497,9 +619,7 @@
 			</table>
 			<p>Any spell cast from this tool uses the wielder's spellcasting ability and spell DC to determine its effects, and the wielder must concentrate on the spell as normal if the spell requires it.</p>
 		</description>
-		<sheet action="Magic Action">
-			<description>Choose up to two spells that you could cast, and using the appropriate spell slots, infuse them into the tool’s unique core. Other spells from other casters may be used as a Magic Action on their turn, using the appropriate spell slot from them. A maximum of two spells may be stored in this fashion in the core. The stored spells last 24 hours. While one or more spells are infused into the tool's core, you can use a Magic Action to release the blended magic in an experimental blast of creative chance.</description>
-		</sheet>
+		<sheet display="false"/>
 		<setters>
 			<set name="keywords">artificer</set>
 			<set name="category">Wondrous Items</set>
@@ -512,30 +632,30 @@
 		<rules>
 			<stat name="artificer:spellcasting:attack" value="1" />
 			<stat name="artificer:spellcasting:dc" value="1" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_HIDLIE_ALL_PURPOSE_TOOL_BLAST_OF_INGENUITY" />
 		</rules>
 	</element>
-
-	<element name="Countenance of Terror" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_COUNTENANCE_OF_TERROR">
-		<requirements>ID_ALMIR_UNIQUE_RACE_RESTORED_DHAMPIR</requirements>
+	<element name="Blast of Ingenuity" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_HIDLIE_ALL_PURPOSE_TOOL_BLAST_OF_INGENUITY">
+		<compendium display="false"/>
 		<description>
-			<p>You learn to infuse innocent-seeming words with an insidious magic that can inspire terror.</p>
-			<p class="indent">If you speak to a humanoid alone for at least 1 minute, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell save DC or be Frightened of you or another creature of your choice. The target is Frightened in this way for 1 hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged.</p>
-			<p class="indent">If the target succeeds on its saving throw, the target has no hint that you tried to frighten it.</p>
-			<p class="indent">Once you use this feature, you can't use it again until you finish a Short or Long Rest.</p>
+			<p>Experimentation, discovery, ingenuity; often the rise and fall of many inventors.</p>
+			<p class="indent">As a Magic Action, choose up to two spells that you can cast, and using the appropriate spell slots, infuse them into the tool’s unique core. Spells from other casters may be used as an action on their turn, using the appropriate spell slot from them. A maximum of two spells may be stored in this fashion in the core. The stored spells last 24 hours.</p>
+			<p class="indent"><b><i>Release!</i></b> As a Magic Action while one or more spells are infused into the tool's core, you can release the blended magic in an experimental blast of creative chance. Make an ability check using your spellcasting ability, with the DC equal to 10 plus the sum of the stored spells’ levels, to determine the effect from the table below:</p>
+			<table>
+				<thead>
+					<tr><td>Roll Total</td><td class="center">Result</td></tr>
+				</thead>
+				<tr><td>Result > DC+5</td><td><strong>Eureka!</strong> The result mixes the two spells successfully resulting in something entirely new. The resulting spell effect can fully blend both spells with appropriate DM confirmation.</td></tr>
+				<tr><td>DC+5 ≥ Result ≥ DC</td><td><strong>Success!</strong> The result is a partial blend of the two spells. Choose one spell to act as the base and add a modifier or effect from the other spell to mix into the cast.</td></tr>
+				<tr><td>DC > Result ≥ DC-5</td><td><strong>Incomplete Melding.</strong> The spells fail to mix. Choose one of the two spells stored; that spell is cast alone as normal. The other spell remains stored in the core for its remaining duration.</td></tr>
+				<tr><td>DC-5 > Result</td><td><strong>Unstable Reaction.</strong> The spells fail to mix, and their discordant energies cause the core to destabilize. Flip a coin: if the result is heads, the spell with the higher level is cast; if the result is tails, the spell with the lower level is cast. In the event of both spells being the same level, designate each spell as heads or tails before the coin is flipped. Then, once the spell is cast, the unused spell fizzles and is lost from the core.</td></tr>
+				<tr><td>Result = Natural-1</td><td><strong>Catastrophic Failure.</strong> The spells react violently and are both expelled as an explosion centered on the caster. The caster and all creatures within 5ft must make a Dexterity saving throw, with the DC being equal to 10 plus the sum of the stored spells' levels. On a failure, a target takes (1+X)d6 force damage (where X is the sum of the stored spells' levels), or half as much damage on a successful one.</td></tr>
+			</table>
+			<p>Any spell cast from this tool uses the wielder's spellcasting ability and spell DC to determine its effects, and the wielder must concentrate on the spell as normal if the spell requires it.</p>
 		</description>
-		<sheet usage="1/Short Rest">
-			<description>After having conversation with a lone humanoid for at least 1 minute, you can force it to make a DC{{spellcasting:dc:int}} Wisdom saving throw. On a fail, it is Frightened of you or another creature of your choice. This effect lasts for 1 hour, until target is attacked or damaged, or until target witnesses its allies being attacked or damaged. On a success, it has no idea you tried to frighten it.</description>
-		</sheet>
-	</element>
-
-	<element name="Imminent Demise" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_IMMINENT_DEMISE">
-		<requirements>ID_ALMIR_UNIQUE_RACE_RESTORED_DHAMPIR,ID_WOTC_PHB_CLASS_ROGUE</requirements>
-		<description>
-			<p>When you successfully hit a creature with a Sneak Attack, you can sacrifice up to a number of the bonus damage dice equal to your Intelligence modifier to force the creature to make a Constitution saving throw against your spell DC. On a failure, the target takes 2d8 Radiant damage per die sacrificed and is Blinded until the start of your next turn. On a success, it takes half that damage and is not Blinded. This ability does not benefit from critical hits.</p>
-			<p class="indent">Once you use this feature, you can't use it again until you finish a short or Long Rest.</p>
-		</description>
-		<sheet usage="1/Short Rest">
-			<description>When you successfully hit a creature with a Sneak Attack, you can sacrifice up to {{intelligence:modifier}} damage dice to force the creature to make a DC{{spellcasting:dc:int}} Constitution saving throw. On a failure, the target takes 2d8 Radiant damage per die sacrificed and is Blinded until the start of your next turn. On a success, it takes half damage and is not Blinded. This ability does not benefit from critical hits.</description>
+		<sheet action="Magic Action">
+			<description>Choose up to two spells that you could cast, and using the appropriate spell slots, infuse them into the tool’s unique core. Other spells from other casters may be used as a Magic Action on their turn, using the appropriate spell slot from them. A maximum of two spells may be stored in this fashion in the core, and stay stored for the next 24 hours. &#13;
+			While one or more spells are infused into the tool's core, you can use a Magic Action to release the blended magic in an experimental blast of creative chance. Make a spellcasting ability check, and refer to the Release! table to determine the result.</description>
 		</sheet>
 	</element>
 
@@ -558,14 +678,11 @@
 				<div element="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING" />
 			</div>
 		</description>
-		<sheet action="Free Action or Reaction" usage="3/Long Rest or Special">
-			<description>This magical ring holds many special properties designed to aid those in more surreptitious walks of life: &#13;
-			• Charm of Unlocking: Can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the Charm Person spell. You can use either property up to 3 times, and you regain all expended uses when you finish a Long Rest.&#13;
-			• One of Many Faces Amongst None: Can prepare a magical disguise within the restrictions of the spells Disguise Self and Alter Self, which resides within the ring until the next Long Rest. You can then assume this new form (no action required), which lasts until you release the form, or until dispelled by a spell such as Dispel Magic. This magical disguise, which does not require concentration, is tangible and holds up to physical inspection, and can replicate basic clothing and simple armor, though none of which grants any additional protection beyond your current Armor Class. &#13;
-			• Twin Shadows: When casting Shadow Blade, the wearer manifests not one but two swords, one in each hand, and gains the benefits of the "Two-Weapon Fighting” fighting style for the duration of the spell. This ability can be used twice per Long Rest, after which casting Shadow Blade only results in one sword and does not grant the effects of the fighting style.</description>
-		</sheet>
+		<sheet display="false"/>
 		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_RING_OF_THE_FACELESS_CHARM_OF_UNLOCKING" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_RING_OF_THE_FACELESS_ONE_OF_MANY_FACES_AMONGST_NONE" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_RING_OF_THE_FACELESS_TWIN_SHADOWS" />
 		</rules>
 		<setters>
 			<set name="category">Wondrous Items</set>
@@ -575,6 +692,28 @@
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Artifact</set>
 		</setters>
+	</element>
+	<element name="Countenance of Terror" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_COUNTENANCE_OF_TERROR">
+		<requirements>ID_ALMIR_UNIQUE_RACE_RESTORED_DHAMPIR</requirements>
+		<description>
+			<p>You learn to infuse innocent-seeming words with an insidious magic that can inspire terror.</p>
+			<p class="indent">If you speak to a humanoid alone for at least 1 minute, you can attempt to seed paranoia in its mind. At the end of the conversation, the target must succeed on a Wisdom saving throw against your spell save DC or be Frightened of you or another creature of your choice. The target is Frightened in this way for 1 hour, until it is attacked or damaged, or until it witnesses its allies being attacked or damaged.</p>
+			<p class="indent">If the target succeeds on its saving throw, the target has no hint that you tried to frighten it.</p>
+			<p class="indent">Once you use this feature, you can't use it again until you finish a Short or Long Rest.</p>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>After having conversation with a lone humanoid for at least 1 minute, you can force it to make a DC{{spellcasting:dc:int}} Wisdom saving throw. On a fail, it is Frightened of you or another creature of your choice. This effect lasts for 1 hour, until target is attacked or damaged, or until target witnesses its allies being attacked or damaged. On a success, it has no idea you tried to frighten it.</description>
+		</sheet>
+	</element>
+	<element name="Imminent Demise" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_IMMINENT_DEMISE">
+		<requirements>ID_ALMIR_UNIQUE_RACE_RESTORED_DHAMPIR,ID_WOTC_PHB_CLASS_ROGUE</requirements>
+		<description>
+			<p>When you successfully hit a creature with a Sneak Attack, you can sacrifice up to a number of the bonus damage dice equal to your Intelligence modifier to force the creature to make a Constitution saving throw against your spell DC. On a failure, the target takes 2d8 Radiant damage per die sacrificed and is Blinded until the start of your next turn. On a success, it takes half that damage and is not Blinded. This ability does not benefit from critical hits.</p>
+			<p class="indent">Once you use this feature, you can't use it again until you finish a short or Long Rest.</p>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>When you successfully hit a creature with a Sneak Attack, you can sacrifice up to {{intelligence:modifier}} damage dice to force the creature to make a DC{{spellcasting:dc:int}} Constitution saving throw. On a failure, the target takes 2d8 Radiant damage per die sacrificed and is Blinded until the start of your next turn. On a success, it takes half damage and is not Blinded. This ability does not benefit from critical hits.</description>
+		</sheet>
 	</element>
 
 	<element name="Initiate of a Curious God Named Ploink" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_CURIOUS_GOD_PLOINK">
