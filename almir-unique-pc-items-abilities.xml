@@ -839,7 +839,7 @@
 		</sheet>
 		<rules>
 			<select type="Ability Score Improvement" name="Ability Score Increase (Metamagic Adept)" supports="ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" />			
-			<select type="Class Feature" name="Metamagic (Metamagic Adept)" supports="Metamagic" number="2" />
+			<select type="Class Feature" name="Metamagic (Metamagic Adept)" supports="Metamagic||PHB24 Metamagic" number="2" />
 			<stat name="sorcery-points" value="2" />
 		</rules>
 	</element>
