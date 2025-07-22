@@ -4,13 +4,14 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.46">
+    <update version="0.2.47">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
 
 <!-- Session 8 Abilities -->
 	<element name="Sapphire of the Tides (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_SAPPHIRE_OF_THE_TIDES_STAGE1">
+		<requirements>!ID_ALMIR_UNIQUE_SPIRIT_OF_THE_TIDES_STAGE2</requirements>
 		<description>
 			<p>A magnificent small blue gem that pulses slowly, like the ebb and flow of the tides. Upon its surface glow the tiny runes of a cryptic inscription: <i>"Is it through power we gain control? Or is it through control we gain power?”</i> It was given to Barnacle by a powerful water elemental, who ominously warned the old sorcerer that the sea would come to claim his life eventually, and offered the gem as proof of the sea's wrath and power.</p>
 			<p class="indent"><strong><em>Tides Unleashed (Stage 1):</em></strong> When casting any water-based spell, can activate the gem to double all of the spell’s damage and effects, but with a chance (30%) for the spell to hit a random target instead. Once used, cannot be used again until you finish a Long Rest.</p>
@@ -29,6 +30,7 @@
 	</element>
 
 	<element name="Alton's Ring of the Faceless Ones (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE1_ALTON">
+		<requirements>!ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_ALTON</requirements>
 		<description>
 			<p>A small gold band with no discernible features, this ring was given to Alton High-Hill by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Mir. However, this particular band also holds a unique enchantment specifically designed to help unlock barred doors, whether literal or figurative. </p>
 			<p class="indent"><strong><em>Charm of Unlocking (Stage 1):</em></strong> As a Magic Action, can unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can also be used to cast the <i>Charm Person</i> spell once without using a spell slot. Once either of these features are used, the ring cannot be used again until you finish a Long Rest.</p>
@@ -50,6 +52,7 @@
 	</element>
 
 	<element name="Rune of Soul Harvest (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RUNE_SOUL_HARVEST_STAGE1">
+		<requirements>!ID_ALMIR_UNIQUE_RUNE_SOUL_HARVEST_STAGE2</requirements>
 		<description>
 			<p>A glowing rune in the shape of a waning moon, placed upon the blade of Apsinthos Levia's pact weapon. This rune was bestowed to him by his Patron after pleasing her during his secret meeting with Eris'atemor, of Telmivir's House of the Moon, at the Levia Estate in Galeran's Noble District.</p>
 			<p class="indent"><strong><em>Soul Harvest (Stage 1):</em></strong> After landing a killing blow upon a creature, can harvest the creature's soul to either regain Hit Points or gain Temporary Hit Points equal to 1d8 plus your Constitution modifier. Once used, cannot be used again until you finish a Long Rest.</p>
@@ -68,6 +71,7 @@
 	</element>
 
 	<element name="Dreamer's Visage (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMER_VISAGE_STAGE1">
+		<requirements>!ID_ALMIR_UNIQUE_DREAMER_VISAGE_STAGE2</requirements>
 		<description>
 			<p>After her fateful encounter with the shadowy apparitions somehow bound to her, Morani was able to earn their trust by offering to restore them to their home within the Astral Plane. In return, they are able to grant her a semblance of control over the immaterial, allowing her to assume a visage of dreams or nightmares to influence the Material world around her.</p>
 			<p class="indent"><strong><em>Visage of Horror (Stage 1):</em></strong> Assume a horrific visage of nightmares; for 1 minute, can cause a single creature to have Disadvantage on all attacks that target you.</p>
@@ -90,6 +94,7 @@
 	</element>
 
 	<element name="Shadow Meld (Dormant)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_SHADOW_MELD_STAGE1">
+		<requirements>!ID_ALMIR_UNIQUE_SHADOW_MELD_STAGE2</requirements>
 		<description>
 			<p>While attempting to attune to a simple magical necklace, Themor Hunwut found himself brought back to the site of his kingdom's destruction, surrounded by shadowy forms and the muffled sounds of battle. Suddenly, he came upon a skeletal figure cloaked in shadow, who proceeded to challenge the human to single combat. However, Themor's skill managed to both appease and impress his sudden challenger. Introducing himself as Neun, Knight of the Realm, he then granted Themor the power to meld with the Shadow Plane, albeit briefly.</p>
 			<p class="indent"><strong><em>Shadow Meld (Stage 1):</em></strong> As a Magic Action or Reaction, can meld with the shadows; for 1 minute, all attacks targeting you are made at Disadvantage. If an attack does hit, can choose to prematurely end the melding and reduce the damage of that attack by half. Once used in either form, cannot be used against until you finish a Long Rest.</p>
@@ -241,6 +246,7 @@
 	</element>
 
 	<element name="Mind of the Void (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RUNE_SOUL_HARVEST_STAGE2">
+		<requirements>!ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_STAGE3</requirements>
 		<description>
 			<p>After his encounter with the mind of Eris'atemor's void demon form, as well as his communion with the fragment of the void beast he defeated upon the <i>Widow's Kiss</i>, Apsinthos heads below deck to take an evening's rest. However, his sleep is disturbed as an overwhelming darkness consumes his dreams. Suddenly, strange runes and glyphs begin to circle his consciousness, and though he cannot read them, their meaning is emotively conveyed into his mind with an intimacy unlike any language he has known before. He tries to move away from the glyphs, but a voice speaks out to him through them, claiming to be the Void. He learns that the void is consumed with returning it and everything else to nothingness, and that in nothingness there is perfection. The concept intrigues the young warlock, and the void offers him the power to harness its vast inscrutable energy to meld his destiny into whatever he would want it to be. Seemingly swayed by the promise of all-encompassing equality in embracing the nothingness, Apsinthos accepts this gift. Only time will tell whether he will use it to shape his own destiny, or it will use him as a tool of the insatiable hunger of the void.</p>
 			<p class="indent">Some months later, the group finds themselves preparing to take on Faust’s hordes in defense of Galeran, with Apsinthos’ mother acting as the forefront defender of the city. However, Apsinthos now carries a new complication with him: his long-lost sister Madeline, who is now suffused with the Void after her short-but-traumatic stint in its realm following her inexplicable liberation from her captivity in the Nine Hells. Knowing their mother would seek to take advantage of their connection with the Void using her patron, the Archduchess Zariel, they opt to sever their familial ties with the Queen of Hell and use the resulting eruption of raw arcana to allow Madeline to ascend to a position of quasi-deific power—an Exarch of the Void—to act as a mental shield and refining prism for her brother’s burgeoning Void powers.</p>
@@ -285,6 +291,7 @@
 	</element>
 
 	<element name="Dreamer's Visage (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMER_VISAGE_STAGE2">
+		<requirements>!ID_ALMIR_UNIQUE_DREAMER_VISAGE_STAGE3</requirements>
 		<description>
 			<p>After her fateful encounter with the shadowy apparitions somehow bound to her, Morani was able to earn their trust by offering to restore them to their home within the Astral Plane. In return, they are able to grant her a semblance of control over the immaterial, allowing her to assume a visage of dreams or nightmares to influence the Material world around her.</p>
 			<p class="indent">Later, after the defeat of Eris'atemor and his void-demon form, one of her "passengers" found a way to manifest itself as a physical creature before her. Surprised but intrigued, Morani conversed with it to find that it desired to be part of her world while they searched for a way to return the shadows to their home on the Astral Plane, and was willing to aid her in any way it could with its new corporeal form.</p>
@@ -348,6 +355,7 @@
 	</element>
 
 	<element name="Armor of Shadows (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_SHADOW_MELD_STAGE2">
+		<requirements>!ID_ALMIR_UNIQUE_ARMOR_OF_SHADOWS_STAGE3</requirements>
 		<description>
 			<p>While attempting to attune to a simple magical necklace, Themor Hunwut found himself brought back to the site of his kingdom's destruction, surrounded by shadowy forms and the muffled sounds of battle. Suddenly, he came upon a skeletal figure cloaked in shadow, who proceeded to challenge the human to single combat. However, Themor's skill managed to both appease and impress his sudden challenger. Introducing himself as Neun, Knight of the Realm, he then granted Themor the power to meld with the Shadow Plane, albeit briefly.</p>
 			<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Themor was again confronted by shadowy figures, denizens of the Shadow Plane. Indignant with his progress in aiding their goals, they assaulted him with shadow, attempting to bind him for their own, but Themor once again resisted their power. Relenting, the three spirits instead wrapped around him like a great suit of obsidian armor and tasked him with searching among the secretive dwarves for more answers.</p>
@@ -390,6 +398,7 @@
 	</element>
 
 	<element name="Mantle of the Warden (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_STAGE2">
+		<requirements>!ID_ALMIR_UNIQUE_WARDEN_MANTLE_STAGE3</requirements>
 		<description>
 			<p>Upon arriving in Galeran, Zedan Yazkash had sought a way to reunite with his former savior and mentor, Father Riel. However, it seemed that the elder human was already aware of Zedan's presence, and arranged a secret meeting with the young paladin upon the top of the city's inner walls. After hearing of Zedan's encounter with Fae'lorin, the priest chose to bestow upon him an ancient mantle of power to aid him in his travels, and to help him choose what path his life will take.</p>
 			<p class="indent">Later upon the <i>Widow's Kiss</i> after defeating Eris'atemor and his void-demon form, Zedan found himself transported to his new estate granted to him by his former mentor. Startled, he looked out the windows to see idyllic rolling plains and verdant forests dotted with peaceful wildlife. Suddenly, he heard a familiar voice, and turned to see Riel, younger, clad in plate armor covered in leaf motifs of emerald and silver, glowing with a soft verdant light, and flanked by a pair of similarly garbed men. Riel then explained that this home was granted to members of the Wardens, the guardians and protectors of life across the planes. As a sign of Zedan's willingness to take up the mantle in Riel's stead, the two armor-clad men—protectors from ages past—bestowed upon Zedan the title of "Warden of the Green", and with it the powers of its station.</p>
@@ -524,6 +533,7 @@
 
 <!-- Session 57 Abilities -->
 	<element name="CeeBee's Ring of the Faceless Ones (Awakened)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_CEEBEE">
+		<requirements>!ID_ALMIR_UNIQUE_FACELESS_RING_STAGE2_SEABREEZE</requirements>
 		<description>
 			<p>A small gold band with no discernible features, this ring was given to Curious Bite by a member of the Faceless Ones who called herself "Whisper". The ring itself is recognizable by all within the organization, and thus will allow the wearer access to the smuggling dens throughout the kingdoms of Mir. However, this particular band also holds a set of unique enchantments specifically designed to help unlock barred doors, whether literal or figurative.</p>
 			<p><b><i>Charm of Unlocking.</i></b> As a Magic Action, can use the ring to unlock any non-magical lock or magical lock of 3rd level or lower. Alternatively, can use the ring to cast the <i>Charm Person</i> spell. You can use either property up to 3 times, and you regain all expended uses when you finish a Long Rest.</p>
@@ -729,6 +739,7 @@
 
 <!-- Session 85 Abilities -->
 	<element name="Shelter of the Waves" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_SHELTER_OF_THE_WAVES">
+		<requirements>!ID_ALMIR_FEAT_SHELTER_OF_THE_WAVES_2</requirements>
 		<description>
 			<p>Ever since you began to worship the Goddess of Shining Waters, the calming presence of Eldath has been a constant companion, and your devotion to Her has felt more akin to a friendship than any religious compulsion. Likewise, Her power has guided you to bring peace and restoration to those in need, wherever you meet them along your travels. However, with conflict brewing nearer with every dawn, your prayers to Eldath have seen Her willing to grant you the ability to protect those actively battling the forces of discord and suffering.</p>
 			<p><b><i>Shining Water’s Shelter.</i></b> When an ally you can see within 30 ft is reduced below 50% of their max hp, you can use a Reaction to surround them in a swirl of protective waters. Immediately, and then again at the start of their next 2 turns, they recover Hit Points equal to 1d6 plus your Wisdom modifier. Additionally, they gain a +1 to AC and saving throws, and gain Resistance to the damage type triggering the Reaction until they begin a turn without regaining Hit Points from this ability.</p>
