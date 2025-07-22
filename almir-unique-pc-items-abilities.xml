@@ -739,7 +739,7 @@
 
 <!-- Session 85 Abilities -->
 	<element name="Shelter of the Waves" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_SHELTER_OF_THE_WAVES">
-		<requirements>!ID_ALMIR_FEAT_SHELTER_OF_THE_WAVES_2</requirements>
+		<requirements>!ID_ALMIR_FEAT_SHELTER_OF_THE_WAVES_STAGE2</requirements>
 		<description>
 			<p>Ever since you began to worship the Goddess of Shining Waters, the calming presence of Eldath has been a constant companion, and your devotion to Her has felt more akin to a friendship than any religious compulsion. Likewise, Her power has guided you to bring peace and restoration to those in need, wherever you meet them along your travels. However, with conflict brewing nearer with every dawn, your prayers to Eldath have seen Her willing to grant you the ability to protect those actively battling the forces of discord and suffering.</p>
 			<p><b><i>Shining Water’s Shelter.</i></b> When an ally you can see within 30 ft is reduced below 50% of their max hp, you can use a Reaction to surround them in a swirl of protective waters. Immediately, and then again at the start of their next 2 turns, they recover Hit Points equal to 1d6 plus your Wisdom modifier. Additionally, they gain a +1 to AC and saving throws, and gain Resistance to the damage type triggering the Reaction until they begin a turn without regaining Hit Points from this ability.</p>
