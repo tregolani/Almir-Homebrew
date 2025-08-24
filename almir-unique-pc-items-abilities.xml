@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.47">
+    <update version="0.2.48">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -855,6 +855,65 @@
 		</rules>
 	</element>
 
+<!-- Feature Replacements -->
+	<element name="Level 2: Divine Smite" type="Class Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_CLASS_FEATURE_PALADIN_DIVINE_SMITE">
+		<description>
+			<p>Choose Sacred or Profane. Once you make this choice, it cannot be changed unless you change your oath.</p>
+			<p class="indent">Whenever you hit a creature with a weapon attack, you can choose to deliver a divine smite that deals an additional 1d8 Radiant (Sacred) or 1d8 Necrotic (Profane) damage. The damage increases by 1d8 if the target is a Fiend or an Undead. The amount of extra damage increases as you gain levels in this class: 2d8 at level 5, 3d8 at level 9, 4d8 at level 13, and 5d8 at level 17.</p>
+			<p class="indent">You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses upon finishing a Long Rest.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Class Feature" name="Divine Smite Flavor" supports="Divine Smite Flavor" />
+			<stat name="divine smite:damage" value="1" bonus="base" />
+			<stat name="divine smite:damage" value="2" bonus="base" level="5"/>
+			<stat name="divine smite:damage" value="3" bonus="base" level="9"/>
+			<stat name="divine smite:damage" value="4" bonus="base" level="13"/>
+			<stat name="divine smite:damage" value="5" bonus="base" level="17"/>
+		</rules>
+	</element>
+	<element name="Sacred" type="Class Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_CLASS_FEATURE_PALADIN_DIVINE_SMITE_SACRED">
+		<compendium display="false" />
+		<supports>Divine Smite Flavor</supports>
+		<requirements>ID_ALMIR_CLASS_FEATURE_PALADIN_DIVINE_SMITE</requirements>
+		<description>
+			<p>Your Divine Smite deals Radiant damage.</p>
+		</description>
+		<sheet alt="Divine Smite" usage="{{proficiency}}/Long Rest" >
+			<description>Whenever you hit a creature with a weapon attack, you can choose to deliver a divine smite that deals an additional {{divine smite:damage}}d8 Radiant damage. This damage increases by 1d8 if the target is a Fiend or an Undead.</description>
+		</sheet>
+	</element>
+	<element name="Profane" type="Class Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_CLASS_FEATURE_PALADIN_DIVINE_SMITE_PROFANE">
+		<compendium display="false" />
+		<supports>Divine Smite Flavor</supports>
+		<requirements>ID_ALMIR_CLASS_FEATURE_PALADIN_DIVINE_SMITE</requirements>
+		<description>
+			<p>Your Divine Smite deals Necrotic damage.</p>
+		</description>
+		<sheet alt="Divine Smite" usage="{{proficiency}}/Long Rest" >
+			<description>Whenever you hit a creature with a weapon attack, you can choose to deliver a divine smite that deals an additional {{divine smite:damage}}d8 Necrotic damage. This damage increases by 1d8 if the target is a Fiend or an Undead.</description>
+		</sheet>
+	</element>
+	<element name="Paladin LV02: Divine Smite" type="Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_ITEM_OCF_PALADIN_DIVINE_SMITE">
+		<compendium display="false" />
+		<description>
+			<p><i>You can equip this item to “enable” it. It remains hidden from the inventory on your character sheet.</i></p>
+			<div class="reference">
+				<div element="ID_ALMIR_CLASS_FEATURE_PALADIN_DIVINE_SMITE" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Optional Class Features</set>
+			<set name="keywords">2nd level, divine smite</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_PALADIN_PALADINS_SMITE" />
+			<grant type="Class Feature" id="ID_ALMIR_CLASS_FEATURE_PALADIN_DIVINE_SMITE" requirements="[level:paladin:2]"/>
+		</rules>
+	</element>
+
 <!-- Spells -->
 	<element name="Fey Reaper's Mark" type="Spell" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_SPELL_FEY_REAPERS_MARK">
 		<description>
@@ -1223,7 +1282,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="15" bonus="base" />
-			<stat name="companion:hp:max" value="51" />
+			<stat name="companion:hp:max" value="54" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -1272,7 +1331,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="17" bonus="base" />
-			<stat name="companion:hp:max" value="51" />
+			<stat name="companion:hp:max" value="54" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -1321,7 +1380,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="15" bonus="base" />
-			<stat name="companion:hp:max" value="51" />
+			<stat name="companion:hp:max" value="54" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
@@ -1371,7 +1430,7 @@
 		</setters>
 		<rules>
 			<stat name="companion:ac" value="17" bonus="base" />
-			<stat name="companion:hp:max" value="51" />
+			<stat name="companion:hp:max" value="54" />
 			<stat name="companion:speed" value="30" bonus="base" />	
 			<stat name="companion:speed:swim" value="90" bonus="base" />
 			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
