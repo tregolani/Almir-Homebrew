@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.3.02">
+    <update version="0.3.03">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -907,7 +907,7 @@
 			<p class="indent"><b><i>Rend Psyche.</i></b> You force the creature to make an Intelligence saving throw against your spell save DC. On a failed save, the creature has Disadvantage on Intelligence, Wisdom, or Charisma saving throws (you choose when bonding), Vulnerability to Psychic damage, and Disadvantage on Constitution saves to maintain Concentration as nightmares cloud its mind. If the creature attempts to cast a spell, there is a 50% chance the spell fails as a result of your intrusive presence in its thoughts. At the end of each of its turns, the creature can repeat the Intelligence saving throw, ending your telepathic bond on a success.</p>
 			<p class="indent">You can use this ability a number of times equal to your Charisma modifier (minimum of once), and regain all expended uses when you finish a Long Rest.</p>
 			<p><b><i>From Nothing I Will Create My Own.</i></b> You can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a powerful Void Wish.</p>
-			<p class="indent">The stress of commanding the Void to manifest in a great work of transcendental magic is both physically and mentally exhausting. Immediately after enacting the Void Wish, roll 2d4+2. You take Necrotic damage equal to ten times the number rolled, and your Hit Point maximum is reduced by an equal amount. This damage ignores Resistance and Immunity. In addition, you gain two levels of Exhaustion, which last for 7 days and cannot be removed by any means except by the Wish spell. The reduction to your Hit Point maximum persists as long as you still have these levels of Exhaustion, but diminishes by 10 after each Long Rest you complete during this 7-day period.</p>
+			<p class="indent">The stress of commanding the Void to manifest in a great work of transcendental magic is both physically and mentally exhausting. Immediately after enacting the Void Wish, roll all of your hit dice (these are not expended). You take Necrotic damage equal to the total rolled, which cannot be reduced in any way, and your Hit Point maximum is reduced by the same amount. In addition, you gain two levels of Exhaustion, which last for 7 days and cannot be removed by any means except by the <i>Wish</i> spell. The reduction to your Hit Point maximum persists as long as you still have these levels of Exhaustion, but diminishes by 10 after each Long Rest you complete during this 7-day period.</p>
 			<p class="indent">Once you use this ability, it cannot be used again for 7 days.</p>
 			</description>
 		<sheet display="false"/>
@@ -991,11 +991,11 @@
 		<compendium display="false"/>
 		<description>
 			<p>You can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a powerful Void Wish.</p>
-			<p class="indent">The stress of commanding the Void to manifest in a great work of transcendental magic is both physically and mentally exhausting.  Immediately after enacting the Void Wish, roll a number of d10s equal to your level. You take Necrotic damage equal to the total rolled, which cannot be reduced in any way, and your Hit Point maximum is reduced by the same amount. In addition, you gain two levels of Exhaustion, which last for 7 days and cannot be removed by any means except by the Wish spell. The reduction to your Hit Point maximum persists as long as you still have these levels of Exhaustion, but diminishes by 10 after each Long Rest you complete during this 7-day period.</p>
+			<p class="indent">The stress of commanding the Void to manifest in a great work of transcendental magic is both physically and mentally exhausting. Immediately after enacting the Void Wish, roll all of your hit dice (these are not expended). You take Necrotic damage equal to the total rolled, which cannot be reduced in any way, and your Hit Point maximum is reduced by the same amount. In addition, you gain two levels of Exhaustion, which last for 7 days and cannot be removed by any means except by the <i>Wish</i> spell. The reduction to your Hit Point maximum persists as long as you still have these levels of Exhaustion, but diminishes by 10 after each Long Rest you complete during this 7-day period.</p>
 			<p class="indent">Once you use this ability, it cannot be used again for 7 days.</p>
 		</description>
 		<sheet alt="From Nothing I Will Create My Own" usage="1/Seven Days">
-			<description>Spend 1 minute to command the Void to manifest as a powerful Void Wish. Immediately after it manifests, roll {{level}}d10 and take Necrotic damage equal to the roll's total (ignoring Resistance and Immunity), and reduce your Hit Point maximum by an equal amount. You also gain two levels of Exhaustion, which last for 7 days and cannot be removed by any means except by the Wish spell. The reduction to your Hit Point maximum persists as long as you have these levels of Exhaustion, but decreases by 10 after each Long Rest you complete.</description>
+			<description>Spend 1 minute to command the Void to manifest as a powerful Void Wish. Immediately after it manifests, roll all of your hit dice and take Necrotic damage equal to the roll's total (ignoring Resistance and Immunity), reducing your Hit Point maximum by an equal amount. You also gain two levels of Exhaustion, which last for 7 days and cannot be removed by any means except by the Wish spell. The reduction to your Hit Point maximum persists as long as you have these levels of Exhaustion, but decreases by 10 after each Long Rest you complete.</description>
 		</sheet>
 	</element>
 
