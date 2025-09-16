@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.2.50">
+    <update version="0.3.00">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -827,6 +827,520 @@
 			•Blood: For 1 hour, the drinker has Advantage on ability checks and saving throws to resist the Charmed and Frightened conditions, and has Advantage on Charisma (Persuasion or Deception) checks. &#13;
 			You also can create {{proficiency:half}} elixirs of Apotheosis Draconis, which you can drink to unleash the latent draconic power within you. For 1 hour, you gain 60 feet of Fly Speed, Blindsight, a breath weapon, and exude a powerful draconic aura to shield or bolster your allies.
 			</description>
+		</sheet>
+	</element>
+
+<!-- Session 123+ Abilities/Upgrades -->
+	<element name="Primordial Convergence (Exalted)" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_PRIMORDIAL_CONVERGENCE_STAGE2">
+	<prerequisite>Sea Sorcerer</prerequisite>
+		<requirements>ID_TREGOLANI_HB_ARCHETYPE_SEA_SORCERER</requirements>
+	<description>
+			<p>As a Bonus Action, roll a d20, and for 10 minutes, your body assumes the corresponding elemental form. Alternatively, you can forgo this roll and spend the listed sorcery points to force the transformation into Earth, Water, or Crystalline (your choice). While you are transformed, you are immune to any spell or effect that would alter your form.</p>
+			<p class="indent">You may use this boon a number of times equal to your Constitution modifier, and regain all expended uses after finishing a Long Rest.</p>
+			<table class="class-features">
+				<thead>
+					<tr><td>d20</td><td>Sorcery Point Cost</td><td class="left">Elemental Form</td></tr>
+				</thead>
+				<tr><td>2-8</td><td>2</td><td class="left"><strong>Earth.</strong> Become a living avatar of Grumbar, strengthening your flesh as stone, with the bright ruby eyes to match. Barnacle dissolves during this transformation, lost to the overwhelming surge of the earth, and you gain the following effects:<br/>
+				• You gain a bonus to AC equal to double your Constitution modifier.<br/>
+				• Gain temporary Hit Points equal to one third of your Hit Point maximum.<br/>
+				• Your Strength and Charisma attribute values and save proficiencies are swapped.<br/>
+				• A +1 stone maul manifests in one of your open hands, which deals an additional 2d12 Force damage on a hit. You are proficient with this weapon, and can spend 1 Sorcery Point to activate its Mastery property. On your turn, you may attack twice with it when using the Attack action.<br/> 
+				• In this form, you cannot cast spells, but gain access to the following abilities:<br/>
+				• • <strong>Petrifying Gaze.</strong> Once per transformation as a Magic Action, you can channel the Gaze of Grumbar. Until the start of your next turn, any creature that starts its turn within 30 feet of you and is able to see your eyes must make a Constitution saving throw. If the creature fails the saving throw by 5 or more, it is instantly <i>Petrified</i>. Otherwise on a failure, the creature is <i>Restrained</i> as it begins to turn to stone, and must repeat the saving throw at the end of its next turn, becoming <i>Petrified</i> on a failure or ending the effect on a success. This Petrification lasts until removed by the <i>Greater Restoration</i> spell or other magic.<br/>
+				• • <strong>Stone's Lethargy.</strong> As a Reaction upon being hit by a melee attack, you can strengthen the resilience of your rocky skin. You gain Resistance to the attack's damage, and you have Resistance to that damage type until the start of your next turn. In addition, the creature must succeed on a Constitution saving throw or have Disadvantage on all attacks until the end of its next turn.<br/>
+				• Upon transforming, your Watery Defense ability is recharged, and you gain an additional use of it. However, the ability is replaced by Stone’s Lethargy for the duration of the transformation.<br/>
+				• While transformed, any ability requiring a saving throw uses the following DC calculation: <strong>Stone Form DC</strong> = <i>8 + your proficiency bonus + your Constitution modifier.</i></td></tr>
+				<tr><td>9-15</td><td>2</td><td class="left"><strong>Water. </strong>You embrace the tides of Umberlee: your form becomes fluid and mutable, and light seems to glint and refract as it strikes your skin. Refreshed and invigorated by the tides, a new storm is brought forth. While in this form, you gain the following effects:<br/>
+				• Upon transforming, you can choose to regain expended spell slots. The spell slots can have a combined level that is equal to or less than half your sorcerer level (rounded up), and none of the slots can be level 6 or higher. You must complete a Long Rest before you can benefit from this recovery again.<br/>
+				• Your spells of the storm and sea are improved. Upon casting an Ocean Magic spell or a spell that deals Bludgeoning, Cold, or Lightning damage, you can choose to either add your Charisma modifier to one damage roll of the spell, or add half of your Charisma modifier (rounded down) to the DC of the spell.<br/>
+				• Upon transforming, your Watery Defense is recharged, and you an additional use of it. Additionally, if you are within 30 feet of an ally when they take Bludgeoning, Piercing, or Slashing damage from an attack, you can use a Reaction to expend a use of your Watery Defense in order for that ally to benefit from its effects as if it were you.<br/>
+				• You gain Vulnerability to Cold and Lightning damage while in this form.</td></tr>
+				<tr><td>16-19</td><td>3</td><td class="left"><strong>Crystalline. </strong>A balance between the primordial powers of earth and water is obtained, sustained by the burgeoning well of deific energy within you—a byproduct of the continued influence of deities upon your soul. Your horns transform into translucent crystalline spirals, and your skin darkens to an ebony sheen flecked with thousands of tiny sparkling geodes. While in this form, you gain the following benefits:<br/>
+				• You gain a bonus to your saving throws equal to your Constitution modifier.<br/>
+				• You gain access to the following spells: <i>Magnify Gravity, Mirror Image, Hypnotic Pattern, Gravity Sinkhole, Temporal Shunt, Arcane Hand.</i> Each of these counts as a sorcerer spell for you, and you can cast them using an appropriate spell slot.<br/>
+				• Upon transforming, you begin to surge with arcane power. You gain a pool of Primordial Energy equal to your Sorcerer level, and can use these to cast any of the additional spells granted by this form by spending a number of  points equal to the spell's level. You can spend additional points to upcast any of these spells up to the maximum spell slot level you currently have. Once this transformation ends, this pool of energy vanishes.<br/>
+				• If summoned, Barnacle takes on a similar appearance, but does not gain the additional spells.</td></tr>
+				<tr><td>20</td><td>—</td><td class="left"><strong>Elemental Genesis. </strong> Tapping into the very weave of creation, you are transformed into a being of unrestrained primal energy. Howling winds and crashing waves swirl around you, and lightning flashes and crackles from your pulsing form of roiling steam and molten rock. While in this form, you gain the following benefits:<br/>
+				• You gain a Fly Speed equal to twice your Speed, and can hover.<br/>
+				• You have Resistance to all damage except Psychic, Radiant, Necrotic, and Force. You can use your Watery Defense against any damage you take for which you have Resistance, and you do not expend its use when you do so.<br/>
+				• You can teleport up to 60 feet as a Bonus Action on each of your turns.<br/>
+				• The effective level of spells you cast is increased by 1.<br/> 
+				• You gain access to the following abilities, which use your Sorcerer spell save DC and can be enhanced using Metamagic:<br/>
+				• • <strong>Conflagration Lance.</strong> As an Action, you unleash a searing lance of magma at one creature you can see within 150 feet, which explodes in fiery shrapnel on impact. The target and all creatures within 10 feet of it must make a Dexterity saving throw. On a failure, a target takes 10d8 Fire damage and starts <i>Burning</i>; on a success, it takes half as much damage and does not start <i>Burning</i>. At the end of each of its turns, a <i>Burning</i> creature repeats the saving throw, taking 5d8 Fire damage on a failed save, or ending the condition on a successful one. These magical flames can't be extinguished by nonmagical means.<br/>
+				• • <strong>Frigid Bore.</strong> As an Action, a roaring wave surges out from your palm in a 60-foot Cone. All creatures in the area must make a Strength saving throw, taking 8d6 Cold and 8d6 Bludgeoning damage on a failure, or half as much on a success. In addition, any Huge or smaller creature who fails the save is pushed back 15 feet and knocked <i>Prone</i>.On their turn, they must use either their full movement or their Action to stand back to their feet.<br/>
+				• • <strong>Thundercrack.</strong> As an Action, you direct a crackling bolt of lightning to strike a point you can see within 150 feet. All creatures within 30 feet of that point must make a Constitution saving throw; on a failure, it takes 4d12 Thunder and 4d12 Lightning damage and is <i>Deafened</i> and <i>Blinded</i> until the end of your next turn. A creature who fails the save by more than 5 is also <i>Incapacitated</i> until the end of your next turn. On a success, the creature takes half as much damage and is only <i>Deafened</i>.<br/>
+				• • <strong>Crushing Fissure.</strong> As an Action, you split the ground with a mighty stomp, creating a collapsing ravine originating from you that is 60 feet long and 20 feet wide. This area is considered Difficult Terrain, and a creature can spend its Action to clear a 5-foot Cube. All creatures within the line when it appears must make a Strength saving throw; on a failure, they take 3d10 Bludgeoning and 3d10 Piercing damage and are <i>Restrained</i> by the collapsing ground for the next minute, provided they are Huge or smaller. On a success, they take half as much damage and are not <i>Restrained</i>. If a creature starts its turn while <i>Restrained</i> by this ability, it immediately takes 3d10 Bludgeoning damage, and can use its Action to attempt to free itself, making a Strength (Athletics) check against your spell save DC.<br/>
+				• While incredibly powerful, this form is also physically taxing. For every turn you start while in this form, you take 4d6 Force damage, which cannot be reduced in any way. If you are rendered Incapacitated or Unconscious while in this form, it immediately ends. You can also choose to end this form at the end of any of your turns (no action required). When the form ends, you immediately suffer 2 levels of Exhaustion, and cannot assume this form again until you finish a Long Rest.</td></tr>
+				<tr><td>1</td><td>—</td><td class="left"><strong>Unstable Fallout. </strong>Something…isn’t right. The primordial powers of earth and storm rage within you, using your physical body as their battleground. Your skin becomes parched, splitting open in fissures and cracks as sizzling water hisses and bubbles through these rends. While in this form, you gain the following effects:<br/>
+				• Your Speed is halved.<br/>
+				• Each time you cast a level 2+ spell, you must roll on the Chaos Magic table and create the corresponding effect.<br/>
+				• You gain a bonus to AC equal to half your Constitution modifier (rounded down).<br/>
+				• You have a penalty to all saving throws equal to half your Constitution modifier (rounded down).</td></tr>
+				• The sheer stress this broken form puts on your body is beyond unbearable. Your maximum hit points are reduced by twice your current level, and you immediately suffer 2 levels of Exhaustion.<br/>
+				• If Barnacle is summoned when you transform, you must immediately make a <i>DC 17 Constitution saving throw</i>. On a failure, Barnacle dissolves, returning to your flask. However, if you fail the save by 5 or more, your control over Barnacle is severed and he goes into a frenzy, directing spells and attacks randomly on his turns. If he is defeated in this state, he immediately dissolves and returns to your flask, and cannot be resummoned until you finish a Long Rest.<br/>
+			</table>
+		</description>
+		<sheet alt="Primordial Convergence" action="Bonus Action" usage="{{constitution:modifier}}/Long Rest">
+			<description>You can tap into the primordial powers that are paired with your soul. Roll a d20, and for 10 minutes, your body assumes the corresponding elemental form. Alternatively, you can forgo this roll and spend the listed sorcery points to force the transformation into Earth, Water, or Crystalline (your choice).&#13;
+			•2-8: Earth (2 Sorcery Points)&#13;
+			•9-15: Water (2 Sorcery Points)&#13;
+			•16-19: Crystalline (3 Sorcery Points)&#13;
+			•20: Elemental Genesis&#13;
+			•1: Unstable Fallout</description>
+		</sheet>
+	</element>
+
+	<element name="Mind of the Void (Exalted)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_STAGE3">
+		<description>
+			<div class="sidebar">
+				<p>After his encounter with the mind of Eris'atemor's void demon form, as well as his communion with the fragment of the void beast he defeated upon the <i>Widow's Kiss</i>, Apsinthos heads below deck to take an evening's rest. However, his sleep is disturbed as an overwhelming darkness consumes his dreams. Suddenly, strange runes and glyphs begin to circle his consciousness, and though he cannot read them, their meaning is emotively conveyed into his mind with an intimacy unlike any language he has known before. He tries to move away from the glyphs, but a voice speaks out to him through them, claiming to be the Void. He learns that the void is consumed with returning it and everything else to nothingness, and that in nothingness there is perfection. The concept intrigues the young warlock, and the void offers him the power to harness its vast inscrutable energy to meld his destiny into whatever he would want it to be. Seemingly swayed by the promise of all-encompassing equality in embracing the nothingness, Apsinthos accepts this gift. Only time will tell whether he will use it to shape his own destiny, or it will use him as a tool of the insatiable hunger of the void.</p>
+				<p class="indent">Some months later, the group finds themselves preparing to take on Faust’s hordes in defense of Galeran, with Apsinthos’ mother acting as the forefront defender of the city. However, Apsinthos now carries a new complication with him: his long-lost sister Madeline, who is now suffused with the Void after her short-but-traumatic stint in its realm following her inexplicable liberation from her captivity in the Nine Hells. Knowing their mother would seek to take advantage of their connection with the Void using her patron, the Archduchess Zariel, they opt to sever their familial ties with the Queen of Hell and use the resulting eruption of raw arcana to allow Madeline to ascend to a position of quasi-deific power—an Exarch of the Void—to act as a mental shield and refining prism for her brother’s burgeoning Void powers.</p>
+				<p class="indent">However, in the wake of the Third Age's crimson end at the hands of the moon goddess Selûne, Apsinthos finds his burgeoning aptitude with the Void thrust into upheaval. Despite Madeline's ability to channel the Void more accurately to his desires, the process of pulling from the Void has grown increasingly more dangerous, with each act sapping his vitality far greater than ever before. While it is unclear whether stopping Selûne will revert the Void's grip on his soul, Apsinthos must soldier on as he can, instead channeling the Void into more esoteric manifestations to empower his companions and hinder his enemies.</p>
+			</div>
+			<p><b><i>Call Upon the Void.</i></b> As a Magic Action, can make a 1-3 worded command to the Void, causing it to cast a spell as chosen by the Void to fulfill the command given. This spell must be from the Cleric or Wizard spell lists, and cannot exceed the highest spell level you can cast, up to a maximum of level 5 spells. When you cast a spell in this manner, it does not expend a spell slot.</p>
+			<p class="indent">The first time you cast a spell in this manner, you suffer no adverse effects. If you cast another level 2+ spell with this feature before you finish a Long Rest, you take 1d4 Necrotic damage for each level of the spell immediately after you cast it, and your Hit Point maximum is reduced by an amount equal to the Necrotic damage taken. This damage ignores Resistance and Immunity.</p>
+			<p class="indent">Each time you use this feature again, the Necrotic damage per spell level increases by 1d4. Finishing a Short or Long rest resets the Necrotic damage you take for each spell level back to 1d4.</p>
+			<p><b><i>Telepathic Transcendence.</i></b> When you use a Bonus Action to form a telepathic bond with a creature, you can either guard its mind against esoteric intrusions or assault it with crippling waves of psychic energy.</p>
+			<p class="indent"><b><i>Mind Shield.</i></b> The creature has Advantage on Intelligence, Wisdom, or Charisma saving throws (choose one when bonding) and Resistance to Psychic damage. If that creature fails a saving throw of the type you are protecting, you can use a Reaction to give them a bonus to that roll equal to your Charisma modifier, potentially turning the failure into a success.</p>
+			<p class="indent"><b><i>Scatter Senses.</i></b> You force the creature to make an Intelligence Saving Throw against your spell save DC. On a failed save, the creature has Disadvantage on Strength, Dexterity, or Constitution saving throws (you choose when bonding), Vulnerability to Psychic damage, and Disadvantage on attack rolls against one creature of your choice as pain and spasms wrack its nerves. At the end of each of its turns, the creature can repeat the Intelligence saving throw, ending your telepathic bond on a success.</p>
+			<p class="indent"><b><i>Rend Psyche.</i></b> You force the creature to make an Intelligence saving throw against your spell save DC. On a failed save, the creature has Disadvantage on Intelligence, Wisdom, or Charisma saving throws (you choose when bonding), Vulnerability to Psychic damage, and Disadvantage on Constitution saves to maintain Concentration as nightmares cloud its mind. If the creature attempts to cast a spell, there is a 50% chance the spell fails as a result of your intrusive presence in its thoughts. At the end of each of its turns, the creature can repeat the Intelligence saving throw, ending your telepathic bond on a success.</p>
+			<p class="indent">You can use this ability a number of times equal to your Charisma modifier (minimum of once), and regain all expended uses when you finish a Long Rest.</p>
+			<p><b><i>From Nothing I Will Create My Own.</i></b> You can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a powerful Void Wish.</p>
+			<p class="indent">The stress of commanding the Void to manifest in a great work of transcendental magic is both physically and mentally exhausting. Immediately after enacting the Void Wish, roll 2d4+2. You take Necrotic damage equal to ten times the number rolled, and your Hit Point maximum is reduced by an equal amount. This damage ignores Resistance and Immunity. In addition, you gain two levels of Exhaustion, which last for 7 days and cannot be removed by any means except by the Wish spell. The reduction to your Hit Point maximum persists as long as you still have these levels of Exhaustion, but diminishes by 10 after each Long Rest you complete during this 7-day period.</p>
+			<p class="indent">Once you use this ability, it cannot be used again for 7 days.</p>
+			</description>
+		<sheet display="false"/>
+		<rules>
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_CALL_UPON_THE_VOID_2" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_TELEPATHIC_TRANSCENDENCE" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_FROM_NOTHING_I_WILL_CREATE_MY_OWN_2" />
+		</rules>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">hilt</set>
+			<set name="type">Supernatural Gift</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Call Upon the Void (Stage 2)" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_CALL_UPON_THE_VOID_2">
+		<compendium display="false"/>
+		<description>
+			<p>As a Magic Action, can make a 1-3 worded command to the Void, causing it to cast a spell as chosen by the Void to fulfill the command given. This spell must be from the Cleric or Wizard spell lists, and cannot exceed the highest spell level you can cast, up to a maximum of level 5 spells. When you cast a spell in this manner, it does not expend a spell slot.</p>
+			<p class="indent">The first time you cast a spell in this manner, you suffer no adverse effects. If you cast another level 2+ spell with this feature before you finish a Long Rest, you take 1d4 Necrotic damage for each level of the spell immediately after you cast it, and your Hit Point maximum is reduced by an amount equal to the Necrotic damage taken. This damage ignores Resistance and Immunity.</p>
+			<p class="indent">Each time you use this feature again to cast a level 2+ spell, the Necrotic damage per spell level increases by 1d4. Finishing a Short or Long rest resets the Necrotic damage you take for each spell level back to 1d4.</p>
+		</description>
+		<sheet alt="Call Upon the Void" action="Magic Action" >
+			<description>Make a 1-3 worded command to the Void, causing it to cast a spell from the Cleric and Wizard spell lists as chosen by the Void to fulfill the command given. The level of spell chosen cannot exceed the highest spell level you can cast, up to a maximum of level 5 spells. &#13;
+			The first time you cast a spell in this manner, you suffer no adverse effects. If you cast another level 2+ spell with this feature before you finish a Long Rest, you take 1d4 Necrotic damage for each level of the spell immediately after you cast it, and your Hit Point maximum is reduced by an amount equal to the Necrotic damage taken. This damage ignores Resistance and Immunity. &#13;
+			Each time you use this feature again to cast a level 2+ spell, the Necrotic damage per spell level increases by 1d4. Finishing a Short or Long rest resets the Necrotic damage you take for each spell level back to 1d4.</description>
+		</sheet>
+	</element>
+	<element name="Telepathic Transcendence" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_TELEPATHIC_TRANSCENDENCE">
+		<compendium display="false"/>
+		<description>
+			<p>When you use a Bonus Action to form a telepathic bond with a creature, you can either guard its mind against esoteric intrusions or assault it with crippling waves of psychic energy.</p>
+			<p class="indent"><b><i>Mind Shield.</i></b> The creature has Advantage on Intelligence, Wisdom, or Charisma saving throws (choose one when bonding) and Resistance to Psychic damage. If that creature fails a saving throw of the type you are protecting, you can use your Reaction to give them a bonus to that roll equal to your Charisma modifier, potentially turning the failure into a success.</p>
+			<p class="indent"><b><i>Scatter Senses.</i></b> You force the creature to make an Intelligence Saving Throw against your spell save DC. On a failed save, the creature has Disadvantage on Strength, Dexterity, or Constitution saving throws (you choose when bonding), Vulnerability to Psychic damage, and Disadvantage on attack rolls against one creature of your choice as pain and spasms wrack its nerves. At the end of each of its turns, the creature can repeat the Intelligence saving throw, ending your telepathic bond on a success.</p>
+			<p class="indent"><b><i>Rend Psyche.</i></b> You force the creature to make an Intelligence saving throw against your spell save DC. On a failed save, the creature has Disadvantage on Intelligence, Wisdom, or Charisma saving throws (you choose when bonding), Vulnerability to Psychic damage, and Disadvantage on Constitution saves to maintain Concentration as nightmares cloud its mind. If the creature attempts to cast a spell, there is a 50% chance the spell fails as a result of your intrusive presence in its thoughts. At the end of each of its turns, the creature can repeat the Intelligence saving throw, ending your telepathic bond on a success.</p>
+			<p>If a creature's saving throw is successful or the effect ends for it, the creature is immune to your telepathic bond for the next 24 hours.</p>
+			<p class="indent">You can use this ability a number of times equal to your Charisma modifier (minimum of once), and regain all expended uses when you finish a Long Rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{charisma:modifier}}/Long Rest">
+			<description>When forming a telepathic bond with a creature, you can either guard its mind against esoteric intrusions or assault it with crippling waves of psychic energy. If a creature succeeds on its saving throw, the creature is immune to your telepathic bond for the next 24 hours.</description>
+		</sheet>
+		<rules>
+			<select type="Feat Feature" name="Mind Shield" supports="Mind Shield" default="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_TELEPATHIC_TRANSCENDANCE_MIND_SHIELD" />
+			<select type="Feat Feature" name="Scatter Senses" supports="Scatter Senses" default="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_TELEPATHIC_TRANSCENDANCE_SCATTER_SENSES" />
+			<select type="Feat Feature" name="Rend Psyche" supports="Rend Psyche" default="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_TELEPATHIC_TRANSCENDANCE_REND_PSYCHE" />
+		</rules>
+	</element>
+	<element name="Mind Shield" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_TELEPATHIC_TRANSCENDANCE_MIND_SHIELD">
+		<supports>Mind Shield</supports>
+		<compendium display="false"/>
+		<description>
+			<p>The creature has Advantage on Intelligence, Wisdom, or Charisma saving throws (choose one when bonding) and Resistance to Psychic damage. If that creature fails a saving throw of the type you are protecting, you can use your Reaction to give them a bonus to that roll equal to your Charisma modifier, potentially turning the failure into a success.</p>
+		</description>
+		<sheet>
+			<description>The creature has Advantage on Intelligence, Wisdom, or Charisma saving throws (choose one when bonding) and Resistance to Psychic damage. If that creature fails a saving throw of the type you are protecting, you can use your Reaction to give them a +{{charisma:modifier}} bonus to that roll.</description>
+		</sheet>
+	</element>
+	<element name="Scatter Senses" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_TELEPATHIC_TRANSCENDANCE_SCATTER_SENSES">
+		<supports>Scatter Senses</supports>
+		<compendium display="false"/>
+		<description>
+			<p>You force the creature to make an Intelligence Saving Throw against your spell save DC. On a failed save, the creature has Disadvantage on Strength, Dexterity, or Constitution saving throws (you choose when bonding), Vulnerability to Psychic damage, and Disadvantage on attack rolls against one creature of your choice as pain and spasms wrack its nerves. At the end of each of its turns, the creature can repeat the Intelligence saving throw, ending your telepathic bond on a success.</p>
+		</description>
+		<sheet>
+			<description>You force the creature to make a DC{{warlock:spellcasting:dc}} Intelligence saving throw. On a failed save, the creature has Disadvantage on Strength, Dexterity, or Constitution saving throws (choose one when bonding), Vulnerability to Psychic damage, and Disadvantage on attack rolls against one creature of your choice as pain and spasms wrack its nerves. At the end of each of its turns, the creature can repeat the Intelligence saving throw, ending your telepathic bond on a success.</description>
+		</sheet>
+	</element>
+	<element name="Rend Psyche" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_TELEPATHIC_TRANSCENDANCE_REND_PSYCHE">
+		<supports>Rend Psyche</supports>
+		<compendium display="false"/>
+		<description>
+			<p>You force the creature to make an Intelligence saving throw against your spell save DC. On a failed save, the creature has Disadvantage on Intelligence, Wisdom, or Charisma saving throws (you choose when bonding), Vulnerability to Psychic damage, and Disadvantage on Constitution saves to maintain Concentration as nightmares cloud its mind. If the creature attempts to cast a spell, there is a 50% chance the spell fails as a result of your intrusive presence in its thoughts. At the end of each of its turns, the creature can repeat the Intelligence saving throw, ending your telepathic bond on a success.</p>
+		</description>
+		<sheet>
+			<description>You force the creature to make a DC{{warlock:spellcasting:dc}} Intelligence saving throw. On a failed save, the creature has Disadvantage on Intelligence, Wisdom, or Charisma saving throws (you choose when bonding), Vulnerability to Psychic damage, and Disadvantage on Constitution saves to maintain Concentration as nightmares cloud its mind. If the creature attempts to cast a spell, there is a 50% chance the spell fails as a result of your intrusive presence in its thoughts. At the end of each of its turns, the creature can repeat the Intelligence saving throw, ending your telepathic bond on a success.</description>
+		</sheet>
+	</element>
+	<element name="From Nothing I Will Create My Own (Stage 2)" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_FROM_NOTHING_I_WILL_CREATE_MY_OWN_2">
+		<compendium display="false"/>
+		<description>
+			<p>You can spend 1 minute attempting to decipher and harness the void energy coalescing around you, commanding it to manifest as a powerful Void Wish.</p>
+			<p class="indent">The stress of commanding the Void to manifest in a great work of transcendental magic is both physically and mentally exhausting.  Immediately after enacting the Void Wish, roll a number of d10s equal to your level. You take Necrotic damage equal to the total rolled, which cannot be reduced in any way, and your Hit Point maximum is reduced by the same amount. In addition, you gain two levels of Exhaustion, which last for 7 days and cannot be removed by any means except by the Wish spell. The reduction to your Hit Point maximum persists as long as you still have these levels of Exhaustion, but diminishes by 10 after each Long Rest you complete during this 7-day period.</p>
+			<p class="indent">Once you use this ability, it cannot be used again for 7 days.</p>
+		</description>
+		<sheet alt="From Nothing I Will Create My Own" usage="Once/7 Days">
+			<description>Spend 1 minute to command the Void to manifest as a powerful Void Wish. Immediately after it manifests, roll {{level}}d10 and take Necrotic damage equal to the roll's total (ignoring Resistance and Immunity), and reduce your Hit Point maximum by an equal amount. You also gain two levels of Exhaustion, which last for 7 days and cannot be removed by any means except by the Wish spell. The reduction to your Hit Point maximum persists as long as you have these levels of Exhaustion, but decreases by 10 after each Long Rest you complete.</description>
+		</sheet>
+	</element>
+
+	<element name="Shelter of the Waves (Improved)" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_SHELTER_OF_THE_WAVES_STAGE2">
+		<description>
+			<div class="sidebar">
+				<p>Ever since you began to worship the Goddess of Shining Waters, the calming presence of Eldath has been a constant companion, and your devotion to Her has felt more akin to a friendship than any religious compulsion. Likewise, Her power has guided you to bring peace and restoration to those in need, wherever you meet them along your travels. However, with conflict brewing nearer with every dawn, your prayers to Eldath have seen Her willing to grant you the ability to protect those actively battling the forces of discord and suffering.</p>
+			</div>
+			<p><b><i>Shining Water’s Shelter.</i></b> When an ally you can see within 60 feet is reduced below 50% of their Hit Point maximum, you can use a Reaction to surround them in a swirl of protective waters. Immediately, and then again at the start of their next 2 turns, they recover Hit Points equal to 2d6 plus your Wisdom modifier. Additionally, they gain a +1 to AC and saving throws, and gain Resistance to the damage type triggering the Reaction until they begin a turn without regaining Hit Points from this ability.</p>
+			<p class="indent">Once you use this ability, you cannot do so again until you complete a Short Rest. If you have no uses remaining, you can use this ability again by expending a level 3 spell slot or higher as part of the Reaction.</p>
+			<p><b><i>Ritual of Rejuvenating Waters.</i></b> You can beseech Eldath to watch over your companions in your absence. After completing a Long Rest, you can invoke this ability as a ritual, blessing any number of creatures you can see or are familiar to you, spending a level 3 spell slot or higher for each creature past the first. Until the next dawn, the first time a creature blessed in this way is reduced below 50% of their max Hit Points, they are immediately affected by Shining Water’s Shelter.</p>
+			<p class="indent">Once you use this ritual, you cannot use Shining Water's Shelter again until you complete a Long Rest.</p>
+		</description>
+		<sheet alt="Shelter of the Waves" action="Reaction" usage="1/Short Rest">
+			<description>When an ally you can see within 60ft. is reduced below 50% of their max HP, you can surround them in a swirl of protective waters. Immediately, and then again at the start of their next 2 turns, they recover 2d6+{{wisdom:modifier}} Hit Points, gain +1 to AC and saving throws, and Resistance to the damage type triggering the Reaction until they begin a turn without regaining Hit Points from this ability. &#13;
+			If you have no uses left, you can use it again by expending a level 3+ spell slot as part of the Reaction.</description>
+		</sheet>
+	</element>
+	<element name="Harmonic Sorcery" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_HARMONIC_SORCERY">
+		<prerequisite>Sorcerer 1+</prerequisite>
+		<description>
+			<p>An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:</p>
+			<ul style="margin-top:-1em; margin-bottom: 0.5em">
+				<li><b><i>Potent Magic.</i></b> The spell save DC of your Sorcerer spells increases by 1, and you have Advantage on the attack rolls of Sorcerer spells you cast.</li>
+				<li><b><i>Bolstering Magic.</i></b> The effective level of Sorcerer spells you cast that only affect allied creatures is increased by 1.</li>
+			</ul>
+			<p>This feature functions as a use of Innate Sorcery for Sorcerer features that interact with it. You can use this feature twice, and you regain all expended uses of it when you finish a Long Rest.</p>
+		</description>
+		<sheet alt="Harmonic Sorcery" action="Bonus Action" usage="2/Long Rest">
+			<description>For 1 minute, you choose one of the following benefits: &#13;
+			• Increase your spell save DC by 1 and have Advantage on the attack rolls of Sorcerer spells you cast &#13;
+			• Increase the effective level of Sorcerer spells you cast that only affect allied creatures by 1.</description>
+			<description level="7">For 1 minute, you can use up to two Metamagic options on each spell you cast, along with one of the following benefits: &#13;
+			• Increase your spell save DC by 1 and have Advantage on the attack rolls of Sorcerer spells you cast &#13;
+			• Increase the effective level of Sorcerer spells you cast that only affect allied creatures by 1. &#13;
+			If you have no uses of this feature left, you can expend 2 Sorcery Points when you take the Bonus Action to activate it.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_PHB24_FEATURE_REPLACEMENT_SORCERER_INNATE_SORCERY" />
+		</rules>
+	</element>
+	<element name="Warding Spell (Wisdom)" type="Class Feature" source="Tregolani Homebrew Collection" id="ID_TREGOLANI_HB_CLASS_FEATURE_WIS_SORCERER_METAMAGIC_WARDING_SPELL">
+		<requirements>!ID_INTERNAL_THC_FEATURE_REPLACEMENT_WISDOM_SORCERER_CAREFUL_SPELL,ID_ALMIR_FEAT_HARMONIC_SORCERY</requirements>
+		<supports>Metamagic</supports>
+		<description>
+			<p><em>Cost: 1+ Sorcery Points</em></p>
+			<p>When you cast a spell that affects an area, you can spend 1 Sorcery Point, and choose a number of creatures up to your Wisdom modifier in the area (minimum of one creature). A chosen creature is unaffected by the spell.</p>
+			<p class="indent">If you spend 1 additional Sorcery Point (2 total), you can grant the chosen creatures a number of Temporary Hit Points equal to your Wisdom modifier plus the spell’s level.</p>
+		</description>
+		<sheet alt="Warding Spell">
+			<description>When you cast a spell that affects an area, you can spend 1 Sorcery Point, and choose up to {{metamagic careful spell:creatures}} creatures in the area. A chosen creature is unaffected by the spell. If you spend 1 additional Sorcery Point, you can grant the chosen creatures a number of Temporary Hit Points equal to {{wisdom:modifier}} plus the spell’s level.</description>
+		</sheet>
+		<rules>
+			<stat name="metamagic careful spell:creatures" value="1" bonus="base" />
+			<stat name="metamagic careful spell:creatures" value="wisdom:modifier" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Countermagic Vacuum" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_COUNTERMAGIC_VACUUM">
+		<description>
+			<p>Through extensive experimentation and studious application of arcane magnetism, you have discovered a new method through which your multitool’s unique core can be charged with magic. By widening its absorption field for a brief moment, you can force nearby spells to be redirected and dampened.</p>
+			<p class="indent">When a creature targets you or another creature within 30 feet with a spell, you can spend a Reaction and a use of your Flash of Genius feature to redirect the spell to your multitool. If the spell affects an area, it becomes centered on you. If it only targets a single creature, it now targets you.</p>
+			<p class="indent">Resolve the spell as normal. If the spell forces a saving throw, you and all affected creatures can add your Intelligence modifier to the saving throw. If it is a spell attack, the creature casting the spell has Disadvantage on the attack roll.</p>
+			<p class="indent">Finally, if the spell cast is of a level for which you have spell slots, a copy of the spell is stored in your multitool core as if you had used your Blast of Ingenuity, overwriting any currently stored spells. If you keep this spell stored until you finish a Long Rest, add it to your list of prepared spells for the day, and it does not count against your total number of prepared spells.</p>
+			<p class="indent">Once you use this ability, you cannot use it again until you finish a Long Rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>When a creature targets you or another creature within 30 feet with a spell, you can spend a Reaction and a use of your Flash of Genius feature to redirect the spell to your multitool. If the spell affects an area, it becomes centered on you. If it only targets a single creature, it now targets you. &#13;
+			Resolve the spell as normal. If the spell forces a saving throw, you and all affected creatures can add +{{intelligence:modifier}} to the saving throw. If it is a spell attack, the creature casting the spell has Disadvantage on the attack roll. &#13;
+			Finally, if the spell cast is of a level for which you have spell slots, a copy of the spell is stored in your multitool core as if you had used your Blast of Ingenuity, overwriting any currently stored spells. If you keep this spell stored until you finish a Long Rest, add it to your list of prepared spells for the day, and it does not count against your total number of prepared spells.</description>
+		</sheet>
+	</element>
+	<element name="Explosive Expert" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_EXPLOSIVE_EXPERT">
+		<compendium display="false"/>
+		<description>
+			<p>Your talent with explosives allows you to shape their explosions in ways most others cannot understand.</p>
+			<p class="indent"><b><i>Empowered Detonations.</i></b> When you cast a spell or use an item that creates a Cone, Cube, Cylinder, Line, or Sphere, you can modify it in one of the following ways:</p>
+			<ul>
+				<li><b>Cones, Cylinders, and Spheres.</b> You can increase its radius and height by 5 feet, or its length by 5 feet.</li>
+				<li><b>Cubes.</b> You can increase its side length by 10 feet.</li>
+				<li><b>Lines.</b> You can increase its length by 15 feet.</li>
+			</ul>
+			<p class="indent"><b><i>Shaped Charges.</i></b> You can choose to exclude a number of 5-foot squares equal to your Intelligence modifier from the areas of your spells and abilities. These must be contiguous and at least one must be touching the edge of the area you create.</p>
+			<p>You can use either of these benefits a number of times equal to your Proficiency Bonus, and regain all expended uses after finishing a Long Rest.</p>
+		</description>
+		<sheet usage="{{proficiency}}/Long Rest">
+			<description>Your talent with explosives allows you to shape their explosions in ways most others cannot understand.</description>
+		</sheet>
+		<rules>
+			<select type="Feat Feature" name="Empowered Detonations" supports="Empowered Detonations" default="ID_ALMIR_FEAT_EXPLOSIVE_EXPERT_EMPOWERED_DETONATIONS" />
+			<select type="Feat Feature" name="Shaped Charges" supports="Shaped Charges" default="ID_ALMIR_FEAT_EXPLOSIVE_EXPERT_SHAPED_CHARGES" />
+		</rules>
+	</element>
+	<element name="Empowered Detonations" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_EXPLOSIVE_EXPERT_EMPOWERED_DETONATIONS">
+		<supports>Empowered Detonations</supports>
+		<compendium display="false"/>
+		<description>
+			<p>When you cast a spell or use an item that creates a Cone, Cube, Cylinder, Line, or Sphere, you can modify it in one of the following ways:</p>
+			<ul>
+				<li><b>Cones, Cylinders, and Spheres.</b> You can increase its radius and height by 5 feet, or its length by 5 feet.</li>
+				<li><b>Cubes.</b> You can increase its side length by 10 feet.</li>
+				<li><b>Lines.</b> You can increase its length by 15 feet.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>When you cast a spell or use an item that creates a Cone, Cylinder, or Sphere, increase its radius, height, or length by 5ft. When you cast a spell or use an item that creates a Cube, increase its side length by 10ft. When you cast a spell or use an item that creates a Line, increase its length by 15ft.</description>
+		</sheet>
+	</element>
+	<element name="Shaped Charges" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_EXPLOSIVE_EXPERT_SHAPED_CHARGES">
+		<supports>Shaped Charges</supports>
+		<compendium display="false"/>
+		<description>
+			<p>You can choose to exclude a number of 5-foot squares equal to your Intelligence modifier from the areas of your spells and abilities. These must be contiguous and at least one must be touching the edge of the area you create.</p>
+		</description>
+		<sheet>
+			<description>You can exclude up to {{intelligence:modifier}} five-foot cubes from the areas of your spells and abilities. These must be contiguous and at least one must be touching the edge of the area you create.</description>
+		</sheet>
+	</element>
+
+	<element name="Dreamer's Visage (Exalted)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMER_VISAGE_STAGE3">
+		<description>
+			<div class="sidebar">
+				<p>After her fateful encounter with the shadowy apparitions somehow bound to her, Morani was able to earn their trust by offering to restore them to their home within the Astral Plane. In return, they are able to grant her a semblance of control over the immaterial, allowing her to assume a visage of dreams or nightmares to influence the Material world around her.</p>
+				<p class="indent">Later, after the defeat of Eris'atemor and his void-demon form, one of her "passengers" found a way to manifest itself as a physical creature before her. Surprised but intrigued, Morani conversed with it to find that it desired to be part of her world while they searched for a way to return the shadows to their home on the Astral Plane, and was willing to aid her in any way it could with its new corporeal form.</p>
+			</div>
+			<p><b><i>Astral Visage</i></b> You can harness the raw arcane power of your astral companions in order to disrupt the actions of those around you. As a Magic Action, you can assume one of the following magical forms:</p>
+			<ul>
+				<li><em>Nightmare Form:</em> Assume a horrific visage of nightmares. Choose one creature you can see; for the next minute, it has Disadvantage on all attacks against you.</li>
+				<li><em>Dream Form:</em> Assume a shifting, mirage-like visage. Choose one creature you can see; for the next minute, you have Advantage on all Charisma (Persuasion or Deception) checks against it.</li>
+			</ul>
+			<p class="indent">You can assume your visage up to 3 times, and you regain all expended uses when you finish a Long Rest.</p>
+			<p><b><i>Astral Familiar.</i></b> Your astral companion can now manifest as a familiar, assuming any animal form of your choosing. All other abilities are defined in the <i>Astral Familiar</i> cantrip, which you always have prepared.</p>
+			<p><b><i>Arcane Dissonance.</i></b> The innate magical energies of your familiar can be harnessed in order to disrupt the spellcasting of another. As a special Reaction while your Astral Familiar is summoned, you can cast <i>Counterspell</i> at level 3 without expending a spell slot. However, doing so causes you to take 1d10 Force damage, which ignores any and all Resistance or Immunity.</p>
+			<p class="indent">Using this ability taxes the metaphysical form of your astral familiar. The first time you use this Reaction after finishing a Long Rest, you cast Counterspell as normal. The next time you use this Reaction, you must expend a level 2+ spell slot or the spell fails. The third time you use this Reaction, you must expend a level 3+ spell slot or the spell fails. After you have used this Reaction three times, your astral familiar’s form dissipates, and you cannot re-summon it again until you finish a Long Rest.</p>
+			<p><b><i>Weave Empath.</i></b> Suffused with a burgeoning connection to the Astral Plane, you can manipulate its energies more deftly when your body is aligned with its flow. When you spend a use of Wild Shape to assume your Starry Form, your abilities are heightened in the following ways:</p>
+			<ul>
+				<li><b>Archer.</b> You can choose to target a willing ally with your arrow, which automatically hits. Instead of taking damage, the target then gains a number of Temporary Hit Points equal to the Radiant damage the arrow would deal.</li>
+				<li><b>Chalice.</b> When casting a spell or using a feature that causes a creature to regain Hit Points, if any of the dice roll its maximum value, you may roll an additional die and add that to the amount of healing received. The amount of extra dice cannot exceed the base number rolled by the spell or feature. If the spell or feature restores a static amount of Hit Points (like the Heal spell), divide that number by four and add it to the total restored.</li>
+				<li><b>Dragon.</b> When you succeed on the Constitution saving throw to maintain Concentration, you gain Temporary Hit Points equal to half the roll’s total. If you fail the Constitution saving throw to maintain Concentration, you can deal Psychic damage to the creature who triggered the save equal to the roll’s total plus your Wisdom modifier.</li>
+			</ul>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_COUNTERSPELL" />
+			</div>
+			<div class="reference">
+				<div element="ID_ALMIR_UNIQUE_SPELL_ASTRAL_FAMILIAR" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_ASTRAL_VISAGE" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_ARCANE_DISSONANCE_2" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_WEAVE_EMPATH" />
+			<grant type="Spell" id="ID_ALMIR_UNIQUE_SPELL_ASTRAL_FAMILIAR" />
+		</rules>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">mind</set>
+			<set name="type">Supernatural Gift</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Arcane Dissonance (Stage 2)" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_ARCANE_DISSONANCE_2">
+		<compendium display="false"/>
+		<description>
+			<p>The innate magical energies of your familiar can be harnessed in order to disrupt the spellcasting of another. As a special Reaction while your Astral Familiar is summoned, you can cast <i>Counterspell</i> at level 3 without expending a spell slot. However, doing so causes you to take 1d10 Force damage, which ignores any and all Resistance or Immunity.</p>
+			<p class="indent">Using this ability taxes the metaphysical form of your astral familiar. The first time you use this Reaction after finishing a Long Rest, you cast Counterspell as normal. The next time you use this Reaction, you must expend a level 2+ spell slot or the spell fails. The third time you use this Reaction, you must expend a level 3+ spell slot or the spell fails. After you have used this Reaction three times, your astral familiar’s form dissipates, and you cannot re-summon it again until you finish a Long Rest.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_COUNTERSPELL" />
+			</div>
+		</description>
+		<sheet alt="Arcane Dissonance" action="Reaction" usage="3/Long Rest">
+			<description>While your astral familiar is summoned, you can consume its form to cast Counterspell at level 3 without expending a spell slot. You immediately take 1d10 Force damage, which ignores Resistance and Immunity. The first time you use this Reaction, you cast Counterspell as normal. The next time you use it, you must expend a level 2+ spell slot or the spell fails. The third time you use it, you must expend a level 3+ spell slot or the spell fails. After you have used this Reaction three times, your astral familiar’s form dissipates, and you cannot re-summon it again until you finish a Long Rest.</description>
+		</sheet>
+	</element>
+	<element name="Weave Empath" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_WEAVE_EMPATH">
+		<compendium display="false"/>
+		<description>
+			<p>Suffused with a burgeoning connection to the Astral Plane, you can manipulate its energies more deftly when your body is aligned with its flow. When you spend a use of Wild Shape to assume your Starry Form, your abilities are heightened in the following ways:</p>
+			<ul>
+				<li><b>Archer.</b> You can choose to target a willing ally with your arrow, which automatically hits. Instead of taking damage, the target then gains a number of Temporary Hit Points equal to the Radiant damage the arrow would deal.</li>
+				<li><b>Chalice.</b> When casting a spell or using a feature that causes a creature to regain Hit Points, if any of the dice roll its maximum value, you may roll an additional die and add that to the amount of healing received. The amount of extra dice cannot exceed the base number rolled by the spell or feature. If the spell or feature restores a static amount of Hit Points (like the Heal spell), divide that number by four and add it to the total restored.</li>
+				<li><b>Dragon.</b> When you succeed on the Constitution saving throw to maintain Concentration, you gain Temporary Hit Points equal to half the roll’s total. If you fail the Constitution saving throw to maintain Concentration, you can deal Psychic damage to the creature who triggered the save equal to the roll’s total plus your Wisdom modifier. You can only use this ability once per turn.</li>
+			</ul>
+		</description>
+		<sheet action="Starry Form">
+			<description>When you spend a use of Wild Shape to assume your Starry Form, your abilities are heightened in the following ways:</description>
+		</sheet>
+		<rules>
+			<select type="Feat Feature" name="Weave Empath Archer" supports="Weave Empath Archer" default="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_WEAVE_EMPATH_ARCHER" />
+			<select type="Feat Feature" name="Weave Empath Chalice" supports="Weave Empath Chalice" default="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_WEAVE_EMPATH_CHALICE" />
+			<select type="Feat Feature" name="Weave Empath Dragon" supports="Weave Empath Dragon" default="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_WEAVE_EMPATH_DRAGON" />
+		</rules>
+	</element>
+	<element name="Weave Empath: Archer" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_WEAVE_EMPATH_ARCHER">
+		<supports>Weave Empath Archer</supports>
+		<compendium display="false"/>
+		<description>
+			<p>While in your Archer Starry Form, you can choose to target a willing ally with your arrow, which automatically hits. Instead of taking damage, the target then gains a number of Temporary Hit Points equal to the Radiant damage the arrow would deal.</p>
+		</description>
+		<sheet alt="Archer" action="Bonus Action">
+			<description>Target a willing ally with your arrow. The creature gains {{archer constellation:dice:count}}d8+{{wisdom:modifier}} Temporary Hit Points.</description>
+		</sheet>
+	</element>
+	<element name="Weave Empath: Chalice" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_WEAVE_EMPATH_CHALICE">
+		<supports>Weave Empath Chalice</supports>
+		<compendium display="false"/>
+		<description>
+			<p>When casting a spell or using a feature that causes a creature to regain Hit Points, if any of the dice roll its maximum value, you may roll an additional die and add that to the amount of healing received. The amount of extra dice rolled cannot exceed the number rolled by the spell or feature.</p>
+			<p class="indent">If the spell or feature restores a static amount of Hit Points (like the Heal spell), divide it by four and add it to the total.</p>
+		</description>
+		<sheet alt="Chalice">
+			<description>When your spell or feature causes a creature to regain Hit Points, count how many of the dice rolls its maximum value, and roll an additional die for each one, adding that to the amount of healing received. The amount of extra dice cannot exceed the number rolled by the spell or feature. If the spell or feature restores a static amount, increase it by 25%.</description>
+		</sheet>
+	</element>
+	<element name="Weave Empath: Dragon" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_WEAVE_EMPATH_DRAGON">
+		<supports>Weave Empath Dragon</supports>
+		<compendium display="false"/>
+		<description>
+			<p>When you succeed on the Constitution saving throw to maintain Concentration, you gain Temporary Hit Points equal to half the roll’s total. If you fail the Constitution saving throw to maintain Concentration, you can deal Psychic damage to the creature who triggered the save equal to the roll’s total plus your Wisdom modifier.</p>
+		</description>
+		<sheet alt="Dragon" usage="1/Turn">
+			<description>When you succeed on the Constitution saving throw to maintain Concentration, you gain Temporary Hit Points equal to half the roll’s total. If you fail the Constitution saving throw to maintain Concentration, you can deal Psychic damage to the creature who triggered the save equal to {{wisdom:modifier}} plus the roll’s total.</description>
+		</sheet>
+	</element>
+
+	<element name="Armor of Shadows (Exalted)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_ARMOR_OF_SHADOWS_STAGE3">
+		<description>
+			<div class="sidebar">
+				<p>While attempting to attune to a simple magical necklace, Themor Hunwut found himself brought back to the site of his kingdom's destruction, surrounded by shadowy forms and the muffled sounds of battle. Suddenly, he came upon a skeletal figure cloaked in shadow, who proceeded to challenge the human to single combat. However, Themor's skill managed to both appease and impress his sudden challenger. Introducing himself as Neun, Knight of the Realm, he then granted Themor the power to meld with the Shadow Plane, albeit briefly.</p>
+				<p class="indent">Later, after defeating Eris'atemor and his void-demon form, Themor was again confronted by shadowy figures, denizens of the Shadow Plane. Indignant with his progress in aiding their goals, they assaulted him with shadow, attempting to bind him for their own, but Themor once again resisted their power. Relenting, the three spirits instead wrapped around him like a great suit of obsidian armor and tasked him with searching among the secretive dwarves for more answers.</p>
+				<p class="indent">Over a year later, Themor joined his companions in battling the crazed realm of Vahnsinn and his manic kobold Keeper. During their lengthy battle, he felt himself compelled to gift the aberrant Aspect of Madness his final Ploink bean, and the great dragon used the bean's entropic energy to abdicate his title as an Aspect, and thus freed himself from the deific magic which kept him trapped within Chultmir's timeless nightmare. Shrinking down to the size of a housecat, the grateful wyrmling offered to enhance his already formidable powers of chaos and shadow, and the Lawbringer strode out from the southern land with even greater magicks at his disposal.</p>
+			</div>
+			<h6><b>Armor of Shadows</b></h6>
+			<p>As a Magic Action, you can call upon your own shadow to encase you in armor, equivalent to +1 Plate Armor (AC 19). While wearing this armor, you cast no shadow and have Resistance to Cold and Necrotic damage. However, if you take either Fire or Radiant damage, or are targeted by a level 3+ spell that creates light, you must make a Strength saving throw equal to 10 plus the damage taken, or 10 plus the level of the light spell. On a failed save, the armor dissipates and you cannot re-summon the armor until after a Short Rest.</p>
+			<p><b><i>Shadow Step.</i></b> You can spend half your movement to teleport into any shadow cast by any object or creature you can see within 30 feet. You can increase this to 60 feet if you spend all of your movement. You can use this property a number of times equal to your Constitution modifier, and you regain all expended uses when you finish a Short Rest.</p>
+			<p><b><i>Shadow Nemesis.</i></b> As a Reaction when you take damage, you can encase yourself in vengeful shadows. You immediately reduce the damage taken by half and the shadows lash out against the attacker, causing them to take an equal amount as Necrotic damage. You can use this property a number of times equal to your Constitution modifier, and you regain all expended uses when you finish a Long Rest.</p>
+			<p><b><i>Shadow Shroud.</i></b> Having been shrouded in the protective umbra of the Shadow Plane for so long, you have now learned to infuse the natural shadows of others to bolster their defenses.</p>
+			<ul>
+				<li><b><i>Protective Shroud.</i></b> As a Bonus Action while your Shadow Armor is active, choose a willing creature you can see within 60 feet of you. Reduce your own AC by 1, and that creature becomes shrouded in shadowy armor, granting them Half Cover for the next 10 minutes. You can maintain a protective shroud on a number of creatures equal to your Constitution modifier, spending a Bonus Action for each one. If you shroud another creature in excess of this number, you must end the protective shroud on another creature as part of the same Bonus Action. At the start of your turn, you can recall any number of these protective shrouds (no action required).</li>
+				<li><b><i>Umbrous Brand.</i></b> If a creature protected by a shroud is hit by an attack from a creature within 30 feet of it, you can command the shroud to lash out, transforming into an umbrous brand on the attacking creature, which lasts for 1 hour. This brand tethers the creature’s essence to the Shadow Plane, and you may use this tether to teleport to a space within 5 feet of the creature on your turn (no action required) so long as the creature resides on the same plane as you. You have Advantage on the next attack you make against that creature, and on a hit it deals an additional 1d10 Necrotic damage. Once you teleport to a branded creature, the umbrous brand dissipates.</li>
+			</ul>
+			<p class="indent">Once a protective shroud transforms into an umbrous brand, you cannot recall the AC you sacrificed to create it until you finish a Long Rest.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_ARMOR_OF_SHADOWS_SHADOW_STEP_2" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_ARMOR_OF_SHADOWS_SHADOW_NEMESIS" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_ARMOR_OF_SHADOWS_SHADOW_SHROUD" />
+		</rules>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">mind</set>
+			<set name="type">Supernatural Gift</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Shadow Step (Stage 2)" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_ARMOR_OF_SHADOWS_SHADOW_STEP_2">
+		<compendium display="false"/>
+		<description>
+			<p>You can spend half your Speed to teleport into any shadow cast by any object or creature you can see within 30 feet. You can use this property a number of times equal to your Constitution modifier, and you regain all expended uses when you finish a Short Rest.</p> 
+		</description>
+		<sheet alt="Shadow Step" usage="{{constitution:modifier}}/Short Rest" >
+			<description>Spend half your movement to teleport into any shadow you can see within 30ft. You can increase this to 60ft. if you spend all of your movement.</description>
+		</sheet>
+	</element>
+	<element name="Shadow Shroud" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_ARMOR_OF_SHADOWS_SHADOW_SHROUD">
+		<compendium display="false"/>
+		<description>
+			<p>Having been shrouded in the protective umbra of the Shadow Plane for so long, you have now learned to infuse the natural shadows of others to bolster their defenses.</p>
+			<ul>
+				<li><b><i>Protective Shroud.</i></b> As a Bonus Action while your Shadow Armor is active, choose a willing creature you can see within 60 feet of you. Reduce your own AC by 1, and that creature becomes shrouded in shadowy armor, granting them Half Cover for the next 10 minutes. You can maintain a protective shroud on a number of creatures equal to your Constitution modifier, spending a Bonus Action for each one. If you shroud another creature in excess of this number, you must end the protective shroud on another creature as part of the same Bonus Action. At the start of your turn, you can recall any number of these protective shrouds (no action required).</li>
+				<li><b><i>Umbrous Brand.</i></b> If a creature protected by a shroud is hit by an attack from a creature within 30 feet of it, you can command the shroud to lash out, transforming into an umbrous brand on the attacking creature, which lasts for 1 hour. This brand tethers the creature’s essence to the Shadow Plane, and you may use this tether to teleport to a space within 5 feet of the creature on your turn (no action required) so long as the creature resides on the same plane as you. You have Advantage on the next attack you make against that creature, and on a hit it deals an additional 1d10 Necrotic damage. Once you teleport to a branded creature, the umbrous brand dissipates.</li>
+			</ul>
+			<p class="indent">Once a protective shroud transforms into an umbrous brand, you cannot recall the AC you sacrificed to create it until you finish a Long Rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{constitution:modifier}}/Long Rest" >
+			<description>While your Shadow Armor is active, you can choose a willing creature you can see within 60ft. of you, sacrificing 1 AC to grant them Half Cover for the next 10 minutes. At the start of your turn, you can recall any number of these protective shrouds (no action required).&#13;
+			If a creature protected by a shroud is hit by an attack from a creature within 30 feet of it, you can command the shroud to lash out, transforming into an umbrous brand on the attacking creature. Once in the next hour, you can use this brand to teleport to a space within 5ft. of the creature as long as they reside on the same plane as you. Your next attack against the creature has Advantage, and on a hit deals an extra 1d10 Necrotic damage. The brand then dissipates and you cannot recall the sacrificed AC until you finish a Long Rest.</description>
+		</sheet>
+	</element>
+
+	<element name="Mantle of the Warden (Exalted)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_STAGE3">
+		<description>
+			<div class="sidebar">
+				<p>Upon arriving in Galeran, Zedan Yazkash had sought a way to reunite with his former savior and mentor, Father Riel. However, it seemed that the elder human was already aware of Zedan's presence, and arranged a secret meeting with the young paladin upon the top of the city's inner walls. After hearing of Zedan's encounter with Fae'lorin, the priest chose to bestow upon him an ancient mantle of power to aid him in his travels, and to help him choose what path his life will take.</p>
+				<p class="indent">Later upon the <i>Widow's Kiss</i> after defeating Eris'atemor and his void-demon form, Zedan found himself transported to his new estate granted to him by his former mentor. Startled, he looked out the windows to see idyllic rolling plains and verdant forests dotted with peaceful wildlife. Suddenly, he heard a familiar voice, and turned to see Riel, younger, clad in plate armor covered in leaf motifs of emerald and silver, glowing with a soft verdant light, and flanked by a pair of similarly garbed men. Riel then explained that this home was granted to members of the Wardens, the guardians and protectors of life across the planes. As a sign of Zedan's willingness to take up the mantle in Riel's stead, the two armor-clad men—protectors from ages past—bestowed upon Zedan the title of "Warden of the Green", and with it the powers of its station.</p>
+				<p class="indent">However, Zedan's journey proved more tumultuous than expected. Despite honoring his oath in service of the world to defeat Faust alongside the other Cursebreakers, he compromised his personal ethos, prioritizing some lives over others. This led his paramour Morani, as well as his oath-bound steed Shenarii, to confront and ultimately cut ties with him, leaving him alone and emotionally adrift. Seeking to rediscover himself, he dedicated himself to fervent service of life wherever he could find it—assisting struggling farming towns, sponsoring up-and-coming adventuring parties, and traversing the wide expanses of Sormir...only to be thrust back into the arms of his former companions—sans Morani—in the wake of the Third Age's crimson end at the hands of the moon goddess Selûne. With halberd in hand, Zedan embarks on yet another mission to safeguard life against forces great and small, the essence of those Wardens before him resting firmly on his shoulders.</p>
+			</div>
+			<h6><b>Mantle of the Warden</b></h6>
+			<p><b><i>Aura of Light.</i></b> As a Magic Action, choose one creature that you can see. It immediately regains Hit Points equal to 2d8 plus your spellcasting modifier, and begins to glow with a dim, verdant light. For the next minute, the creature regains Hit Points equal to your Constitution modifier at the beginning of each of its turns, provided it starts the turn with at least 1 Hit Point. Additionally, if the affected creature is reduced to 0 Hit Points at any point during the aura's duration, it instead falls to 1 Hit Point, and the aura ends. You can use this special Action a number of times equal to your proficiency bonus, and you regain all expended uses upon finishing a Long Rest.</p> 
+			<p><b><i>Sentinel of Life.</i></b> At the start of your turn, you can choose up to two willing targets to bear the symbol of your protection. This mark lasts for 1 minute, and can be dismissed at will. You can choose two new creatures each turn, but cannot have more than two creatures marked at any one time.</p>
+			<p class="indent">When a marked creature within 30 feet of you is about to take damage you can see, you can use your Reaction to teleport to an unoccupied space within 5 feet of it, and then take the damage instead of the marked creature. This feature doesn't transfer any other effects that might accompany the damage, and this damage can't be reduced in any way. If the spot you teleport to would put you in range for a melee attack against the attacking creature, you may also make one attack against that creature as part of that Reaction, dealing an additional 1d8 Radiant damage on a hit.</p>
+			<p class="indent">Additionally, when you use your Reaction to teleport to an ally and take damage for them, a spectral sapling appears in the space you left. Until the start of your next turn, the sapling conveys the benefits of your Aura of Protection to allies within 10 feet of it, after which it dissipates in a swirl of leaves and pollen.</p>
+			<p><b><i>Verdant Shield.</i></b> The act of protecting those you care for compels the very power of Life to come to your aid. For every 10 damage you take for another creature, your AC increases by 1 as your Warden's Mantle thickens to imitate bark, scales, or some other form of natural protection. The maximum amount of AC you can gain from this feature is equal to your Charisma modifier. This bonus lasts for the next minute, after which the mantle reverts to simple cloth.</p>
+			<p><b><i>Sanctuary of the Green</i></b> By spending 10 minutes, you can summon forth a magical doorway which will act as a portal to the Sanctuary of the Green, the mystical home of the Wardens. You and any creature you designate when you create this door can enter the home as long as the portal remains open. You can open or close the doorway if you are within 30 feet of it. While closed, the doorway is invisible. The dwelling itself can reshape itself to accommodate up to 10 creatures, with enough food and water to feed them as well. Furnishings and other objects created by this home dissipate into smoke if removed from it. When the doorway is dismissed, any creatures inside the extradimensional space are expelled into the open spaces nearest to the entrance.</p>
+		</description>
+		<rules>
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_AURA_OF_LIGHT_2" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_SENTINEL_OF_LIFE_2" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_VERDANT_SHIELD" />
+			<grant type="Feat Feature" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_SANCTUARY_OF_THE_GREEN" />
+		</rules>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">mind</set>
+			<set name="type">Supernatural Gift</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+	</element>
+	<element name="Aura of Light (Stage 2)" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_AURA_OF_LIGHT_2">
+		<compendium display="false"/>
+		<description>
+			<p>As a Magic Action, choose one creature that you can see within 60 feet. It immediately regains Hit Points equal to 2d8 plus your spellcasting modifier, and begins to glow with a dim, verdant light. For the next minute, the creature regains Hit Points equal to your Constitution modifier at the beginning of each of its turns, provided it starts the turn with at least 1 Hit Point. Additionally, if the affected creature is reduced to 0 Hit Points at any point during the aura's duration, it instead falls to 1 Hit Point, and the aura ends. You can use this special Action a number of times equal to your proficiency bonus, and you regain all expended uses upon finishing a Long Rest.</p> 
+		</description>
+		<sheet alt="Aura of Light" action="Magic Action" usage="{{proficiency}}/Long Rest" >
+			<description>Choose one creature that you can see within 60ft. It immediately regains 2d8+{{charisma:modifier}} Hit Points and begins to glow with a dim, verdant light. For the next minute, the creature regains {{constitution:modifier}} Hit Points at the beginning of each of its turns, provided it starts the turn with at least 1 Hit Point. Additionally, if the affected creature is reduced to 0 Hit Points at any point during the aura's duration, it instead falls to 1 Hit Point, and the aura ends.</description>
+		</sheet>
+	</element>
+	<element name="Sentinel of Life (Stage 2)" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_SENTINEL_OF_LIFE_2">
+		<compendium display="false"/>
+		<description>
+			<p>At the start of your turn, you can choose up to two willing targets to bear the symbol of your protection. This mark lasts for 1 minute, and can be dismissed at will. You can choose two new creatures each turn, but cannot have more than two creatures marked at any one time.</p>
+			<p class="indent">When a marked creature within 30 feet of you is about to take damage you can see, you can use your Reaction to teleport to an unoccupied space within 5 feet of it, and then take the damage instead of the marked creature. This feature doesn't transfer any other effects that might accompany the damage, and this damage can't be reduced in any way. If the spot you teleport to would put you in range for a melee attack against the attacking creature, you may also make one attack against that creature as part of that Reaction, dealing an additional 1d8 Radiant damage on a hit.</p>
+			<p class="indent">Additionally, when you use your Reaction to teleport to an ally and take damage for them, a spectral sapling appears in the space you left. Until the start of your next turn, the sapling conveys the benefits of your Aura of Protection to allies within 10 feet of it, after which it dissipates in a swirl of leaves and pollen.</p>
+		</description>
+		<sheet alt="Sentinel of Life">
+			<description>At the start of your turn, you can choose up to two willing targets to bear the symbol of your protection. This mark lasts for 1 minute, and can be dismissed at will. You can choose two new creatures each turn, but cannot have more than two creatures marked at any one time. &#13;
+			When a marked creature within 30ft. of you is about to take damage, you can use your Reaction to teleport to an unoccupied space within 5 feet of it and take the damage instead of the marked creature. You can then make one melee attack against the hostile creature if it is within range, dealing an additional 1d8 Radiant damage on a hit. &#13;
+			When you use this Reaction, a spectral sapling appears in the space you left. Until the start of your next turn, the sapling conveys the benefits of your Aura of Protection to allies within 10ft. of it.</description>
+		</sheet>
+	</element>
+	<element name="Verdant Shield" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_WARDEN_MANTLE_VERDANT_SHIELD">
+		<compendium display="false"/>
+		<description>
+			<p>The act of protecting those you care for compels the very power of Life to come to your aid.</p>
+			<p class="indent">For every 10 damage you take for another creature, your AC increases by 1 as your Warden's Mantle thickens to imitate bark, scales, or some other form of natural protection. The maximum amount of AC you can gain from this feature is equal to your Charisma modifier. This bonus lasts for the next minute, after which the mantle reverts to simple cloth.</p>
+		</description>
+		<sheet>
+			<description>For every 10 damage you take for another creature, your AC increases by 1 for the next minute, up to a maximum of +{{charisma:modifier}}.</description>
 		</sheet>
 	</element>
 
