@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Tales of Mir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.25">
+    <update version="0.1.29">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
@@ -28,7 +28,7 @@
 		</setters>
 		<rules>
 			<stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT" />			
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT" />
 		</rules>
 	</element>
 	<element name="Shadow Plate" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_MAGIC_ITEM_SHADOW_PLATE">
@@ -42,7 +42,7 @@
 			<set name="cost" currency="gp">0</set>
 			<set name="slot">body</set>
 			<set name="type" addition="plate">Armor</set>
-			<set name="rarity">-</set>
+			<set name="rarity">Artifact</set>
 			<set name="armor">Plate</set>
 			<set name="name-format">Shadow {{parent}}</set>
 		</setters>
@@ -51,7 +51,29 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
 		</rules>
 	</element>
-	
+	<element name="Shadow Plate, +1" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_MAGIC_ITEM_SHADOW_PLATE_1">
+		<description>
+			<p>A set of shadowy plate mail conjured from the Shadowfell to aid their Chosen in battle.</p>
+			<p class="indent">While armored in shadow, you cast no shadow, and you have Resistance to Cold and Necrotic damage. However, if you take either Fire or Radiant damage, or are targeted by a level 3+ spell that creates light, you must make a Strength saving throw equal to 10 plus the damage taken, or 10 plus the level of the light spell. On a failed save, the armor dissipates and you cannot re-summon the armor until after a short rest.</p>
+		</description>
+		<setters>
+			<set name="keywords">plate, cold, necrotic</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="plate">Armor</set>
+			<set name="rarity">Artifact</set>
+			<set name="armor">Plate</set>
+			<set name="enhancement">1</set>
+			<set name="name-format">Shadow {{parent}}, +{{enhancement}}</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+		</rules>
+	</element>
+
 <!--Potions-->
 	<element name="Healing Potion of Hill Giant Strength" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_HEALING_POTION_OF_HILL_GIANT_STRENGTH">		
 		<description>
@@ -99,7 +121,9 @@
 <!-- Weapons -->
 	<element name="Rapier of Milil" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_RAPIER_OF_MILIL">
 		<description>
-			<p>During the battle against the void-corrupted Madeline in the bowels of Dun'Morach, Alton High-Hill was granted an unexpected communion with his god Milil, the Lord of All Songs. The troubadour god imparted upon him the knowledge of the fluidity of fate—how his story, as well as those of his companions, had been inexplicably changed by forces beyond the mortal realm. However, the god urged Alton to embrace this new story, to make it one truly worth telling, and granted him this sword as a boon to assist to that endeavor.</p>
+			<div class="sidebar">
+				<p>During the battle against the void-corrupted Madeline in the bowels of Dun'Morach, Alton High-Hill was granted an unexpected communion with his god Milil, the Lord of All Songs. The troubadour god imparted upon him the knowledge of the fluidity of fate—how his story, as well as those of his companions, had been inexplicably changed by forces beyond the mortal realm. However, the god urged Alton to embrace this new story, to make it one truly worth telling, and granted him this sword as a boon to assist to that endeavor.</p>
+			</div>
 			<p class="indent">You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
 			<p class="indent">This sword has 2 charges. When you hit a creature with it, you can expend one charge to add an extra 1d8 Radiant damage to the attack. The sword regains all expended charges after finishing a Long Rest.</p>
 		</description>
@@ -110,7 +134,7 @@
 			<set name="type" addition="rapier">Weapon</set>
 			<set name="attunement">true</set>
 			<set name="enhancement">1</set>
-			<set name="rarity">Uncommon</set>
+			<set name="rarity">Rare</set>
 			<set name="weapon">Rapier</set>
 			<set name="charges">2</set>
 		</setters>
@@ -127,7 +151,7 @@
 			<set name="type" addition="battleaxe">Weapon</set>
 			<set name="attunement">true</set>
 			<set name="enhancement">1</set>
-			<set name="rarity">Uncommon</set>
+			<set name="rarity">Rare</set>
 			<set name="weapon">Battleaxe</set>
 		</setters>
 	</element>
@@ -148,7 +172,9 @@
 	</element>
 	<element name="Reckless Conviction" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_RECKLESS_CONVICTION">
 		<description>
-			<p>While sporting no particular markings or embellishments, those of the Order of the Wardens would recognize this magical halberd as the signature weapon of Warden Riel. Known for his courageous acts of selflessness in his later years, this weapon embodies a more youthful bravado and vigor, and its blade gleams faintly when held by another of the Order.</p>
+			<div class="sidebar">
+				<p>While sporting no particular markings or embellishments, those of the Order of the Wardens would recognize this magical halberd as the signature weapon of Warden Riel. Known for his courageous acts of selflessness in his later years, this weapon embodies a more youthful bravado and vigor, and its blade gleams faintly when held by another of the Order.</p>
+			</div>
 			<p class="indent">The first time you attack with this halberd on each of your turns, you can reduce your Armor Class to grant the weapon a bonus to attack and damage rolls equal to the amount sacrificed, up to a maximum of +3. For example, you could reduce your Armor Class by 2 in order to gain a +2 to attack and damage rolls. The adjusted bonuses remain in effect until the start of your next turn, at which your Armor Class is returned to its previous value and the weapon loses any attack and damage bonuses.</p>
 		</description>
 		<setters>
@@ -163,7 +189,9 @@
 	</element>
 	<element name="Dwarven Lord's Returning Halberd" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_DWARVEN_LORDS_RETURNING_HALBERD">
 		<description>
-			<p>This unique halberd is an exquisite marvel of blacksmithing. Crafted from two separate weapons—Themor's personal throwing halberd and the fabled battleaxe of King Mordon Grimlock—the blacksmith was able to retain both magical enchantments and meld them into a single, powerful weapon worthy of being wielded by a god.</p>
+			<div class="sidebar">
+				<p>This unique halberd is an exquisite marvel of blacksmithing. Crafted from two separate weapons—Themor's personal throwing halberd and the fabled battleaxe of King Mordon Grimlock—the blacksmith was able to retain both magical enchantments and meld them into a single, powerful weapon worthy of being wielded by a god.</p>
+			</div>
 			<p class="indent">This magic weapon grants a +2 bonus to attack and damage rolls made with it. Additionally, this weapon ignores defenses and Resistances granted by rock or stone; for example, an Earth Elemental would not have Resistance to this weapon's damage, and its natural Armor Class would be reduced to 10 plus its Dexterity modifier.</p>
 			<p class="indent">This weapon also has the thrown property with a normal range of 30 feet and a long range of 90 feet. When used to make a ranged attack, it returns to the wielder’s hand immediately after a hit, but the wielder must use a Bonus Action to recall it should the attack miss.</p>
 		</description>
@@ -173,9 +201,36 @@
 			<set name="cost" currency="gp">0</set>
 			<set name="type" addition="halberd">Weapon</set>
 			<set name="attunement">true</set>
-			<set name="rarity">Rare</set>
+			<set name="rarity">Very Rare</set>
 			<set name="enhancement">2</set>
 			<set name="weapon">Halberd</set>
+		</setters>
+	</element>
+	<element name="Dawn and Dusk" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_TWIN_RAPIERS_DAWN_AND_DUSK">
+		<description>
+			<div class="sidebar">
+				<p><i>Come with me, my friend</i></p>
+				<p><i>For dusk has fallen now.</i></p>
+				<p><i>Darkness brings not the end,</i></p>
+				<p><i>But heralds a brighter dawn.</i></p>
+			</div>
+			<p>This pair of weapons count as a single item for the purposes of attuning to them. The gilded mithral edge of Dawn glimmers like morning sun reflecting off clear water, and sings warmly as it splits the air. Its partner Dusk, crafted of obsidian steel, cuts with naught a whisper, and its blade is perpetually wreathed in wisps of shadow.</p>
+			<p class="indent">You gain a +1 bonus to attack and damage rolls made with these magic weapons, and you gain the effects of the Two-Weapon Fighting style while wielding both at the same time. While holding Dawn, you can use a Bonus Action to utter its command word <i>“anaróre”</i> to ignite the blade with golden light, during which it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet until you sheathe it or use a Bonus Action to extinguish it. Likewise while holding Dusk, you can use a Bonus Action to utter its command word <i>“usuk”</i> to extinguish any non-magical lights within 20 feet of the blade.</p>
+			<p class="indent">Each weapon grants additional effects depending on whether you are wielding it in your main or off-hand.</p>
+				<ul>
+					<li><b><i>Falling Dusk.</i></b> When wielding Dawn in your main hand, attacks with it deal an additional 1d4 Radiant damage. When you make your off-hand attack with Dusk, you can force the target to make a DC15 Constitution saving throw. On a failure, the creature’s eyes are shrouded in shadow until the start of your next turn, during which their range of vision is reduced to 20 feet and they have Disadvantage on ranged attacks and Wisdom (Perception) checks. A creature with Blindsight or Truesight is unaffected by this ability.</li>
+					<li><b><i>Rising Dawn.</i></b> When wielding Dusk in your main hand, attacks with it deal an additional 1d4 Psychic damage. When you make your off-hand attack with Dawn, you can force the target to make a DC15 Constitution saving throw. On a failure, the creature is wreathed in a 5-foot radius beam of sunlight until the start of your next turn. The next attack roll against them has Advantage, and they cannot benefit from the Invisible condition until the sunlight fades. A creature with Resistance or Immunity to Radiant damage is unaffected by this ability.</li>
+				</ul>
+		</description>
+		<setters>
+			<set name="keywords">rapier, psychic, radiant</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="rapier">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">1</set>
+			<set name="rarity">Artifact</set>
+			<set name="weapon">Rapier</set>
 		</setters>
 	</element>
 
@@ -327,8 +382,10 @@
 	</element>
 	<element name="Pendant of the Grovewalker" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_PENDANT_OF_THE_GROVEWALKER">
 		<description>
-			<p>A clawmarked leaf-shaped pendant, edged with polished darkwood and dangling from a sturdy leather strap. It once belonged to the wild druid Kars, the last member of a reclusive druidic order which lived in seclusion to pursue their affinity for bestial transformations. Following his death a century prior, however, his spirit continued to linger within the grove, and was eventually corrupted by the growing influence of Faust. The dracolich's power transformed him into a twisted arboreal monstrosity consumed by hatred and enmity, and he began to siphon the very essence of the land in order to fuel the creation of an army of mindless undead. However, before his vengeful crusade could spread, he was cut down and vanquished by a passing band of adventurers, and this pendant was all that could be found of the unfortunate druid.</p>
-			<p class="indent">Once per day while holding or wearing this pendant, you can cast the <em>Tree Stride</em> spell. Once the pendant has been used, it can't be used to cast the spell again until the next dawn.</p>
+			<div class="sidebar">
+				<p>A claw-marked leaf-shaped pendant, edged with polished darkwood and dangling from a sturdy leather strap. It once belonged to the wild druid Kars, the last member of a reclusive druidic order which lived in seclusion to pursue their affinity for bestial transformations. Following his death a century prior, however, his spirit continued to linger within the grove, and was eventually corrupted by the growing influence of Faust. The dracolich's power transformed him into a twisted arboreal monstrosity consumed by hatred and enmity, and he began to siphon the very essence of the land in order to fuel the creation of an army of mindless undead. However, before his vengeful crusade could spread, he was cut down and vanquished by a passing band of adventurers, and this pendant was all that could be found of the unfortunate druid.</p>
+			</div>
+			<p>Once per day while holding or wearing this pendant, you can cast the <em>Tree Stride</em> spell. Once the pendant has been used, it can't be used to cast the spell again until the next dawn.</p>
 			<div class="reference">
 				<div element="ID_PHB_SPELL_TREE_STRIDE" />
 			</div>
