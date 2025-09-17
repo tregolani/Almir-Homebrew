@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.3.03">
+    <update version="0.3.04">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -1198,7 +1198,7 @@
 			<p>While in your Archer Starry Form, you can choose to target a willing ally with your arrow, which automatically hits. Instead of taking damage, the target then gains a number of Temporary Hit Points equal to the Radiant damage the arrow would deal.</p>
 		</description>
 		<sheet alt="Archer" action="Bonus Action">
-			<description>Target a willing ally with your arrow. The creature gains {{archer constellation:dice:count}}d8+{{wisdom:modifier}} Temporary Hit Points.</description>
+			<description>Target a willing ally with your arrow. The creature gains {{starry form archer:dice count}}d8+{{wisdom:modifier}} Temporary Hit Points.</description>
 		</sheet>
 	</element>
 	<element name="Weave Empath: Chalice" type="Feat Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_DREAMERS_VISAGE_WEAVE_EMPATH_CHALICE">
