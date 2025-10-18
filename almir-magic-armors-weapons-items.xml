@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Tales of Mir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.30">
+    <update version="0.1.31">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
@@ -24,6 +24,7 @@
 			<set name="type" addition="medium or heavy, but not hide">Armor</set>
 			<set name="rarity">Rare</set>
 			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+			<set name="enhancement">1</set>
 			<set name="name-format">Mithral {{parent}} +{{enhancement}}</set>
 		</setters>
 		<rules>
