@@ -4,12 +4,34 @@
     <name>Tales of Mir Homebrew: Magical Armors, Weapons, and Items</name>
     <description>A collection of magical weapons, armors, and items found by the PCs of the Tales of Mir campaign.</description>
     <author>Salty Coffee</author>
-    <update version="0.1.29">
+    <update version="0.1.30">
       <file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
     </update>
   </info>
 
 <!--Armors-->
+	<element name="Mithral Armor, +1" type="Magic Item" source="Dungeon Master’s Guide 2024" id="ID_ALMIR_MAGIC_ITEM_MITHRAL_ARMOR_1">
+		<description>
+			<p>You have a +1 bonus to AC while wearing this armor.</p>
+			<p>Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes.</p>
+			<p class="indent">If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't.</p>
+		</description>
+		<setters>
+			<set name="keywords">medium, heavy</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">4000</set>
+			<set name="slot">body</set>
+			<set name="type" addition="medium or heavy, but not hide">Armor</set>
+			<set name="rarity">Rare</set>
+			<set name="armor">(ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+			<set name="name-format">Mithral {{parent}} +{{enhancement}}</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_IGNORE_STEALTH_DISADVANTAGE" />
+			<grant type="Grants" id="ID_INTERNAL_GRANT_ARMOR_IGNORE_STRENGTH_REQUIREMENT" />
+			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+		</rules>
+	</element>
 	<element name="Stonelord's Chain" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_MAGIC_ITEM_STONELORDS_CHAIN">
 		<description>
 			<p>You gain a +2 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor.</p>
@@ -209,21 +231,29 @@
 	<element name="Dawn and Dusk" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_TWIN_RAPIERS_DAWN_AND_DUSK">
 		<description>
 			<div class="sidebar">
-				<p><i>Come with me, my friend</i></p>
-				<p><i>For dusk has fallen now.</i></p>
-				<p><i>Darkness brings not the end,</i></p>
-				<p><i>But heralds a brighter dawn.</i></p>
+				<p><i>"Dawn brings about new beginnings, new life, new chances. But what is a brilliant dawn without the dusk it must sweep away? It is a beautiful dance done by two."</i></p>
+				<p><i> ~ The Ballad of Dusk and Dawn</i></p> 
 			</div>
-			<p>This pair of weapons count as a single item for the purposes of attuning to them. The gilded mithral edge of Dawn glimmers like morning sun reflecting off clear water, and sings warmly as it splits the air. Its partner Dusk, crafted of obsidian steel, cuts with naught a whisper, and its blade is perpetually wreathed in wisps of shadow.</p>
-			<p class="indent">You gain a +1 bonus to attack and damage rolls made with these magic weapons, and you gain the effects of the Two-Weapon Fighting style while wielding both at the same time. While holding Dawn, you can use a Bonus Action to utter its command word <i>“anaróre”</i> to ignite the blade with golden light, during which it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet until you sheathe it or use a Bonus Action to extinguish it. Likewise while holding Dusk, you can use a Bonus Action to utter its command word <i>“usuk”</i> to extinguish any non-magical lights within 20 feet of the blade.</p>
-			<p class="indent">Each weapon grants additional effects depending on whether you are wielding it in your main or off-hand.</p>
+			<p>This pair of weapons count as a single item for the purposes of attuning to them. The gilded mithral edge, stemming from the inscribed bone handle of Dawn glimmers like morning sun reflecting off clear water, and sings warmly as it splits the air. Its partner Dusk, crafted of obsidian steel, cuts with naught a whisper, and its blade is perpetually wreathed in wisps of shadow.</p>
+			<p class="indent">You gain a +1 bonus to attack and damage rolls made with these magic weapons, and you gain the effects of the <i>Two-Weapon Fighting</i> style while wielding both at the same time.</p>
+			<h5><u>The Duet of Dawn and Dusk</u></h5>
+			<div class="sidebar">
+				<p><i>“For long time you lived alone in shadow, finally it is time to dance in the rays of the light, in a deadly dance meant for two.”</i></p> 
+			</div>
+			<p>When you would invoke the magic of your Bladesong while wielding both of these rapiers at the same time, you can choose to reduce your maximum Hit Point total by any amount to invoke the “The Duet of Dusk and Dawn”. Infused with your own lifeforce, Dawn glows with a bright flash and Fairtale, the servant to Lathander, appears in an unoccupied space you can see within 15 feet. Wielding a copy of Dawn and Dusk held in opposite hands to your own, he has a number of Hit Points equal to the number by which you reduced your own Hit Point maximum, and all his other attributes, saving throws, movement speed, and AC mirror your own at the time of his summoning. Fairtale is an ally to you and your companions, and in combat he shares your initiative count and takes his turn simultaneously with yours. He obeys your verbal commands (no action required by you). If you don't issue any, he takes the Dodge action and uses his movement to avoid danger. The Duet lasts until your Bladesong ends, Fairtale is reduced to 0 Hit Points, or he moves more than 20 feet away from you.</p>
+			<p class="indent">Fairtale himself can not directly attack, but grants Advantage to any attack rolls you make with Dawn and Dusk against creatures within 5 feet of himself. Additionally, he can take one of the following actions on his turn:</p>
 				<ul>
-					<li><b><i>Falling Dusk.</i></b> When wielding Dawn in your main hand, attacks with it deal an additional 1d4 Radiant damage. When you make your off-hand attack with Dusk, you can force the target to make a DC15 Constitution saving throw. On a failure, the creature’s eyes are shrouded in shadow until the start of your next turn, during which their range of vision is reduced to 20 feet and they have Disadvantage on ranged attacks and Wisdom (Perception) checks. A creature with Blindsight or Truesight is unaffected by this ability.</li>
-					<li><b><i>Rising Dawn.</i></b> When wielding Dusk in your main hand, attacks with it deal an additional 1d4 Psychic damage. When you make your off-hand attack with Dawn, you can force the target to make a DC15 Constitution saving throw. On a failure, the creature is wreathed in a 5-foot radius beam of sunlight until the start of your next turn. The next attack roll against them has Advantage, and they cannot benefit from the Invisible condition until the sunlight fades. A creature with Resistance or Immunity to Radiant damage is unaffected by this ability.</li>
+					<li><b><i>Blinding Flourish.</i></b> When you make an attack against a creature within 5 feet of Fairtale, he will mirror the strikes. He does no damage, but can force the target to make a DC15 Constitution saving throw. On a failure, the creature’s eyes are shrouded in shadow until the start of your next turn, during which their range of vision is reduced to 20 feet and they have Disadvantage on ranged attacks and Wisdom (Perception) checks. A creature with Blindsight or Truesight is unaffected by this ability.</li>
+					<li><b><i>Growing Shadows.</i></b> If you do not deal damage to an enemy on your turn, Fairtale imbues your blades with radiant light. Until the end of your next turn, the next successful attack you make deals an additional 4d6 Radiant damage.</li>
 				</ul>
-		</description>
+			<h5><u>Curtain's Call</u></h5>
+			<div class="sidebar">
+				<p><i>““He fell once before, but it wasn’t the end. Everyone, yes everyone, should get a second chance”</i></p> 
+			</div>
+			<p>If you or an allied creature you can see would drop to 0 Hit Points while the Duet of Dawn and Dusk is active, Fairtale can sacrifice his ethereal form to save them from such a fate. In a flash of brilliant sunlight, the target regains a number of Hit Points equal to twice Fairtale's current Hit Point maximum, and can immediately move up to their Speed without provoking Opportunity Attacks. Doing so ends the current Bladesong, and you cannot perform the Duet of Dusk and Dawn again until you finish a Long Rest.</p>
+			</description>
 		<setters>
-			<set name="keywords">rapier, psychic, radiant</set>
+			<set name="keywords">rapier, radiant</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="type" addition="rapier">Weapon</set>
