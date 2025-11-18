@@ -4,13 +4,13 @@
 		<name>Tales of Mir Homebrew: Magical Armors, Weapons, and Items</name>
 		<description>A collection of magical weapons, armors, and items found by the PCs of the Tales of Mir campaign.</description>
 		<author>Salty Coffee</author>
-		<update version="0.1.32">
+		<update version="0.1.33">
 			<file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
 		</update>
 	</info>
 
 <!--Armors-->
-	<element name="Mithral Armor, +1" type="Magic Item" source="Dungeon Master’s Guide 2024" id="ID_ALMIR_MAGIC_ITEM_MITHRAL_ARMOR_1">
+	<element name="Mithral Armor, +1" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_MAGIC_ITEM_MITHRAL_ARMOR_1">
 		<description>
 			<p>You have a +1 bonus to AC while wearing this armor.</p>
 			<p>Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes.</p>
