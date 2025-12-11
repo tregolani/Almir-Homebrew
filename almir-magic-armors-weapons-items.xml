@@ -99,7 +99,7 @@
 	<element name="Shield of Shield Shielding (Cursed)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_MAGIC_ITEM_CURSED_SHIELD_OF_SHIELD_SHIELDING">
 		<description>
 			<p>This curious shield is shaped like a blooming lily, with the likeness of a terrified face carved into its center. While holding this Shield, you have a +2 bonus to Armor Class, in addition to the Shield's normal bonus to AC.</p>
-			<p><b><i>Curse.</i></b> This shield is cursed to house the soul of a cowardly deserter of some bygone era. While you hold the shield, the the soul within insists it hates pain of all forms, and begs you not to use it. Whenever you are subjected to an attack, the shield will scream in fear and terror, pleading that you shield it with your own body in order to protect it from harm. It is yet unknown what will happen if you do not acquiesce to its gutless cowardice...</p>
+			<p><b><i>Curse.</i></b> This shield is cursed to house the soul of a cowardly deserter of some bygone era. While you hold the shield, the soul within insists it hates pain of all forms, and begs you not to use it. Whenever you are subjected to an attack, the shield will scream in fear and terror, pleading that you shield it with your own body in order to protect it from harm. It is yet unknown what will happen if you do not acquiesce to its gutless cowardice...</p>
 		</description>
 		<setters>
 			<set name="keywords">shield,cursed</set>
