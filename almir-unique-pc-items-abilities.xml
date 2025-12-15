@@ -850,7 +850,7 @@
 			<description>You can drink one of your Draconic elixirs and unleash the latent draconic power within you. For 1 minute, you gain 60 feet of Fly Speed, Blindsight of 30 feet, and a Bonus Action breath weapon that deals 4d6 Force damage in a 30-foot cone (DC{{artificer:spellcasting:dc}} Dexterity save for half). When you transform, you can choose up to {{proficiency}} allies within 30 feet become Marked Kin, gaining the benefits of the Draconic elixir chosen to transform with for the duration of your transformation (Scale can choose two Resistances) as long as they are within 30 feet of you. If these protected kin are in the area of your breath weapon, you can empower their elixir for a brief burst of power: &#13;
 			•Scale: Each creature within 5 feet of a a Marked Kin must make a Dexterity saving throw or take 3d8 damage of a type that the Kin has Resistance. They then lose that Resistance. &#13;
 			•Talon: The next attack a Marked Kin makes deals an additional 4d4 damage. If they use this benefit {{proficiency:half}} times, their elixir benefit fades. &#13;
-			•Blood: A Marked Kin can use their Reaction to move up to its Speed, avoiding Opportunity Attacks. They can only use this Reaction once per transformation.<description>
+			•Blood: A Marked Kin can use their Reaction to move up to its Speed, avoiding Opportunity Attacks. They can only use this Reaction once per transformation.</description>
 		</sheet>
 	</element>
 
