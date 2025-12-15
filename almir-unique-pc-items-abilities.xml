@@ -641,7 +641,7 @@
 				<tr><td>DC+5 ≥ Result ≥ DC</td><td><strong>Success!</strong> The result is a partial blend of the two spells. Choose one spell to act as the base and add a modifier or effect from the other spell to mix into the cast.</td></tr>
 				<tr><td>DC > Result ≥ DC-5</td><td><strong>Incomplete Melding.</strong> The spells fail to mix. Choose one of the two spells stored; that spell is cast alone as normal. The other spell remains stored in the core for its remaining duration.</td></tr>
 				<tr><td>DC-5 > Result</td><td><strong>Unstable Reaction.</strong> The spells fail to mix, and their discordant energies cause the core to destabilize. Flip a coin: if the result is heads, the spell with the higher level is cast; if the result is tails, the spell with the lower level is cast. In the event of both spells being the same level, designate each spell as heads or tails before the coin is flipped. Then, once the spell is cast, the unused spell fizzles and is lost from the core.</td></tr>
-				<tr><td>Result = Natural-1</td><td><strong>Catastrophic Failure.</strong> The spells react violently and are both expelled as an explosion centered on the caster. The caster and all creatures within 5ft must make a Dexterity saving throw, with the DC being equal to 10 plus the sum of the stored spells' levels. On a failure, a target takes (1+X)d6 force damage (where X is the sum of the stored spells' levels), or half as much damage on a successful one.</td></tr>
+				<tr><td>Result = Natural-1</td><td><strong>Catastrophic Failure.</strong> The spells react violently and are both expelled as an explosion centered on the caster. The caster and all creatures within 5ft must make a Dexterity saving throw, with the DC being equal to 10 plus the sum of the stored spells' levels. On a failure, a target takes (1+X)d6 Force damage (where X is the sum of the stored spells' levels), or half as much damage on a successful one.</td></tr>
 			</table>
 			<p>Any spell cast from this tool uses the wielder's spellcasting ability and spell DC to determine its effects, and the wielder must concentrate on the spell as normal if the spell requires it.</p>
 		</description>
@@ -675,7 +675,7 @@
 				<tr><td>DC+5 ≥ Result ≥ DC</td><td><strong>Success!</strong> The result is a partial blend of the two spells. Choose one spell to act as the base and add a modifier or effect from the other spell to mix into the cast.</td></tr>
 				<tr><td>DC > Result ≥ DC-5</td><td><strong>Incomplete Melding.</strong> The spells fail to mix. Choose one of the two spells stored; that spell is cast alone as normal. The other spell remains stored in the core for its remaining duration.</td></tr>
 				<tr><td>DC-5 > Result</td><td><strong>Unstable Reaction.</strong> The spells fail to mix, and their discordant energies cause the core to destabilize. Flip a coin: if the result is heads, the spell with the higher level is cast; if the result is tails, the spell with the lower level is cast. In the event of both spells being the same level, designate each spell as heads or tails before the coin is flipped. Then, once the spell is cast, the unused spell fizzles and is lost from the core.</td></tr>
-				<tr><td>Result = Natural-1</td><td><strong>Catastrophic Failure.</strong> The spells react violently and are both expelled as an explosion centered on the caster. The caster and all creatures within 5ft must make a Dexterity saving throw, with the DC being equal to 10 plus the sum of the stored spells' levels. On a failure, a target takes (1+X)d6 force damage (where X is the sum of the stored spells' levels), or half as much damage on a successful one.</td></tr>
+				<tr><td>Result = Natural-1</td><td><strong>Catastrophic Failure.</strong> The spells react violently and are both expelled as an explosion centered on the caster. The caster and all creatures within 5ft must make a Dexterity saving throw, with the DC being equal to 10 plus the sum of the stored spells' levels. On a failure, a target takes (1+X)d6 Force damage (where X is the sum of the stored spells' levels), or half as much damage on a successful one.</td></tr>
 			</table>
 			<p>Any spell cast from this tool uses the wielder's spellcasting ability and spell DC to determine its effects, and the wielder must concentrate on the spell as normal if the spell requires it.</p>
 		</description>
@@ -790,7 +790,7 @@
 					<tr><td>d3</td><td>Effect</td></tr>
 				</thead>
 				<tr><td>1</td><td><strong>Scales.</strong> The drinker gains Resistance to one of the following damage types for 10 minutes: Acid, Cold, Fire, Lightning, Poison. The duration increases to 1 hour at 6th level and 8 hours at 15th level.</td></tr>
-				<tr><td>2</td><td><strong>Talons.</strong> The drinker's attacks deal an extra 1d4 force damage for the next minute. The duration increases to 10 minutes at 6th level and 1 hour at 15th level.</td></tr>
+				<tr><td>2</td><td><strong>Talons.</strong> The drinker's attacks deal an extra 1d4 Force damage for the next minute. The duration increases to 10 minutes at 6th level and 1 hour at 15th level.</td></tr>
 				<tr><td>3</td><td><strong>Blood.</strong> For the next minute, the drinker has Advantage on ability checks and saving throws to resist the Charmed or Frightened conditions, and has Advantage on Charisma (Persuasion or Deception) checks. The duration increases to 10 minutes at 6th level and 1 hour at 15th level.</td></tr>
 			</table>
 			<h6><b>Alchemical Masterwork: Apotheosis Draconis</b></h6>
@@ -799,7 +799,7 @@
 				<li><strong>Wings.</strong> Incorporeal wings sprout from your back, giving you a flying speed of 60 feet.</li>
 				<li><strong>Blindsight.</strong> You have Blindsight with a range of 30 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re Blinded or in darkness. Moreover, you can see an invisible creature, unless the creature successfully hides from you.</li>
 				<li><strong>Draconic Aura.</strong> When you transform, you may choose a number of friendly targets equal to your proficiency bonus within 30 feet to mark as your protected kin. For the duration of your transformation, your protected kin gain the benefits of the Draconis Elixir associated with the ingredient chosen when creating the potion while they are within 30 feet of you. If you chose Scale, the protected kin gain Resistance to two damage types instead of one.</li>
-				<li><strong>Breath Weapon.</strong> When you transform, and as a Bonus Action on subsequent turns for the duration, you can exhale shimmering energy in a 30-foot cone. All creatures in the area must make a Dexterity saving throw (the DC being equal to your spellcasting DC), taking 4d6 force damage on a failed save, or half as much damage on a successful one. However, those marked as protected kin are shielded from the blast and take no damage, and instead can choose to erupt with draconic power as their mark is empowered.</li>
+				<li><strong>Breath Weapon.</strong> When you transform, and as a Bonus Action on subsequent turns for the duration, you can exhale shimmering energy in a 30-foot cone. All creatures in the area must make a Dexterity saving throw (the DC being equal to your spellcasting DC), taking 4d6 Force damage on a failed save, or half as much damage on a successful one. However, those marked as protected kin are shielded from the blast and take no damage, and instead can choose to erupt with draconic power as their mark is empowered.</li>
 				<ul>
 					<li><i>Scale.</i> Marked kin can choose to draw on the mark to cause an explosion of elemental devastation. Each creature in a 5-foot-radius sphere centered on the marked kin must make a Dexterity saving throw. A target takes 3d8 damage on a failed save, or half as much damage on a successful one. The marked kin chooses the damage type from one of their two granted Resistances, and then loses that Resistance for the rest of the transformation's duration.</li>
 					<li><i>Talon.</i> Marked kin can choose to further enhance their boon, increasing the bonus damage of their next attack to 4d4 instead of 1d4. Once a marked kin uses this effect a number of times equal to half their proficiency bonus, rounded down, the kin no longer benefits from the aura's bonus damage for the remainder of the transformation.</li>
@@ -811,17 +811,17 @@
 		<sheet alt="Draconic Alchemy">
 			<description>You gain access to three new Experimental Elixir options, each based on an aspect of the draconic legacy which swells within you. &#13;
 			•Scales: The drinker gains Resistance to one of the following damage types for 10 minutes: Acid, Cold, Fire, Lightning, Poison. &#13;
-			•Talons: The drinker's attacks deal an extra 1d4 force damage for the next minute. &#13;
+			•Talons: The drinker's attacks deal an extra 1d4 Force damage for the next minute. &#13;
 			•Blood: For 1 minute, the drinker has Advantage on ability checks and saving throws to resist the Charmed and Frightened conditions, and has Advantage on Charisma (Persuasion or Deception) checks. &#13;
 			</description>
 			<description level="6">You gain access to three new Experimental Elixir options, each based on an aspect of the draconic legacy which swells within you. &#13;
 			•Scales: The drinker gains Resistance to one of the following damage types for 1 hour: Acid, Cold, Fire, Lightning, Poison. &#13;
-			•Talons: The drinker's attacks deal an extra 1d4 force damage for the next 10 minutes. &#13;
+			•Talons: The drinker's attacks deal an extra 1d4 Force damage for the next 10 minutes. &#13;
 			•Blood: For 10 minutes, the drinker has Advantage on ability checks and saving throws to resist the Charmed and Frightened conditions, and has Advantage on Charisma (Persuasion or Deception) checks. &#13;
 			</description>
 			<description level="15">You gain access to three new Experimental Elixir options, each based on an aspect of the draconic legacy which swells within you. &#13;
 			•Scales: The drinker gains Resistance to one of the following damage types for 8 hours: Acid, Cold, Fire, Lightning, Poison. &#13;
-			•Talons: The drinker's attacks deal an extra 1d4 force damage for the next hour. &#13;
+			•Talons: The drinker's attacks deal an extra 1d4 Force damage for the next hour. &#13;
 			•Blood: For 1 hour, the drinker has Advantage on ability checks and saving throws to resist the Charmed and Frightened conditions, and has Advantage on Charisma (Persuasion or Deception) checks. &#13;
 			</description>
 		</sheet>
@@ -837,7 +837,7 @@
 				<li><strong>Wings.</strong> Incorporeal wings sprout from your back, giving you a flying speed of 60 feet.</li>
 				<li><strong>Blindsight.</strong> You have Blindsight with a range of 30 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re Blinded or in darkness. Moreover, you can see an invisible creature, unless the creature successfully hides from you.</li>
 				<li><strong>Draconic Aura.</strong> When you transform, you may choose a number of friendly targets equal to your proficiency bonus within 30 feet to mark as your protected kin. For the duration of your transformation, your protected kin gain the benefits of the Draconis Elixir associated with the ingredient chosen when creating the potion while they are within 30 feet of you. If you chose Scale, the protected kin gain Resistance to two damage types instead of one.</li>
-				<li><strong>Breath Weapon.</strong> When you transform, and as a Bonus Action on subsequent turns for the duration, you can exhale shimmering energy in a 30-foot cone. All creatures in the area must make a Dexterity saving throw (the DC being equal to your spellcasting DC), taking 4d6 force damage on a failed save, or half as much damage on a successful one. However, those marked as protected kin are shielded from the blast and take no damage, and instead can choose to erupt with draconic power as their mark is empowered.</li>
+				<li><strong>Breath Weapon.</strong> When you transform, and as a Bonus Action on subsequent turns for the duration, you can exhale shimmering energy in a 30-foot cone. All creatures in the area must make a Dexterity saving throw (the DC being equal to your spellcasting DC), taking 4d6 Force damage on a failed save, or half as much damage on a successful one. However, those marked as protected kin are shielded from the blast and take no damage, and instead can choose to erupt with draconic power as their mark is empowered.</li>
 				<ul>
 					<li><i>Scale.</i> Marked kin can choose to draw on the mark to cause an explosion of elemental devastation. Each creature in a 5-foot-radius sphere centered on the marked kin must make a Dexterity saving throw. A target takes 3d8 damage on a failed save, or half as much damage on a successful one. The marked kin chooses the damage type from one of their two granted Resistances, and then loses that Resistance for the rest of the transformation's duration.</li>
 					<li><i>Talon.</i> Marked kin can choose to further enhance their boon, increasing the bonus damage of their next attack to 4d4 instead of 1d4. Once a marked kin uses this effect a number of times equal to half their proficiency bonus, rounded down, the kin no longer benefits from the aura's bonus damage for the remainder of the transformation.</li>
@@ -848,8 +848,8 @@
 		</description>
 		<sheet action="Action" usage="{{proficiency:half}}/Long Rest">
 			<description>You can drink one of your Draconic elixirs and unleash the latent draconic power within you. For 1 minute, you gain 60 feet of Fly Speed, Blindsight of 30 feet, and a Bonus Action breath weapon that deals 4d6 Force damage in a 30-foot cone (DC{{artificer:spellcasting:dc}} Dexterity save for half). When you transform, you can choose up to {{proficiency}} allies within 30 feet become Marked Kin, gaining the benefits of the Draconic elixir chosen to transform with for the duration of your transformation (Scale can choose two Resistances) as long as they are within 30 feet of you. If these protected kin are in the area of your breath weapon, you can empower their elixir for a brief burst of power: &#13;
-			•Scale: Each creature within 5 feet of a a Marked Kin must make a Dexterity saving throw or take 3d8 damage of a type that the Kin has Resistance. They then lose that Resistance. &#13;
-			•Talon: The next attack a Marked Kin makes deals an additional 4d4 damage. If they use this benefit {{proficiency:half}} times, their elixir benefit fades. &#13;
+			•Scale: Each creature within 5 feet of a a Marked Kin must make a Dexterity saving throw or take 3d8 damage of a type to which the Kin has Resistance. They then lose that Resistance. &#13;
+			•Talon: The next attack a Marked Kin makes deals an additional 4d4 Force damage instead of 1d4. They can use this benefit {{proficiency:half}} times per transformation, after which the base elixir benefit is lost. &#13;
 			•Blood: A Marked Kin can use their Reaction to move up to its Speed, avoiding Opportunity Attacks. They can only use this Reaction once per transformation.</description>
 		</sheet>
 	</element>
