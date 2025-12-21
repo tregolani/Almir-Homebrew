@@ -4,7 +4,7 @@
 		<name>Tales of Mir Homebrew: Magical Armors, Weapons, and Items</name>
 		<description>A collection of magical weapons, armors, and items found by the PCs of the Tales of Mir campaign.</description>
 		<author>Salty Coffee</author>
-		<update version="0.1.33">
+		<update version="0.1.34">
 			<file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
 		</update>
 	</info>
@@ -537,7 +537,83 @@
 			<stat name="charisma:save:misc" value="1" />
 		</rules>
 	</element>
-	<element name="Ploink Bean" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_PLOINK_BEAN">		
+	<element name="Orb of Dragons" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_MAGIC_ITEM_ORB_OF_DRAGONS">
+		<description>
+			<p>Long ago, the gods of Mir battled against the dragon aspects, each using mortals as their thralls and soldiers in a terrible war across the world. The wizards and arcanists of the kingdom of Drayt, in their attempts to remain neutral and separate from the conflict, sought a way to safeguard themselves against each of the prime powers. Putting their incredible understanding of magic and the arcane to bear, they secretly gleaned draconic essence from those made in their image—kobolds, dragonborn, and the various monstrous dragonkin—and forged a mighty artifact suffused with an artificial soul of a dragon, which would later be called the <i>Orb of Dragons</i>. Holding the opalescent gem would allow its wielder to tap into that well of draconic power and empower themselves with its might, and the most powerful mages were said to be able to compel even the mighty dragon aspects to obey their call.</p>
+			<p class="indent">As the great war continued to rage across the continent, Drayt came under more and more pressure from both sides, and were eventually pushed to the breaking point. In a desperate plea, they used the <i>Orb of Dragons</i> to summon Grund, the Dragon Aspect of Reason to their aid. For a time, the great dragon worked alongside their arcanists and mages, and together they developed great technologies to protect and prosper the people of Drayt. However, their peace was not to last: when King Soros sought to destroy all the gods and was overthrown, the Council of Mages turned away from Grund, claiming need of a power greater even than her own. Their search discovered the Void, and its insidious whisperings led them to shackle and destroy Grund, their once greatest ally, and turn her severed soul into a weapon to obliterate Heren, the Goddess of Order. In a flash, their neutrality was shattered, and the gods and dragons banded together to eradicate all memory of Drayt and its heretical powers. Only now, many millennia later, was their treachery and subsequent annihilation unearthed, and with it the Orb of Dragons once more rested in mortal hands.</p>
+			<h5>ORB OF DRAGONS</h5>
+			<p>The orb is an etched opal globe about 10 inches in diameter. When used, it grows to about 20 inches in diameter, and mist swirls inside it.</p>
+			<p class="indent">While attuned to the orb, you gain the following properties:</p>
+			<ul style="margin-top:-1em; margin-bottom: 0.5em">
+				<li><b><i>Ability Score Increase.</i></b> One ability score of your choice increases by 2, to a maximum of 24.</li>
+				<li><b><i>Draconic Fortitude.</i></b> You are immune to any diseases.</li>
+				<li><b><i>Draconic Will.</i></b> You have Immunity to the Charmed and Frightened conditions.</li>
+				<li><b><i>Spells.</i></b> The orb has 7 charges and regains 1d4 + 3 expended charges daily at dawn. If you control the orb, you can cast one of the spells on the following table from it. The table indicates how many charges you must expend to cast the spell.</li>
+				<table style="margin-top:-1em; margin-bottom: 0.5em">
+					<thead>
+						<tr><td class="col-40">Spell</td><td class="col-40">Charge Cost</td></tr>
+					</thead>
+					<tbody>
+						<tr><td><i>Cure Wounds</i> (level 9 version)</td><td>4</td></tr>
+						<tr><td><i>Daylight</i></td><td>1</td></tr>
+						<tr><td><i>Death Ward</i></td><td>2</td></tr>
+						<tr><td><i>Detect Magic</i></td><td>0</td></tr>
+						<tr><td><i>Scrying</i> (save DC 18)</td><td>3</td></tr>
+					</tbody>
+				</table>
+			</ul>
+			<h5>CURSES</h5>
+			<p>While attuned to the Orb, the wielder also suffered from two different curses, as draconic power surges out from their body.</p>
+			<p class="indent"><b><i>Curse of Draconic Isolation.</i></b> Any creature other than yourself who attempts a Short or Long Rest while within 50 feet of you does not gain any benefits from the rest, as its mind is plagued by anxiety and nightmares.</p>
+			<p class="indent"><b><i>Curse of Draconic Mortality.</i></b> Upon attuning to the orb, roll a d8. Until you unattune from the orb, you suffer from that specific Curse of Draconic Mortality as listed in the table below..</p>
+			<table style="margin-top:-1em; margin-bottom: 0.5em">
+				<thead>
+					<tr><td>d8</td><td class="left">Curse</td></tr>
+				</thead>
+				<tbody>
+					<tr><td>1</td><td class="left"><b><i>Despair.</i></b> You have Disadvantage on all Saving Throws.</td></tr>
+					<tr><td>2</td><td class="left"><b><i>???</i></b></td></tr>
+					<tr><td>3</td><td class="left"><b><i>???</i></b></td></tr>
+					<tr><td>4</td><td class="left"><b><i>???</i></b></td></tr>
+					<tr><td>5</td><td class="left"><b><i>???</i></b></td></tr>
+					<tr><td>6</td><td class="left"><b><i>???</i></b></td></tr>
+					<tr><td>7</td><td class="left"><b><i>???</i></b></td></tr>
+					<tr><td>8</td><td class="left"><b><i>???</i></b></td></tr>
+				</tbody>
+			</table>
+			<h5>CALL DRAGONS</h5>
+			<p>While you control the orb, you can take a Magic action to cause the orb to issue a telepathic call that extends in all directions. The nearest Dragon in range is compelled to come to the orb as soon as possible by the most direct route. Once you have used this property, it can't be used again for 1 hour.</p>
+			<p><b><i>Destroying an Orb.</i></b> An <i>Orb of Dragons</i> has AC 20 and is destroyed if it takes damage from a +3 Weapon or a <i>Disintegrate</i> spell. Nothing else can harm it.</p>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_CURE_WOUNDS" />
+			</div>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_DAYLIGHT" />
+			</div>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_DEATH_WARD" />
+			</div>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_DETECT_MAGIC" />
+			</div>
+			<div class="reference">
+				<div element="ID_WOTC_PHB24_SPELL_SCRYING" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Items</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement">true</set>
+			<set name="charges">7</set>
+		</setters>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase (Orb of Dragons)" supports="Orb of Dragons Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ploink Bean" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_PLOINK_BEAN">
 		<description>
 			<p>These strange speckled beans hold within them the raw chaotic potential of Ploink, the Goddess of Chaos. When ingested, the DM rolls 1d10000 and enacts the effect listed on the Expanded Wild Magic table.</p>
 		</description>
@@ -899,4 +975,73 @@
 			<set name="stackable">true</set>
 		</setters>
 	</element>
+
+<!-- Ability Score Modifications -->
+	<element name="Strength" type="Ability Score Improvement" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_ADJUSTED_ABILITY_SCORE_INCREASE_ORB_OF_DRAGONS_STRENGTH">
+		<supports>Orb of Dragons Ability Score Increase</supports>
+		<description>
+			<p>Your Strength increases by 2 to a maximum of 24.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="2" alt="Orb of Dragons"/>
+			<stat name="strength:max" value="4"/>
+		</rules>
+	</element>
+	<element name="Dexterity" type="Ability Score Improvement" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_ADJUSTED_ABILITY_SCORE_INCREASE_ORB_OF_DRAGONS_DEXTERITY">
+		<supports>Orb of Dragons Ability Score Increase</supports>
+		<description>
+			<p>Your Dexterity increases by 2 to a maximum of 24.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" alt="Orb of Dragons"/>
+			<stat name="dexterity:max" value="4"/>
+		</rules>
+	</element>
+	<element name="Constitution" type="Ability Score Improvement" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_ADJUSTED_ABILITY_SCORE_INCREASE_ORB_OF_DRAGONS_CONSTITUTION">
+		<supports>Orb of Dragons Ability Score Increase</supports>
+		<description>
+			<p>Your Constitution increases by 2 to a maximum of 24.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" alt="Orb of Dragons"/>
+			<stat name="constitution:max" value="4"/>
+		</rules>
+	</element>
+	<element name="Intelligence" type="Ability Score Improvement" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_ADJUSTED_ABILITY_SCORE_INCREASE_ORB_OF_DRAGONS_INTELLIGENCE">
+		<supports>Orb of Dragons Ability Score Increase</supports>
+		<description>
+			<p>Your Intelligence increases by 2 to a maximum of 24.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="2" alt="Orb of Dragons"/>
+			<stat name="intelligence:max" value="4"/>
+		</rules>
+	</element>
+	<element name="Wisdom" type="Ability Score Improvement" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_ADJUSTED_ABILITY_SCORE_INCREASE_ORB_OF_DRAGONS_WISDOM">
+		<supports>Orb of Dragons Ability Score Increase</supports>
+		<description>
+			<p>Your Wisdom increases by 2 to a maximum of 24.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="2" alt="Orb of Dragons"/>
+			<stat name="wisdom:max" value="4"/>
+		</rules>
+	</element>
+	<element name="Charisma" type="Ability Score Improvement" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_ADJUSTED_ABILITY_SCORE_INCREASE_ORB_OF_DRAGONS_CHARISMA">
+		<supports>Orb of Dragons Ability Score Increase</supports>
+		<description>
+			<p>Your Charisma increases by 2 to a maximum of 24.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="2" alt="Orb of Dragons"/>
+			<stat name="charisma:max" value="4"/>
+		</rules>
+	</element>
+
 </elements>
