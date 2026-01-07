@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.3.07">
+    <update version="0.3.08">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -1081,13 +1081,13 @@
 	<element name="Countermagic Vacuum" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_COUNTERMAGIC_VACUUM">
 		<description>
 			<p>Through extensive experimentation and studious application of arcane magnetism, you have discovered a new method through which your multitool’s unique core can be charged with magic. By widening its absorption field for a brief moment, you can force nearby spells to be redirected and dampened.</p>
-			<p class="indent">When a creature targets you or another creature within 30 feet with a spell, you can spend a Reaction and a use of your Flash of Genius feature to redirect the spell to your multitool. If the spell affects an area, it becomes centered on you. If it only targets a single creature, it now targets you.</p>
+			<p class="indent">When you or another creature within 30 feet is targeted by a spell, you can spend a Reaction and a use of your Flash of Genius feature to redirect the spell to your multitool. If the spell affects an area, it becomes centered on you. If it only targets a single creature, it now targets you.</p>
 			<p class="indent">Resolve the spell as normal. If the spell forces a saving throw, you and all affected creatures can add your Intelligence modifier to the saving throw. If it is a spell attack, the creature casting the spell has Disadvantage on the attack roll.</p>
 			<p class="indent">Finally, if the spell cast is of a level for which you have spell slots, a copy of the spell is stored in your multitool core as if you had used your Blast of Ingenuity, overwriting any currently stored spells. If you keep this spell stored until you finish a Long Rest, add it to your list of prepared spells for the day, and it does not count against your total number of prepared spells.</p>
 			<p class="indent">Once you use this ability, you cannot use it again until you finish a Long Rest.</p>
 		</description>
 		<sheet usage="1/Long Rest">
-			<description>When a creature targets you or another creature within 30 feet with a spell, you can spend a Reaction and a use of your Flash of Genius feature to redirect the spell to your multitool. If the spell affects an area, it becomes centered on you. If it only targets a single creature, it now targets you. &#13;
+			<description>When you or another creature within 30 feet is targeted by a spell, you can spend a Reaction and a use of your Flash of Genius feature to redirect the spell to your multitool. If the spell affects an area, it becomes centered on you. If it only targets a single creature, it now targets you. &#13;
 			Resolve the spell as normal. If the spell forces a saving throw, you and all affected creatures can add +{{intelligence:modifier}} to the saving throw. If it is a spell attack, the creature casting the spell has Disadvantage on the attack roll. &#13;
 			Finally, if the spell cast is of a level for which you have spell slots, a copy of the spell is stored in your multitool core as if you had used your Blast of Ingenuity, overwriting any currently stored spells. If you keep this spell stored until you finish a Long Rest, add it to your list of prepared spells for the day, and it does not count against your total number of prepared spells.</description>
 		</sheet>
