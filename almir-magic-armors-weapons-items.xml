@@ -4,7 +4,7 @@
 		<name>Tales of Mir Homebrew: Magical Armors, Weapons, and Items</name>
 		<description>A collection of magical weapons, armors, and items found by the PCs of the Tales of Mir campaign.</description>
 		<author>Salty Coffee</author>
-		<update version="0.1.34">
+		<update version="0.1.35">
 			<file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
 		</update>
 	</info>
@@ -565,20 +565,20 @@
 			<h5>CURSES</h5>
 			<p>While attuned to the Orb, the wielder also suffered from two different curses, as draconic power surges out from their body.</p>
 			<p class="indent"><b><i>Curse of Draconic Isolation.</i></b> Any creature other than yourself who attempts a Short or Long Rest while within 50 feet of you does not gain any benefits from the rest, as its mind is plagued by anxiety and nightmares.</p>
-			<p class="indent"><b><i>Curse of Draconic Mortality.</i></b> Upon attuning to the orb, roll a d8. Until you unattune from the orb, you suffer from that specific Curse of Draconic Mortality as listed in the table below..</p>
+			<p class="indent"><b><i>Curse of Draconic Mortality.</i></b> Upon attuning to the orb, roll a d8. Until you unattune from the orb, you suffer from the Curse of Draconic Mortality as listed in the table below.</p>
 			<table style="margin-top:-1em; margin-bottom: 0.5em">
 				<thead>
-					<tr><td>d8</td><td class="left">Curse</td></tr>
+					<tr><td>d8</td><td class="left">Curse</td><td>Flavor</td></tr>
 				</thead>
 				<tbody>
-					<tr><td>1</td><td class="left"><b><i>Despair.</i></b> You have Disadvantage on all Saving Throws.</td></tr>
-					<tr><td>2</td><td class="left"><b><i>???</i></b></td></tr>
-					<tr><td>3</td><td class="left"><b><i>???</i></b></td></tr>
-					<tr><td>4</td><td class="left"><b><i>???</i></b></td></tr>
-					<tr><td>5</td><td class="left"><b><i>???</i></b></td></tr>
-					<tr><td>6</td><td class="left"><b><i>???</i></b></td></tr>
-					<tr><td>7</td><td class="left"><b><i>???</i></b></td></tr>
-					<tr><td>8</td><td class="left"><b><i>???</i></b></td></tr>
+					<tr><td>1</td><td class="left"><b><i>Despair.</i></b> You have Disadvantage on all Saving Throws.</td><td><i>It all can end so easily. What makes you think you can succeed?</i></td></tr>
+					<tr><td>2</td><td class="left"><b><i>???</i></b></td><td><i>???</i></td></tr>
+					<tr><td>3</td><td class="left"><b><i>Madness.</i></b> You no longer benefit from Short or Long Rests.</td><td><i>You glimpse the unknowable. You see figures at glowing boxes, rolling dice and calling your name. A reality beyond yours. But only a glimpse. It lingers in your mind. Something that you can not hope to understand...</i></td></tr>
+					<tr><td>4</td><td class="left"><b><i>Wrath.</i></b> Choose an ally, and roll for a different curse. You and that ally both suffer its effects.</td><td><i>Wrath's cruel indifference...the cycle never ends, and it is always the bystanders who suffer.</i></td></tr>
+					<tr><td>5</td><td class="left"><b><i>???</i></b></td><td><i>???</i></td></tr>
+					<tr><td>6</td><td class="left"><b><i>???</i></b></td><td><i>???</i></td></tr>
+					<tr><td>7</td><td class="left"><b><i>???</i></b></td><td><i>???</i></td></tr>
+					<tr><td>8</td><td class="left"><b><i>Discord.</i></b> You cannot maintain Concentration on any spells, and any attempts to cast a spell requiring Concentration will immediately fail. Allies within 30 feet of you have Disadvantage on Concentration checks.</td><td><i>Voices plague your mind ranging from whispers to screams. They plead, they blame, they cry...Is there truth in their words? Its...hard to focus...</i></td></tr>
 				</tbody>
 			</table>
 			<h5>CALL DRAGONS</h5>
