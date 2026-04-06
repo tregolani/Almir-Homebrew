@@ -4,7 +4,7 @@
 		<name>Artillerist</name>
 		<description>The Artillerist subclass from Eberron: Forge of the Artificer, tweaked for Tales of Mir.</description>
 		<author>Salty Coffee</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="almir-artificer-artillerist.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-artificer-artillerist.xml" />
     </update>
 	</info>
@@ -47,8 +47,8 @@
 			<description>When you craft a magic Wand, the amount of time required to craft it is halved.</description>
 		</sheet>
 		<rules>
-			<grant type="Proficiency" id="ID_WOTC_PHB24_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS" />
-			<select type="Proficiency" name="Tool Proficiency (Artillerist)" supports="Artisan tools" default="ID_WOTC_PHB24_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS" />
+			<select type="Proficiency" name="Tool Proficiency (Artillerist)" supports="Artisan tools" default="ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS" />
 		</rules>
 	</element>-->
 	<element name="Level 3: Artillerist Spells" type="Archetype Feature" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_ARCHETYPE_FEATURE_ARTIFICER_ARTILLERIST_ARTILLERIST_SPELLS">
