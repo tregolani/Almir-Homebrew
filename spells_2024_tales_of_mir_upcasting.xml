@@ -3,13 +3,13 @@
 	<info>
 		<name>Tales of Mir 2024 Spell Collection: Upcasting Options</name>
 		<description>A collection of all 2024 spells without upcasting options that have been updated for the Tales of Mir campaign.</description>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="spells_2024_tales_of_mir_upcasting.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/spells_2024_tales_of_mir_upcasting.xml" />
 		</update>
 	</info>
 
 <!-- 1st Level Spells -->
-	<element name="Alarm" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_ALARM">
+	<element name="Alarm" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_ALARM">
 		<supports>Artificer, Ranger, Wizard</supports>
 		<description>
 			<p>You set an alarm against intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot Cube. Until the spell ends, an alarm alerts you whenever a creature touches or enters the warded area. When you cast the spell, you can designate creatures that won’t set off the alarm. You also choose whether the alarm is audible or mental:</p>
@@ -32,7 +32,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Bane" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_BANE">
+	<element name="Bane" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_BANE">
 		<supports>Bard, Cleric, Warlock, Spell Saving Throw</supports>
 		<description>
 			<p>Up to three creatures of your choice that you can see within range must each make a Charisma saving throw. Whenever a target that fails this save makes an attack roll or a saving throw before the spell ends, the target must subtract 1d4 from the attack roll or save.</p>
@@ -53,7 +53,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Color Spray" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_COLOR_SPRAY">
+	<element name="Color Spray" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_COLOR_SPRAY">
 		<supports>Bard, Sorcerer, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You launch a dazzling array of flashing, colorful light. Each creature in a 15-foot Cone originating from you must succeed on a Constitution saving throw or have the Blinded condition until the end of your next turn.</p>
@@ -74,7 +74,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Compelled Duel" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_COMPELLED_DUEL">
+	<element name="Compelled Duel" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_COMPELLED_DUEL">
 		<supports>Paladin, Spell Saving Throw</supports>
 		<description>
 			<p>You try to compel a creature into a duel. One creature that you can see within range makes a Wisdom saving throw. On a failed save, the target has Disadvantage on attack rolls against creatures other than you, and it can't willingly move to a space that is more than 30 feet away from you.</p>
@@ -95,7 +95,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Comprehend Languages" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_COMPREHEND_LANGUAGES">
+	<element name="Comprehend Languages" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_COMPREHEND_LANGUAGES">
 		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>For the duration, you understand the literal meaning of any language that you hear or see signed. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text. This spell doesn’t decode symbols or secret messages.</p>
@@ -116,7 +116,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Detect Evil and Good" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DETECT_EVIL_AND_GOOD">
+	<element name="Detect Evil and Good" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DETECT_EVIL_AND_GOOD">
 		<supports>Cleric, Paladin</supports>
 		<description>
 			<p>For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the <i>Hallow</i> spell is active there and, if so, where.</p>
@@ -138,7 +138,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Detect Magic" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DETECT_MAGIC">
+	<element name="Detect Magic" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DETECT_MAGIC">
 		<supports>Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>For the duration, you sense the presence of magical effects within 30 feet of yourself. If you sense such effects, you can take the Magic action to see a faint aura around any visible creature or object in the area that bears the magic, and if an effect was created by a spell, you learn the spell's school of magic.</p>
@@ -160,7 +160,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Detect Poison and Disease" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DETECT_POISON_AND_DISEASE">
+	<element name="Detect Poison and Disease" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DETECT_POISON_AND_DISEASE">
 		<supports>Cleric, Druid, Paladin, Ranger</supports>
 		<description>
 			<p>For the duration, you sense the location of poisons, poisonous or venomous creatures, and magical contagions within 30 feet of yourself. You sense the kind of poison, creature, or contagion in each case.</p>
@@ -182,7 +182,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Disguise Self" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DISGUISE_SELF">
+	<element name="Disguise Self" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DISGUISE_SELF">
 		<supports>Bard, Sorcerer, Wizard, Artificer</supports>
 		<description>
 			<p>You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends. You can seem 1 foot shorter or taller and can appear heavier or lighter. You must adopt a form that has the same basic arrangement of limbs as you have. Otherwise, the extent of the illusion is up to you.</p>
@@ -205,7 +205,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Divine Favor" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DIVINE_FAVOR">
+	<element name="Divine Favor" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DIVINE_FAVOR">
 		<supports>Paladin, Damaging Spell</supports>
 		<description>
 			<p>Until the spell ends, your attacks with weapons deal an extra 1d4 Radiant damage on a hit.</p>
@@ -226,7 +226,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>	
-	<element name="Entangle" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_ENTANGLE">
+	<element name="Entangle" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_ENTANGLE">
 		<supports>Druid, Ranger, Spell Saving Throw</supports>
 		<description>
 			<p>Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants turn the ground in the area into Difficult Terrain. They disappear when the spell ends.</p>
@@ -248,7 +248,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Expeditious Retreat" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_EXPEDITIOUS_RETREAT">
+	<element name="Expeditious Retreat" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_EXPEDITIOUS_RETREAT">
 		<supports>Sorcerer, Warlock, Wizard, Artificer</supports>
 		<description>
 			<p>You take the Dash action, and until the spell ends, you can take that action again as a Bonus Action.</p>
@@ -269,7 +269,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Faerie Fire" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_FAERIE_FIRE">
+	<element name="Faerie Fire" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_FAERIE_FIRE">
 		<supports>Bard, Druid, Artificer, Spell Saving Throw</supports>
 		<description>
 			<p>Objects in a 20-foot Cube within range are outlined in blue, green, or violet light (your choice). Each creature in the Cube is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed Dim Light in a 10-foot radius and can't benefit from the Invisible condition.</p>
@@ -291,7 +291,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Feather Fall" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_FEATHER_FALL">
+	<element name="Feather Fall" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_FEATHER_FALL">
 		<supports>Bard, Sorcerer, Wizard, Artificer</supports>
 		<description>
 			<p>Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If a creature lands before the spell ends, the creature takes no damage from the fall, and the spell ends for that creature.</p>
@@ -312,7 +312,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Goodberry" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_GOODBERRY">
+	<element name="Goodberry" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_GOODBERRY">
 		<supports>Druid, Ranger, Healing Spell</supports>
 		<description>
 			<p>Ten berries appear in your hand and are infused with magic for the duration. A creature can take a Bonus Action to eat one berry. Eating a berry restores 1 Hit Point, and the berry provides enough nourishment to sustain a creature for one day.</p>
@@ -334,7 +334,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Grease" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_GREASE">
+	<element name="Grease" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_GREASE">
 		<supports>Sorcerer, Wizard, Artificer, Spell Saving Throw</supports>
 		<description>
 			<p>Nonflammable grease covers the ground in a 10-foot square centered on a point within range and turns it into Difficult Terrain for the duration.</p>
@@ -356,7 +356,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Identify" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_IDENTIFY">
+	<element name="Identify" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_IDENTIFY">
 		<supports>Bard, Wizard, Artificer</supports>
 		<description>
 			<p>You touch an object throughout the spell's casting. If the object is a magic item or some other magical object, you learn its properties and how to use them, whether it requires Attunement, and how many charges it has, if any. You learn whether any ongoing spells are affecting the item and what they are. If the item was created by a spell, you learn that spell's name.</p>
@@ -378,7 +378,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Illusory Script" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_ILLUSORY_SCRIPT">
+	<element name="Illusory Script" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_ILLUSORY_SCRIPT">
 		<supports>Bard, Warlock, Wizard</supports>
 		<description>
 			<p>You write on parchment, paper, or another suitable material and imbue it with an illusion that lasts for the duration. To you and any creatures you designate when you cast the spell, the writing appears normal, seems to be written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, the illusion can alter the meaning, handwriting, and language of the text, though the language must be one you know.</p>
@@ -401,7 +401,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Mage Armor" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_MAGE_ARMOR">
+	<element name="Mage Armor" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_MAGE_ARMOR">
 		<supports>Sorcerer, Wizard</supports>
 		<description>
 			<p>You touch a willing creature who isn't wearing armor. Until the spell ends, the target's base AC becomes 13 plus its Dexterity modifier. The spell ends early if the target dons armor.</p>
@@ -422,7 +422,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Protection from Evil and Good" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_PROTECTION_FROM_EVIL_AND_GOOD">
+	<element name="Protection from Evil and Good" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_PROTECTION_FROM_EVIL_AND_GOOD">
 		<supports>Cleric, Druid, Paladin, Warlock, Wizard</supports>
 		<description>
 			<p>Until the spell ends, one willing creature you touch is protected against creatures that are Aberrations, Celestials, Elementals, Fey, Fiends, or Undead. The protection grants several benefits. Creatures of those types have Disadvantage on attack rolls against the target. The target also can't be possessed by or gain the Charmed or Frightened conditions from them. If the target is already possessed, Charmed, or Frightened by such a creature, the target has Advantage on any new saving throw against the relevant effect.</p>
@@ -443,7 +443,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Purify Food and Drink" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_PURIFY_FOOD_AND_DRINK">
+	<element name="Purify Food and Drink" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_PURIFY_FOOD_AND_DRINK">
 		<supports>Cleric, Druid, Paladin, Artificer</supports>
 		<description>
 			<p>You remove poison and rot from nonmagical food and drink in a 5-foot-radius Sphere centered on a point within range.</p>
@@ -464,7 +464,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Sanctuary" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SANCTUARY">
+	<element name="Sanctuary" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SANCTUARY">
 		<supports>Cleric, Artificer, Spell Saving Throw</supports>
 		<description>
 			<p>You ward a creature within range. Until the spell ends, any creature who targets the warded creature with an attack roll or a damaging spell must succeed on a Wisdom saving throw or either choose a new target or lose the attack or spell. This spell doesn't protect the warded creature from areas of effect.</p>
@@ -486,7 +486,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Shield of Faith" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SHIELD_OF_FAITH">
+	<element name="Shield of Faith" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SHIELD_OF_FAITH">
 		<supports>Cleric, Paladin</supports>
 		<description>
 			<p>A shimmering field surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.</p>
@@ -507,7 +507,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Silent Image" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SILENT_IMAGE">
+	<element name="Silent Image" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SILENT_IMAGE">
 		<supports>Bard, Sorcerer, Wizard</supports>
 		<description>
 			<p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot Cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn't accompanied by sound, smell, or other sensory effects.</p>
@@ -530,7 +530,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Sleep" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SLEEP">
+	<element name="Sleep" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SLEEP">
 		<supports>Bard, Sorcerer, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>Each creature of your choice in a 5-foot-radius Sphere centered on a point within range must succeed on a Wisdom saving throw or have the Incapacitated condition until the end of its next turn, at which point it must repeat the save. If the target fails the second save, the target has the Unconscious condition for the duration. The spell ends on a target if it takes damage or someone within 5 feet of it takes an action to shake it out of the spell's effect.</p>
@@ -552,7 +552,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Speak with Animals" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_ANIMALS">
+	<element name="Speak with Animals" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_ANIMALS">
 		<supports>Bard, Druid, Ranger, Warlock</supports>
 		<description>
 			<p>For the duration, you can comprehend and verbally communicate with Beasts, and you can use any of the Influence action's skill options with them.</p>
@@ -574,7 +574,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Tenser’s Floating Disk" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_TENSERS_FLOATING_DISK">
+	<element name="Tenser’s Floating Disk" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_TENSERS_FLOATING_DISK">
 		<supports>Wizard</supports>
 		<description>
 			<p>This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.</p>
@@ -597,7 +597,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Unseen Servant" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_UNSEEN_SERVANT">
+	<element name="Unseen Servant" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_UNSEEN_SERVANT">
 		<supports>Bard, Warlock, Wizard</supports>
 		<description>
 			<p>This spell creates an Invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 Hit Point, and a Strength of 2, and it can't attack. If it drops to 0 Hit Points, the spell ends.</p>
@@ -622,7 +622,7 @@
 	</element>
 
 <!-- 2nd Level Spells -->
-	<element name="Alter Self" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_ALTER_SELF">
+	<element name="Alter Self" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_ALTER_SELF">
 		<supports>Artificer, Sorcerer, Wizard</supports>
 		<description>
 			<p>You alter your physical form. Choose one of the following options. Its effects last for the duration, during which you can take a Magic action to replace the option you chose with a different one.</p>
@@ -651,7 +651,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Augury" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_AUGURY">
+	<element name="Augury" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_AUGURY">
 		<supports>Cleric, Druid, Wizard</supports>
 		<description>
 			<p>You receive an omen from an otherworldly entity about the results of a course of action that you plan to take within the next 30 minutes. The DM chooses the omen from the Omens table.</p>
@@ -684,7 +684,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Barkskin" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_BARKSKIN">
+	<element name="Barkskin" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_BARKSKIN">
 		<supports>Druid, Ranger</supports>
 		<description>
 			<p>You touch a willing creature. Until the spell ends, the target’s skin assumes a bark-like appearance, and the target has an Armor Class of 17 if its AC is lower than that.</p>
@@ -704,7 +704,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Beast Sense" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_BEAST_SENSE">
+	<element name="Beast Sense" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_BEAST_SENSE">
 		<supports>Druid, Ranger</supports>
 		<description>
 			<p>You touch a willing Beast. For the duration, you can perceive through the Beast’s senses as well as your own. When perceiving through the Beast’s senses, you benefit from any special senses it has.</p>
@@ -724,7 +724,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Blur" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_BLUR">
+	<element name="Blur" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_BLUR">
 		<supports>Artificer, Sorcerer, Wizard</supports>
 		<description>
 			<p>Your body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.</p>
@@ -744,7 +744,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Calm Emotions" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_CALM_EMOTIONS">
+	<element name="Calm Emotions" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_CALM_EMOTIONS">
 		<supports>Bard, Cleric, Spell Saving Throw</supports>
 		<description>
 			<p>Each Humanoid in a 20-foot-radius Sphere centered on a point you choose within range must succeed on a Charisma saving throw or be affected by one of the following effects (choose for each creature):</p>
@@ -768,7 +768,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Crown of Madness" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_CROWN_OF_MADNESS">
+	<element name="Crown of Madness" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_CROWN_OF_MADNESS">
 		<supports>Bard, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>One creature that you can see within range must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The creature succeeds automatically if it isn't Humanoid.</p>
@@ -791,7 +791,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Darkness" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DARKNESS">
+	<element name="Darkness" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DARKNESS">
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>For the duration, magical Darkness spreads from a point within range and fills a 15-foot-radius Sphere. Darkvision can't see through it, and nonmagical light can't illuminate it.</p>
@@ -814,7 +814,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Darkvision" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DARKVISION">
+	<element name="Darkvision" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DARKVISION">
 		<supports>Druid, Ranger, Sorcerer, Wizard, Artificer</supports>
 		<description>
 			<p>For the duration, a willing creature you touch has Darkvision with a range of 150 feet.</p>
@@ -835,7 +835,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Detect Thoughts" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DETECT_THOUGHTS">
+	<element name="Detect Thoughts" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DETECT_THOUGHTS">
 		<supports>Bard, Sorcerer, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You activate one of the effects below. Until the spell ends, you can activate either effect as a Magic action on your later turns.</p>
@@ -860,7 +860,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Enlarge/Reduce" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_ENLARGE_REDUCE">
+	<element name="Enlarge/Reduce" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_ENLARGE_REDUCE">
 		<supports>Bard, Druid, Sorcerer, Wizard, Artificer, Spell Saving Throw</supports>
 		<description>
 			<p>For the duration, the spell enlarges or reduces a creature or an object you can see within range (see the chosen effect below). A targeted object must be neither worn nor carried. If the target is an unwilling creature, it can make a Constitution saving throw. On a successful save, the spell has no effect.</p>
@@ -884,7 +884,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Enthrall" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_ENTHRALL">
+	<element name="Enthrall" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_ENTHRALL">
 		<supports>Bard, Warlock, Spell Saving Throw</supports>
 		<description>
 			<p>You weave a distracting string of words, causing creatures of your choice that you can see within range to make a Wisdom saving throw. Any creature you or your companions are fighting automatically succeeds on this save. On a failed save, a target has a -10 penalty to Wisdom (Perception) checks and Passive Perception until the spell ends.</p>
@@ -905,7 +905,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Find Traps" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_FIND_TRAPS">
+	<element name="Find Traps" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_FIND_TRAPS">
 		<supports>Cleric, Druid, Ranger</supports>
 		<description>
 			<p>You sense any trap within range that is within line of sight. A trap, for the purpose of this spell, includes any object or mechanism that was created to cause damage or other danger. Thus, the spell would sense the <i>Alarm</i> or <i>Glyph of Warding</i> spell or a mechanical pit trap, but it wouldn't reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.</p>
@@ -927,7 +927,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Gentle Repose" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_GENTLE_REPOSE">
+	<element name="Gentle Repose" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_GENTLE_REPOSE">
 		<supports>Cleric, Paladin, Wizard</supports>
 		<description>
 			<p>You touch a corpse or other remains. For the duration, the target is protected from decay and can't become Undead.</p>
@@ -949,7 +949,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Gust of Wind" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_GUST_OF_WIND">
+	<element name="Gust of Wind" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_GUST_OF_WIND">
 		<supports>Druid, Ranger, Sorcerer, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>A Line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the duration. Each creature in the Line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the Line. A creature that ends its turn in the Line must make the same save.</p>
@@ -973,7 +973,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Knock" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_KNOCK">
+	<element name="Knock" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_KNOCK">
 		<supports>Bard, Sorcerer, Wizard</supports>
 		<description>
 			<p>Choose an object that you can see within range. The object can be a door, a box, a chest, a set of manacles, a padlock, or another object that contains a mundane or magical means that prevents access.</p>
@@ -997,7 +997,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Lesser Restoration" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_LESSER_RESTORATION">
+	<element name="Lesser Restoration" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_LESSER_RESTORATION">
 		<supports>Bard, Cleric, Druid, Paladin, Ranger, Artificer</supports>
 		<description>
 			<p>You touch a creature and end one condition on it: Blinded, Deafened, Paralyzed, or Poisoned.</p>
@@ -1018,7 +1018,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Levitate" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_LEVITATE">
+	<element name="Levitate" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_LEVITATE">
 		<supports>Sorcerer, Wizard, Artificer, Spell Saving Throw</supports>
 		<description>
 			<p>One creature or loose object of your choice that you can see within range rises vertically up to 20 feet and remains suspended there for the duration. The spell can levitate an object that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.</p>
@@ -1041,7 +1041,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Locate Animals or Plants" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_LOCATE_ANIMALS_OR_PLANTS">
+	<element name="Locate Animals or Plants" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_LOCATE_ANIMALS_OR_PLANTS">
 		<supports>Bard, Druid, Ranger</supports>
 		<description>
 			<p>Describe or name a specific kind of Beast, Plant creature, or nonmagical plant. You learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.</p>
@@ -1062,7 +1062,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Locate Object" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_LOCATE_OBJECT">
+	<element name="Locate Object" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_LOCATE_OBJECT">
 		<supports>Bard, Cleric, Druid, Paladin, Ranger, Wizard</supports>
 		<description>
 			<p>Describe or name an object that is familiar to you. You sense the direction to the object's location if that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.</p>
@@ -1085,7 +1085,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Mirror Image" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_MIRROR_IMAGE">
+	<element name="Mirror Image" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_MIRROR_IMAGE">
 		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it's impossible to track which image is real.</p>
@@ -1108,7 +1108,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Misty Step" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_MISTY_STEP">
+	<element name="Misty Step" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_MISTY_STEP">
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space you can see.</p>
@@ -1129,7 +1129,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Nystul’s Magic Aura" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_NYSTULS_MAGIC_AURA">
+	<element name="Nystul’s Magic Aura" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_NYSTULS_MAGIC_AURA">
 		<supports>Wizard</supports>
 		<description>
 			<p>With a touch, you place an illusion on a willing creature or an object that isn't being worn or carried. A creature gains the Mask effect below, and an object gains the False Aura effect below. The effect lasts for the duration. If you cast the spell on the same target every day for 30 days, the illusion lasts until dispelled.</p>
@@ -1152,7 +1152,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Pass without Trace" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_PASS_WITHOUT_TRACE">
+	<element name="Pass without Trace" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_PASS_WITHOUT_TRACE">
 		<supports>Druid, Ranger</supports>
 		<description>
 			<p>You radiate a concealing aura in a 30-foot Emanation for the duration. While in the aura, you and each creature you choose have a +10 bonus to Dexterity (Stealth) checks and leave no tracks.</p>
@@ -1173,7 +1173,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Phantasmal Force" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_PHANTASMAL_FORCE">
+	<element name="Phantasmal Force" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_PHANTASMAL_FORCE">
 		<supports>Bard, Sorcerer, Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>You attempt to craft an illusion in the mind of a creature you can see within range. The target makes an Intelligence saving throw. On a failed save, you create a phantasmal object, creature, or other phenomenon that is no larger than a 10-foot Cube and that is perceivable only to the target for the duration. The phantasm includes sound, temperature, and other stimuli.</p>
@@ -1197,7 +1197,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Protection from Poison" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_PROTECTION_FROM_POISON">
+	<element name="Protection from Poison" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_PROTECTION_FROM_POISON">
 		<supports>Cleric, Druid, Paladin, Ranger, Artificer</supports>
 		<description>
 			<p>You touch a creature and end the Poisoned condition on it. For the duration, the target has Advantage on saving throws to avoid or end the Poisoned condition, and it has Resistance to Poison damage.</p>
@@ -1218,7 +1218,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Ray of Enfeeblement" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_RAY_OF_ENFEEBLEMENT">
+	<element name="Ray of Enfeeblement" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_RAY_OF_ENFEEBLEMENT">
 		<supports>Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>A beam of enervating energy shoots from you toward a creature within range. The target must make a Constitution saving throw. On a successful save, the target has Disadvantage on the next attack roll it makes until the start of your next turn.</p>
@@ -1240,7 +1240,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Rope Trick" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_ROPE_TRICK">
+	<element name="Rope Trick" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_ROPE_TRICK">
 		<supports>Wizard, Artificer</supports>
 		<description>
 			<p>You touch a rope. One end of it hovers upward until the rope hangs perpendicular to the ground or the rope reaches a ceiling. At the rope's upper end, an Invisible 3-foot-by-5-foot portal opens to an extradimensional space that lasts until the spell ends. That space can be reached by climbing the rope, which can be pulled into or dropped out of it.</p>
@@ -1262,7 +1262,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="See Invisibility" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SEE_INVISIBILITY">
+	<element name="See Invisibility" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SEE_INVISIBILITY">
 		<supports>Bard, Sorcerer, Wizard, Artificer</supports>
 		<description>
 			<p>For the duration, you see creatures and objects that have the Invisible condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly.</p>
@@ -1283,7 +1283,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Silence" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SILENCE">
+	<element name="Silence" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SILENCE">
 		<supports>Bard, Cleric, Ranger</supports>
 		<description>
 			<p>For the duration, no sound can be created within or pass through a 20-foot-radius Sphere centered on a point you choose within range. Any creature or object entirely inside the Sphere has Immunity to Thunder damage, and creatures have the Deafened condition while entirely inside it. Casting a spell that includes a Verbal component is impossible there.</p>
@@ -1304,7 +1304,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Spider Climb" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SPIDER_CLIMB">
+	<element name="Spider Climb" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SPIDER_CLIMB">
 		<supports>Sorcerer, Warlock, Wizard, Artificer</supports>
 		<description>
 			<p>Until the spell ends, one willing creature you touch gains the ability to move up, down, and across vertical surfaces and along ceilings, while leaving its hands free. The target also gains a Climb Speed equal to its Speed.</p>
@@ -1325,7 +1325,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Spike Growth" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SPIKE_GROWTH">
+	<element name="Spike Growth" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SPIKE_GROWTH">
 		<supports>Druid, Ranger, Damaging Spell</supports>
 		<description>
 			<p>The ground in a 20-foot-radius Sphere centered on a point within range sprouts hard spikes and thorns. The area becomes Difficult Terrain for the duration. When a creature moves into or within the area, it takes 2d4 Piercing damage for every 5 feet it travels.</p>
@@ -1347,7 +1347,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Suggestion" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SUGGESTION">
+	<element name="Suggestion" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SUGGESTION">
 		<supports>Bard, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You suggest a course of activity—described in no more than 25 words—to one creature you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to the target or it allies. For example, you could say, "Fetch the key to the cult's treasure vault, and give the key to me." Or you could say, "Stop fighting, leave this library peacefully, and don't return."</p>
@@ -1369,7 +1369,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Warding Bond" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_WARDING_BOND">
+	<element name="Warding Bond" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_WARDING_BOND">
 		<supports>Cleric, Paladin</supports>
 		<description>
 			<p>You touch another creature that is willing and create a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has Resistance to all damage. Also, each time it takes damage, you take the same amount of damage.</p>
@@ -1391,7 +1391,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Web" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_WEB">
+	<element name="Web" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_WEB">
 		<supports>Sorcerer, Wizard, Artificer, Spell Saving Throw</supports>
 		<description>
 			<p>You conjure a mass of sticky webbing at a point within range. The webs fill a 20-foot Cube there for the duration. The webs are Difficult Terrain, and the area within them is Lightly Obscured.</p>
@@ -1416,7 +1416,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Zone of Truth" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_ZONE_OF_TRUTH">
+	<element name="Zone of Truth" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_ZONE_OF_TRUTH">
 		<supports>Bard, Cleric, Paladin, Spell Saving Throw</supports>
 		<description>
 			<p>You create a magical zone that guards against deception in a 15-foot-radius Sphere centered on a point within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there makes a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether a creature succeeds or fails on this save.</p>
@@ -1440,7 +1440,7 @@
 	</element>
 	
 <!-- 3rd Level Spells -->
-	<element name="Aura of Vitality" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_AURA_OF_VITALITY">
+	<element name="Aura of Vitality" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_AURA_OF_VITALITY">
 		<supports>Cleric, Druid, Paladin, Healing Spell</supports>
 		<description>
 			<p>An aura radiates from you in a 30-foot Emanation for the duration. When you create the aura and at the start of each of your turns while it persists, you can restore 2d6 Hit Points to one creature in it.</p>
@@ -1460,7 +1460,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Beacon of Hope" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_BEACON_OF_HOPE">
+	<element name="Beacon of Hope" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_BEACON_OF_HOPE">
 		<supports>Cleric, Spell Saving Throw, Healing Spell</supports>
 		<description>
 			<p>Choose any number of creatures within range. For the duration, each target has Advantage on Wisdom saving throws and Death Saving Throws and regains the maximum number of Hit Points possible from any healing.</p>
@@ -1480,7 +1480,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Blink" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_BLINK">
+	<element name="Blink" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_BLINK">
 		<supports>Artificer, Sorcerer, Wizard</supports>
 		<description>
 			<p>Roll 1d6 at the end of each of your turns for the duration. On a roll of 4-6, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell ends instantly if you are already on that plane). While on the Ethereal Plane, you can perceive the plane you left, which is cast in shades of gray, but you can’t see anything there more than 60 feet away. You can affect and be affected only by other creatures on the Ethereal Plane, and creatures on the other plane can’t perceive you unless they have a special ability that lets them perceive things on the Ethereal Plane.</p>
@@ -1501,7 +1501,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Clairvoyance" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_CLAIRVOYANCE">
+	<element name="Clairvoyance" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_CLAIRVOYANCE">
 		<supports>Bard, Cleric, Sorcerer, Wizard</supports>
 		<description>
 			<p>You create an Invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The intangible, invulnerable sensor remains in place for the duration.</p>
@@ -1524,7 +1524,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Counterspell" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_COUNTERSPELL">
+	<element name="Counterspell" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_COUNTERSPELL">
 		<supports>Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You attempt to interrupt a creature in the process of casting a spell. The creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended.</p>
@@ -1544,7 +1544,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Create Food and Water" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_CREATE_FOOD_AND_WATER">
+	<element name="Create Food and Water" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_CREATE_FOOD_AND_WATER">
 		<supports>Artificer, Cleric, Paladin</supports>
 		<description>
 			<p>You create 45 pounds of food and 30 gallons of fresh water on the ground or in containers within range—both useful in fending off the hazards of malnutrition and dehydration. The food is bland but nourishing and looks like a food of your choice, and the water is clean. The food spoils after 24 hours if uneaten.</p>
@@ -1564,7 +1564,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Crusader’s Mantle" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_CRUSADERS_MANTLE">
+	<element name="Crusader’s Mantle" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_CRUSADERS_MANTLE">
 		<supports>Paladin, Damaging Spell</supports>
 		<description>
 			<p>You radiate a magical aura in a 30-foot Emanation. While in the aura, you and your allies each deal an extra 1d4 Radiant damage when hitting with a weapon or an Unarmed Strike.</p>
@@ -1585,7 +1585,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Daylight" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DAYLIGHT">
+	<element name="Daylight" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DAYLIGHT">
 		<supports>Cleric, Druid, Paladin, Ranger, Sorcerer</supports>
 		<description>
 			<p>For the duration, sunlight spreads from a point within range and fills a 60-foot-radius Sphere. The sunlight's area is Bright Light and sheds Dim Light for an additional 60 feet.</p>
@@ -1608,7 +1608,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Fear" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_FEAR">
+	<element name="Fear" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_FEAR">
 		<supports>Bard, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>Each creature in a 30-foot Cone must succeed on a Wisdom saving throw or drop whatever it is holding and have the Frightened condition for the duration.</p>
@@ -1630,7 +1630,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Feign Death" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_FEIGN_DEATH">
+	<element name="Feign Death" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_FEIGN_DEATH">
 		<supports>Bard, Cleric, Druid, Wizard</supports>
 		<description>
 			<p>You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.</p>
@@ -1653,7 +1653,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Haste" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_HASTE">
+	<element name="Haste" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_HASTE">
 		<supports>Sorcerer, Wizard, Artificer</supports>
 		<description>
 			<p>Choose a willing creature that you can see within range. Until the spell ends, the target's Speed is doubled, it gains a +2 bonus to Armor Class, it has Advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used to take only the Attack (one attack only), Dash, Disengage, Hide, or Utilize action.</p>
@@ -1675,7 +1675,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Hypnotic Pattern" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_HYPNOTIC_PATTERN">
+	<element name="Hypnotic Pattern" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_HYPNOTIC_PATTERN">
 		<supports>Bard, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You create a twisting pattern of colors in a 30-foot Cube within range. The pattern appears for a moment and vanishes. Each creature in the area who can see the pattern must succeed on a Wisdom saving throw or have the Charmed condition for the duration. While Charmed, the creature has the Incapacitated condition and a Speed of 0.</p>
@@ -1697,7 +1697,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Leomund’s Tiny Hut" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_LEOMUNDS_TINY_HUT">
+	<element name="Leomund’s Tiny Hut" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_LEOMUNDS_TINY_HUT">
 		<supports>Bard, Wizard</supports>
 		<description>
 			<p>A 10-foot Emanation springs into existence around you and remains stationary for the duration. The spell fails when you cast it if the Emanation isn't big enough to fully encapsulate all creatures in its area.</p>
@@ -1721,7 +1721,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Meld into Stone" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_MELD_INTO_STONE">
+	<element name="Meld into Stone" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_MELD_INTO_STONE">
 		<supports>Cleric, Druid, Ranger</supports>
 		<description>
 			<p>You step into a stone object or surface large enough to fully contain your body, merging yourself and your equipment with the stone for the duration. You must touch the stone to do so. Nothing of your presence remains visible or otherwise detectable by nonmagical senses.</p>
@@ -1744,7 +1744,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Nondetection" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_NONDETECTION">
+	<element name="Nondetection" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_NONDETECTION">
 		<supports>Bard, Ranger, Wizard</supports>
 		<description>
 			<p>For the duration, you hide a target that you touch from Divination spells. The target can be a willing creature, or it can be a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any Divination spell or perceived through magical scrying sensors.</p>
@@ -1765,7 +1765,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Phantom Steed" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_PHANTOM_STEED">
+	<element name="Phantom Steed" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_PHANTOM_STEED">
 		<supports>Wizard</supports>
 		<description>
 			<p>A Large, quasi-real, horselike creature appears on the ground in an unoccupied space of your choice within range. You decide the creature's appearance, and it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.</p>
@@ -1787,7 +1787,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Plant Growth" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_PLANT_GROWTH">
+	<element name="Plant Growth" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_PLANT_GROWTH">
 		<supports>Bard, Druid, Ranger</supports>
 		<description>
 			<p>This spell channels vitality into plants. The casting time you use determines whether the spell has the Overgrowth or the Enrichment effect below.</p>
@@ -1810,7 +1810,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Protection from Energy" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_PROTECTION_FROM_ENERGY">
+	<element name="Protection from Energy" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_PROTECTION_FROM_ENERGY">
 		<supports>Cleric, Druid, Ranger, Sorcerer, Wizard, Artificer</supports>
 		<description>
 			<p>FFor the duration, the willing creature you touch has Resistance to one damage type of your choice: Acid, Cold, Fire, Lightning, or Thunder.</p>
@@ -1831,7 +1831,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Revivify" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_REVIVIFY">
+	<element name="Revivify" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_REVIVIFY">
 		<supports>Cleric, Druid, Paladin, Ranger, Artificer, Healing Spell</supports>
 		<description>
 			<p>You touch a creature that has died within the last minute. That creature revives with 1 Hit Point. This spell can't revive a creature that has died of old age, nor does it restore any missing body parts.</p>
@@ -1852,7 +1852,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Sending" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SENDING">
+	<element name="Sending" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SENDING">
 		<supports>Bard, Cleric, Wizard</supports>
 		<description>
 			<p>You send a short message of 25 words or fewer to a creature you have met or a creature described to you by someone who has met it. The target hears the message in its mind, recognizes you as the sender if it knows you, and can answer in a like manner immediately. The spell enables targets to understand the meaning of your message.</p>
@@ -1875,7 +1875,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Sleet Storm" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SLEET_STORM">
+	<element name="Sleet Storm" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SLEET_STORM">
 		<supports>Druid, Sorcerer, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>Until the spell ends, sleet falls in a 40-foot-tall, 20-foot-radius Cylinder centered on a point you choose within range. The area is Heavily Obscured, and exposed flames in the area are doused.</p>
@@ -1897,7 +1897,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Slow" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SLOW">
+	<element name="Slow" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SLOW">
 		<supports>Bard, Sorcerer, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You alter time around up to six creatures of your choice in a 40-foot Cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</p>
@@ -1920,7 +1920,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Speak with Dead" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_DEAD">
+	<element name="Speak with Dead" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_DEAD">
 		<supports>Bard, Cleric, Wizard</supports>
 		<description>
 			<p>You grant the semblance of life to a corpse of your choice within range, allowing it to answer questions you pose. The corpse must have a mouth, and this spell fails if the deceased creature was Undead when it died. The spell also fails if the corpse was the target of this spell within the past 10 days.</p>
@@ -1942,7 +1942,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Speak with Plants" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_PLANTS">
+	<element name="Speak with Plants" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SPEAK_WITH_PLANTS">
 		<supports>Bard, Druid, Ranger</supports>
 		<description>
 			<p>You imbue plants in an immobile 30-foot Emanation with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell's area within the past day, gaining information about creatures that have passed, weather, and other circumstances.</p>
@@ -1967,7 +1967,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Stinking Cloud" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_STINKING_CLOUD">
+	<element name="Stinking Cloud" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_STINKING_CLOUD">
 		<supports>Bard, Sorcerer, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You create a 20-foot-radius Sphere of yellow, nauseating gas centered on a point within range. The cloud is Heavily Obscured. The cloud lingers in the air for the duration or until a strong wind (such as the one created by Gust of Wind) disperses it.</p>
@@ -1989,7 +1989,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Tongues" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_TONGUES">
+	<element name="Tongues" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_TONGUES">
 		<supports>Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>This spell grants the creature you touch the ability to understand any spoken or signed language that it hears or sees. Moreover, when the target communicates by speaking or signing, any creature that knows at least one language can understand it if that creature can hear the speech or see the signing.</p>
@@ -2010,7 +2010,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Water Breathing" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_WATER_BREATHING">
+	<element name="Water Breathing" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_WATER_BREATHING">
 		<supports>Druid, Ranger, Sorcerer, Wizard, Artificer</supports>
 		<description>
 			<p>This spell grants up to ten willing creatures of your choice within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.</p>
@@ -2031,7 +2031,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Water Walk" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_WATER_WALK">
+	<element name="Water Walk" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_WATER_WALK">
 		<supports>Cleric, Druid, Ranger, Sorcerer, Artificer</supports>
 		<description>
 			<p>This spell grants the ability to move across any liquid surface—such as water, acid, mud, snow, quicksand, or lava—as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures of your choice within range gain this ability for the duration.</p>
@@ -2053,7 +2053,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Wind Wall" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_WIND_WALL">
+	<element name="Wind Wall" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_WIND_WALL">
 		<supports>Druid, Ranger, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>A wall of strong wind rises from the ground at a point you choose within range. You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. You can shape the wall in any way you choose so long as it makes one continuous path along the ground. The wall lasts for the duration.</p>
@@ -2078,7 +2078,7 @@
 	</element>
 	
 <!-- 4th Level Spells -->
-	<element name="Arcane Eye" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_ARCANE_EYE">
+	<element name="Arcane Eye" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_ARCANE_EYE">
 		<supports>Artificer, Wizard</supports>
 		<description>
 			<p>You create an Invisible, invulnerable eye within range that hovers for the duration. You mentally receive visual information from the eye, which can see in every direction. It also has Darkvision with a range of 30 feet.</p>
@@ -2100,7 +2100,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Aura of Life" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_AURA_OF_LIFE">
+	<element name="Aura of Life" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_AURA_OF_LIFE">
 		<supports>Cleric, Paladin, Healing Spell</supports>
 		<description>
 			<p>An aura radiates from you in a 30-foot Emanation for the duration. While in the aura, you and your allies have Resistance to Necrotic damage, and your Hit Point maximums can’t be reduced. If an ally with 0 Hit Points starts its turn in the aura, that ally regains 1 Hit Point.</p>
@@ -2120,7 +2120,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Aura of Purity" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_AURA_OF_PURITY">
+	<element name="Aura of Purity" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_AURA_OF_PURITY">
 		<supports>Cleric, Paladin</supports>
 		<description>
 			<p>An aura radiates from you in a 30-foot Emanation for the duration. While in the aura, you and your allies have Resistance to Poison damage and Advantage on saving throws to avoid or end effects that include the Blinded, Charmed, Deafened, Frightened, Paralyzed, Poisoned, or Stunned condition.</p>
@@ -2140,7 +2140,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Compulsion" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_COMPULSION">
+	<element name="Compulsion" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_COMPULSION">
 		<supports>Bard, Spell Saving Throw</supports>
 		<description>
 			<p>Each creature of your choice that you can see within range must succeed on a Wisdom saving throw or have the Charmed condition until the spell ends.</p>
@@ -2161,7 +2161,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Control Water" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_CONTROL_WATER">
+	<element name="Control Water" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_CONTROL_WATER">
 		<supports>Cleric, Druid, Wizard, Spell Saving Throw, Damaging Spell</supports>
 		<description>
 			<p>Until the spell ends, you control any water inside an area you choose that is a Cube up to 100 feet on a side, using one of the following effects. As a Magic action on your later turns, you can repeat the same effect or choose a different one.</p>
@@ -2187,7 +2187,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Death Ward" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DEATH_WARD">
+	<element name="Death Ward" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DEATH_WARD">
 		<supports>Cleric, Paladin, Healing Spell</supports>
 		<description>
 			<p>You touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 Hit Points before the spell ends, the target instead drops to 1 Hit Point, and the spell ends.</p>
@@ -2209,7 +2209,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Dimension Door" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DIMENSION_DOOR">
+	<element name="Dimension Door" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DIMENSION_DOOR">
 		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You teleport to a location within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as "200 feet straight downward" or "300 feet upward to the northwest at a 45-degree angle."</p>
@@ -2232,7 +2232,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Divination" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DIVINATION">
+	<element name="Divination" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DIVINATION">
 		<supports>Cleric, Druid, Wizard</supports>
 		<description>
 			<p>This spell puts you in contact with a god or a god's servants. You ask one question about a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply, which might be a short phrase or cryptic rhyme. The spell doesn't account for circumstances that might change the answer, such as the casting of other spells.</p>
@@ -2254,7 +2254,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Evard’s Black Tentacles" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_EVARDS_BLACK_TENTACLES">
+	<element name="Evard’s Black Tentacles" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_EVARDS_BLACK_TENTACLES">
 		<supports>Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in that area into Difficult Terrain.</p>
@@ -2277,7 +2277,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Fabricate" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_FABRICATE">
+	<element name="Fabricate" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_FABRICATE">
 		<supports>Wizard, Artificer</supports>
 		<description>
 			<p>You convert raw materials into products of the same material. For example, you can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, or clothes from flax or wool.</p>
@@ -2300,7 +2300,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Fire Shield" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_FIRE_SHIELD">
+	<element name="Fire Shield" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_FIRE_SHIELD">
 		<supports>Druid, Sorcerer, Wizard, Damaging Spell</supports>
 		<description>
 			<p>Wispy flames wreathe your body for the duration, shedding Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.</p>
@@ -2323,7 +2323,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Fount of Moonlight" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_FOUNT_OF_MOONLIGHT">
+	<element name="Fount of Moonlight" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_FOUNT_OF_MOONLIGHT">
 		<supports>Bard, Druid, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>A cool light wreathes your body for the duration, emitting Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.</p>
@@ -2346,7 +2346,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>	
-	<element name="Greater Invisibility" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_GREATER_INVISIBILITY">
+	<element name="Greater Invisibility" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_GREATER_INVISIBILITY">
 		<supports>Bard, Sorcerer, Wizard</supports>
 		<description>
 			<p>A creature you touch has the Invisible condition until the spell ends.</p>
@@ -2367,7 +2367,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Guardian of Faith" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_GUARDIAN_OF_FAITH">
+	<element name="Guardian of Faith" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_GUARDIAN_OF_FAITH">
 		<supports>Cleric, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>A Large spectral guardian appears and hovers for the duration in an unoccupied space that you can see within range. The guardian occupies that space and is invulnerable, and it appears in a form appropriate for your deity or pantheon.</p>
@@ -2389,7 +2389,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Hallucinatory Terrain" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_HALLUCINATORY_TERRAIN">
+	<element name="Hallucinatory Terrain" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_HALLUCINATORY_TERRAIN">
 		<supports>Bard, Druid, Warlock, Wizard</supports>
 		<description>
 			<p>You make natural terrain in a 150-foot Cube in range look, sound, and smell like another sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren't changed.</p>
@@ -2411,7 +2411,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Leomund’s Secret Chest" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_LEOMUNDS_SECRET_CHEST">
+	<element name="Leomund’s Secret Chest" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_LEOMUNDS_SECRET_CHEST">
 		<supports>Wizard, Artificer</supports>
 		<description>
 			<p>You hide a chest and all its contents on the Ethereal Plane. You must touch the chest and the miniature replica that serve as Material components for the spell. The chest can contain up to 12 cubic feet of nonliving material (3 feet by 2 feet by 2 feet).</p>
@@ -2434,7 +2434,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Locate Creature" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_LOCATE_CREATURE">
+	<element name="Locate Creature" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_LOCATE_CREATURE">
 		<supports>Bard, Cleric, Druid, Paladin, Ranger, Wizard</supports>
 		<description>
 			<p>Describe or name a creature that is familiar to you. You sense the direction to the creature's location if that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.</p>
@@ -2457,7 +2457,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Mordenkainen’s Faithful Hound" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_MORDENKAINENS_FAITHFUL_HOUND">
+	<element name="Mordenkainen’s Faithful Hound" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_MORDENKAINENS_FAITHFUL_HOUND">
 		<supports>Wizard, Artificer, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>You conjure a phantom watchdog in an unoccupied space that you can see within range. The hound remains for the duration or until the two of you are more than 300 feet apart from each other.</p>
@@ -2481,7 +2481,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Otiluke’s Resilient Sphere" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_OTILUKES_RESILIENT_SPHERE">
+	<element name="Otiluke’s Resilient Sphere" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_OTILUKES_RESILIENT_SPHERE">
 		<supports>Wizard, Artificer, Spell Saving Throw</supports>
 		<description>
 			<p>A shimmering sphere encloses a Large or smaller creature or object within range. An unwilling creature must succeed on a Dexterity saving throw or be enclosed for the duration.</p>
@@ -2505,7 +2505,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>	
-	<element name="Polymorph" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_POLYMORPH">
+	<element name="Polymorph" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_POLYMORPH">
 		<supports>Bard, Druid, Sorcerer, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You attempt to transform a creature that you can see within range into a Beast. The target must succeed on a Wisdom saving throw or shape-shift into Beast form for the duration. That form can be any Beast you choose that has a Challenge Rating equal to or less than the target's (or the target's level if it doesn't have a Challenge Rating). The target's game statistics are replaced by the stat block of the chosen Beast, but the target retains its alignment, personality, creature type, Hit Points, and Hit Point Dice.</p>
@@ -2529,7 +2529,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Stone Shape" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_STONE_SHAPE">
+	<element name="Stone Shape" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_STONE_SHAPE">
 		<supports>Cleric, Druid, Wizard, Artificer</supports>
 		<description>
 			<p>You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape you like. For example, you could shape a large rock into a weapon, statue, or coffer, or you could make a small passage through a wall that is 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible.</p>
@@ -2550,7 +2550,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Stoneskin" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_STONESKIN">
+	<element name="Stoneskin" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_STONESKIN">
 		<supports>Druid, Ranger, Sorcerer, Wizard, Artificer</supports>
 		<description>
 			<p>Until the spell ends, one willing creature you touch has Resistance to Bludgeoning, Piercing, and Slashing damage.</p>
@@ -2573,7 +2573,7 @@
 	</element>
 	
 <!-- 5th Level Spells -->
-	<element name="Antilife Shell" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_ANTILIFE_SHELL">
+	<element name="Antilife Shell" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_ANTILIFE_SHELL">
 		<supports>Druid</supports>
 		<description>
 			<p>An aura extends from you in a 10-foot Emanation for the duration. The aura prevents creatures other than Constructs and Undead from passing or reaching through it. An affected creature can cast spells or make attacks with Ranged or Reach weapons through the barrier.</p>
@@ -2594,7 +2594,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Awaken" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_AWAKEN">
+	<element name="Awaken" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_AWAKEN">
 		<supports>Bard, Druid</supports>
 		<description>
 			<p>You spend the casting time tracing magical pathways within a precious gemstone, and then touch the target. The target must be either a Beast or Plant creature with an Intelligence of 3 or less or a natural plant that isn’t a creature. The target gains an Intelligence of 10 and the ability to speak one language you know. If the target is a natural plant, it becomes a Plant creature and gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human’s. The DM chooses statistics appropriate for the awakened Plant, such as the statistics for the <b>Awakened Shrub</b> or <b>Awakened Tree</b> in the Monster Manual.</p>
@@ -2616,7 +2616,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Banishing Smite" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_BANISHING_SMITE">
+	<element name="Banishing Smite" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_BANISHING_SMITE">
 		<supports>Paladin, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>The target hit by the attack roll takes an extra 5d10 Force damage from the attack. If the attack reduces the target to 50 Hit Points or fewer, the target must succeed on a Charisma saving throw or be transported to a harmless demiplane for the duration. While there, the target has the Incapacitated condition. When the spell ends, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.</p>
@@ -2636,7 +2636,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Circle of Power" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_CIRCLE_OF_POWER">
+	<element name="Circle of Power" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_CIRCLE_OF_POWER">
 		<supports>Cleric, Paladin, Wizard</supports>
 		<description>
 			<p>An aura radiates from you in a 30-foot Emanation for the duration. While in the aura, you and your allies have Advantage on saving throws against spells and other magical effects. When an affected creature makes a saving throw against a spell or magical effect that allows a save to take only half damage, it takes no damage if it succeeds on the save.</p>
@@ -2656,7 +2656,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Commune" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_COMMUNE">
+	<element name="Commune" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_COMMUNE">
 		<supports>Cleric</supports>
 		<description>
 			<p>You contact a deity or a divine proxy and ask up to three questions that can be answered with yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.</p>
@@ -2679,7 +2679,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Commune with Nature" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_COMMUNE_WITH_NATURE">
+	<element name="Commune with Nature" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_COMMUNE_WITH_NATURE">
 		<supports>Druid, Ranger</supports>
 		<description>
 			<p>You commune with nature spirits and gain knowledge of the surrounding area. In the outdoors, the spell gives you knowledge of the area within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn't function where nature has been replaced by construction, such as in castles and settlements.</p>
@@ -2708,7 +2708,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Conjure Volley" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_CONJURE_VOLLEY">
+	<element name="Conjure Volley" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_CONJURE_VOLLEY">
 		<supports>Ranger, Spell Saving Throw, Damaging Spell</supports>
 		<description>
 			<p>You brandish the weapon used to cast the spell and choose a point within range. Hundreds of similar spectral weapons (or ammunition appropriate to the weapon) fall in a volley and then disappear. Each creature of your choice that you can see in a 40-foot-radius, 20-foot-high Cylinder centered on that point makes a Dexterity saving throw. A creature takes 8d8 Force damage on a failed save or half as much damage on a successful one.</p>
@@ -2729,7 +2729,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Contact Other Plane" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_CONTACT_OTHER_PLANE">
+	<element name="Contact Other Plane" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_CONTACT_OTHER_PLANE">
 		<supports>Warlock, Wizard, Spell Saving Throw, Damaging Spell</supports>
 		<description>
 			<p>You mentally contact a demigod, the spirit of a long-dead sage, or some other knowledgeable entity from another plane. Contacting this otherworldly intelligence can break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The DM answers each question with one word, such as "yes," "no," "maybe," "never," "irrelevant," or "unclear" (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the DM might instead offer a short phrase as an answer.</p>
@@ -2750,7 +2750,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Contagion" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_CONTAGION">
+	<element name="Contagion" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_CONTAGION">
 		<supports>Cleric, Druid, Spell Saving Throw</supports>
 		<description>
 			<p>Your touch inflicts a magical contagion. The target must succeed on a Constitution saving throw or take 11d8 Necrotic damage and have the Poisoned condition. Also, choose one ability when you cast the spell. While Poisoned, the target has Disadvantage on saving throws made with the chosen ability.</p>
@@ -2772,7 +2772,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Destructive Wave" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DESTRUCTIVE_WAVE">
+	<element name="Destructive Wave" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DESTRUCTIVE_WAVE">
 		<supports>Paladin, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>Destructive energy ripples outward from you in a 30-foot Emanation. Each creature you choose in the Emanation makes a Constitution saving throw. On a failed save, a target takes 5d6 Thunder damage and 5d6 Radiant or Necrotic damage (your choice) and has the Prone condition. On a successful save, a target takes half as much damage only.</p>
@@ -2793,7 +2793,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Dispel Evil and Good" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DISPEL_EVIL_AND_GOOD">
+	<element name="Dispel Evil and Good" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DISPEL_EVIL_AND_GOOD">
 		<supports>Cleric, Paladin, Spell Saving Throw</supports>
 		<description>
 			<p>For the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions.</p>
@@ -2816,7 +2816,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Dream" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DREAM">
+	<element name="Dream" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DREAM">
 		<supports>Bard, Warlock, Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>You target a creature you know on the same plane of existence. You or a willing creature you touch enters a trance state to act as a dream messenger. While in the trance, the messenger is Incapacitated and has a Speed of 0.</p>
@@ -2840,7 +2840,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Greater Restoration" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_GREATER_RESTORATION">
+	<element name="Greater Restoration" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_GREATER_RESTORATION">
 		<supports>Bard, Cleric, Druid, Paladin, Ranger, Artificer</supports>
 		<description>
 			<p>You touch a creature and magically remove one of the following effects from it:</p>
@@ -2868,7 +2868,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Hallow" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_HALLOW">
+	<element name="Hallow" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_HALLOW">
 		<supports>Cleric</supports>
 		<description>
 			<p>You touch a point and infuse an area around it with holy or unholy power. The area can have a radius up to 60 feet, and the spell fails if the radius includes an area already under the effect of <i>Hallow.</i> The affected area has the following effects.</p>
@@ -2901,7 +2901,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Mislead" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_MISLEAD">
+	<element name="Mislead" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_MISLEAD">
 		<supports>Bard, Warlock, Wizard</supports>
 		<description>
 			<p>You gain the Invisible condition at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends immediately after you make an attack roll, deal damage, or cast a spell.</p>
@@ -2924,7 +2924,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Passwall" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_PASSWALL">
+	<element name="Passwall" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_PASSWALL">
 		<supports>Wizard</supports>
 		<description>
 			<p>A passage appears at a point that you can see on a wooden, plaster, or stone surface (such as a wall, ceiling, or floor) within range and lasts for the duration. You choose the opening's dimensions: up to 5 feet wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a structure surrounding it.</p>
@@ -2946,7 +2946,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Rary’s Telepathic Bond" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_RARYS_TELEPATHIC_BOND">
+	<element name="Rary’s Telepathic Bond" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_RARYS_TELEPATHIC_BOND">
 		<supports>Bard, Wizard</supports>
 		<description>
 			<p>You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures that can't communicate in any languages aren't affected by this spell.</p>
@@ -2968,7 +2968,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Reincarnate" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_REINCARNATE">
+	<element name="Reincarnate" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_REINCARNATE">
 		<supports>Druid, Healing Spell</supports>
 		<description>
 			<p>You touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. Roll 1d10 and consult the table below to determine the body's species, or the DM chooses another playable species.</p>
@@ -3004,7 +3004,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Scrying" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SCRYING">
+	<element name="Scrying" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SCRYING">
 		<supports>Bard, Cleric, Druid, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You can see and hear a creature you choose that is on the same plane of existence as you. The target makes a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort of physical connection you have to it. The target doesn't know what it is making the save against, only that it feels uneasy.</p>
@@ -3044,7 +3044,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Seeming" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SEEMING">
+	<element name="Seeming" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SEEMING">
 		<supports>Bard, Sorcerer, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You give an illusory appearance to each creature of your choice that you can see within range. An unwilling target can make a Charisma saving throw, and if it succeeds, it is unaffected by this spell.</p>
@@ -3068,7 +3068,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Steel Wind Strike" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_STEEL_WIND_STRIKE">
+	<element name="Steel Wind Strike" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_STEEL_WIND_STRIKE">
 		<supports>Ranger, Wizard, Damaging Spell, Melee, Spell Attack</supports>
 		<description>
 			<p>You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes 6d10 Force damage.</p>
@@ -3090,7 +3090,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Swift Quiver" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SWIFT_QUIVER">
+	<element name="Swift Quiver" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SWIFT_QUIVER">
 		<supports>Ranger</supports>
 		<description>
 			<p>When you cast the spell and as a Bonus Action until it ends, you can make two attacks with a weapon that fires Arrows or Bolts, such as a Longbow or a Light Crossbow. The spell magically creates the ammunition needed for each attack. Each Arrow or Bolt created by the spell deals damage like a nonmagical piece of ammunition of its kind and disintegrates immediately after it hits or misses.</p>
@@ -3111,7 +3111,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Synaptic Static" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SYNAPTIC_STATIC">
+	<element name="Synaptic Static" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SYNAPTIC_STATIC">
 		<supports>Bard, Sorcerer, Warlock, Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>You cause psychic energy to erupt at a point within range. Each creature in a 20-foot-radius Sphere centered on that point makes an Intelligence saving throw, taking 8d6 Psychic damage on a failed save or half as much damage on a successful one.</p>
@@ -3133,7 +3133,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Telekinesis" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_TELEKINESIS">
+	<element name="Telekinesis" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_TELEKINESIS">
 		<supports>Sorcerer, Wizard</supports>
 		<description>
 			<p>You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell and as a Magic action on your later turns before the spell ends, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.</p>
@@ -3158,7 +3158,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Teleportation Circle" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_TELEPORTATION_CIRCLE">
+	<element name="Teleportation Circle" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_TELEPORTATION_CIRCLE">
 		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>As you cast the spell, you draw a 5-foot-radius circle on the ground inscribed with sigils that link your location to a permanent teleportation circle of your choice whose sigil sequence you know and that is on the same plane of existence as you. A shimmering portal opens within the circle you drew and remains open until the end of your next turn. Any creature that enters the portal instantly appears within 5 feet of the destination circle or in the nearest unoccupied space if that space is occupied.</p>
@@ -3182,7 +3182,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Tree Stride" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_TREE_STRIDE">
+	<element name="Tree Stride" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_TREE_STRIDE">
 		<supports>Druid, Ranger</supports>
 		<description>
 			<p>You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you're in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered.</p>
@@ -3204,7 +3204,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Wall of Force" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_WALL_OF_FORCE">
+	<element name="Wall of Force" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_WALL_OF_FORCE">
 		<supports>Wizard</supports>
 		<description>
 			<p>An Invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a globe with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick and lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (you choose which side).</p>
@@ -3226,7 +3226,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Wall of Stone" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_WALL_OF_STONE">
+	<element name="Wall of Stone" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_WALL_OF_STONE">
 		<supports>Druid, Sorcerer, Wizard, Artificer, Spell Saving Throw</supports>
 		<description>
 			<p>A nonmagical wall of solid stone springs into existence at a point you choose within range. The wall is 6 inches thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. Alternatively, you can create 10-foot-by-20-foot panels that are only 3 inches thick.</p>
@@ -3252,7 +3252,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Yolande's Regal Presence" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_YOLANDES_REGAL_PRESENCE">
+	<element name="Yolande's Regal Presence" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_YOLANDES_REGAL_PRESENCE">
 		<supports>Bard, Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>You surround yourself with unearthly majesty in a 10-foot Emanation. Whenever the Emanation enters the space of a creature you can see and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a Wisdom saving throw. On a failed save, the target takes 4d6 Psychic damage and has the Prone condition, and you can push it up to 10 feet away. On a successful save, the target takes half as much damage only. A creature makes this save only once per turn.</p>
@@ -3275,7 +3275,7 @@
 	</element>
 	
 <!-- 6th Level Spells -->
-	<element name="Arcane Gate" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_ARCANE_GATE">
+	<element name="Arcane Gate" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_ARCANE_GATE">
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You create linked teleportation portals. Choose two Large, unoccupied spaces on the ground that you can see, one space within range and the other one within 10 feet of you. A circular portal opens in each of those spaces and remains for the duration.</p>
@@ -3297,7 +3297,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Blade Barrier" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_BLADE_BARRIER">
+	<element name="Blade Barrier" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_BLADE_BARRIER">
 		<supports>Cleric, Damaging Spell, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>You create a wall of whirling blades made of magical energy. The wall appears within range and lasts for the duration. You make a straight wall up to 100 feet long, 20 feet high, and 5 feet thick, or a ringed wall up to 60 feet in diameter, 20 feet high, and 5 feet thick. The wall provides Three-Quarters Cover, and its space is Difficult Terrain.</p>
@@ -3318,7 +3318,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Contingency" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_CONTINGENCY">
+	<element name="Contingency" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_CONTINGENCY">
 		<supports>Wizard</supports>
 		<description>
 			<p>Choose a spell of level 5 or lower that you can cast, that has a casting time of an action, and that can target you. You cast that spell—called the contingent spell—as part of casting Contingency, expending spell slots for both, but the contingent spell doesn't come into effect. Instead, it takes effect when a certain trigger occurs. You describe that trigger when you cast the two spells. For example, a Contingency cast with Water Breathing might stipulate that Water Breathing comes into effect when you are engulfed in water or a similar liquid.</p>
@@ -3341,7 +3341,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Drawmij’s Instant Summons" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DRAWMIJS_INSTANT_SUMMONS">
+	<element name="Drawmij’s Instant Summons" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DRAWMIJS_INSTANT_SUMMONS">
 		<supports>Wizard</supports>
 		<description>
 			<p>You touch the sapphire used in the casting and an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an Invisible mark on that object and invisibly inscribes the object's name on the sapphire. Each time you cast this spell, you must use a different sapphire.</p>
@@ -3364,7 +3364,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Eyebite" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_EYEBITE">
+	<element name="Eyebite" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_EYEBITE">
 		<supports>Bard, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>For the duration, your eyes become an inky void. One creature of your choice within 60 feet of you that you can see must succeed on a Wisdom saving throw or be affected by one of the following effects of your choice for the duration.</p>
@@ -3389,7 +3389,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Find the Path" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_FIND_THE_PATH">
+	<element name="Find the Path" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_FIND_THE_PATH">
 		<supports>Bard, Cleric, Druid</supports>
 		<description>
 			<p>You magically sense the most direct physical route to a location you name. You must be familiar with the location, and the spell fails if you name a destination on another plane of existence, a moving destination (such as a mobile fortress), or an unspecific destination (such as "a green dragon's lair").</p>
@@ -3411,7 +3411,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Flesh to Stone" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_FLESH_TO_STONE">
+	<element name="Flesh to Stone" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_FLESH_TO_STONE">
 		<supports>Druid, Sorcerer, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You attempt to turn one creature that you can see within range into stone. The target makes a Constitution saving throw. On a failed save, it has the Restrained condition for the duration. On a successful save, its Speed is 0 until the start of your next turn. Constructs automatically succeed on the save.</p>
@@ -3434,7 +3434,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Forbiddance" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_FORBIDDANCE">
+	<element name="Forbiddance" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_FORBIDDANCE">
 		<supports>Cleric</supports>
 		<description>
 			<p>You create a ward against magical travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the duration, creatures can't teleport into the area or use portals, such as those created by the Gate spell, to enter the area. The spell proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, the Ethereal Plane, the Feywild, the Shadowfell, or the Plane Shift spell.</p>
@@ -3458,7 +3458,7 @@
 			<set name="isRitual">true</set>
 		</setters>
 	</element>
-	<element name="Guards and Wards" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_GUARDS_AND_WARDS">
+	<element name="Guards and Wards" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_GUARDS_AND_WARDS">
 		<supports>Bard, Wizard</supports>
 		<description>
 			<p>You create a ward that protects up to 2,500 square feet of floor space. The warded area can be up to 20 feet tall, and you shape it as one 50-foot square, one hundred 5-foot squares that are contiguous, or twenty-five 10-foot squares that are contiguous.</p>
@@ -3492,7 +3492,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Harm" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_HARM">
+	<element name="Harm" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_HARM">
 		<supports>Cleric, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>You unleash virulent magic on a creature you can see within range. The target makes a Constitution saving throw. On a failed save, it takes 14d6 Necrotic damage, and its Hit Point maximum is reduced by an amount equal to the Necrotic damage it took. On a successful save, it takes half as much damage only. This spell can't reduce a target's Hit Point maximum below 1.</p>
@@ -3513,7 +3513,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Heroes’ Feast" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_HEROES_FEAST">
+	<element name="Heroes’ Feast" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_HEROES_FEAST">
 		<supports>Bard, Cleric, Druid, Healing Spell</supports>
 		<description>
 			<p>You conjure a feast that appears on a surface in an unoccupied 10-foot Cube next to you. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don't set in until this hour is over. Up to twelve creatures can partake of the feast.</p>
@@ -3535,7 +3535,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Magic Jar" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_MAGIC_JAR">
+	<element name="Magic Jar" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_MAGIC_JAR">
 		<supports>Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>Your body falls into a catatonic state as your soul leaves it and enters the container you used for the spell's Material component. While your soul inhabits the container, you are aware of your surroundings as if you were in the container's space. You can't move or take Reactions. The only action you can take is to project your soul up to 100 feet out of the container, either returning to your living body (and ending the spell) or attempting to possess a Humanoid's body.</p>
@@ -3562,7 +3562,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Move Earth" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_MOVE_EARTH">
+	<element name="Move Earth" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_MOVE_EARTH">
 		<supports>Druid, Sorcerer, Wizard</supports>
 		<description>
 			<p>Choose an area of terrain no larger than 40 feet on a side within range. You can reshape dirt, sand, or clay in the area in any manner you choose for the duration. You can raise or lower the area's elevation, create or fill in a trench, erect or flatten a wall, or form a pillar. The extent of any such changes can't exceed half the area's largest dimension. For example, if you affect a 40-foot square, you can create a pillar up to 20 feet high, raise or lower the square's elevation by up to 20 feet, dig a trench up to 20 feet deep, and so on. It takes 10 minutes for these changes to complete. Because the terrain's transformation occurs slowly, creatures in the area can't usually be trapped or injured by the ground's movement.</p>
@@ -3586,7 +3586,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Otto’s Irresistible Dance" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_OTTOS_IRRESISTIBLE_DANCE">
+	<element name="Otto’s Irresistible Dance" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_OTTOS_IRRESISTIBLE_DANCE">
 		<supports>Bard, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>One creature that you can see within range must make a Wisdom saving throw. On a successful save, the target dances comically until the end of its next turn, during which it must spend all its movement to dance in place.</p>
@@ -3608,7 +3608,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Planar Ally" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_PLANAR_ALLY">
+	<element name="Planar Ally" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_PLANAR_ALLY">
 		<supports>Cleric</supports>
 		<description>
 			<p>You beseech an otherworldly entity for aid. The being must be known to you: a god, a demon prince, or some other being of cosmic power. That entity sends a Celestial, an Elemental, or a Fiend loyal to it to aid you, making the creature appear in an unoccupied space within range. If you know a specific creature's name, you can speak that name when you cast this spell to request that creature, though you might get a different creature anyway (DM's choice).</p>
@@ -3633,7 +3633,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Programmed Illusion" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_PROGRAMMED_ILLUSION">
+	<element name="Programmed Illusion" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_PROGRAMMED_ILLUSION">
 		<supports>Bard, Wizard</supports>
 		<description>
 			<p>You create an illusion of an object, a creature, or some other visible phenomenon within range that activates when a specific trigger occurs. The illusion is imperceptible until then. It must be no larger than a 30-foot Cube, and you decide when you cast the spell how the illusion behaves and what sounds it makes. This scripted performance can last up to 5 minutes.</p>
@@ -3657,7 +3657,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Sunbeam" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SUNBEAM">
+	<element name="Sunbeam" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SUNBEAM">
 		<supports>Cleric, Druid, Sorcerer, Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>You launch a sunbeam in a 5-foot-wide, 60-foot-long Line. Each creature in the Line makes a Constitution saving throw. On a failed save, a creature takes 6d8 Radiant damage and has the Blinded condition until the start of your next turn. On a successful save, it takes half as much damage only.</p>
@@ -3680,7 +3680,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Tasha’s Bubbling Cauldron" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_TASHAS_BUBBLING_CAULDRON">
+	<element name="Tasha’s Bubbling Cauldron" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_TASHAS_BUBBLING_CAULDRON">
 		<supports>Warlock, Wizard</supports>
 		<description>
 			<p>You conjure a claw-footed cauldron filled with bubbling liquid. The cauldron appears in an unoccupied space on the ground within 5 feet of you and lasts for the duration. The cauldron can't be moved and disappears when the spell ends, along with the bubbling liquid inside it.</p>
@@ -3703,7 +3703,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Transport via Plants" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_TRANSPORT_VIA_PLANTS">
+	<element name="Transport via Plants" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_TRANSPORT_VIA_PLANTS">
 		<supports>Druid</supports>
 		<description>
 			<p>This spell creates a magical link between a Large or larger inanimate plant within range and another plant, at any distance, on the same plane of existence. You must have seen or touched the destination plant at least once before. For the duration, any creature can step into the target plant and exit from the destination plant by using 5 feet of movement.</p>
@@ -3724,7 +3724,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="True Seeing" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_TRUE_SEEING">
+	<element name="True Seeing" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_TRUE_SEEING">
 		<supports>Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>For the duration, the willing creature you touch has Truesight with a range of 120 feet.</p>
@@ -3745,7 +3745,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Wind Walk" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_WIND_WALK">
+	<element name="Wind Walk" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_WIND_WALK">
 		<supports>Druid</supports>
 		<description>
 			<p>You and up to ten willing creatures of your choice within range assume gaseous forms for the duration, appearing as wisps of cloud. While in this cloud form, a target has a Fly Speed of 300 feet and can hover; it has Immunity to the Prone condition; and it has Resistance to Bludgeoning, Piercing, and Slashing damage. The only actions a target can take in this form are the Dash action or a Magic action to begin reverting to its normal form. Reverting takes 1 minute, during which the target has the Stunned condition. Until the spell ends, the target can revert to cloud form, which also requires a Magic action followed by a 1-minute transformation.</p>
@@ -3767,7 +3767,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Word of Recall" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_WORD_OF_RECALL">
+	<element name="Word of Recall" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_WORD_OF_RECALL">
 		<supports>Cleric</supports>
 		<description>
 			<p>You and up to five willing creatures within 5 feet of you instantly teleport to a previously designated sanctuary. You and any creatures that teleport with you appear in the nearest unoccupied space to the spot you designated when you prepared your sanctuary (see below). If you cast this spell without first preparing a sanctuary, the spell has no effect.</p>
@@ -3791,7 +3791,7 @@
 	</element>
 	
 <!-- 7th Level Spells -->
-	<element name="Divine Word" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DIVINE_WORD">
+	<element name="Divine Word" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DIVINE_WORD">
 		<supports>Cleric, Spell Saving Throw</supports>
 		<description>
 			<p>You utter a word imbued with power from the Upper Planes. Each creature of your choice in range makes a Charisma saving throw. On a failed save, a target that has 50 Hit Points or fewer suffers an effect based on its current Hit Points, as shown in the Divine Word Effects table. Regardless of its Hit Points, a Celestial, an Elemental, a Fey, or a Fiend target that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to the current plane for 24 hours by any means short of a <i>Wish</i> spell.</p>
@@ -3822,7 +3822,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Finger of Death" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_FINGER_OF_DEATH">
+	<element name="Finger of Death" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_FINGER_OF_DEATH">
 		<supports>Sorcerer, Warlock, Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>You unleash negative energy toward a creature you can see within range. The target makes a Constitution saving throw, taking 7d8 + 30 Necrotic damage on a failed save or half as much damage on a successful one.</p>
@@ -3844,7 +3844,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Fire Storm" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_FIRE_STORM">
+	<element name="Fire Storm" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_FIRE_STORM">
 		<supports>Cleric, Druid, Sorcerer, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>A storm of fire appears within range. The area of the storm consists of up to ten 10-foot Cubes, which you arrange as you like. Each Cube must be contiguous with at least one other Cube. Each creature in the area makes a Dexterity saving throw, taking 7d10 Fire damage on a failed save or half as much damage on a successful one.</p>
@@ -3866,7 +3866,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Forcecage" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_FORCECAGE">
+	<element name="Forcecage" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_FORCECAGE">
 		<supports>Bard, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>An immobile, Invisible, Cube-shaped prison composed of magical force springs into existence around an area you choose within range. The prison can be a cage or a solid box, as you choose.</p>
@@ -3891,7 +3891,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Mirage Arcane" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_MIRAGE_ARCANE">
+	<element name="Mirage Arcane" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_MIRAGE_ARCANE">
 		<supports>Bard, Druid, Wizard</supports>
 		<description>
 			<p>You make terrain in an area up to 1 mile square look, sound, smell, and even feel like some other sort of terrain. Open fields or a road could be made to resemble a swamp, hill, crevasse, or some other rough or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road.</p>
@@ -3915,7 +3915,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Mordenkainen’s Magnificent Mansion" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_MORDENKAINENS_MAGNIFICENT_MANSION">
+	<element name="Mordenkainen’s Magnificent Mansion" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_MORDENKAINENS_MAGNIFICENT_MANSION">
 		<supports>Bard, Wizard</supports>
 		<description>
 			<p>You conjure a shimmering door in range that lasts for the duration. The door leads to an extradimensional dwelling and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the door remains open. You can open or close it (no action required) if you are within 30 feet of it. While closed, the door is imperceptible.</p>
@@ -3940,7 +3940,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Mordenkainen’s Sword" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_MORDENKAINENS_SWORD">
+	<element name="Mordenkainen’s Sword" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_MORDENKAINENS_SWORD">
 		<supports>Bard, Wizard, Damaging Spell, Melee, Spell Attack</supports>
 		<description>
 			<p>You create a spectral sword that hovers within range. It lasts for the duration.</p>
@@ -3963,7 +3963,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Plane Shift" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_PLANE_SHIFT">
+	<element name="Plane Shift" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_PLANE_SHIFT">
 		<supports>Cleric, Druid, Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that destination, as determined by the DM.</p>
@@ -3985,7 +3985,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Power Word Fortify" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_POWER_WORD_FORTIFY">
+	<element name="Power Word Fortify" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_POWER_WORD_FORTIFY">
 		<supports>Bard, Cleric, Healing Spell</supports>
 		<description>
 			<p>You fortify up to six creatures you can see within range. The spell bestows 120 Temporary Hit Points, which you divide among the spell's recipients.</p>
@@ -4006,7 +4006,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Prismatic Spray" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_PRISMATIC_SPRAY">
+	<element name="Prismatic Spray" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_PRISMATIC_SPRAY">
 		<supports>Bard, Sorcerer, Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>Eight rays of light flash from you in a 60-foot Cone. Each creature in the Cone makes a Dexterity saving throw. For each target, roll 1d8 to determine which color ray affects it, consulting the Prismatic Rays table.</p>
@@ -4039,7 +4039,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Project Image" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_PROJECT_IMAGE">
+	<element name="Project Image" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_PROJECT_IMAGE">
 		<supports>Bard, Wizard</supports>
 		<description>
 			<p>You create an illusory copy of yourself that lasts for the duration. The copy can appear at any location within range that you have seen before, regardless of intervening obstacles. The illusion looks and sounds like you, but it is intangible. If the illusion takes any damage, it disappears, and the spell ends.</p>
@@ -4062,7 +4062,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Regenerate" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_REGENERATE">
+	<element name="Regenerate" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_REGENERATE">
 		<supports>Bard, Cleric, Druid, Healing Spell</supports>
 		<description>
 			<p>A creature you touch regains 4d8 + 15 Hit Points. For the duration, the target regains 1 Hit Point at the start of each of its turns, and any severed body parts regrow after 2 minutes.</p>
@@ -4083,7 +4083,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Resurrection" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_RESURRECTION">
+	<element name="Resurrection" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_RESURRECTION">
 		<supports>Bard, Cleric, Healing Spell</supports>
 		<description>
 			<p>With a touch, you revive a dead creature that has been dead for no more than a century, didn't die of old age, and wasn't Undead when it died.</p>
@@ -4107,7 +4107,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Reverse Gravity" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_REVERSE_GRAVITY">
+	<element name="Reverse Gravity" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_REVERSE_GRAVITY">
 		<supports>Druid, Sorcerer, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>This spell reverses gravity in a 50-foot-radius, 100-foot high Cylinder centered on a point within range. All creatures and objects in that area that aren't anchored to the ground fall upward and reach the top of the Cylinder. A creature can make a Dexterity saving throw to grab a fixed object it can reach, thus avoiding the fall upward.</p>
@@ -4129,7 +4129,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Sequester" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SEQUESTER">
+	<element name="Sequester" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SEQUESTER">
 		<supports>Wizard</supports>
 		<description>
 			<p>With a touch, you magically sequester an object or a willing creature. For the duration, the target has the Invisible condition and can't be targeted by Divination spells, detected by magic, or viewed remotely with magic.</p>
@@ -4152,7 +4152,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Simulacrum" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SIMULACRUM">
+	<element name="Simulacrum" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SIMULACRUM">
 		<supports>Wizard</supports>
 		<description>
 			<p>You create a simulacrum of one Beast or Humanoid that is within 10 feet of you for the entire casting of the spell. You finish the casting by touching both the creature and a pile of ice or snow that is the same size as that creature, and the pile turns into the simulacrum, which is a creature. It uses the game statistics of the original creature at the time of casting, except it is a Construct, its Hit Point maximum is half as much, and it can't cast this spell.</p>
@@ -4176,7 +4176,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Symbol" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SYMBOL">
+	<element name="Symbol" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SYMBOL">
 		<supports>Bard, Cleric, Druid, Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>You inscribe a harmful glyph either on a surface (such as a section of floor or wall) or within an object that can be closed (such as a book or chest). The glyph can cover an area no larger than 10 feet in diameter. If you choose an object, it must remain in place; if it is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.</p>
@@ -4208,7 +4208,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Teleport" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_TELEPORT">
+	<element name="Teleport" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_TELEPORT">
 		<supports>Bard, Sorcerer, Wizard</supports>
 		<description>
 			<p>This spell instantly transports you and up to eight willing creatures that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be Large or smaller, and it can't be held or carried by an unwilling creature.</p>
@@ -4257,7 +4257,7 @@
 	</element>
 	
 <!-- 8th Level Spells -->
-	<element name="Animal Shapes" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_ANIMAL_SHAPES">
+	<element name="Animal Shapes" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_ANIMAL_SHAPES">
 		<supports>Druid</supports>
 		<description>
 			<p>Choose any number of willing creatures that you can see within range. Each target shape-shifts into a Large or smaller Beast of your choice that has a Challenge Rating of 4 or lower. You can choose a different form for each target. On later turns, you can take a Magic action to transform the targets again.</p>
@@ -4279,7 +4279,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Antimagic Field" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_ANTIMAGIC_FIELD">
+	<element name="Antimagic Field" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_ANTIMAGIC_FIELD">
 		<supports>Cleric, Wizard</supports>
 		<description>
 			<p>An aura of antimagic surrounds you in 10-foot Emanation. No one can cast spells, take Magic actions, or create other magical effects inside the aura, and those things can’t target or otherwise affect anything inside it. Magical properties of magic items don’t work inside the aura or on anything inside it.</p>
@@ -4303,7 +4303,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Antipathy/Sympathy" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_ANTIPATHY_SYMPATHY">
+	<element name="Antipathy/Sympathy" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_ANTIPATHY_SYMPATHY">
 		<supports>Bard, Druid, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>As you cast the spell, choose whether it creates antipathy or sympathy, and target one creature or object that is Huge or smaller. Then specify a kind of creature, such as red dragons, goblins, or vampires. A creature of the chosen kind makes a Wisdom saving throw when it comes within 120 feet of the target. Your choice of antipathy or sympathy determines what happens to a creature when it fails that save:</p>
@@ -4326,7 +4326,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Befuddlement" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_BEFUDDLEMENT">
+	<element name="Befuddlement" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_BEFUDDLEMENT">
 		<supports>Bard, Druid, Warlock, Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>You blast the mind of a creature that you can see within range. The target makes an Intelligence saving throw.</p>
@@ -4349,7 +4349,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Clone" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_CLONE">
+	<element name="Clone" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_CLONE">
 		<supports>Wizard</supports>
 		<description>
 			<p>You touch a creature or at least 1 cubic inch of its flesh. An inert duplicate of that creature forms inside the vessel used in the spell's casting and finishes growing after 120 days; you choose whether the finished clone is the same age as the creature or younger. The clone remains inert and endures indefinitely while its vessel remains undisturbed.</p>
@@ -4371,7 +4371,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Control Weather" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_CONTROL_WEATHER">
+	<element name="Control Weather" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_CONTROL_WEATHER">
 		<supports>Cleric, Druid, Wizard</supports>
 		<description>
 			<p>You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors.</p>
@@ -4428,7 +4428,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Demiplane" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_DEMIPLANE">
+	<element name="Demiplane" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_DEMIPLANE">
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
 			<p>You create a shadowy Medium door on a flat solid surface that you can see within range. This door can be opened and closed, and it leads to a demiplane that is an empty room 30 feet in each dimension, made of wood or stone (your choice).</p>
@@ -4451,7 +4451,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Earthquake" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_EARTHQUAKE">
+	<element name="Earthquake" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_EARTHQUAKE">
 		<supports>Cleric, Druid, Sorcerer, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>Choose a point on the ground that you can see within range. For the duration, an intense tremor rips through the ground in a 100-foot-radius circle centered on that point. The ground there is Difficult Terrain.</p>
@@ -4477,7 +4477,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Glibness" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_GLIBNESS">
+	<element name="Glibness" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_GLIBNESS">
 		<supports>Bard, Warlock</supports>
 		<description>
 			<p>Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.</p>
@@ -4498,7 +4498,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Holy Aura" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_HOLY_AURA">
+	<element name="Holy Aura" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_HOLY_AURA">
 		<supports>Cleric, Spell Saving Throw</supports>
 		<description>
 			<p>For the duration, you emit an aura in a 30-foot Emanation. While in the aura, creatures of your choice have Advantage on all saving throws, and other creatures have Disadvantage on attack rolls against them. In addition, when a Fiend or an Undead hits an affected creature with a melee attack roll, the attacker must succeed on a Constitution saving throw or have the Blinded condition until the end of its next turn.</p>
@@ -4519,7 +4519,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Incendiary Cloud" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_INCENDIARY_CLOUD">
+	<element name="Incendiary Cloud" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_INCENDIARY_CLOUD">
 		<supports>Druid, Sorcerer, Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>A swirling cloud of embers and smoke fills a 20-foot-radius Sphere centered on a point within range. The cloud's area is Heavily Obscured. It lasts for the duration or until a strong wind (like that created by <i>Gust of Wind</i>) disperses it.</p>
@@ -4542,7 +4542,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Maze" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_MAZE">
+	<element name="Maze" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_MAZE">
 		<supports>Wizard</supports>
 		<description>
 			<p>You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze.</p>
@@ -4565,7 +4565,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Mind Blank" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_MIND_BLANK">
+	<element name="Mind Blank" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_MIND_BLANK">
 		<supports>Bard, Wizard</supports>
 		<description>
 			<p>Until the spell ends, one willing creature you touch has Immunity to Psychic damage and the Charmed condition. The target is also unaffected by anything that would sense its emotions or alignment, read its thoughts, or magically detect its location, and no spell—not even Wish—can gather information about the target, observe it remotely, or control its mind.</p>
@@ -4586,7 +4586,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Power Word Stun" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_POWER_WORD_STUN">
+	<element name="Power Word Stun" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_POWER_WORD_STUN">
 		<supports>Bard, Sorcerer, Warlock, Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>You overwhelm the mind of one creature you can see within range. If the target has 150 Hit Points or fewer, it has the Stunned condition. Otherwise, its Speed is 0 until the start of your next turn.</p>
@@ -4608,7 +4608,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Sunburst" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_SUNBURST">
+	<element name="Sunburst" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_SUNBURST">
 		<supports>Cleric, Druid, Sorcerer, Wizard, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>Brilliant sunlight flashes in a 60-foot-radius Sphere centered on a point you choose within range. Each creature in the Sphere makes a Constitution saving throw. On a failed save, a creature takes 12d6 Radiant damage and has the Blinded condition for 1 minute. On a successful save, it takes half as much damage only.</p>
@@ -4631,7 +4631,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Telepathy" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_TELEPATHY">
+	<element name="Telepathy" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_TELEPATHY">
 		<supports>Wizard</supports>
 		<description>
 			<p>You create a telepathic link between yourself and a willing creature with which you are familiar. The creature can be anywhere on the same plane of existence as you. The spell ends if you or the target are no longer on the same plane.</p>
@@ -4653,7 +4653,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	<element name="Tsunami" type="Spell" source="Player’s Handbook 2024" id="ID_WOTC_PHB24_SPELL_TSUNAMI">
+	<element name="Tsunami" type="Spell" source="Player’s Handbook (2024)" id="ID_WOTC_PHB24_SPELL_TSUNAMI">
 		<supports>Druid, Damaging Spell, Spell Saving Throw</supports>
 		<description>
 			<p>A wall of water springs into existence at a point you choose within range. You can make the wall up to 300 feet long, 300 feet high, and 50 feet thick. The wall lasts for the duration.</p>
