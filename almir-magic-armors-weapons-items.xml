@@ -4,7 +4,7 @@
 		<name>Tales of Mir Homebrew: Magical Armors, Weapons, and Items</name>
 		<description>A collection of magical weapons, armors, and items found by the PCs of the Tales of Mir campaign.</description>
 		<author>Salty Coffee</author>
-		<update version="0.1.35">
+		<update version="0.1.36">
 			<file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
 		</update>
 	</info>
@@ -314,7 +314,7 @@
 			<p class="indent">You gain a +1 bonus to attack and damage rolls made with these magic weapons, and you gain the effects of the <i>Two-Weapon Fighting</i> style while wielding both at the same time.</p>
 			<h5><u>The Duet of Dawn and Dusk</u></h5>
 			<div class="sidebar">
-				<p><i>“For long time you lived alone in shadow, finally it is time to dance in the rays of the light, in a deadly dance meant for two.”</i></p> 
+				<p><i>“For ages you lived alone in shadow, finally it is time to dance in the rays of the light, in this, a deadly dance meant for two.”</i></p> 
 			</div>
 			<p>When you would invoke the magic of your Bladesong while wielding both of these rapiers at the same time, you can choose to reduce your maximum Hit Point total by any amount to invoke the “The Duet of Dusk and Dawn”. Infused with your own lifeforce, Dawn glows with a bright flash and Fairtale, the servant to Lathander, appears in an unoccupied space you can see within 15 feet. Wielding a copy of Dawn and Dusk held in opposite hands to your own, he has a number of Hit Points equal to the number by which you reduced your own Hit Point maximum, and all his other attributes, saving throws, movement speed, and AC mirror your own at the time of his summoning. Fairtale is an ally to you and your companions, and in combat he shares your initiative count and takes his turn simultaneously with yours. He obeys your verbal commands (no action required by you). If you don't issue any, he takes the Dodge action and uses his movement to avoid danger. The Duet lasts until your Bladesong ends, Fairtale is reduced to 0 Hit Points, or he moves more than 20 feet away from you.</p>
 			<p class="indent">Fairtale himself can not directly attack, but grants Advantage to any attack rolls you make with Dawn and Dusk against creatures within 5 feet of himself. Additionally, he can take one of the following actions on his turn:</p>
@@ -324,7 +324,7 @@
 				</ul>
 			<h5><u>Curtain's Call</u></h5>
 			<div class="sidebar">
-				<p><i>““He fell once before, but it wasn’t the end. Everyone, yes everyone, should get a second chance”</i></p> 
+				<p><i>“He fell once before, but it wasn’t the end. Everyone, yes everyone, should get a second chance.”</i></p> 
 			</div>
 			<p>If you or an allied creature you can see would drop to 0 Hit Points while the Duet of Dawn and Dusk is active, Fairtale can sacrifice his ethereal form to save them from such a fate. In a flash of brilliant sunlight, the target regains a number of Hit Points equal to twice Fairtale's current Hit Point maximum, and can immediately move up to their Speed without provoking Opportunity Attacks. Doing so ends the current Bladesong, and you cannot perform the Duet of Dusk and Dawn again until you finish a Long Rest.</p>
 			</description>
