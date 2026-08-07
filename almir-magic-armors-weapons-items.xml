@@ -4,7 +4,7 @@
 		<name>Tales of Mir Homebrew: Magical Armors, Weapons, and Items</name>
 		<description>A collection of magical weapons, armors, and items found by the PCs of the Tales of Mir campaign.</description>
 		<author>Salty Coffee</author>
-		<update version="0.1.36">
+		<update version="0.1.37">
 			<file name="almir-magic-armors-weapons-items.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-magic-armors-weapons-items.xml" />
 		</update>
 	</info>
@@ -35,6 +35,9 @@
 	</element>
 	<element name="Stonelord's Chain" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_MAGIC_ITEM_STONELORDS_CHAIN">
 		<description>
+			<div class="sidebar">
+			<p>In the year of peace following Faust's Fall at the hands of the Cursebreakers, the tiefling captain Anderos Roshan wintered in the city of Dun'Morach. During his time there, he forged a bond of camaraderie and commerce with the unassuming Blacksmith of Icebeard's Refuge, and the two collaborated to craft this lightweight armor from a Telmiviran mithral chain shirt and multiple infused geodes from the Plane of Earth. The lustrous mithral no longer shines with its traditionally-pale brilliance, but to call it dull would be inaccurate; rather, the silver metal has darkened to adopt an obsidian sheen, but iridescent flecks of geode crystal gleam faintly across its surface when subjected to sunlight.</p>
+			</div>
 			<p>You gain a +2 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor.</p>
 			<p class="indent">In addition, when something attempts to move you against your will, you have Advantage on the ability check or saving throw to resist the effect.</p>
 		</description>
