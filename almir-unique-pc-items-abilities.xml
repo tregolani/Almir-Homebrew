@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.3.09">
+    <update version="0.3.10">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -502,7 +502,7 @@
 	<element name="Primordial Convergence" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_PRIMORDIAL_CONVERGENCE_STAGE1">
 	<prerequisite>Sea Sorcerer</prerequisite>
 		<requirements>ID_TREGOLANI_HB_ARCHETYPE_SEA_SORCERER</requirements>
-	<description>
+		<description>
 			<p>You can tap into the primordial powers that are paired with your soul. As a Bonus Action, roll a d10, and for 10 minutes (or until you use a Bonus Action to end it), your body assumes the corresponding elemental form. Alternative, you can forgo this roll if you spend 2 Sorcery Points to force the transformation into either Earth or Water (your choice).</p>
 			<p class="indent">You may use this boon a number of times equal to your Constitution modifier, and regain all expended uses after completing a Long Rest. </p>
 			<table>
@@ -524,10 +524,10 @@
 				• Your Ocean Magic spells are improved. Upon casting a Ocean Magic spell, you can choose to either add your Charisma modifier to the damage roll(s) of the spell, or add half of your Charisma modifier (rounded down) to the DC of the spell.<br/>
 				• Upon transforming, your Watery Defense is recharged, and you an additional use of it. Additionally, if you are within 30 feet of an ally when they take Bludgeoning, Piercing, or Slashing damage from an attack, you can use a Reaction to expend a use of your Watery Defense in order for that ally to benefit from its effects as if it were you.<br/>
 				• You gain Vulnerability to Cold and Lightning damage while in this form.</td></tr>
-				<tr><td>7-8</td><td><strong>Crystalline. </strong>A balance between the primordial powers of earth and water is obtained, whether by your own will or through the influence of another power you can’t be sure. Your horns transform into translucent crystalline spirals, and your skin darkens to an ebony sheen flecked with thousands of tiny sparkling geodes. While in this form, you gain the following effects:<br/>
+				<tr><td>7-8</td><td><strong>Crystalline. </strong>/<br/>
 				• You gain a bonus to your saving throws equal to your Constitution modifier.<br/>
 				• You gain access to the following spells: <i>Magnify Gravity, Mirror Image, Hypnotic Pattern, Gravity Sinkhole, Temporal Shunt, Summon Celestial.</i> Each of these counts as a sorcerer spell for you, and you can cast them using an appropriate spell slot.<br/>
-				• Upon transforming, you begin to surge with arcane power. You gain a number of temporary Sorcery Points equal to your Sorcerer level, which are separate from your normal pool of Sorcery Points. You can use these temporary Sorcery Points to cast any of the additional spells granted by this form by spending a number of Sorcery Points equal to the spell's level. Once this transformation ends, these temporary Sorcery Points vanish.<br/>
+				• Upon transforming, you begin to surge with arcane power. You gain a pool of Primordial Energy equal to your Sorcerer level, and can use these to cast any of the additional spells granted by this form by spending a number of  points equal to the spell's level. You can spend additional points to upcast any of these spells, up to the maximum spell slot level you currently have. Once this transformation ends, this pool of energy vanishes.<br/>
 				• Barnacle takes on a similar appearance, but does not gain the additional spells.</td></tr>
 				<tr><td>9-10</td><td><strong>Unstable Fallout. </strong>Something…isn’t right. Your voice is not your own and the powers that you draw on seem to be a torrent of twisted force. Your skin seems to develop fissures and cracks, and sizzling water hisses and bubbles from these rends. While in this form, you gain the following effects:<br/>
 				• Upon transforming, you must immediately make a <strong>DC 14 Constitution saving throw</strong>. On a failure, Barnacle dissolves, returning to your flask. However, if you fail the save by 5 or more, your control over Barnacle is severed, and he goes into a frenzy, directing spells and attacks randomly on his turns. If he is defeated in this state, he immediately dissolves and returns to your flask, and cannot be summoned again until you finish a Long Rest.<br/>
