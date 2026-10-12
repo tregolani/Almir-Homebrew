@@ -4,7 +4,7 @@
     <name>Tales of Mir Homebrew: Unique PC Items and Abilities</name>
     <description>A collection of unique items and abilities given to the PCs of the Tales of Mir campaign to represent their connection to an element of their personal backstories.</description>
     <author>Salty Coffee</author>
-    <update version="0.3.12">
+    <update version="0.3.13">
       <file name="almir-unique-pc-items-abilities.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/almir-unique-pc-items-abilities.xml" />
     </update>
   </info>
@@ -855,68 +855,6 @@
 	</element>
 
 <!-- Session 123+ Abilities/Upgrades -->
-	<element name="Primordial Convergence (Exalted)" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_PRIMORDIAL_CONVERGENCE_STAGE2">
-		<prerequisite>Sea Sorcerer</prerequisite>
-		<requirements>ID_TREGOLANI_HB_ARCHETYPE_SEA_SORCERER</requirements>
-		<description>
-			<p>You can tap into the primordial powers that are paired with your soul. As a Bonus Action, roll a d20, and your body assumes the corresponding elemental form. Alternatively, you can forgo this roll and spend the listed sorcery points to force the transformation into Earth, Water, or Crystalline (your choice). While you are transformed, you are immune to any spell or effect that would alter your form. This form lasts for 10 minutes, until you have the Incapacitated condition, or until you end the form (no action required). </p>
-			<p class="indent">You may use this boon a number of times equal to your Constitution modifier, and regain all expended uses after finishing a Long Rest.</p>
-			<table class="class-features">
-				<thead>
-					<tr><td>d20</td><td>Sorcery Point Cost</td><td class="left">Elemental Form</td></tr>
-				</thead>
-				<tr><td>2-8</td><td>2</td><td class="left"><strong>Earth.</strong> Become a living avatar of Grumbar, strengthening your flesh as stone, with the bright ruby eyes to match. Barnacle dissolves during this transformation, lost to the overwhelming surge of the earth, and you gain the following effects:<br/>
-				• You gain a bonus to AC equal to double your Constitution modifier.<br/>
-				• Gain temporary Hit Points equal to one third of your Hit Point maximum.<br/>
-				• Your Strength and Charisma attribute values and save proficiencies are swapped.<br/>
-				• A +1 stone maul manifests in one of your open hands, which deals an additional 2d12 Force damage on a hit. You are proficient with this weapon, and can spend 1 Sorcery Point to activate one of the Push, Topple, or Sap Mastery properties. On your turn, you may attack twice with it when using the Attack action.<br/> 
-				• In this form, you cannot cast spells, but gain access to the following abilities:<br/>
-				• • <strong>Petrifying Gaze.</strong> Once per transformation as a Magic Action, you can channel the Gaze of Grumbar. Until the start of your next turn, any creature that starts its turn within 30 feet of you and is able to see your eyes must make a Constitution saving throw. If the creature fails the saving throw by 5 or more, it is instantly <i>Petrified</i>. Otherwise on a failure, the creature is <i>Restrained</i> as it begins to turn to stone, and must repeat the saving throw at the end of its next turn, becoming <i>Petrified</i> on a failure or ending the effect on a success. This Petrification lasts until removed by the <i>Greater Restoration</i> spell or other magic.<br/>
-				• • <strong>Shape Earth.</strong> As a Bonus Action, you can cast the Mold Earth spell. When you do so, you can affect loose or packed earth, unworked stone, or any other natural material that is not plant-based or manufactured. The area it can instantly excavate is increased to a 10-foot Cube. You can also use it to create a 10-foot long solid wall that is 10 feet high and 5 feet thick. If a creature is within the area of the excavation, it can make a Dexterity saving throw to avoid falling in, choosing an unaffected adjacent space on a success on which to be moved to. Any manipulations made by this use of the spell last for up to an hour or until you use a Bonus Action to end them, after which they crumble. The space then becomes Difficult Terrain until cleared.<br/>
-				• • <strong>Stone's Lethargy.</strong> As a Reaction upon being hit by a melee attack, you can strengthen the resilience of your rocky skin. You gain Resistance to the attack's damage until the start of your next turn. In addition, the creature must succeed on a Constitution saving throw or have Disadvantage on all attacks until the end of its next turn.<br/>
-				• Upon transforming, your Watery Defense ability is recharged, and you gain an additional use of it. However, the ability is replaced by Stone’s Lethargy for the duration of the transformation.<br/>
-				• While transformed, any ability requiring a saving throw uses the following DC calculation: <strong>Stone Form DC</strong> = <i>8 + your proficiency bonus + your Constitution modifier.</i></td></tr>
-				<tr><td>9-15</td><td>2</td><td class="left"><strong>Water. </strong>You embrace the tides of Umberlee: your form becomes fluid and mutable, and light seems to glint and refract as it strikes your skin. Refreshed and invigorated by the tides, a new storm is brought forth. While in this form, you gain the following effects:<br/>
-				• You gain a Swim Speed equal to twice your Speed.<br/>
-				• Upon transforming, you can choose to regain expended spell slots. The spell slots can have a combined level that is equal to or less than half your sorcerer level (rounded up), and none of the slots can be level 6 or higher. You must finish a Long Rest before you can benefit from this recovery again.<br/>
-				• Your spells of the storm and sea are improved. Upon casting an Ocean Magic spell or a spell that deals Bludgeoning, Cold, or Lightning damage, you can choose to either add your Charisma modifier to one damage roll of the spell, or add half of your Charisma modifier (rounded down) to the DC of the spell.<br/>
-				• Upon transforming, your Watery Defense is recharged, and you an additional use of it. Additionally, if you are within 30 feet of an ally when they take Bludgeoning, Piercing, or Slashing damage from an attack, you can use a Reaction to expend a use of your Watery Defense and protect the ally as if they had used the ability.<br/>
-				• You gain Vulnerability to Cold and Lightning damage while in this form.</td></tr>
-				<tr><td>16-19</td><td>3</td><td class="left"><strong>Crystalline. </strong>A balance between the primordial powers of earth and water is obtained, sustained by the burgeoning well of deific energy within you—a byproduct of the continued influence of deities upon your soul. Your horns transform into translucent crystalline spirals, and your skin darkens to an ebony sheen flecked with thousands of tiny sparkling geodes. While in this form, you gain the following benefits:<br/>
-				• You gain a bonus to your saving throws equal to your Constitution modifier.<br/>
-				• You gain access to the following spells: <i>Magnify Gravity, Mirror Image, Hypnotic Pattern, Gravity Sinkhole, Temporal Shunt, Arcane Hand.</i> Each of these counts as a Sorcerer spell for you, and you can cast them using an appropriate spell slot.<br/>
-				• Upon transforming, you begin to surge with arcane power. You gain a pool of <b>Primordial Energy</b> equal to your Sorcerer level, and can use these to cast any of the additional spells granted by this form by spending a number of  points equal to the spell's level. You can spend additional points to upcast any of these spells up to the maximum spell slot level you currently have. Once this transformation ends, this pool of energy vanishes.<br/>
-				• If summoned, Barnacle takes on a similar appearance, but does not gain the additional spells.</td></tr>
-				<tr><td>20</td><td>—</td><td class="left"><strong>Elemental Genesis. </strong> Tapping into the very weave of creation, you are transformed into a being of unrestrained primal energy. Howling winds and crashing waves swirl around you, and lightning flashes and crackles from your pulsing form of roiling steam and molten rock. While in this form, you gain the following benefits:<br/>
-				• You gain a Fly Speed equal to twice your Speed, and can hover.<br/>
-				• You have Resistance to all damage except Psychic, Radiant, Necrotic, and Force. You can use your Watery Defense against any damage you take for which you have Resistance, and you do not expend its use when you do so.<br/>
-				• As a Bonus Action on each of your turns, you can teleport up to 60 feet to a point you can see.<br/>
-				• The effective level of spells you cast is increased by 1.<br/> 
-				• You gain access to the following abilities, which use your Sorcerer spell save DC and can be enhanced using the Distant, Empowered, or Heightened Metamagics:<br/>
-				• • <strong>Conflagration Lance.</strong> As an Action, you unleash a searing lance of magma at one creature you can see within 150 feet, which explodes in fiery shrapnel on impact. The target and all creatures within 10 feet of it must make a Dexterity saving throw. On a failure, a target takes 10d8 Fire damage and starts <i>Burning</i>; on a success, it takes half as much damage and does not start <i>Burning</i>. At the end of each of its turns, a <i>Burning</i> creature repeats the saving throw, taking 5d8 Fire damage on a failed save, or ending the condition on a successful one. These magical flames can't be extinguished by nonmagical means.<br/>
-				• • <strong>Frigid Bore.</strong> As an Action, a roaring wave surges out from your palm in a 60-foot Cone. All creatures in the area must make a Strength saving throw, taking 8d6 Cold and 8d6 Bludgeoning damage on a failure, or half as much on a success. In addition, any Huge or smaller creature who fails the save is pushed back 15 feet and knocked <i>Prone</i>.On their turn, they must use either their full movement or their Action to stand back to their feet.<br/>
-				• • <strong>Thundercrack.</strong> As an Action, you direct a crackling bolt of lightning to strike a point you can see within 150 feet. All creatures within 30 feet of that point must make a Constitution saving throw; on a failure, it takes 4d12 Thunder and 4d12 Lightning damage and is <i>Deafened</i> and <i>Blinded</i> until the end of your next turn. A creature who fails the save by more than 5 is also <i>Incapacitated</i> until the end of your next turn. On a success, the creature takes half as much damage and is only <i>Deafened</i>.<br/>
-				• • <strong>Crushing Fissure.</strong> As an Action, you split the ground with a mighty stomp, creating a collapsing ravine originating from you that is 60 feet long and 20 feet wide. This area is considered Difficult Terrain, and a creature can spend its Action to clear a 5-foot Cube. All creatures within the line when it appears must make a Strength saving throw; on a failure, they take 3d10 Bludgeoning and 3d10 Piercing damage and are <i>Restrained</i> by the collapsing ground for the next minute, provided they are Huge or smaller. On a success, they take half as much damage and are not <i>Restrained</i>. If a creature starts its turn while <i>Restrained</i> by this ability, it immediately takes 3d10 Bludgeoning damage, and can use its Action to attempt to free itself, making a Strength (Athletics) check against your spell save DC.<br/>
-				• While incredibly powerful, this form is also physically taxing. For every turn you start while in this form, you take 4d6 Force damage, which cannot be reduced in any way. If you are rendered Incapacitated or Unconscious while in this form, it immediately ends. You can also choose to end this form at the end of any of your turns (no action required). When the form ends, you immediately suffer 2 levels of Exhaustion, and cannot assume this form again until you finish a Long Rest.</td></tr>
-				<tr><td>1</td><td>—</td><td class="left"><strong>Unstable Fallout. </strong>Something…isn’t right. The primordial powers of earth and storm rage within you, using your physical body as their battleground. Your skin becomes parched, splitting open in fissures and cracks as sizzling water hisses and bubbles through these rends. While in this form, you gain the following effects:<br/>
-				• Your Speed is halved.<br/>
-				• Each time you cast a level 2+ spell, you must roll on the Chaos Magic table and create the corresponding effect.<br/>
-				• You gain a bonus to AC equal to half your Constitution modifier (rounded down).<br/>
-				• You have a penalty to all saving throws equal to half your Constitution modifier (rounded down).</td></tr>
-				• The sheer stress this broken form puts on your body is beyond unbearable. Your maximum hit points are reduced by twice your current level, and you immediately suffer 2 levels of Exhaustion.<br/>
-				• If Barnacle is summoned when you transform, you must immediately make a <i>DC 17 Constitution saving throw</i>. On a failure, Barnacle dissolves, returning to your flask. However, if you fail the save by 5 or more, your control over Barnacle is severed and he goes into a frenzy, directing spells and attacks randomly on his turns. If he is defeated in this state, he immediately dissolves and returns to your flask, and cannot be resummoned until you finish a Long Rest.<br/>
-			</table>
-		</description>
-		<sheet alt="Primordial Convergence" action="Bonus Action" usage="{{constitution:modifier}}/Long Rest">
-			<description>You can tap into the primordial powers that are paired with your soul. Roll a d20, and for 10 minutes, your body assumes the corresponding elemental form. Alternatively, you can forgo this roll and spend the listed sorcery points to force the transformation into Earth, Water, or Crystalline (your choice).&#13;
-			•2-8: Earth (2 Sorcery Points)&#13;
-			•9-15: Water (2 Sorcery Points)&#13;
-			•16-19: Crystalline (3 Sorcery Points)&#13;
-			•20: Elemental Genesis&#13;
-			•1: Unstable Fallout</description>
-		</sheet>
-	</element>
-
 	<element name="Mind of the Void (Exalted)" type="Magic Item" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_MIND_OF_THE_VOID_STAGE3">
 		<description>
 			<div class="sidebar">
@@ -1367,6 +1305,70 @@
 		</description>
 		<sheet>
 			<description>For every 10 damage you take for another creature, your AC increases by 1 for the next minute, up to a maximum of +{{charisma:modifier}}.</description>
+		</sheet>
+	</element>
+
+<!-- Future Session Abilities/Upgrades -->
+	<element name="Primordial Convergence (Exalted)" type="Feat" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_FEAT_PRIMORDIAL_CONVERGENCE_STAGE2">
+		<requirements>ID_TREGOLANI_HB_ARCHETYPE_SEA_SORCERER</requirements>
+		<description>
+			<p>You can tap into the primordial powers that are paired with your soul. As a Bonus Action, roll a d20, and your body assumes the corresponding elemental form. Alternatively, you can forgo this roll and spend the listed sorcery points to force the transformation into Earth, Water, or Crystalline (your choice). While you are transformed, you are immune to any spell or effect that would alter your form. This form lasts for 10 minutes, until you have the Incapacitated condition, or until you end the form (no action required). </p>
+			<p class="indent">You may use this boon a number of times equal to your Constitution modifier, and regain all expended uses after finishing a Long Rest.</p>
+			<table class="class-features">
+				<thead>
+					<tr><td>d20</td><td>Sorcery Point Cost</td><td class="left">Elemental Form</td></tr>
+				</thead>
+				<tr><td>2-8</td><td>2</td><td class="left"><strong>Earth.</strong> Become a living avatar of Grumbar, strengthening your flesh as stone, with the bright ruby eyes to match. Barnacle dissolves during this transformation, lost to the overwhelming surge of the earth, and you gain the following effects:<br/>
+				• You gain a bonus to Armor Class equal to double your Constitution modifier.<br/>
+				• You gain Temporary Hit Points equal to one third of your Hit Point maximum.<br/>
+				• You gain Resistance to Bludgeoning, Piercing, and Slashing damage, but Vulnerability to Thunder damage.<br/>
+				• Your Strength and Charisma scores and save proficiencies are swapped.<br/>
+				• A +1 stone maul manifests in one of your open hands, which deals an additional 2d12 Force damage on a hit. You are proficient with this weapon, and you may attack twice with it when using the Attack Action on your turn. Upon hitting a creature you can spend 1 Sorcery Point to activate one of the Push, Topple, or Sap Mastery properties.<br/> 
+				• In this form, you cannot cast spells, but gain access to the following abilities:<br/>
+				• • <strong>Petrifying Gaze.</strong> Once per transformation as a Magic Action, you can channel the Gaze of Grumbar. Until the start of your next turn, any creature that starts its turn within 30 feet of you and is able to see your eyes must make a Constitution saving throw. If the creature fails the saving throw by 5 or more, it is instantly <i>Petrified</i>. Otherwise on a failure, the creature is <i>Restrained</i> as it begins to turn to stone, and must repeat the saving throw at the end of its next turn, becoming <i>Petrified</i> on a failure or ending the effect on a success. This Petrification lasts until removed by the <i>Greater Restoration</i> spell or other magic.<br/>
+				• • <strong>Shape Earth.</strong> As a Bonus Action, you can cast the <I>Mold Earth</i> spell. When you do so, you can affect loose or packed earth, unworked stone, or any other natural material that is not plant-based or manufactured. The area it can instantly excavate is increased to a 10-foot Cube. Any Large or smaller creature that is within the area of an excavation must make a Dexterity saving throw to avoid falling in, moving to an unaffected adjacent space of their choice on a success. Alternatively, you can create a 10-foot long solid wall within range that is 10 feet high and 5 feet thick. Any manipulations made by this use of the spell last for up to an hour or until you use a Bonus Action to end them, after which they crumble. The space then becomes Difficult Terrain until cleared.<br/>
+				• • <strong>Stone's Lethargy.</strong> As a Reaction upon being hit by a melee attack, you can strengthen the resilience of your rocky skin. You gain Resistance to the attack's damage until the start of your next turn. In addition, the creature must succeed on a Constitution saving throw or have Disadvantage on all attacks until the end of its next turn.<br/>
+				• Upon transforming, your Watery Defense ability is recharged, and you gain an additional use of it. However, the ability is replaced by Stone's Lethargy for the duration of the transformation.<br/>
+				• While transformed, any ability requiring a saving throw uses the following DC calculation: <strong>Stone Form DC</strong> = <i>8 + your proficiency bonus + your Constitution modifier.</i></td></tr>
+				<tr><td>9-15</td><td>2</td><td class="left"><strong>Water. </strong>You embrace the tides of Umberlee: your form becomes fluid and mutable, and light seems to glint and refract as it strikes your skin. Refreshed and invigorated by the tides, a new storm is brought forth. While in this form, you gain the following effects:<br/>
+				• You gain a Swim Speed equal to twice your Speed.<br/>
+				• You gain Resistance to Acid and Poison damage, but Vulnerability to Cold and Lightning damage.</td></tr>
+				• Upon transforming, you can choose to regain expended spell slots. The spell slots can have a combined level that is equal to or less than half your Sorcerer level (rounded up), and none of the slots can be level 6 or higher. You must finish a Long Rest before you can benefit from this recovery again.<br/>
+				• Your spells of storm and sea are improved. When you cast an Ocean Magic spell or a spell that deals Bludgeoning, Cold, or Lightning damage, you can choose to either add your Charisma modifier to the damage roll(s) of the spell, or add half of your Charisma modifier (rounded down) to the DC of the spell.<br/>
+				• Upon transforming, your Watery Defense is recharged, and you gain an additional use of it. Additionally, if you are within 30 feet of an ally when they take Bludgeoning, Piercing, or Slashing damage from an attack, you can use a Reaction to expend a use of your Watery Defense and protect the ally as if they had used the ability.<br/>
+				<tr><td>16-19</td><td>3</td><td class="left"><strong>Crystalline. </strong>A balance between the primordial powers of earth and water is obtained, sustained by the burgeoning well of deific energy within you—a byproduct of the continued influence of deities upon your soul. Your horns transform into translucent crystalline spirals, and your skin darkens to an ebony sheen flecked with thousands of tiny sparkling geodes. While in this form, you gain the following benefits:<br/>
+				• You gain a Bonus to Saving Throws equal to your Constitution modifier.<br/>
+				• You gain access to the following spells: <i>Magnify Gravity, Mirror Image, Hypnotic Pattern, Gravity Sinkhole, Temporal Shunt, Arcane Hand (manifesting as a crystalline construct).</i> Each of these counts as a Sorcerer spell for you, and you can cast them using an appropriate spell slot.<br/>
+				• Upon transforming, you begin to surge with arcane power. You gain a pool of <b>Primordial Energy</b> equal to your Sorcerer level, and can use these to cast any of the additional spells granted by this form by spending a number of points equal to the spell's level. You can spend additional points to upcast any of these spells, up to the maximum spell slot level you currently have. Once this transformation ends, this pool of energy vanishes.<br/>
+				• If summoned, Barnacle takes on a similar appearance, but does not gain the additional spells.</td></tr>
+				<tr><td>20</td><td>—</td><td class="left"><strong>Elemental Genesis. </strong> Tapping into the very weave of creation, you are transformed into a being of unrestrained primal energy. Howling winds and crashing waves swirl around you, and lightning flashes and crackles from your pulsing form of roiling steam and molten rock. While in this form, you gain the following benefits:<br/>
+				• You gain a Swim and Fly Speed equal to twice your Speed, and can Hover.<br/>
+				• You have Resistance to all damage except Psychic, Radiant, Necrotic, and Force. You can use your Watery Defense against any damage you take for which you have Resistance, and you do not expend its use when you do so.<br/>
+				• You have Immunity to the Charmed, Frightened, Petrified, Poisoned, and Prone conditions.<br/>
+				• As a Bonus Action on each of your turns, you can teleport up to 60 feet to a point you can see.<br/>
+				• The effective level of spells you cast is increased by 1.<br/> 
+				• You gain access to the following Actions, which use your Sorcerer spell save DC and can be enhanced using the Distant, Empowered, or Heightened Metamagics:<br/>
+				• • <strong>Conflagration Lance.</strong> You unleash a searing lance of magma at one creature you can see within 150 feet, which explodes in fiery shrapnel on impact. The target and all creatures within 10 feet of it must make a Dexterity saving throw. On a failure, a target takes 10d8 Fire damage and starts <i>Burning</i>; on a success, it takes half as much damage and does not start <i>Burning</i>. A <i>Burning</i> creature takes 5d8 Fire damage at the start of each of its turns, sheds Bright Light in a 10-foot radius, and can't benefit from the <i>Invisible</i> condition. At the end of each of its turns, it can repeat its saving throw, ending the condition on a success. These magical flames can't be extinguished by nonmagical means.<br/>
+				• • <strong>Frigid Bore.</strong> A roaring wave surges out from your palm in a 60-foot Cone. All creatures in the area must make a Strength saving throw, taking 8d6 Cold and 8d6 Bludgeoning damage on a failure, or half as much on a success. In addition, any Huge or smaller creature who fails the save is pushed back 15 feet and knocked <i>Prone</i>.On their turn, they must use either their full movement or their Action to stand back to their feet.<br/>
+				• • <strong>Thundercrack.</strong> You direct a crackling bolt of lightning to strike a point you can see within 150 feet. All creatures within 30 feet of that point must make a Constitution saving throw; on a failure, it takes 4d12 Thunder and 4d12 Lightning damage and is <i>Deafened</i> and <i>Blinded</i> until the end of your next turn. A creature who fails the save by more than 5 is also <i>Incapacitated</i> until the end of your next turn. On a success, the creature takes half as much damage and is only <i>Deafened</i>.<br/>
+				• • <strong>Crushing Fissure.</strong> You split the ground with a mighty thrust, creating a collapsing ravine originating from you that is 60 feet long and 20 feet wide. This area is considered Difficult Terrain, and a creature can spend its Action to clear a 5-foot Cube. All creatures within the line when it appears must make a Strength saving throw; on a failure, they take 3d10 Bludgeoning and 3d10 Piercing damage and are <i>Restrained</i> by the collapsing ground for the next minute, provided they are Huge or smaller. On a success, they take half as much damage and are not <i>Restrained</i>. If a creature starts its turn while <i>Restrained</i> by this ability, it immediately takes 3d10 Bludgeoning damage, and can use its Action to attempt to free itself, making a Strength (Athletics) check against your spell save DC.<br/>
+				• While incredibly powerful, this form is also physically taxing. For every turn you start while in this form, you take 4d6 Force damage, which cannot be reduced in any way. Additionally, when the form ends, you immediately suffer 2 levels of Exhaustion, and cannot assume this form again until you finish a Long Rest.</td></tr>
+				<tr><td>1</td><td>—</td><td class="left"><strong>Unstable Fallout. </strong>Something...isn’t right. The primordial powers of earth and storm rage within you, using your physical body as their battleground. Your skin becomes parched, splitting open in fissures and cracks as sizzling water hisses and bubbles through these rends. While in this form, you gain the following effects:<br/>
+				• Your Speed is halved.<br/>
+				• Each time you cast a level 2+ spell, you must roll on the Chaos Magic table and create the corresponding effect.<br/>
+				• You gain a Bonus to Armor Class equal to half your Constitution modifier (rounded down).<br/>
+				• You have a Penalty to Saving Throws equal to half your Constitution modifier (rounded down).</td></tr>
+				• The sheer stress this broken form puts on your body is beyond unbearable. Your Hit Point Maximum is reduced by twice your current level, and you immediately suffer 2 levels of Exhaustion.<br/>
+				• If Barnacle is summoned when you transform, you must immediately make a Constitution saving throw against your Sorcerer spell save DC. On a failure, Barnacle dissolves, returning to your flask. However, if you fail the save by 5 or more, your control over Barnacle is severed and he goes into a frenzy, treating all creatures as Hostile and directing spells and attacks randomly on his turns. If he is defeated in this state, he immediately dissolves and returns to your flask, and cannot be re-summoned until you finish a Long Rest.<br/>
+			</table>
+		</description>
+		<sheet alt="Primordial Convergence" action="Bonus Action" usage="{{constitution:modifier}}/Long Rest">
+			<description>You can tap into the primordial powers that are paired with your soul. Roll a d20, and for 10 minutes, your body assumes the corresponding elemental form. Alternatively, you can forgo this roll and spend the listed sorcery points to force the transformation into Earth, Water, or Crystalline (your choice).&#13;
+			•2-8: Earth (2 Sorcery Points)&#13;
+			•9-15: Water (2 Sorcery Points)&#13;
+			•16-19: Crystalline (3 Sorcery Points)&#13;
+			•20: Elemental Genesis&#13;
+			•1: Unstable Fallout</description>
 		</sheet>
 	</element>
 

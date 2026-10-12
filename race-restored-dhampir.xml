@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Restored Dhampir (Tales of Mir)</name>
-		<update version="0.0.12">
+		<update version="0.0.13">
 			<file name="race-restored-dhampir.xml" url="https://raw.githubusercontent.com/tregolani/Almir-Homebrew/master/race-restored-dhampir.xml" />
 		</update>
 	</info>
@@ -115,6 +115,7 @@
 		</rules>
 	</element>
 	<element name="Dwarf" type="Sub Race" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_DWARF_SUBRACE">
+		<compendium display="false"/>
 		<supports>Restored Dhampir</supports>
 		<description>
 			<p>As a former dwarf, you are resilient as the stone and are blessed with both strength and tenacity.</p>
@@ -130,6 +131,7 @@
 		</rules>
 	</element>
 	<element name="Elf" type="Sub Race" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_ELF_SUBRACE">
+		<compendium display="false"/>
 		<supports>Restored Dhampir</supports>
 		<description>
 			<p>As a former elf, you are blessed with unearthly grace and fine features, and a timeless perspective that protects against compulsory influences.</p>
@@ -145,6 +147,7 @@
 		</rules>
 	</element>
 	<element name="Tabaxi" type="Sub Race" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_TABAXI_SUBRACE">
+		<compendium display="false"/>
 		<supports>Restored Dhampir</supports>
 		<description>
 			<p>As a former tabaxi, your body is one graced with feline dexterity and speed, as well as equipped with a set of retractable claws which can serve as lethal weapons in a pinch.</p>
@@ -160,6 +163,7 @@
 		</rules>
 	</element>
 	<element name="Tiefling" type="Sub Race" source="Tales of Mir Homebrew Collection" id="ID_ALMIR_UNIQUE_RACIAL_TRAIT_RESTORED_DHAMPIR_TIEFLING_SUBRACE">
+		<compendium display="false"/>
 		<supports>Restored Dhampir</supports>
 		<description>
 			<p>As a former tiefling, your fiendish origins provide you with innate resistance to flames and a keen attunement with magic.</p>
